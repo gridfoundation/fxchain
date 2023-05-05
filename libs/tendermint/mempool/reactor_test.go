@@ -10,18 +10,18 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
 
 	"github.com/fortytw2/leaktest"
 	"github.com/go-kit/kit/log/term"
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/kvstore"
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	rrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p/mock"
-	"github.com/gridironx/gridchain/libs/tendermint/proxy"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/kvstore"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	rrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p/mock"
+	"github.com/gridfx/fxchain/libs/tendermint/proxy"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

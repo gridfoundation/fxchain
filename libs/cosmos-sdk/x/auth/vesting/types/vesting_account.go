@@ -4,14 +4,14 @@ import (
 	"errors"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 	"gopkg.in/yaml.v2"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	vestexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/vesting/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	vestexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/vesting/exported"
 )
 
 // Compile-time type assertions

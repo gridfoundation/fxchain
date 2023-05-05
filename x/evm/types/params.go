@@ -7,7 +7,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/core/vm"
 
-	"github.com/gridironx/gridchain/x/params"
+	"github.com/gridfx/fxchain/x/params"
 )
 
 const (

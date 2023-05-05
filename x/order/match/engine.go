@@ -3,11 +3,11 @@ package match
 import (
 	"sync"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/x/order/keeper"
-	"github.com/gridironx/gridchain/x/order/match/continuousauction"
-	"github.com/gridironx/gridchain/x/order/match/periodicauction"
+	"github.com/gridfx/fxchain/x/order/keeper"
+	"github.com/gridfx/fxchain/x/order/match/continuousauction"
+	"github.com/gridfx/fxchain/x/order/match/periodicauction"
 )
 
 // nolint

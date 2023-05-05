@@ -4,11 +4,11 @@ import (
 	"os"
 	"path/filepath"
 
-	cmd "github.com/gridironx/gridchain/libs/tendermint/cmd/tendermint/commands"
-	"github.com/gridironx/gridchain/libs/tendermint/cmd/tendermint/commands/debug"
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
-	nm "github.com/gridironx/gridchain/libs/tendermint/node"
+	cmd "github.com/gridfx/fxchain/libs/tendermint/cmd/tendermint/commands"
+	"github.com/gridfx/fxchain/libs/tendermint/cmd/tendermint/commands/debug"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
+	nm "github.com/gridfx/fxchain/libs/tendermint/node"
 )
 
 func main() {

@@ -9,11 +9,11 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmpubsub "github.com/gridironx/gridchain/libs/tendermint/libs/pubsub"
-	lrpc "github.com/gridironx/gridchain/libs/tendermint/lite2/rpc"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpcserver "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/server"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmpubsub "github.com/gridfx/fxchain/libs/tendermint/libs/pubsub"
+	lrpc "github.com/gridfx/fxchain/libs/tendermint/lite2/rpc"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpcserver "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/server"
 )
 
 // A Proxy defines parameters for running an HTTP server proxy.

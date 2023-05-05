@@ -24,10 +24,10 @@ import (
 	"context"
 	"crypto/sha256"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // Client wraps most important rpc calls a client would make if you want to

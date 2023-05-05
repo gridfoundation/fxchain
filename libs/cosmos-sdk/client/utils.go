@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/query"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/query"
 	"github.com/spf13/pflag"
 )
 

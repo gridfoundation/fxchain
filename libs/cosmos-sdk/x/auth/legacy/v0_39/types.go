@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	v034auth "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/legacy/v0_34"
-	v038auth "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/legacy/v0_38"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	v034auth "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/legacy/v0_34"
+	v038auth "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/legacy/v0_38"
 )
 
 const (

@@ -8,11 +8,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	flow "github.com/gridironx/gridchain/libs/tendermint/libs/flowrate"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	flow "github.com/gridfx/fxchain/libs/tendermint/libs/flowrate"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 /*

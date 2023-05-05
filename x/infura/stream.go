@@ -6,9 +6,9 @@ import (
 	"github.com/spf13/viper"
 
 	"github.com/google/uuid"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/x/infura/distrlock"
-	"github.com/gridironx/gridchain/x/infura/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/x/infura/distrlock"
+	"github.com/gridfx/fxchain/x/infura/types"
 )
 
 const (

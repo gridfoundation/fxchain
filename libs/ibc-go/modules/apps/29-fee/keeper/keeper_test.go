@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"testing"
 
-	types2 "github.com/gridironx/gridchain/libs/tendermint/types"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/baseapp"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
-	ibcmock "github.com/gridironx/gridchain/libs/ibc-go/testing/mock"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
+	ibcmock "github.com/gridfx/fxchain/libs/ibc-go/testing/mock"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
 	"github.com/stretchr/testify/suite"
 )
 

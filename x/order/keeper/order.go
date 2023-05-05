@@ -3,11 +3,11 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 
-	"github.com/gridironx/gridchain/x/order/types"
-	token "github.com/gridironx/gridchain/x/token/types"
+	"github.com/gridfx/fxchain/x/order/types"
+	token "github.com/gridfx/fxchain/x/token/types"
 )
 
 // TryPlaceOrder tries to charge fee & lock coins for a new order

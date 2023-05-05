@@ -1,8 +1,8 @@
 package proxy
 
 import (
-	abcicli "github.com/gridironx/gridchain/libs/tendermint/abci/client"
-	"github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abcicli "github.com/gridfx/fxchain/libs/tendermint/abci/client"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 //----------------------------------------

@@ -8,14 +8,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	simapparams "github.com/gridironx/gridchain/libs/cosmos-sdk/simapp/params"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	simapparams "github.com/gridfx/fxchain/libs/cosmos-sdk/simapp/params"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
 )
 
 // AppStateFn returns the initial application state using a genesis or the simulation parameters.

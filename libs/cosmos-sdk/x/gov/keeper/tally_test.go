@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking"
 )
 
 func TestTallyNoOneVotes(t *testing.T) {

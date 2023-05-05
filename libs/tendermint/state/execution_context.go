@@ -3,8 +3,8 @@ package state
 import (
 	"bytes"
 	"fmt"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 	"time"
 )
 

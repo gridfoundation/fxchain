@@ -3,10 +3,10 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/slashing/internal/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/slashing/internal/types"
 )
 
 // HandleValidatorSignature handles a validator signature, must be called once per validator per block.

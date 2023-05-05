@@ -1,8 +1,8 @@
 package rootmulti
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/mpt"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/mpt"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 const (

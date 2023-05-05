@@ -6,12 +6,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	keep "github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/internal/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/internal/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	keep "github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/internal/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/internal/types"
 )
 
 func TestBalances(t *testing.T) {

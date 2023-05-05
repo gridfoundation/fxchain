@@ -3,8 +3,8 @@ package types
 import (
 	"crypto/sha256"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 )
 
 // MustBech32ifyAccPub returns the result of Bech32ifyAccPub panicing on failure.

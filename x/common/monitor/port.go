@@ -3,7 +3,7 @@ package monitor
 import (
 	"bytes"
 	"fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
 	"github.com/spf13/viper"
 	"os/exec"
 	"strconv"

@@ -7,11 +7,11 @@ import (
 	"sort"
 	"strings"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // ParseDenomTrace parses a string with the ibc prefix (denom trace) and the base denomination

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 )
 
 // ClientsConsensusStates defines a slice of ClientConsensusStates that supports the sort interface

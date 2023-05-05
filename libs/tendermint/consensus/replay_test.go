@@ -17,21 +17,21 @@ import (
 
 	"sort"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/kvstore"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	mempl "github.com/gridironx/gridchain/libs/tendermint/mempool"
-	"github.com/gridironx/gridchain/libs/tendermint/mock"
-	"github.com/gridironx/gridchain/libs/tendermint/privval"
-	"github.com/gridironx/gridchain/libs/tendermint/proxy"
-	sm "github.com/gridironx/gridchain/libs/tendermint/state"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/libs/tendermint/version"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/kvstore"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	mempl "github.com/gridfx/fxchain/libs/tendermint/mempool"
+	"github.com/gridfx/fxchain/libs/tendermint/mock"
+	"github.com/gridfx/fxchain/libs/tendermint/privval"
+	"github.com/gridfx/fxchain/libs/tendermint/proxy"
+	sm "github.com/gridfx/fxchain/libs/tendermint/state"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/version"
 )
 
 func TestMain(m *testing.M) {

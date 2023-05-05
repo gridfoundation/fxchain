@@ -3,12 +3,12 @@ package core
 import (
 	"time"
 
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
-	sm "github.com/gridironx/gridchain/libs/tendermint/state"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
+	sm "github.com/gridfx/fxchain/libs/tendermint/state"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // Status returns Tendermint status including node info, pubkey, latest block

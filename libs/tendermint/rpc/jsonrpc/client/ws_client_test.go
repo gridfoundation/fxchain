@@ -12,9 +12,9 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 
-	types "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
+	types "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
 )
 
 var wsCallTimeout = 5 * time.Second

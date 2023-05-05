@@ -1,11 +1,11 @@
 package client
 
 import (
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	merkle "github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	coretypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	merkle "github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	coretypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 type CM39ResultBroadcastTxCommit struct {

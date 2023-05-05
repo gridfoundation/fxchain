@@ -3,11 +3,11 @@ package types_test
 import (
 	"testing"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/iavl"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/iavl"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
 )
 
 func newMemTestKVStore(t *testing.T) types.KVStore {

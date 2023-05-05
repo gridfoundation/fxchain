@@ -4,7 +4,7 @@
 package params
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 )
 
 // MakeTestEncodingConfig creates an EncodingConfig for a non-amino based test configuration.

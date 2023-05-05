@@ -3,12 +3,12 @@ package keeper_test
 import (
 	"time"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/evidence/internal/types"
-	"github.com/gridironx/gridchain/x/staking"
-	stakingtypes "github.com/gridironx/gridchain/x/staking/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/evidence/internal/types"
+	"github.com/gridfx/fxchain/x/staking"
+	stakingtypes "github.com/gridfx/fxchain/x/staking/types"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 )
 
 const EPOCH = 252

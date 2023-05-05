@@ -4,18 +4,18 @@ import (
 	"testing"
 	"time"
 
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	ibctmtypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
-	ibctestingmock "github.com/gridironx/gridchain/libs/ibc-go/testing/mock"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	ibctmtypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
+	ibctestingmock "github.com/gridfx/fxchain/libs/ibc-go/testing/mock"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp"
 )
 
 const (

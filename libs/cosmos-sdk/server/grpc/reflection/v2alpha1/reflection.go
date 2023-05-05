@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx"
 
 	"github.com/gogo/protobuf/proto"
 	"google.golang.org/grpc"

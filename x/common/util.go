@@ -14,14 +14,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/x/params/subspace"
+	"github.com/gridfx/fxchain/x/params/subspace"
 
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
 
-	apptypes "github.com/gridironx/gridchain/app/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
+	apptypes "github.com/gridfx/fxchain/app/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
 )
 
 const (

@@ -3,7 +3,7 @@ package keeper_test
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
 )
 
 func (suite *KeeperTestSuite) TestGenesis() {

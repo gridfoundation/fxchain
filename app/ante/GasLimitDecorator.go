@@ -1,11 +1,11 @@
 package ante
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/innertx"
-	types2 "github.com/gridironx/gridchain/libs/tendermint/types"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/innertx"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/types"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 )
 
 // EVMKeeper defines the expected keeper interface used on the Eth AnteHandler

@@ -1,9 +1,9 @@
 package infura
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/x/common/monitor"
-	evm "github.com/gridironx/gridchain/x/evm/watcher"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/x/common/monitor"
+	evm "github.com/gridfx/fxchain/x/evm/watcher"
 )
 
 // nolint

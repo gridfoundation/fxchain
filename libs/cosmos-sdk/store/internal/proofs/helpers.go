@@ -1,9 +1,9 @@
 package proofs
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/internal/maps"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	"github.com/gridironx/gridchain/libs/tendermint/proto/crypto/merkle"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/internal/maps"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	"github.com/gridfx/fxchain/libs/tendermint/proto/crypto/merkle"
 	"sort"
 )
 

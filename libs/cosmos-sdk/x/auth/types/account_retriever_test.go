@@ -7,7 +7,7 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/tests/mocks"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/tests/mocks"
 )
 
 var errFoo = errors.New("dummy")

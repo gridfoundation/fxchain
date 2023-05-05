@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	db "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	db "github.com/gridfx/fxchain/libs/tm-db"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/spf13/viper"
 )

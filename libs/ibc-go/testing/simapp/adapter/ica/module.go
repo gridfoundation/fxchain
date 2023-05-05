@@ -3,15 +3,15 @@ package ica
 import (
 	"encoding/json"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	ica "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts"
-	controllerkeeper "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/keeper"
-	hostkeeper "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/keeper"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	ica "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts"
+	controllerkeeper "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/keeper"
+	hostkeeper "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/keeper"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 type TestICAModuleBaisc struct {

@@ -1,9 +1,9 @@
 package crisis
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/crisis/internal/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/crisis/internal/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/crisis/internal/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/crisis/internal/types"
 )
 
 // new crisis genesis

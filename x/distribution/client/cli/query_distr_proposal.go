@@ -6,13 +6,13 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/version"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/version"
 
-	"github.com/gridironx/gridchain/x/distribution/client/common"
-	"github.com/gridironx/gridchain/x/distribution/types"
+	"github.com/gridfx/fxchain/x/distribution/client/common"
+	"github.com/gridfx/fxchain/x/distribution/types"
 )
 
 // GetCmdQueryDelegatorRewards implements the query delegator rewards command.

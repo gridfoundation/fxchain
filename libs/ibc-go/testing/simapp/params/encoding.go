@@ -1,8 +1,8 @@
 package params
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 )
 
 // EncodingConfig specifies the concrete encoding types to use for a given app.

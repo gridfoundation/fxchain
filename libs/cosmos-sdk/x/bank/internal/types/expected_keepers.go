@@ -1,8 +1,8 @@
 package types
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
 )
 
 // AccountKeeper defines the account contract that must be fulfilled when

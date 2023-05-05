@@ -1,6 +1,6 @@
 package utils
 
-import "github.com/gridironx/gridchain/x/gov/types"
+import "github.com/gridfx/fxchain/x/gov/types"
 
 // NormalizeVoteOption - normalize user specified vote option
 func NormalizeVoteOption(option string) string {

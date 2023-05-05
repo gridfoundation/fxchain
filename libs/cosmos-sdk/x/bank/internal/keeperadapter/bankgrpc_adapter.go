@@ -6,10 +6,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/query"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/internal/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/internal/typesadapter"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/query"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/internal/typesadapter"
 )
 
 type BankQueryServer struct {

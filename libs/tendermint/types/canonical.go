@@ -3,8 +3,8 @@ package types
 import (
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
 )
 
 // Canonical* wraps the structs in types for amino encoding them for use in SignBytes / the Signable interface.

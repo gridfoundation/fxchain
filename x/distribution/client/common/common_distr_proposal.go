@@ -3,10 +3,10 @@ package common
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/x/distribution/types"
+	"github.com/gridfx/fxchain/x/distribution/types"
 )
 
 // QueryDelegatorValidators returns delegator's list of validators

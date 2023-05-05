@@ -1,8 +1,8 @@
 package types
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
 )
 
 type AccountKeeper interface {

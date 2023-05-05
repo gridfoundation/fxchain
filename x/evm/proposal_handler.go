@@ -1,12 +1,12 @@
 package evm
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/evm/types"
-	"github.com/gridironx/gridchain/x/evm/watcher"
-	govTypes "github.com/gridironx/gridchain/x/gov/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/evm/types"
+	"github.com/gridfx/fxchain/x/evm/watcher"
+	govTypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 // NewManageContractDeploymentWhitelistProposalHandler handles "gov" type message in "evm"

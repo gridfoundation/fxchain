@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 )
 
 // RegisterCodec registers concrete types on codec

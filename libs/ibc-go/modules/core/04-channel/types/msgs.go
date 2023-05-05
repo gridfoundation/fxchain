@@ -3,11 +3,11 @@ package types
 import (
 	"encoding/base64"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
 )
 
 var _ sdk.Msg = &MsgChannelOpenInit{}

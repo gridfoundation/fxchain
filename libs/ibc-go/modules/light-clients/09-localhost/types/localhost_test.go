@@ -3,14 +3,14 @@ package types_test
 import (
 	"testing"
 
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp"
 )
 
 const (

@@ -9,7 +9,7 @@ import (
 	math "math"
 	math_bits "math/bits"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"

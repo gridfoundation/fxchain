@@ -11,16 +11,16 @@ import (
 	//"strings"
 	"time"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	//auto "github.com/gridironx/gridchain/libs/tendermint/libs/autofile"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	//auto "github.com/gridfx/fxchain/libs/tendermint/libs/autofile"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/libs/tendermint/mock"
-	"github.com/gridironx/gridchain/libs/tendermint/proxy"
-	sm "github.com/gridironx/gridchain/libs/tendermint/state"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/libs/tendermint/version"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/mock"
+	"github.com/gridfx/fxchain/libs/tendermint/proxy"
+	sm "github.com/gridfx/fxchain/libs/tendermint/state"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/version"
 )
 
 var crc32c = crc32.MakeTable(crc32.Castagnoli)

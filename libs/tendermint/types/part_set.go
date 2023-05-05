@@ -10,11 +10,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bits"
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/proto/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bits"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/proto/types"
 )
 
 var (

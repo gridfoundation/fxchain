@@ -3,11 +3,11 @@ package keeper
 import (
 	"testing"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking"
 )
 
 func TestAllocateTokensToValidatorWithCommission(t *testing.T) {

@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 	"log"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/slashing"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/slashing"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/exported"
 )
 
 // ExportAppStateAndValidators exports the state of the application for a genesis

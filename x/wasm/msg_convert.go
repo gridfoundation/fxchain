@@ -3,11 +3,11 @@ package wasm
 import (
 	"encoding/json"
 	"errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/baseapp"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 var (

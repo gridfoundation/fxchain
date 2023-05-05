@@ -1,11 +1,11 @@
 package common
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 	"github.com/stretchr/testify/assert"
 	"testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )
 

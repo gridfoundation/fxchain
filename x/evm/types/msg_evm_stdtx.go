@@ -3,7 +3,7 @@ package types
 import (
 	"math/big"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 //___________________std tx______________________

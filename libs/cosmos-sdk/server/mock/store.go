@@ -3,11 +3,11 @@ package mock
 import (
 	"io"
 
-	store "github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/iavl"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	store "github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/iavl"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 var _ sdk.MultiStore = multiStore{}

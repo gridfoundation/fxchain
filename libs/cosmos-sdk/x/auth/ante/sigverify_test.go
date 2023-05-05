@@ -6,22 +6,22 @@ import (
 	"github.com/stretchr/testify/assert"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/multisig"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/multisig"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx/signing"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/ante"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx/signing"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/ante"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/etherhash"
-	types2 "github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/etherhash"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 func TestSetPubKey(t *testing.T) {

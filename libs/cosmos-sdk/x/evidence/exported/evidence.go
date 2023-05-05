@@ -1,9 +1,9 @@
 package exported
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
 )
 
 // Evidence defines the contract which concrete evidence types of misbehavior

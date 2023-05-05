@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/cache"
-	iavlstore "github.com/gridironx/gridchain/libs/cosmos-sdk/store/iavl"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/cache"
+	iavlstore "github.com/gridfx/fxchain/libs/cosmos-sdk/store/iavl"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
 
-	"github.com/gridironx/gridchain/libs/iavl"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/iavl"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 )
 

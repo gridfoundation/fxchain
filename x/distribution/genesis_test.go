@@ -3,9 +3,9 @@ package distribution
 import (
 	"testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/distribution/keeper"
-	"github.com/gridironx/gridchain/x/distribution/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/distribution/keeper"
+	"github.com/gridfx/fxchain/x/distribution/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -9,22 +9,22 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank"
-	keep "github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mock"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
-	supplyexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/exported"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank"
+	keep "github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mock"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
+	supplyexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/exported"
 )
 
 var (

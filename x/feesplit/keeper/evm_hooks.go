@@ -5,10 +5,10 @@ import (
 
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
-	"github.com/gridironx/gridchain/x/feesplit/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
+	"github.com/gridfx/fxchain/x/feesplit/types"
 )
 
 var _ evmtypes.EvmHooks = Hooks{}

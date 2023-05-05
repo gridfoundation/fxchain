@@ -89,32 +89,32 @@ endif
 build_tags += $(BUILD_TAGS)
 build_tags := $(strip $(build_tags))
 
-ldflags = -X $(GithubTop)/gridironx/gridchain/libs/cosmos-sdk/version.Version=$(Version) \
-	-X $(GithubTop)/gridironx/gridchain/libs/cosmos-sdk/version.Name=$(Name) \
-  -X $(GithubTop)/gridironx/gridchain/libs/cosmos-sdk/version.ServerName=$(ServerName) \
-  -X $(GithubTop)/gridironx/gridchain/libs/cosmos-sdk/version.ClientName=$(ClientName) \
-  -X $(GithubTop)/gridironx/gridchain/libs/cosmos-sdk/version.Commit=$(COMMIT) \
-  -X $(GithubTop)/gridironx/gridchain/libs/cosmos-sdk/version.CosmosSDK=$(CosmosSDK) \
-  -X $(GithubTop)/gridironx/gridchain/libs/cosmos-sdk/version.Tendermint=$(Tendermint) \
-  -X "$(GithubTop)/gridironx/gridchain/libs/cosmos-sdk/version.BuildTags=$(build_tags)" \
-  -X $(GithubTop)/gridironx/gridchain/libs/tendermint/types.MILESTONE_GENESIS_HEIGHT=$(GenesisHeight) \
-  -X $(GithubTop)/gridironx/gridchain/libs/tendermint/types.MILESTONE_MERCURY_HEIGHT=$(MercuryHeight) \
-  -X $(GithubTop)/gridironx/gridchain/libs/tendermint/types.MILESTONE_VENUS_HEIGHT=$(VenusHeight) \
-  -X $(GithubTop)/gridironx/gridchain/libs/tendermint/types.MILESTONE_VENUS1_HEIGHT=$(Venus1Height) \
-  -X $(GithubTop)/gridironx/gridchain/libs/tendermint/types.MILESTONE_VENUS2_HEIGHT=$(Venus2Height) \
-  -X $(GithubTop)/gridironx/gridchain/libs/tendermint/types.MILESTONE_VENUS3_HEIGHT=$(Venus3Height) \
-  -X $(GithubTop)/gridironx/gridchain/libs/tendermint/types.MILESTONE_VENUS4_HEIGHT=$(Venus4Height) \
-  -X $(GithubTop)/gridironx/gridchain/libs/tendermint/types.MILESTONE_VENUS5_HEIGHT=$(Venus5Height) \
-  -X $(GithubTop)/gridironx/gridchain/libs/tendermint/types.MILESTONE_EARTH_HEIGHT=$(EarthHeight) \
-  -X $(GithubTop)/gridironx/gridchain/libs/tendermint/types.MILESTONE_MARS_HEIGHT=$(MarsHeight)
+ldflags = -X $(GithubTop)/gridfx/fxchain/libs/cosmos-sdk/version.Version=$(Version) \
+	-X $(GithubTop)/gridfx/fxchain/libs/cosmos-sdk/version.Name=$(Name) \
+  -X $(GithubTop)/gridfx/fxchain/libs/cosmos-sdk/version.ServerName=$(ServerName) \
+  -X $(GithubTop)/gridfx/fxchain/libs/cosmos-sdk/version.ClientName=$(ClientName) \
+  -X $(GithubTop)/gridfx/fxchain/libs/cosmos-sdk/version.Commit=$(COMMIT) \
+  -X $(GithubTop)/gridfx/fxchain/libs/cosmos-sdk/version.CosmosSDK=$(CosmosSDK) \
+  -X $(GithubTop)/gridfx/fxchain/libs/cosmos-sdk/version.Tendermint=$(Tendermint) \
+  -X "$(GithubTop)/gridfx/fxchain/libs/cosmos-sdk/version.BuildTags=$(build_tags)" \
+  -X $(GithubTop)/gridfx/fxchain/libs/tendermint/types.MILESTONE_GENESIS_HEIGHT=$(GenesisHeight) \
+  -X $(GithubTop)/gridfx/fxchain/libs/tendermint/types.MILESTONE_MERCURY_HEIGHT=$(MercuryHeight) \
+  -X $(GithubTop)/gridfx/fxchain/libs/tendermint/types.MILESTONE_VENUS_HEIGHT=$(VenusHeight) \
+  -X $(GithubTop)/gridfx/fxchain/libs/tendermint/types.MILESTONE_VENUS1_HEIGHT=$(Venus1Height) \
+  -X $(GithubTop)/gridfx/fxchain/libs/tendermint/types.MILESTONE_VENUS2_HEIGHT=$(Venus2Height) \
+  -X $(GithubTop)/gridfx/fxchain/libs/tendermint/types.MILESTONE_VENUS3_HEIGHT=$(Venus3Height) \
+  -X $(GithubTop)/gridfx/fxchain/libs/tendermint/types.MILESTONE_VENUS4_HEIGHT=$(Venus4Height) \
+  -X $(GithubTop)/gridfx/fxchain/libs/tendermint/types.MILESTONE_VENUS5_HEIGHT=$(Venus5Height) \
+  -X $(GithubTop)/gridfx/fxchain/libs/tendermint/types.MILESTONE_EARTH_HEIGHT=$(EarthHeight) \
+  -X $(GithubTop)/gridfx/fxchain/libs/tendermint/types.MILESTONE_MARS_HEIGHT=$(MarsHeight)
 
 
 ifeq ($(WITH_ROCKSDB),true)
-  ldflags += -X github.com/gridironx/gridchain/libs/tendermint/types.DBBackend=rocksdb
+  ldflags += -X github.com/gridfx/fxchain/libs/tendermint/types.DBBackend=rocksdb
 endif
 
 ifeq ($(MAKECMDGOALS),testnet)
-  ldflags += -X github.com/gridironx/gridchain/libs/cosmos-sdk/server.ChainID=clockend-420
+  ldflags += -X github.com/gridfx/fxchain/libs/cosmos-sdk/server.ChainID=clockend-420
 endif
 
 ifeq ($(LINK_STATICALLY),true)

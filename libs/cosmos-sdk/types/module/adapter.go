@@ -2,10 +2,10 @@ package module
 
 import (
 	"github.com/gorilla/mux"
-	clictx "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	clictx "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 )

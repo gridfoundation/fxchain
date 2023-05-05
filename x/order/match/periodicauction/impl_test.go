@@ -5,10 +5,10 @@ package periodicauction
 import (
 	"testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/dex"
-	orderkeeper "github.com/gridironx/gridchain/x/order/keeper"
-	"github.com/gridironx/gridchain/x/order/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/dex"
+	orderkeeper "github.com/gridfx/fxchain/x/order/keeper"
+	"github.com/gridfx/fxchain/x/order/types"
 	"github.com/stretchr/testify/require"
 )
 

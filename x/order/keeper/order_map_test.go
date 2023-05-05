@@ -5,11 +5,11 @@ package keeper
 import (
 	"testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/dex"
-	"github.com/gridironx/gridchain/x/order/types"
+	"github.com/gridfx/fxchain/x/dex"
+	"github.com/gridfx/fxchain/x/order/types"
 )
 
 func TestOrderIDsMapInsertAndRemove(t *testing.T) {

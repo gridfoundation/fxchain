@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 const (

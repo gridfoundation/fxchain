@@ -5,12 +5,12 @@ import (
 	"errors"
 	"fmt"
 
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	stakingtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	stakingtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 // GenesisState defines the raw genesis transaction in JSON

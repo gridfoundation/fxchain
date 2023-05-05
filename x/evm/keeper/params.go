@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/evm/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/evm/types"
 )
 
 // GetParams returns the total set of evm parameters.

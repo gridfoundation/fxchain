@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/tendermint/lite2/provider"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/lite2/provider"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 type mock struct {

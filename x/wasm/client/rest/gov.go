@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"net/http"
 
-	clientCtx "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	govtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
-	govrest "github.com/gridironx/gridchain/x/gov/client/rest"
-	"github.com/gridironx/gridchain/x/wasm/client/utils"
-	"github.com/gridironx/gridchain/x/wasm/types"
+	clientCtx "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	govtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
+	govrest "github.com/gridfx/fxchain/x/gov/client/rest"
+	"github.com/gridfx/fxchain/x/wasm/client/utils"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 type StoreCodeProposalJSONReq struct {

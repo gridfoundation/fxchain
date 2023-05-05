@@ -3,13 +3,13 @@ package fee
 import (
 	"encoding/json"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	fee "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee/keeper"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	fee "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee/keeper"
 )
 
 type TestFeeAppModuleBaisc struct {

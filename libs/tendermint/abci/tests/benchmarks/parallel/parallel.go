@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmnet "github.com/gridironx/gridchain/libs/tendermint/libs/net"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmnet "github.com/gridfx/fxchain/libs/tendermint/libs/net"
 )
 
 func main() {

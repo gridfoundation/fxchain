@@ -3,8 +3,8 @@ package ibc_tx
 import (
 	"fmt"
 	"github.com/gogo/protobuf/proto"
-	ibctx "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	ibctx "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 func IbcTxEncoder() ibctx.IBCTxEncoder {

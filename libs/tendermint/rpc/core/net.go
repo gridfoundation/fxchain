@@ -5,9 +5,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
 )
 
 // NetInfo returns network info.

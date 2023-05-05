@@ -3,13 +3,13 @@ package evidence_test
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence/internal/types"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
 	"github.com/stretchr/testify/suite"
 )
 

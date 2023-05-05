@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // SupplyKeeper defines the expected supply keeper (noalias)

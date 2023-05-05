@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"fmt"
 
-	tmkv "github.com/gridironx/gridchain/libs/tendermint/libs/kv"
+	tmkv "github.com/gridfx/fxchain/libs/tendermint/libs/kv"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // DecodeStore unmarshals the KVPair's Value to the corresponding auth type

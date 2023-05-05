@@ -7,9 +7,9 @@ import (
 	"sort"
 	"strings"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 )
 
 var (

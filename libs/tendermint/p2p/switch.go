@@ -8,11 +8,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cmap"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p/conn"
+	"github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cmap"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p/conn"
 )
 
 const (

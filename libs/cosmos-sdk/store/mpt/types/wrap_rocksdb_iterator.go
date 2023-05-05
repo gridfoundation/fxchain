@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/ethdb"
-	tmdb "github.com/gridironx/gridchain/libs/tm-db"
+	tmdb "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 var _ ethdb.Iterator = (*WrapRocksDBIterator)(nil)

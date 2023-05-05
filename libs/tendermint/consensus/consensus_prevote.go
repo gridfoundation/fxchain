@@ -2,9 +2,9 @@ package consensus
 
 import (
 	"fmt"
-	cstypes "github.com/gridironx/gridchain/libs/tendermint/consensus/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/automation"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	cstypes "github.com/gridfx/fxchain/libs/tendermint/consensus/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/automation"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // Enter: `timeoutPropose` after entering Propose.

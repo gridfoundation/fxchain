@@ -1,14 +1,14 @@
 // nolint
 // aliases generated for the following subdirectories:
-// ALIASGEN: github.com/gridironx/gridchain/x/dex/keeper
-// ALIASGEN: github.com/gridironx/gridchain/x/dex/types
+// ALIASGEN: github.com/gridfx/fxchain/x/dex/keeper
+// ALIASGEN: github.com/gridfx/fxchain/x/dex/types
 package dex
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	"github.com/gridironx/gridchain/x/common/version"
-	"github.com/gridironx/gridchain/x/dex/keeper"
-	"github.com/gridironx/gridchain/x/dex/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/x/common/version"
+	"github.com/gridfx/fxchain/x/dex/keeper"
+	"github.com/gridfx/fxchain/x/dex/types"
 )
 
 const (

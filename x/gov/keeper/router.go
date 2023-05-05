@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/gridironx/gridchain/x/gov/types"
+	"github.com/gridfx/fxchain/x/gov/types"
 )
 
 var (

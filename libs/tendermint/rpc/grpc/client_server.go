@@ -6,7 +6,7 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	tmnet "github.com/gridironx/gridchain/libs/tendermint/libs/net"
+	tmnet "github.com/gridfx/fxchain/libs/tendermint/libs/net"
 )
 
 // Config is an gRPC server configuration.

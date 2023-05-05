@@ -3,12 +3,12 @@ The Infrastructure of Decentralized Exchange
 
 ![banner](docs/images/chain.png)
 
-[![version](https://img.shields.io/github/tag/gridironx/gridchain.svg)](https://github.com/gridx/gridchain/releases/latest)
-[![CircleCI](https://circleci.com/gh/gridironx/gridchain/tree/dev.svg?style=shield)](https://circleci.com/gh/gridironx/gridchain/tree/dev)
-[![codecov](https://codecov.io/gh/gridironx/gridchain/branch/master/graph/badge.svg)](https://codecov.io/gh/gridironx/gridchain)
+[![version](https://img.shields.io/github/tag/gridfx/fxchain.svg)](https://github.com/gridx/gridchain/releases/latest)
+[![CircleCI](https://circleci.com/gh/gridfx/fxchain/tree/dev.svg?style=shield)](https://circleci.com/gh/gridfx/fxchain/tree/dev)
+[![codecov](https://codecov.io/gh/gridfx/fxchain/branch/master/graph/badge.svg)](https://codecov.io/gh/gridfx/fxchain)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gridx/gridchain)](https://goreportcard.com/report/github.com/gridx/gridchain)
 [![license](https://img.shields.io/badge/license-Apache%202.0-green)](https://github.com/gridx/gridchain/blob/dev/LICENSE)
-[![LoC](https://tokei.rs/b1/github/gridironx/gridchain)](https://github.com/gridx/gridchain)
+[![LoC](https://tokei.rs/b1/github/gridfx/fxchain)](https://github.com/gridx/gridchain)
 [![GolangCI](https://golangci.com/badges/github.com/gridx/gridchain.svg)](https://golangci.com/r/github.com/gridx/gridchain)
 
 This repository hosts `FURYC`, the implementation of the FURYC based on the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk).

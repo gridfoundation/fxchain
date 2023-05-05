@@ -8,31 +8,31 @@ import (
 	"strings"
 	"testing"
 
-	ibcfee "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	ibcfee "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 
 	"encoding/hex"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/common/math"
-	gridchaincodec "github.com/gridironx/gridchain/app/codec"
+	gridchaincodec "github.com/gridfx/fxchain/app/codec"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/app/crypto/ethsecp256k1"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	ibctxdecode "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/ibc-tx"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	ibctransfer "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer"
-	ibc "github.com/gridironx/gridchain/libs/ibc-go/modules/core"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	ibctxdecode "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/ibc-tx"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	ibctransfer "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer"
+	ibc "github.com/gridfx/fxchain/libs/ibc-go/modules/core"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
 )
 
 func newSdkAddress() sdk.AccAddress {

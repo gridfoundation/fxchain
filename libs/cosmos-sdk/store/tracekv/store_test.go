@@ -8,12 +8,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/dbadapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/prefix"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/tracekv"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/dbadapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/prefix"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/tracekv"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
 )
 
 func bz(s string) []byte { return []byte(s) }

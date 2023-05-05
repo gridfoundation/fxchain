@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/pubsub/query"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/pubsub/query"
 )
 
 // TODO: fuzzy testing?

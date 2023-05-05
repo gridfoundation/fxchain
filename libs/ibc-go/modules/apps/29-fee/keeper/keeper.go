@@ -1,14 +1,14 @@
 package keeper
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	capabilitytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	paramtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	capabilitytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	paramtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 )
 
 // Middleware must implement types.ChannelKeeper and types.PortKeeper expected interfaces

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/slashing/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/slashing/internal/types"
 )
 
 const (

@@ -3,12 +3,12 @@ package mock
 import (
 	"testing"
 
-	appconfig "github.com/gridironx/gridchain/app/config"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	appconfig "github.com/gridfx/fxchain/app/config"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 // TestInitApp makes sure we can initialize this thing without an error

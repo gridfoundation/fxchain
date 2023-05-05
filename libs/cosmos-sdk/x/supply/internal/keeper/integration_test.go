@@ -1,13 +1,13 @@
 package keeper_test
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	keep "github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/internal/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	keep "github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/internal/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/internal/types"
 )
 
 var (

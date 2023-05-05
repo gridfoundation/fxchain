@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 )
 
 type EvmKeeper interface {

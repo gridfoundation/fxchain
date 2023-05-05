@@ -3,8 +3,8 @@ package remotedb
 import (
 	"github.com/pkg/errors"
 
-	db "github.com/gridironx/gridchain/libs/tm-db"
-	protodb "github.com/gridironx/gridchain/libs/tm-db/remotedb/proto"
+	db "github.com/gridfx/fxchain/libs/tm-db"
+	protodb "github.com/gridfx/fxchain/libs/tm-db/remotedb/proto"
 )
 
 type batch struct {

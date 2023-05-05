@@ -1,11 +1,11 @@
 package keeper
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/prefix"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/query"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/types"
-	outtypes "github.com/gridironx/gridchain/x/staking/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/prefix"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/query"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/types"
+	outtypes "github.com/gridfx/fxchain/x/staking/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

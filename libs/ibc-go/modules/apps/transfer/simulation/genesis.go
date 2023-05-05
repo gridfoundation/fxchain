@@ -6,9 +6,9 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	simtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	simtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
 )
 
 // Simulation parameter constants

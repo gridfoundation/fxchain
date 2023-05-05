@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/gridironx/gridchain/x/distribution/client/cli"
-	"github.com/gridironx/gridchain/x/distribution/client/rest"
-	govclient "github.com/gridironx/gridchain/x/gov/client"
+	"github.com/gridfx/fxchain/x/distribution/client/cli"
+	"github.com/gridfx/fxchain/x/distribution/client/rest"
+	govclient "github.com/gridfx/fxchain/x/gov/client"
 )
 
 // param change proposal handler

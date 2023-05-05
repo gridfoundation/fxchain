@@ -2,8 +2,8 @@ package mempool
 
 import (
 	"encoding/binary"
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/kvstore"
-	"github.com/gridironx/gridchain/libs/tendermint/proxy"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/kvstore"
+	"github.com/gridfx/fxchain/libs/tendermint/proxy"
 	"testing"
 )
 

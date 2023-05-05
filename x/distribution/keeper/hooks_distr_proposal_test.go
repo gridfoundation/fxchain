@@ -1,13 +1,13 @@
 package keeper
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/x/staking"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/x/staking"
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/x/distribution/types"
+	"github.com/gridfx/fxchain/x/distribution/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,11 +3,11 @@ package keys
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/multisig"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/multisig"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys/hd"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys/hd"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // Keybase exposes operations on a generic keystore

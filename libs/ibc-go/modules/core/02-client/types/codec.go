@@ -2,14 +2,14 @@ package types
 
 import (
 	"github.com/gogo/protobuf/proto"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	txmsg "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/msgservice"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	"github.com/gridironx/gridchain/x/gov/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	txmsg "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/msgservice"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	"github.com/gridfx/fxchain/x/gov/types"
 )
 
 func init() {

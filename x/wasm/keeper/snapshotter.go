@@ -6,14 +6,14 @@ package keeper
 //	"io"
 //
 //	protoio "github.com/gogo/protobuf/io"
-//	snapshot "github.com/gridironx/gridchain/libs/cosmos-sdk/snapshots/types"
-//	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-//	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
+//	snapshot "github.com/gridfx/fxchain/libs/cosmos-sdk/snapshots/types"
+//	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+//	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
 //	"github.com/tendermint/tendermint/libs/log"
 //	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 //
-//	"github.com/gridironx/gridchain/x/wasm/ioutils"
-//	"github.com/gridironx/gridchain/x/wasm/types"
+//	"github.com/gridfx/fxchain/x/wasm/ioutils"
+//	"github.com/gridfx/fxchain/x/wasm/types"
 //)
 //
 //var _ snapshot.ExtensionSnapshotter = &WasmSnapshotter{}

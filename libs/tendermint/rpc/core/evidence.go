@@ -1,10 +1,10 @@
 package core
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/evidence"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/evidence"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // BroadcastEvidence broadcasts evidence of the misbehavior.

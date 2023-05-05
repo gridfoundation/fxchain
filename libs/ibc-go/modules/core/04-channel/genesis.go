@@ -1,9 +1,9 @@
 package channel
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/keeper"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/keeper"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
 )
 
 // InitGenesis initializes the ibc channel submodule's state from a provided genesis

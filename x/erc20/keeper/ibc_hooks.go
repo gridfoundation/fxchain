@@ -1,10 +1,10 @@
 package keeper
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	trensferTypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	"github.com/gridironx/gridchain/x/erc20/types"
-	"github.com/gridironx/gridchain/x/evm/watcher"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	trensferTypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/gridfx/fxchain/x/erc20/types"
+	"github.com/gridfx/fxchain/x/evm/watcher"
 )
 
 var (

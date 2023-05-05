@@ -1,15 +1,15 @@
 package keeper_test
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 	"testing"
 
 	"github.com/stretchr/testify/suite"
 	// "github.com/tendermint/tendermint/crypto"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 type KeeperTestSuite struct {

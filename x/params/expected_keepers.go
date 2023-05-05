@@ -1,7 +1,7 @@
 package params
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // BankKeeper shows the expected action of bank keeper

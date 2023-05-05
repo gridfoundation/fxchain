@@ -8,8 +8,8 @@ import (
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/suite"
 )

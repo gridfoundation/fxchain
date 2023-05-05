@@ -2,9 +2,9 @@
 package types
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/tendermint/global"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/tendermint/global"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // Verify interface at compile time

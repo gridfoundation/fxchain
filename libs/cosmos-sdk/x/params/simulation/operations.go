@@ -3,10 +3,10 @@ package simulation
 import (
 	"math/rand"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	govtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	govtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
 )
 
 // SimulateParamChangeProposalContent returns random parameter change content.

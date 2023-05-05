@@ -1,7 +1,7 @@
 package signing
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types"
 )
 
 // SignatureData represents either a *SingleSignatureData or *MultiSignatureData.

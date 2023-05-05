@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	sm "github.com/gridironx/gridchain/libs/tendermint/state"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	sm "github.com/gridfx/fxchain/libs/tendermint/state"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 //----------------------------------------------

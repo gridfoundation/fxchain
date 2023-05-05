@@ -2,13 +2,13 @@ package cli
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
 	"strings"
 
-	"github.com/gridironx/gridchain/x/params/types"
+	"github.com/gridfx/fxchain/x/params/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 	"github.com/spf13/cobra"
 )
 

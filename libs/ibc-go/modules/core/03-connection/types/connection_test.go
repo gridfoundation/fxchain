@@ -5,10 +5,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 var (

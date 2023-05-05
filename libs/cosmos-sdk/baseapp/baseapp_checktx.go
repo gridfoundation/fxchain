@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/global"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/global"
 )
 
 // CheckTx implements the ABCI interface and executes a tx in CheckTx mode. In

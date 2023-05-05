@@ -4,18 +4,18 @@ import (
 	"testing"
 	"time"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmkv "github.com/gridironx/gridchain/libs/tendermint/libs/kv"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmkv "github.com/gridfx/fxchain/libs/tendermint/libs/kv"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/vesting"
-	keep "github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/internal/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/internal/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/vesting"
+	keep "github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/internal/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
 )
 
 const (

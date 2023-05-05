@@ -1,6 +1,6 @@
 package types
 
-import sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+import sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
 const (
 	// ModuleName is the module name constant used in many places

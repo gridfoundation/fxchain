@@ -3,13 +3,13 @@ package keys
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/tests"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/tests"
 
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
 )
 
 func Test_runMigrateCmd(t *testing.T) {

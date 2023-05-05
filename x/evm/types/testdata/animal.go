@@ -5,7 +5,7 @@ package testdata
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 
 	"github.com/gogo/protobuf/proto"
 )

@@ -1,9 +1,9 @@
 package params
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdkparams "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	"github.com/gridironx/gridchain/x/params/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdkparams "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	"github.com/gridfx/fxchain/x/params/types"
 )
 
 // ModuleCdc is the codec of module

@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys/hd"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys/hd"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 func Test_writeReadLedgerInfo(t *testing.T) {

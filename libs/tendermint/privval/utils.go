@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmnet "github.com/gridironx/gridchain/libs/tendermint/libs/net"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmnet "github.com/gridfx/fxchain/libs/tendermint/libs/net"
 )
 
 // IsConnTimeout returns a boolean indicating whether the error is known to

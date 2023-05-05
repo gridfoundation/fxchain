@@ -1,9 +1,9 @@
 package client
 
 import (
-	govclient "github.com/gridironx/gridchain/x/gov/client"
-	"github.com/gridironx/gridchain/x/wasm/client/cli"
-	"github.com/gridironx/gridchain/x/wasm/client/rest"
+	govclient "github.com/gridfx/fxchain/x/gov/client"
+	"github.com/gridfx/fxchain/x/wasm/client/cli"
+	"github.com/gridfx/fxchain/x/wasm/client/rest"
 )
 
 // ProposalHandlers define the wasm cli proposal types and rest handler.

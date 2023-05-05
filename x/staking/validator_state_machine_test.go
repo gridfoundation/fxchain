@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/x/staking/types"
+	"github.com/gridfx/fxchain/x/staking/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 func TestValidatorSMCreateValidator(t *testing.T) {

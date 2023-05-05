@@ -1,6 +1,6 @@
 package v0_10
 
-import sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+import sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
 const ModuleName = "token"
 

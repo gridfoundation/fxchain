@@ -2,11 +2,11 @@ package dex
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/x/common"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/dex/types"
-	govTypes "github.com/gridironx/gridchain/x/gov/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/dex/types"
+	govTypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 // NewProposalHandler handles "gov" type message in "dex"

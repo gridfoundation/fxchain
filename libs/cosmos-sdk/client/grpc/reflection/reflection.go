@@ -2,7 +2,7 @@ package reflection
 
 import (
 	"context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

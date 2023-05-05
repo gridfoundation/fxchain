@@ -3,12 +3,12 @@ package keeper
 import (
 	"testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	//"github.com/gridironx/gridchain/x/common"
-	//dexTypes "github.com/gridironx/gridchain/x/dex/types"
-	"github.com/gridironx/gridchain/x/gov/types"
+	//"github.com/gridfx/fxchain/x/common"
+	//dexTypes "github.com/gridfx/fxchain/x/dex/types"
+	"github.com/gridfx/fxchain/x/gov/types"
 )
 
 //func TestKeeper_SubmitProposal(t *testing.T) {

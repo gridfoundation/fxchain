@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 )
 
 func TestQueryDelegationRewardsAddrValidation(t *testing.T) {

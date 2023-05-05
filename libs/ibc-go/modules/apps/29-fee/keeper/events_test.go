@@ -1,9 +1,9 @@
 package keeper_test
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee/types"
-	abcitypes "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee/types"
+	abcitypes "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 func (suite *KeeperTestSuite) TestIncentivizePacketEvent() {

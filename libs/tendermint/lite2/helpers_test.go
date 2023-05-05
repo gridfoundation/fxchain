@@ -3,12 +3,12 @@ package lite_test
 import (
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
 
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
 )
 
 // privKeys is a helper type for testing.

@@ -1,8 +1,8 @@
 package coretypes
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/libs/tendermint/version"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/version"
 )
 
 type CM40ResultBlock struct {

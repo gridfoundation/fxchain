@@ -4,10 +4,10 @@ import (
 	"testing"
 	gotime "time"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/tendermint/global"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types/time"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/tendermint/global"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types/time"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

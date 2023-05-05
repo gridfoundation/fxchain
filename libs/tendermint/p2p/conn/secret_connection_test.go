@@ -17,12 +17,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/async"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/async"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
 )
 
 type kvstoreConn struct {

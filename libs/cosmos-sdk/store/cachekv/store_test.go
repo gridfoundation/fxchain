@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"testing"
 
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/cachekv"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/dbadapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/cachekv"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/dbadapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
 )
 
 func newCacheKVStore() types.CacheKVStore {

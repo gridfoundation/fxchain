@@ -4,10 +4,10 @@ import (
 	"fmt"
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
-	"github.com/gridironx/gridchain/x/evm/types"
+	"github.com/gridfx/fxchain/x/evm/types"
 
-	ethermint "github.com/gridironx/gridchain/app/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	ethermint "github.com/gridfx/fxchain/app/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 func (suite *KeeperMptTestSuite) TestCommitStateDB_CommitMpt() {

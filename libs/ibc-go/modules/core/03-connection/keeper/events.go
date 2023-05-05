@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
 )
 
 // EmitConnectionOpenTryEvent emits a connection open try event

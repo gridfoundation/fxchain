@@ -1,13 +1,13 @@
 package types
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	cryptocodec "github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	txmsg "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/msgservice"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	cryptocodec "github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	txmsg "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/msgservice"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 // RegisterLegacyAminoCodec registers the account types and interface

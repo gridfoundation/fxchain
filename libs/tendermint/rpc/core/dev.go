@@ -4,8 +4,8 @@ import (
 	"os"
 	"runtime/pprof"
 
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
 )
 
 // UnsafeFlushMempool removes all transactions from the mempool.

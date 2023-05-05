@@ -1,9 +1,9 @@
 package core
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/proto/version"
-	coretypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/proto/version"
+	coretypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 func ConvBlock2CM40Block(r *types.Block) *types.CM40Block {

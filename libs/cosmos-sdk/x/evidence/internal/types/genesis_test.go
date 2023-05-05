@@ -3,11 +3,11 @@ package types_test
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence/exported"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence/internal/types"
 )
 
 func TestDefaultGenesisState(t *testing.T) {

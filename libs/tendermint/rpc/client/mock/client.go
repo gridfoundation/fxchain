@@ -17,13 +17,13 @@ want to directly call a tendermint node in process, you can use the
 import (
 	"reflect"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	"github.com/gridironx/gridchain/libs/tendermint/rpc/client"
-	"github.com/gridironx/gridchain/libs/tendermint/rpc/core"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/rpc/client"
+	"github.com/gridfx/fxchain/libs/tendermint/rpc/core"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // Client wraps arbitrary implementations of the various interfaces.

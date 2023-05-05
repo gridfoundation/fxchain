@@ -2,15 +2,15 @@ package ibc_tx
 
 import (
 	"github.com/gogo/protobuf/proto"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	cryptotypes "github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	ibcmsg "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx/signing"
-	sigtx "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/ibcsigning"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	cryptotypes "github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	ibcmsg "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx/signing"
+	sigtx "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/ibcsigning"
 )
 
 // wrapper is a wrapper around the tx.Tx proto.Message which retain the raw

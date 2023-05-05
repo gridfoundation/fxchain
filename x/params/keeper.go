@@ -3,11 +3,11 @@ package params
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkparams "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/x/params/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkparams "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/x/params/types"
 )
 
 // Keeper is the struct of params keeper

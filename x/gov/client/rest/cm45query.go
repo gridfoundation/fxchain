@@ -8,12 +8,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	"github.com/gridironx/gridchain/x/gov/client/common"
-	gcutils "github.com/gridironx/gridchain/x/gov/client/utils"
-	"github.com/gridironx/gridchain/x/gov/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	"github.com/gridfx/fxchain/x/gov/client/common"
+	gcutils "github.com/gridfx/fxchain/x/gov/client/utils"
+	"github.com/gridfx/fxchain/x/gov/types"
 )
 
 func cm45QueryProposalsWithParameterFn(cliCtx context.CLIContext) http.HandlerFunc {

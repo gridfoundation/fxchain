@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
 	"github.com/tendermint/go-amino"
 )
 

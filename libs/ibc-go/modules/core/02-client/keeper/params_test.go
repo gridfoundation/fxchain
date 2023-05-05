@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
 )
 
 func (suite *KeeperTestSuite) TestParams() {

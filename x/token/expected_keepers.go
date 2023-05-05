@@ -1,8 +1,8 @@
 package token
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	supplyexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/exported"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	supplyexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/exported"
 )
 
 // SupplyKeeper defines the expected supply Keeper (noalias)

@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-kit/kit/metrics"
 	"github.com/go-kit/kit/metrics/prometheus"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 	stdprometheus "github.com/prometheus/client_golang/prometheus"
 )
 

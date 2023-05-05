@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
 )
 
 // For https://github.com/cosmos/cosmos-sdk/issues/3899

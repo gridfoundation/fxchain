@@ -11,16 +11,16 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/gridironx/gridchain/app"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	minttypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/mint"
-	transfertypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	"github.com/gridironx/gridchain/x/erc20/keeper"
-	"github.com/gridironx/gridchain/x/erc20/types"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
+	"github.com/gridfx/fxchain/app"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	minttypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/mint"
+	transfertypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	"github.com/gridfx/fxchain/x/erc20/keeper"
+	"github.com/gridfx/fxchain/x/erc20/types"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 )
 
 var (

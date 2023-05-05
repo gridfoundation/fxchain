@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 	"github.com/tendermint/go-amino"
 )
 

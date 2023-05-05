@@ -1,14 +1,14 @@
 package keeper_test
 
 import (
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
 
 	// govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	// upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	ibctmtypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	ibctmtypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 func (suite *KeeperTestSuite) TestClientUpdateProposal() {

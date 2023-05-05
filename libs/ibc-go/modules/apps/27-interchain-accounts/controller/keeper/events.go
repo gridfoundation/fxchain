@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	icatypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	icatypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 )
 
 // EmitAcknowledgementEvent emits an event signalling a successful or failed acknowledgement and including the error

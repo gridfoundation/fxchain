@@ -3,10 +3,10 @@ package types
 import (
 	"strings"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
 
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
 )
 
 // NewPacketFee creates and returns a new PacketFee struct including the incentivization fees, refund addres and relayers

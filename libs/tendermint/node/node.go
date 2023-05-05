@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	blockindex "github.com/gridironx/gridchain/libs/tendermint/state/indexer"
-	bloxkindexnull "github.com/gridironx/gridchain/libs/tendermint/state/indexer/block/null"
+	blockindex "github.com/gridfx/fxchain/libs/tendermint/state/indexer"
+	bloxkindexnull "github.com/gridfx/fxchain/libs/tendermint/state/indexer/block/null"
 
-	"github.com/gridironx/gridchain/libs/tendermint/global"
+	"github.com/gridfx/fxchain/libs/tendermint/global"
 
 	"github.com/pkg/errors"
 	"github.com/prometheus/client_golang/prometheus"
@@ -22,39 +22,39 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	bcv0 "github.com/gridironx/gridchain/libs/tendermint/blockchain/v0"
-	bcv1 "github.com/gridironx/gridchain/libs/tendermint/blockchain/v1"
-	bcv2 "github.com/gridironx/gridchain/libs/tendermint/blockchain/v2"
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/consensus"
-	cs "github.com/gridironx/gridchain/libs/tendermint/consensus"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/evidence"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmpubsub "github.com/gridironx/gridchain/libs/tendermint/libs/pubsub"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	mempl "github.com/gridironx/gridchain/libs/tendermint/mempool"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p/pex"
-	"github.com/gridironx/gridchain/libs/tendermint/privval"
-	"github.com/gridironx/gridchain/libs/tendermint/proxy"
-	rpccore "github.com/gridironx/gridchain/libs/tendermint/rpc/core"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	grpccore "github.com/gridironx/gridchain/libs/tendermint/rpc/grpc"
-	rpcserver "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/server"
-	sm "github.com/gridironx/gridchain/libs/tendermint/state"
-	blockindexer "github.com/gridironx/gridchain/libs/tendermint/state/indexer/block/kv"
-	"github.com/gridironx/gridchain/libs/tendermint/state/txindex"
-	"github.com/gridironx/gridchain/libs/tendermint/state/txindex/kv"
-	"github.com/gridironx/gridchain/libs/tendermint/state/txindex/null"
-	"github.com/gridironx/gridchain/libs/tendermint/store"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
-	"github.com/gridironx/gridchain/libs/tendermint/version"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	bcv0 "github.com/gridfx/fxchain/libs/tendermint/blockchain/v0"
+	bcv1 "github.com/gridfx/fxchain/libs/tendermint/blockchain/v1"
+	bcv2 "github.com/gridfx/fxchain/libs/tendermint/blockchain/v2"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/consensus"
+	cs "github.com/gridfx/fxchain/libs/tendermint/consensus"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/evidence"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmpubsub "github.com/gridfx/fxchain/libs/tendermint/libs/pubsub"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	mempl "github.com/gridfx/fxchain/libs/tendermint/mempool"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p/pex"
+	"github.com/gridfx/fxchain/libs/tendermint/privval"
+	"github.com/gridfx/fxchain/libs/tendermint/proxy"
+	rpccore "github.com/gridfx/fxchain/libs/tendermint/rpc/core"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	grpccore "github.com/gridfx/fxchain/libs/tendermint/rpc/grpc"
+	rpcserver "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/server"
+	sm "github.com/gridfx/fxchain/libs/tendermint/state"
+	blockindexer "github.com/gridfx/fxchain/libs/tendermint/state/indexer/block/kv"
+	"github.com/gridfx/fxchain/libs/tendermint/state/txindex"
+	"github.com/gridfx/fxchain/libs/tendermint/state/txindex/kv"
+	"github.com/gridfx/fxchain/libs/tendermint/state/txindex/null"
+	"github.com/gridfx/fxchain/libs/tendermint/store"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
+	"github.com/gridfx/fxchain/libs/tendermint/version"
 )
 
 //------------------------------------------------------------------------------
@@ -591,7 +591,7 @@ func createPEXReactorAndAddToSwitch(addrBook pex.AddrBook, config *cfg.Config,
 			// blocks assuming 10s blocks ~ 28 hours.
 			// TODO (melekes): make it dynamic based on the actual block latencies
 			// from the live network.
-			// https://github.com/gridironx/gridchain/libs/tendermint/issues/3523
+			// https://github.com/gridfx/fxchain/libs/tendermint/issues/3523
 			SeedDisconnectWaitPeriod:     28 * time.Hour,
 			PersistentPeersMaxDialPeriod: config.P2P.PersistentPeersMaxDialPeriod,
 		})
@@ -1046,7 +1046,7 @@ func (n *Node) startRPC() ([]net.Listener, error) {
 	config.MaxOpenConnections = n.config.RPC.MaxOpenConnections
 	// If necessary adjust global WriteTimeout to ensure it's greater than
 	// TimeoutBroadcastTxCommit.
-	// See https://github.com/gridironx/gridchain/libs/tendermint/issues/3435
+	// See https://github.com/gridfx/fxchain/libs/tendermint/issues/3435
 	if config.WriteTimeout <= n.config.RPC.TimeoutBroadcastTxCommit {
 		config.WriteTimeout = n.config.RPC.TimeoutBroadcastTxCommit + 1*time.Second
 	}
@@ -1117,7 +1117,7 @@ func (n *Node) startRPC() ([]net.Listener, error) {
 		config.MaxOpenConnections = n.config.RPC.GRPCMaxOpenConnections
 		// If necessary adjust global WriteTimeout to ensure it's greater than
 		// TimeoutBroadcastTxCommit.
-		// See https://github.com/gridironx/gridchain/libs/tendermint/issues/3435
+		// See https://github.com/gridfx/fxchain/libs/tendermint/issues/3435
 		if config.WriteTimeout <= n.config.RPC.TimeoutBroadcastTxCommit {
 			config.WriteTimeout = n.config.RPC.TimeoutBroadcastTxCommit + 1*time.Second
 		}

@@ -4,13 +4,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	ibcadapter "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/x/vmbridge/types"
-	"github.com/gridironx/gridchain/x/wasm"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	ibcadapter "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/x/vmbridge/types"
+	"github.com/gridfx/fxchain/x/wasm"
 )
 
 func (k Keeper) SendToWasm(ctx sdk.Context, caller sdk.AccAddress, wasmContractAddr, recipient string, amount sdk.Int) error {

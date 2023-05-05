@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/go-errors/errors"
-	"github.com/gridironx/gridchain/libs/system/trace"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/system/trace"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/tendermint/go-amino"
 )
 

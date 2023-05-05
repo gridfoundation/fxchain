@@ -8,7 +8,7 @@ import (
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 
-	"github.com/gridironx/gridchain/app/crypto/ethsecp256k1"
+	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
 )
 
 type AccessListTestSuite struct {

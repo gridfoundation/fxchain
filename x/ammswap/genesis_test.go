@@ -5,11 +5,11 @@ package ammswap
 import (
 	"testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/ammswap/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/ammswap/types"
 	"github.com/stretchr/testify/require"
 )
 

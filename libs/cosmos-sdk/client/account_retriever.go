@@ -1,9 +1,9 @@
 package client
 
 import (
-	clictx "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	clictx "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 )
 
 // Account defines a read-only version of the auth module's AccountI.

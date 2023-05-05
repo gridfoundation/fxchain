@@ -8,11 +8,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	mempl "github.com/gridironx/gridchain/libs/tendermint/mempool"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	mempl "github.com/gridfx/fxchain/libs/tendermint/mempool"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 //-----------------------------------------------------------------------------

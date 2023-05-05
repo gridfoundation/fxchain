@@ -8,10 +8,10 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/gridironx/gridchain/app/crypto/ethsecp256k1"
-	ethermint "github.com/gridironx/gridchain/app/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/evm/types"
+	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
+	ethermint "github.com/gridfx/fxchain/app/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/evm/types"
 )
 
 func (suite *KeeperTestSuite) TestBloomFilter() {

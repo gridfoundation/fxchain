@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	tmkv "github.com/gridironx/gridchain/libs/tendermint/libs/kv"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	tmkv "github.com/gridfx/fxchain/libs/tendermint/libs/kv"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/simapp/helpers"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/simapp/helpers"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
 )
 
 // SetupSimulation creates the config, db (levelDB), temporary directory and logger for

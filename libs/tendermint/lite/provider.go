@@ -1,8 +1,8 @@
 package lite
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // Provider provides information for the lite client to sync validators.

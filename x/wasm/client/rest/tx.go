@@ -2,15 +2,15 @@ package rest
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/gridironx/gridchain/x/wasm/ioutils"
+	"github.com/gridfx/fxchain/x/wasm/ioutils"
 	"net/http"
 	"strconv"
 
-	clientCtx "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	wasmUtils "github.com/gridironx/gridchain/x/wasm/client/utils"
-	"github.com/gridironx/gridchain/x/wasm/types"
+	clientCtx "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	wasmUtils "github.com/gridfx/fxchain/x/wasm/client/utils"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 func registerTxRoutes(cliCtx clientCtx.CLIContext, r *mux.Router) {

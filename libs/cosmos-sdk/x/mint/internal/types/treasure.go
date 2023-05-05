@@ -3,7 +3,7 @@ package types
 import (
 	"bytes"
 	"fmt"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/pkg/errors"
 	"sort"
 )

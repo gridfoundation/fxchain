@@ -4,13 +4,13 @@ import (
 	"context"
 	"time"
 
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	icatypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	"github.com/gridironx/gridchain/x/icamauth/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	icatypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	"github.com/gridfx/fxchain/x/icamauth/types"
 )
 
 var _ types.MsgServer = msgServer{}

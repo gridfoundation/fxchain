@@ -4,18 +4,18 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gridironx/gridchain/app"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/app"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/evidence"
-	"github.com/gridironx/gridchain/x/evidence/exported"
-	"github.com/gridironx/gridchain/x/evidence/internal/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/evidence"
+	"github.com/gridfx/fxchain/x/evidence/exported"
+	"github.com/gridfx/fxchain/x/evidence/internal/types"
 
 	"github.com/stretchr/testify/suite"
 )

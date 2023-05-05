@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sort"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 var (

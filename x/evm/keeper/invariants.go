@@ -3,10 +3,10 @@ package keeper
 import (
 	"fmt"
 
-	ethermint "github.com/gridironx/gridchain/app/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/x/evm/types"
+	ethermint "github.com/gridfx/fxchain/app/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/x/evm/types"
 )
 
 const (

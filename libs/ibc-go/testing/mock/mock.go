@@ -7,20 +7,20 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	capabilitykeeper "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/keeper"
-	capabilitytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	capabilitykeeper "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/keeper"
+	capabilitytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 )
 
 const (

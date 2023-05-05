@@ -7,11 +7,11 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	sm "github.com/gridironx/gridchain/libs/tendermint/state"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	sm "github.com/gridfx/fxchain/libs/tendermint/state"
 )
 
 var (

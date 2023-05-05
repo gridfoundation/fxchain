@@ -1,11 +1,11 @@
 package types
 
 import (
-	tmkv "github.com/gridironx/gridchain/libs/tendermint/libs/kv"
+	tmkv "github.com/gridfx/fxchain/libs/tendermint/libs/kv"
 	"sync"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
 )
 
 // nolint - reexport

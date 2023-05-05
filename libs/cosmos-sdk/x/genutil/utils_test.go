@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/tests"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/tests"
 
 	"github.com/stretchr/testify/require"
 )

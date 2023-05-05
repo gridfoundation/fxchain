@@ -3,12 +3,12 @@ package proxy
 import (
 	"context"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	"github.com/gridironx/gridchain/libs/tendermint/lite"
-	rpcclient "github.com/gridironx/gridchain/libs/tendermint/rpc/client"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	"github.com/gridfx/fxchain/libs/tendermint/lite"
+	rpcclient "github.com/gridfx/fxchain/libs/tendermint/rpc/client"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
 )
 
 var _ rpcclient.Client = Wrapper{}

@@ -2,11 +2,11 @@ package keeper
 
 import (
 	"fmt"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	"github.com/gridironx/gridchain/x/distribution/types"
-	"github.com/gridironx/gridchain/x/staking/exported"
+	"github.com/gridfx/fxchain/x/distribution/types"
+	"github.com/gridfx/fxchain/x/staking/exported"
 )
 
 // RegisterInvariants registers all distribution invariants

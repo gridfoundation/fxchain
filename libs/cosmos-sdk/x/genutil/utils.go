@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"time"
 
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	"github.com/gridironx/gridchain/libs/tendermint/privval"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/privval"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // ExportGenesisFile creates and writes the genesis configuration to disk. An

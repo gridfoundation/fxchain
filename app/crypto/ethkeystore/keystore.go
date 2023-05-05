@@ -13,12 +13,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/google/uuid"
-	"github.com/gridironx/gridchain/app/crypto/ethsecp256k1"
-	"github.com/gridironx/gridchain/app/crypto/hd"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys/mintkey"
-	tmcrypto "github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
+	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
+	"github.com/gridfx/fxchain/app/crypto/hd"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys/mintkey"
+	tmcrypto "github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
 )
 
 // CreateKeystoreByTmKey  create a eth keystore by accountname from keybase

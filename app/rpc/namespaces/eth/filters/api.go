@@ -14,14 +14,14 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/spf13/viper"
 
-	"github.com/gridironx/gridchain/app/rpc/monitor"
-	rpctypes "github.com/gridironx/gridchain/app/rpc/types"
-	clientcontext "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	coretypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
-	"github.com/gridironx/gridchain/x/evm/watcher"
+	"github.com/gridfx/fxchain/app/rpc/monitor"
+	rpctypes "github.com/gridfx/fxchain/app/rpc/types"
+	clientcontext "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	coretypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
+	"github.com/gridfx/fxchain/x/evm/watcher"
 
 	"golang.org/x/time/rate"
 )

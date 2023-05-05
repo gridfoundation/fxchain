@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/x/order/types"
+	"github.com/gridfx/fxchain/x/order/types"
 	"github.com/stretchr/testify/require"
 )
 

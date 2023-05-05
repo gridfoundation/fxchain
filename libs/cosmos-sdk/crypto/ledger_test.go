@@ -6,12 +6,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	tmcrypto "github.com/gridironx/gridchain/libs/tendermint/crypto"
-	cryptoAmino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
+	tmcrypto "github.com/gridfx/fxchain/libs/tendermint/crypto"
+	cryptoAmino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys/hd"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/tests"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys/hd"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/tests"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 func TestLedgerErrorHandling(t *testing.T) {

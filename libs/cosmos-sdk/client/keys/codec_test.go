@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
 )
 
 type testCases struct {

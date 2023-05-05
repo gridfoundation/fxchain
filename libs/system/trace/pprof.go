@@ -7,7 +7,7 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 )
 
 const (

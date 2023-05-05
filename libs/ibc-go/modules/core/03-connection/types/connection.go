@@ -1,10 +1,10 @@
 package types
 
 import (
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 )
 
 var _ exported.ConnectionI = (*ConnectionEnd)(nil)

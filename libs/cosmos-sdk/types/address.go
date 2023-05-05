@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	tmamino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	tmamino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bech32"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bech32"
 )
 
 const (

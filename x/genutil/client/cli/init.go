@@ -3,22 +3,22 @@ package cli
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
 	"os"
 	"path/filepath"
 
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	"github.com/gridironx/gridchain/x/genutil"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	"github.com/gridfx/fxchain/x/genutil"
 )
 
 const (

@@ -6,9 +6,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	"github.com/gridironx/gridchain/libs/tendermint/rpc/client/mock"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	"github.com/gridfx/fxchain/libs/tendermint/rpc/client/mock"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
 )
 
 func TestStatus(t *testing.T) {

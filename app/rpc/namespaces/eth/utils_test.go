@@ -3,7 +3,7 @@ package eth
 import (
 	"testing"
 
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 
 	"github.com/stretchr/testify/require"
 )

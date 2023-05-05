@@ -8,20 +8,20 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	authvesting "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/vesting"
-	"github.com/gridironx/gridchain/x/genutil"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	authvesting "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/vesting"
+	"github.com/gridfx/fxchain/x/genutil"
 
-	"github.com/gridironx/gridchain/app/crypto/hd"
-	gridchain "github.com/gridironx/gridchain/app/types"
+	"github.com/gridfx/fxchain/app/crypto/hd"
+	gridchain "github.com/gridfx/fxchain/app/types"
 
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 )

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
 )
 
 // tests ParseConnectionSequence and IsValidConnectionID

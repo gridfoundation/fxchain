@@ -1,10 +1,10 @@
 package mpt
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/mpt/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/mpt/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 	"github.com/spf13/cobra"
 )
 

@@ -1,9 +1,9 @@
 package simulation
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
 
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 // RandomizeGenState generates a random GenesisState for wasm

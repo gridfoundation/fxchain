@@ -8,13 +8,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/tendermint/global"
+	"github.com/gridfx/fxchain/libs/tendermint/global"
 
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/proto/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/proto/types"
 )
 
 const (

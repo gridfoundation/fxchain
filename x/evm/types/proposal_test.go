@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
 	"github.com/stretchr/testify/suite"
 )
 

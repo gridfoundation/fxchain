@@ -2,9 +2,9 @@ package keeper
 
 import (
 	"encoding/json"
-	ibcadapter "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank"
-	"github.com/gridironx/gridchain/x/wasm/keeper/testdata"
+	ibcadapter "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank"
+	"github.com/gridfx/fxchain/x/wasm/keeper/testdata"
 	"io/ioutil"
 	"strings"
 	"testing"
@@ -12,17 +12,17 @@ import (
 	"github.com/golang/protobuf/proto"
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	authkeeper "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/keeper"
-	//bankkeeper "github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/keeper"
-	//banktypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	authkeeper "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/keeper"
+	//bankkeeper "github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/keeper"
+	//banktypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 func buildReflectQuery(t *testing.T, query *testdata.ReflectQueryMsg) []byte {

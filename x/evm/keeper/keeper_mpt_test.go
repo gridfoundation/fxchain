@@ -1,8 +1,8 @@
 package keeper_test
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/mpt"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/mpt"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 	"github.com/stretchr/testify/suite"
 	"testing"
 )

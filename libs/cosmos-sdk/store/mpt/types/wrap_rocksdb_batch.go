@@ -10,7 +10,7 @@ import (
 
 	"github.com/cosmos/gorocksdb"
 	"github.com/ethereum/go-ethereum/ethdb"
-	tmdb "github.com/gridironx/gridchain/libs/tm-db"
+	tmdb "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 type BatchCache struct {

@@ -1,10 +1,10 @@
 package types
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	cdctypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	txmsg "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/msgservice"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	cdctypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	txmsg "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/msgservice"
 )
 
 var (

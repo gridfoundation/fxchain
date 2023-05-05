@@ -6,10 +6,10 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/tests"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/tests"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 func Test_updateKeyCommand(t *testing.T) {

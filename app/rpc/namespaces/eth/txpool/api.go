@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	clientcontext "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/x/evm/watcher"
+	clientcontext "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/x/evm/watcher"
 
-	"github.com/gridironx/gridchain/app/rpc/backend"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/app/rpc/backend"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 )
 
 // PublicTxPoolAPI offers and API for the transaction pool. It only operates on data that is non confidential.

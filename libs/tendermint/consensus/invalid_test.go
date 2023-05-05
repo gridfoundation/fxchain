@@ -3,11 +3,11 @@ package consensus
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 //----------------------------------------------

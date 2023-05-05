@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkgovtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkgovtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 type UpgradeStatus uint32

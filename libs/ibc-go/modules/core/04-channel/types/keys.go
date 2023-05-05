@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
 )
 
 const (

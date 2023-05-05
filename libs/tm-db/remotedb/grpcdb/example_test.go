@@ -5,8 +5,8 @@ import (
 	"context"
 	"log"
 
-	grpcdb "github.com/gridironx/gridchain/libs/tm-db/remotedb/grpcdb"
-	protodb "github.com/gridironx/gridchain/libs/tm-db/remotedb/proto"
+	grpcdb "github.com/gridfx/fxchain/libs/tm-db/remotedb/grpcdb"
+	protodb "github.com/gridfx/fxchain/libs/tm-db/remotedb/proto"
 )
 
 func Example() {

@@ -3,11 +3,11 @@ package net
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/app/rpc/monitor"
-	ethermint "github.com/gridironx/gridchain/app/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	rpcclient "github.com/gridironx/gridchain/libs/tendermint/rpc/client"
+	"github.com/gridfx/fxchain/app/rpc/monitor"
+	ethermint "github.com/gridfx/fxchain/app/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	rpcclient "github.com/gridfx/fxchain/libs/tendermint/rpc/client"
 	"github.com/spf13/viper"
 )
 

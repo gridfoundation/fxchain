@@ -1,12 +1,12 @@
 package types
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/msgservice"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/msgservice"
 
-	txmsg "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
+	txmsg "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
 )
 
 // RegisterLegacyAminoCodec registers the necessary x/ibc transfer interfaces and concrete types

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 
 	"github.com/stretchr/testify/require"
 )

@@ -3,20 +3,20 @@ package ibc_tx
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec/unknownproto"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	ibctx "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx/signing"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec/unknownproto"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	ibctx "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx/signing"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/ibc-tx/internal/adapter"
 	"google.golang.org/protobuf/encoding/protowire"
 
-	//"github.com/gridironx/gridchain/libs/cosmos-sdk/codec/unknownproto"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	//"github.com/gridfx/fxchain/libs/cosmos-sdk/codec/unknownproto"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	tx "github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	tx "github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 func CM40TxDecoder(cdc codec.ProtoCodecMarshaler) func(txBytes []byte) (ibctx.Tx, error) {

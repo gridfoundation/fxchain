@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	tendermintTypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	tendermintTypes "github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 var (

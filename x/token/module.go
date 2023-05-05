@@ -3,13 +3,13 @@ package token
 import (
 	"encoding/json"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	authTypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	authTypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	"github.com/gridironx/gridchain/x/common/version"
-	tokenTypes "github.com/gridironx/gridchain/x/token/types"
+	"github.com/gridfx/fxchain/x/common/version"
+	tokenTypes "github.com/gridfx/fxchain/x/token/types"
 )
 
 var (

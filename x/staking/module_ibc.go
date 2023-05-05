@@ -3,24 +3,24 @@ package staking
 import (
 	"context"
 
-	"github.com/gridironx/gridchain/x/staking/keeper"
+	"github.com/gridfx/fxchain/x/staking/keeper"
 
-	cosmost "github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	"github.com/gridironx/gridchain/x/staking/typesadapter"
+	cosmost "github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/x/staking/typesadapter"
 
 	"github.com/gorilla/mux"
-	clictx "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	anytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
+	clictx "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	anytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/upgrade"
-	params2 "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	"github.com/gridironx/gridchain/x/params"
-	"github.com/gridironx/gridchain/x/staking/client/rest"
-	"github.com/gridironx/gridchain/x/staking/types"
-	_ "github.com/gridironx/gridchain/x/staking/typesadapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/upgrade"
+	params2 "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	"github.com/gridfx/fxchain/x/params"
+	"github.com/gridfx/fxchain/x/staking/client/rest"
+	"github.com/gridfx/fxchain/x/staking/types"
+	_ "github.com/gridfx/fxchain/x/staking/typesadapter"
 	"github.com/spf13/cobra"
 )
 

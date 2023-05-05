@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/tm-db/remotedb"
-	"github.com/gridironx/gridchain/libs/tm-db/remotedb/grpcdb"
+	"github.com/gridfx/fxchain/libs/tm-db/remotedb"
+	"github.com/gridfx/fxchain/libs/tm-db/remotedb/grpcdb"
 )
 
 func TestRemoteDB(t *testing.T) {

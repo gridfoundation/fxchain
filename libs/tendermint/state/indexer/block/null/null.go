@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/pubsub/query"
-	"github.com/gridironx/gridchain/libs/tendermint/state/indexer"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/pubsub/query"
+	"github.com/gridfx/fxchain/libs/tendermint/state/indexer"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 var _ indexer.BlockIndexer = (*BlockerIndexer)(nil)

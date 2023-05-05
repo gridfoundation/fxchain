@@ -3,10 +3,10 @@ package context
 import (
 	"path/filepath"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmlite "github.com/gridironx/gridchain/libs/tendermint/lite"
-	tmliteproxy "github.com/gridironx/gridchain/libs/tendermint/lite/proxy"
-	rpchttp "github.com/gridironx/gridchain/libs/tendermint/rpc/client/http"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmlite "github.com/gridfx/fxchain/libs/tendermint/lite"
+	tmliteproxy "github.com/gridfx/fxchain/libs/tendermint/lite/proxy"
+	rpchttp "github.com/gridfx/fxchain/libs/tendermint/rpc/client/http"
 	"github.com/pkg/errors"
 )
 

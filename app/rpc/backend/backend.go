@@ -6,26 +6,26 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
 
-	"github.com/gridironx/gridchain/libs/tendermint/global"
+	"github.com/gridfx/fxchain/libs/tendermint/global"
 
 	lru "github.com/hashicorp/golang-lru"
 
-	coretypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
+	coretypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
 
 	"github.com/spf13/viper"
 
 	"golang.org/x/time/rate"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/x/evm/watcher"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/x/evm/watcher"
 
-	rpctypes "github.com/gridironx/gridchain/app/rpc/types"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
+	rpctypes "github.com/gridfx/fxchain/app/rpc/types"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 
-	clientcontext "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
+	clientcontext "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/bitutil"
@@ -33,8 +33,8 @@ import (
 	"github.com/ethereum/go-ethereum/core/bloombits"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 const (

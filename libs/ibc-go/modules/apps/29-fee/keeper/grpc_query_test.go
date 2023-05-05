@@ -3,13 +3,13 @@ package keeper_test
 import (
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/query"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/query"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
 )
 
 func (suite *KeeperTestSuite) TestQueryIncentivizedPackets() {

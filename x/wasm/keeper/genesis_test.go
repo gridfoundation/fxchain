@@ -13,20 +13,20 @@ import (
 	"time"
 
 	fuzz "github.com/google/gofuzz"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/prefix"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authkeeper "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/keeper"
-	paramskeeper "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
-	paramtypes "github.com/gridironx/gridchain/x/params"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/prefix"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authkeeper "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/keeper"
+	paramskeeper "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
+	paramtypes "github.com/gridfx/fxchain/x/params"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/wasm/types"
-	wasmTypes "github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/types"
+	wasmTypes "github.com/gridfx/fxchain/x/wasm/types"
 )
 
 const firstCodeID = 1

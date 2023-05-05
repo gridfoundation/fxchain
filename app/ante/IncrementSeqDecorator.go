@@ -1,11 +1,11 @@
 package ante
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/baseapp"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 )
 
 // IncrementSenderSequenceDecorator increments the sequence of the signers. The

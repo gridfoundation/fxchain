@@ -3,13 +3,13 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/distribution/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/distribution/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 )
 
 // Keeper of the distribution store

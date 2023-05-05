@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence/internal/types"
 )
 
 // HandleDoubleSign implements an equivocation evidence handler. Assuming the

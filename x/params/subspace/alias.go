@@ -1,7 +1,7 @@
 package subspace
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params/subspace"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params/subspace"
 )
 
 type (

@@ -11,18 +11,18 @@ import (
 	"testing"
 	"time"
 
-	db "github.com/gridironx/gridchain/libs/tm-db"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	db "github.com/gridfx/fxchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	sm "github.com/gridironx/gridchain/libs/tendermint/state"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	sm "github.com/gridfx/fxchain/libs/tendermint/state"
 
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
 )
 
 // A cleanupFunc cleans up any config / test files created for a particular

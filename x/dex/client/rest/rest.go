@@ -6,15 +6,15 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gridironx/gridchain/x/dex/types"
+	"github.com/gridfx/fxchain/x/dex/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	"github.com/gridironx/gridchain/x/common"
-	govRest "github.com/gridironx/gridchain/x/gov/client/rest"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	"github.com/gridfx/fxchain/x/common"
+	govRest "github.com/gridfx/fxchain/x/gov/client/rest"
 
 	"github.com/gorilla/mux"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
 )
 
 // RegisterRoutes - Central function to define routes that get registered by the main application

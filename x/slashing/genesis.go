@@ -1,9 +1,9 @@
 package slashing
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/slashing/internal/types"
-	"github.com/gridironx/gridchain/x/staking/exported"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/slashing/internal/types"
+	"github.com/gridfx/fxchain/x/staking/exported"
 )
 
 // InitGenesis initialize default parameters

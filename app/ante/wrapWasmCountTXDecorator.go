@@ -1,10 +1,10 @@
 package ante
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/x/evm/types"
-	wasmkeeper "github.com/gridironx/gridchain/x/wasm/keeper"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/x/evm/types"
+	wasmkeeper "github.com/gridfx/fxchain/x/wasm/keeper"
 )
 
 type WrapWasmCountTXDecorator struct {

@@ -1,10 +1,10 @@
 package client
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	ibcmsg "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx/signing"
-	signingtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/ibcsigning"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	ibcmsg "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx/signing"
+	signingtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/ibcsigning"
 )
 
 type (

@@ -1,9 +1,9 @@
 package wasmtesting
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	storetypes "github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	storetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // MockCommitMultiStore mock with a CacheMultiStore to capture commits

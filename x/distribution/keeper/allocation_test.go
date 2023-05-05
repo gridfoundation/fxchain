@@ -5,12 +5,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	"github.com/gridironx/gridchain/x/distribution/types"
-	"github.com/gridironx/gridchain/x/staking"
+	"github.com/gridfx/fxchain/x/distribution/types"
+	"github.com/gridfx/fxchain/x/staking"
 )
 
 func TestAllocateTokensToValidatorWithCommission(t *testing.T) {

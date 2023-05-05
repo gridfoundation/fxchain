@@ -6,10 +6,10 @@ package types
 import (
 	fmt "fmt"
 	_go "github.com/confio/ics23/go"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	types1 "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	types2 "github.com/gridironx/gridchain/libs/tendermint/proto/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	types1 "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/proto/types"
 
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"

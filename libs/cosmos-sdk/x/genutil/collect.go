@@ -12,15 +12,15 @@ import (
 	"sort"
 	"strings"
 
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/genutil/types"
-	stakingtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/genutil/types"
+	stakingtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 // GenAppStateFromConfig gets the genesis app state from the config

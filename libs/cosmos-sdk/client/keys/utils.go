@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 
 	"github.com/99designs/keyring"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
 	"github.com/spf13/viper"
 	"gopkg.in/yaml.v2"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
 )
 
 // available output formats.

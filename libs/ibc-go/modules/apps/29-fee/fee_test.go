@@ -3,14 +3,14 @@ package fee_test
 import (
 	"testing"
 
-	types2 "github.com/gridironx/gridchain/libs/tendermint/types"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
-	ibcmock "github.com/gridironx/gridchain/libs/ibc-go/testing/mock"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
+	ibcmock "github.com/gridfx/fxchain/libs/ibc-go/testing/mock"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee/types"
 	"github.com/stretchr/testify/suite"
 )
 

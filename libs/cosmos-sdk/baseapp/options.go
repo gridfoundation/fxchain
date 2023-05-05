@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/tendermint/rpc/client"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/tendermint/rpc/client"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 // File for storing in-package BaseApp optional functions,

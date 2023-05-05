@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	v034gov "github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/legacy/v0_34"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	v034gov "github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/legacy/v0_34"
 )
 
 const (

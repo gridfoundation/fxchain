@@ -1,11 +1,11 @@
 package keeper
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 // NewQuerier creates a querier for staking REST endpoints

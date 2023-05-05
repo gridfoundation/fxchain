@@ -6,18 +6,18 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	ibctmtypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	ibctmtypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	types2 "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	"github.com/gridironx/gridchain/x/erc20/keeper"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	types2 "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/gridfx/fxchain/x/erc20/keeper"
 )
 
 const CorrectIbcDenom2 = "ibc/3EF3B49764DB0E2284467F8BF7A08C18EACACB30E1AD7ABA8E892F1F679443F9"

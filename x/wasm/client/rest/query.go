@@ -10,15 +10,15 @@ import (
 	"strconv"
 	"strings"
 
-	clientCtx "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
+	clientCtx "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
 
 	"github.com/gorilla/mux"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
 
-	"github.com/gridironx/gridchain/x/wasm/keeper"
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/keeper"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 func registerQueryRoutes(cliCtx clientCtx.CLIContext, r *mux.Router) {

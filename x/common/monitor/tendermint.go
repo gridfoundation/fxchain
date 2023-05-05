@@ -2,9 +2,9 @@ package monitor
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	tmcli "github.com/gridironx/gridchain/libs/tendermint/rpc/client"
-	tmhttp "github.com/gridironx/gridchain/libs/tendermint/rpc/client/http"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	tmcli "github.com/gridfx/fxchain/libs/tendermint/rpc/client"
+	tmhttp "github.com/gridfx/fxchain/libs/tendermint/rpc/client/http"
 	"github.com/spf13/viper"
 	"strings"
 	"sync"

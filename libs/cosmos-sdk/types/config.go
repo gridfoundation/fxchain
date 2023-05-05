@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/version"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/version"
 )
 
 // DefaultKeyringServiceName defines a default service name for the keyring.

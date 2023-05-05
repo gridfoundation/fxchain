@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	cstypes "github.com/gridironx/gridchain/libs/tendermint/consensus/types"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
+	cstypes "github.com/gridfx/fxchain/libs/tendermint/consensus/types"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
 	"time"
 )
 

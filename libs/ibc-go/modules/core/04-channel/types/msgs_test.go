@@ -2,12 +2,12 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/iavl"
-	storetypes "github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	types2 "github.com/gridironx/gridchain/libs/tendermint/types"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/iavl"
+	storetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/types"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"testing"
 
 	"github.com/stretchr/testify/suite"
@@ -19,12 +19,12 @@ import (
 	//	"github.com/cosmos/cosmos-sdk/store/rootmulti"
 	//	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	//	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/rootmulti"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/rootmulti"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp"
 )
 
 const (

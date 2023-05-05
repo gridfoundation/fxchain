@@ -1,16 +1,16 @@
 package types
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	cryptotypes "github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types/multisig"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx/signing"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	cryptotypes "github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types/multisig"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx/signing"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 )
 
 // VerifySignature verifies if the the provided public key generated the signature

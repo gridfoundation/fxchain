@@ -1,5 +1,5 @@
 BIN_NAME=gridchaind
-GRIDCHAIN_TOP=${GOPATH}/src/github.com/gridironx/gridchain
+GRIDCHAIN_TOP=${GOPATH}/src/github.com/gridfx/fxchain
 GRIDCHAIN_BIN=${GRIDCHAIN_TOP}/build
 GRIDCHAIN_BIN=${GOPATH}/bin
 GRIDCHAIN_NET_TOP=`pwd`

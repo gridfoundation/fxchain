@@ -3,9 +3,9 @@ package coregrpc
 import (
 	"context"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	core "github.com/gridironx/gridchain/libs/tendermint/rpc/core"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	core "github.com/gridfx/fxchain/libs/tendermint/rpc/core"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
 )
 
 type broadcastAPI struct {

@@ -1,8 +1,8 @@
 package erc20
 
 import (
-	"github.com/gridironx/gridchain/x/erc20/keeper"
-	"github.com/gridironx/gridchain/x/erc20/types"
+	"github.com/gridfx/fxchain/x/erc20/keeper"
+	"github.com/gridfx/fxchain/x/erc20/types"
 )
 
 // nolint

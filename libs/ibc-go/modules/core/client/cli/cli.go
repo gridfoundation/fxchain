@@ -3,17 +3,17 @@ package cli
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	interfacetypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/version"
-	ibcclient "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client"
-	connection "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection"
-	channel "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	interfacetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/version"
+	ibcclient "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client"
+	connection "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection"
+	channel "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/types"
 	"github.com/spf13/cobra"
 )
 

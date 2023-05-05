@@ -2,7 +2,7 @@ package types
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/rand"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/rand"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

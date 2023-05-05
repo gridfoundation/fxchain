@@ -8,18 +8,18 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	sim "github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
-	"github.com/gridironx/gridchain/x/slashing/client/cli"
-	"github.com/gridironx/gridchain/x/slashing/client/rest"
-	"github.com/gridironx/gridchain/x/slashing/internal/types"
-	"github.com/gridironx/gridchain/x/slashing/simulation"
-	stakingkeeper "github.com/gridironx/gridchain/x/staking/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	sim "github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/gridfx/fxchain/x/slashing/client/cli"
+	"github.com/gridfx/fxchain/x/slashing/client/rest"
+	"github.com/gridfx/fxchain/x/slashing/internal/types"
+	"github.com/gridfx/fxchain/x/slashing/simulation"
+	stakingkeeper "github.com/gridfx/fxchain/x/staking/keeper"
 )
 
 var (

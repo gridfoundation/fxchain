@@ -3,7 +3,7 @@ package keeper
 import (
 	"sync"
 
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 var wasmParamsCache = NewCache()

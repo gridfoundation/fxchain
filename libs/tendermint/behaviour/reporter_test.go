@@ -4,8 +4,8 @@ import (
 	"sync"
 	"testing"
 
-	bh "github.com/gridironx/gridchain/libs/tendermint/behaviour"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
+	bh "github.com/gridfx/fxchain/libs/tendermint/behaviour"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
 )
 
 // TestMockReporter tests the MockReporter's ability to store reported

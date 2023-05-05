@@ -1,10 +1,10 @@
 package evm
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/evm/keeper"
-	"github.com/gridironx/gridchain/x/evm/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/evm/keeper"
+	"github.com/gridfx/fxchain/x/evm/types"
 )
 
 // nolint

@@ -6,13 +6,13 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/gridironx/gridchain/app/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/dbadapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/prefix"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
-	"github.com/gridironx/gridchain/x/evm/watcher"
+	"github.com/gridfx/fxchain/app/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/dbadapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/prefix"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
+	"github.com/gridfx/fxchain/x/evm/watcher"
 	"github.com/spf13/viper"
 )
 

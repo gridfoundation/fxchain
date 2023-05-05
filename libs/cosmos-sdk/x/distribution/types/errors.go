@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
 )
 
 // x/distribution module sentinel errors

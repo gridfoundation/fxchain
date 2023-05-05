@@ -9,11 +9,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	"github.com/gridironx/gridchain/libs/tendermint/lite2/provider"
-	"github.com/gridironx/gridchain/libs/tendermint/lite2/store"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	"github.com/gridfx/fxchain/libs/tendermint/lite2/provider"
+	"github.com/gridfx/fxchain/libs/tendermint/lite2/store"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 type mode byte

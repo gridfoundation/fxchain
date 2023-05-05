@@ -7,7 +7,7 @@ import (
 	"log"
 
 	"github.com/cosmos/gorocksdb"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 func init() {

@@ -2,22 +2,22 @@ package keeper
 
 import (
 	"encoding/json"
-	ibcadapter "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
+	ibcadapter "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
 	"testing"
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/baseapp"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	capabilitytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	ibcexported "github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	capabilitytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	ibcexported "github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/wasm/keeper/wasmtesting"
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/keeper/wasmtesting"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 func TestMessageHandlerChainDispatch(t *testing.T) {

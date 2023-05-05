@@ -13,19 +13,19 @@ import (
 
 	wasmvm "github.com/CosmWasm/wasmvm"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/x/wasm/keeper"
+	"github.com/gridfx/fxchain/x/wasm/keeper"
 
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client"
-	clientCtx "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client"
+	clientCtx "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 // NewQueryCmd returns the query commands for wasm

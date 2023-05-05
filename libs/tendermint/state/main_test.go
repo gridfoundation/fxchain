@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 func TestMain(m *testing.M) {

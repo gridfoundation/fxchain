@@ -5,15 +5,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/x/common"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	"github.com/gridironx/gridchain/x/staking/exported"
-	"github.com/gridironx/gridchain/x/staking/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/x/staking/exported"
+	"github.com/gridfx/fxchain/x/staking/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

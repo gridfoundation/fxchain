@@ -3,18 +3,18 @@ package fee_test
 import (
 	"fmt"
 
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	transfertypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	transfertypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
 
-	capabilitytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	fee "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	ibcmock "github.com/gridironx/gridchain/libs/ibc-go/testing/mock"
+	capabilitytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	fee "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	ibcmock "github.com/gridfx/fxchain/libs/ibc-go/testing/mock"
 )
 
 var (

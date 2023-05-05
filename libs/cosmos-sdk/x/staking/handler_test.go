@@ -8,13 +8,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	keep "github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	keep "github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 func TestValidatorByPowerIndex(t *testing.T) {

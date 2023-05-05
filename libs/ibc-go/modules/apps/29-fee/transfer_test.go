@@ -1,12 +1,12 @@
 package fee_test
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	txmsg "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee/types"
-	transfertypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	txmsg "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee/types"
+	transfertypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 // Integration test to ensure ics29 works with ics20

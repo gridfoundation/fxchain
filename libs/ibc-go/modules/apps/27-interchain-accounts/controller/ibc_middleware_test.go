@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"testing"
 
-	types2 "github.com/gridironx/gridchain/libs/tendermint/types"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	capabilitytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/types"
-	icatypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	fee "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	capabilitytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/types"
+	icatypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	fee "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 	"github.com/stretchr/testify/suite"
 )
 

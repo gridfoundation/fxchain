@@ -1,17 +1,17 @@
 package ibctesting
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx/signing"
-	ibc_tx "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/ibc-tx"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	solomachinetypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx/signing"
+	ibc_tx "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/ibc-tx"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	solomachinetypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
 	"github.com/stretchr/testify/require"
 	"testing"
 )
@@ -28,11 +28,11 @@ import (
 // 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 // 	"github.com/cosmos/cosmos-sdk/crypto/types/multisig"
 // 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
-// 	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-// 	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-// 	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-// 	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-// 	solomachinetypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
+// 	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+// 	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+// 	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+// 	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+// 	solomachinetypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
 // )
 
 // Solomachine is a testing helper used to simulate a counterparty

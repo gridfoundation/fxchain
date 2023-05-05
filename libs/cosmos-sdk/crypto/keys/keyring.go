@@ -14,14 +14,14 @@ import (
 	"github.com/99designs/keyring"
 	"github.com/pkg/errors"
 
-	tmcrypto "github.com/gridironx/gridchain/libs/tendermint/crypto"
-	cryptoAmino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
+	tmcrypto "github.com/gridfx/fxchain/libs/tendermint/crypto"
+	cryptoAmino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
 	"github.com/tendermint/crypto/bcrypt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/input"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys/keyerror"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys/mintkey"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/input"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys/keyerror"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys/mintkey"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 const (

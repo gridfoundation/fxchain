@@ -3,12 +3,12 @@ package keeper
 import (
 	"context"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/common"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/common"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltyeps "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltyeps "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
 )
 
 var _ IBCServerKeeper = (*FacadedKeeper)(nil)

@@ -8,18 +8,18 @@ import (
 	"strings"
 	"time"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	tmnet "github.com/gridironx/gridchain/libs/tendermint/libs/net"
-	nm "github.com/gridironx/gridchain/libs/tendermint/node"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	"github.com/gridironx/gridchain/libs/tendermint/privval"
-	"github.com/gridironx/gridchain/libs/tendermint/proxy"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	core_grpc "github.com/gridironx/gridchain/libs/tendermint/rpc/grpc"
-	rpcclient "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/client"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	tmnet "github.com/gridfx/fxchain/libs/tendermint/libs/net"
+	nm "github.com/gridfx/fxchain/libs/tendermint/node"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/privval"
+	"github.com/gridfx/fxchain/libs/tendermint/proxy"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	core_grpc "github.com/gridfx/fxchain/libs/tendermint/rpc/grpc"
+	rpcclient "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/client"
 )
 
 // Options helps with specifying some parameters for our RPC testing for greater

@@ -1,9 +1,9 @@
 package types
 
 import (
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	cryptotypes "github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	cryptotypes "github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 )
 
 // Interface implementation checks.

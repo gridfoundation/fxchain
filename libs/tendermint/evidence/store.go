@@ -2,10 +2,10 @@ package evidence
 
 import (
 	"fmt"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 
-	"github.com/gridironx/gridchain/libs/tendermint/consensus"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/consensus"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 /*

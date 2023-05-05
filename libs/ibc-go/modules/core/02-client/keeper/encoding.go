@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 )
 
 // MustUnmarshalClientState attempts to decode and return an ClientState object from

@@ -5,9 +5,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/gridironx/gridchain/app/rpc/monitor"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/version"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/app/rpc/monitor"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/version"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 	"github.com/spf13/viper"
 )
 

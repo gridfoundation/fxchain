@@ -5,13 +5,13 @@ package periodicauction
 import (
 	"testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/dex"
-	orderkeeper "github.com/gridironx/gridchain/x/order/keeper"
-	"github.com/gridironx/gridchain/x/order/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/dex"
+	orderkeeper "github.com/gridfx/fxchain/x/order/keeper"
+	"github.com/gridfx/fxchain/x/order/types"
 )
 
 var mockOrder = types.MockOrder

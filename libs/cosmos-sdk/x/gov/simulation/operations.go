@@ -5,14 +5,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/baseapp"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/gridironx/gridchain/libs/cosmos-sdk/simapp/params"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/simapp/helpers"
+	simappparams "github.com/gridfx/fxchain/libs/cosmos-sdk/simapp/params"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
 )
 
 var initialProposalID = uint64(100000000000000)

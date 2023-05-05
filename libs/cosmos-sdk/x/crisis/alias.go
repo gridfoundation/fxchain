@@ -3,8 +3,8 @@ package crisis
 // nolint
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/crisis/internal/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/crisis/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/crisis/internal/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/crisis/internal/types"
 )
 
 const (

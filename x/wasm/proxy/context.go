@@ -1,21 +1,21 @@
 package proxy
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/baseapp"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
 	"sync"
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	clientcontext "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmlog "github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
-	evmwatcher "github.com/gridironx/gridchain/x/evm/watcher"
+	clientcontext "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmlog "github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
+	evmwatcher "github.com/gridfx/fxchain/x/evm/watcher"
 )
 
 var clientCtx clientcontext.CLIContext

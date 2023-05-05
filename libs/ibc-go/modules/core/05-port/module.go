@@ -2,7 +2,7 @@ package port
 
 import (
 	"github.com/gogo/protobuf/grpc"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/05-port/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/05-port/types"
 )
 
 // Name returns the IBC port ICS name.

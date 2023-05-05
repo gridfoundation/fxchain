@@ -1,12 +1,12 @@
 package types_test
 
 import (
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
-	upgradetypes "github.com/gridironx/gridchain/libs/ibc-go/testing/simapp/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
+	upgradetypes "github.com/gridfx/fxchain/libs/ibc-go/testing/simapp/types"
 )
 
 var (

@@ -4,14 +4,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli/flags"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/gov/types"
-	"github.com/gridironx/gridchain/x/staking"
+	"github.com/gridfx/fxchain/x/gov/types"
+	"github.com/gridfx/fxchain/x/staking"
 )
 
 const custom = "custom"

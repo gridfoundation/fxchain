@@ -3,8 +3,8 @@ package distribution
 import (
 	"testing"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/distribution/keeper"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/distribution/keeper"
 	"github.com/stretchr/testify/require"
 )
 

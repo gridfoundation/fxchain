@@ -1,14 +1,14 @@
 package types_test
 
 import (
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 	// codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	ibctmtypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	localhosttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/09-localhost/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	ibctmtypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	localhosttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/09-localhost/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 type caseAny struct {

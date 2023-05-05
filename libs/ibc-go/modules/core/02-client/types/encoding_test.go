@@ -1,8 +1,8 @@
 package types_test
 
 import (
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	ibctmtypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	ibctmtypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
 )
 
 func (suite *TypesTestSuite) TestMarshalHeader() {

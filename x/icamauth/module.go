@@ -4,19 +4,19 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/gridironx/gridchain/x/icamauth/keeper"
+	"github.com/gridfx/fxchain/x/icamauth/keeper"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	"github.com/gridironx/gridchain/x/icamauth/client/cli"
+	"github.com/gridfx/fxchain/x/icamauth/client/cli"
 
 	"github.com/gorilla/mux"
-	clictx "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	interfacetypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	"github.com/gridironx/gridchain/x/icamauth/types"
+	clictx "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	interfacetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	"github.com/gridfx/fxchain/x/icamauth/types"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 )

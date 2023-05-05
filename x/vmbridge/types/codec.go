@@ -1,9 +1,9 @@
 package types
 
 import (
-	interfacetypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	txmsg "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/msgservice"
+	interfacetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	txmsg "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/msgservice"
 )
 
 func RegisterInterface(registry interfacetypes.InterfaceRegistry) {

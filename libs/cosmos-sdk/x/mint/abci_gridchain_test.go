@@ -3,12 +3,12 @@ package mint_test
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mint"
-	internaltypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/mint/internal/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mint"
+	internaltypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/mint/internal/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

@@ -8,8 +8,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // CompiledContract contains compiled bytecode and abi

@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 	"github.com/ethereum/go-ethereum/common"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/x/vmbridge/keeper"
-	"github.com/gridironx/gridchain/x/vmbridge/types"
-	wasmtypes "github.com/gridironx/gridchain/x/wasm/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/x/vmbridge/keeper"
+	"github.com/gridfx/fxchain/x/vmbridge/types"
+	wasmtypes "github.com/gridfx/fxchain/x/wasm/types"
 	"math/big"
 )
 

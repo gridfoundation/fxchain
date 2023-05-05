@@ -1,6 +1,6 @@
 package store
 
-import "github.com/gridironx/gridchain/libs/tendermint/types"
+import "github.com/gridfx/fxchain/libs/tendermint/types"
 
 // Store is anything that can persistenly store headers.
 type Store interface {

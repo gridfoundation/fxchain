@@ -13,12 +13,12 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/gridironx/gridchain/app/crypto/ethsecp256k1"
-	"github.com/gridironx/gridchain/app/crypto/hd"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	tmamino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/gridironx/gridchain/x/evm/watcher"
+	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
+	"github.com/gridfx/fxchain/app/crypto/hd"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	tmamino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/gridfx/fxchain/x/evm/watcher"
 	"github.com/stretchr/testify/require"
 )
 

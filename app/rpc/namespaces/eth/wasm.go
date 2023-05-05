@@ -7,16 +7,16 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/gridironx/gridchain/x/wasm/ioutils"
+	"github.com/gridfx/fxchain/x/wasm/ioutils"
 
-	clientcontext "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/x/evm"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
+	clientcontext "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/x/evm"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 
-	wasmtypes "github.com/gridironx/gridchain/x/wasm/types"
+	wasmtypes "github.com/gridfx/fxchain/x/wasm/types"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	rpctypes "github.com/gridironx/gridchain/app/rpc/types"
+	rpctypes "github.com/gridfx/fxchain/app/rpc/types"
 )
 
 const (

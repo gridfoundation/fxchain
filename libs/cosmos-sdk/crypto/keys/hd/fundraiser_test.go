@@ -11,8 +11,8 @@ import (
 
 	bip39 "github.com/cosmos/go-bip39"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
 )
 
 type addrData struct {

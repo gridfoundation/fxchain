@@ -1,8 +1,8 @@
 package evidence
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence/internal/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence/internal/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence/internal/types"
 )
 
 // nolint

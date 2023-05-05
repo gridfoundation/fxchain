@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
 	"github.com/stretchr/testify/require"
 )
 

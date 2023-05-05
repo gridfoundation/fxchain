@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params/subspace"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params/subspace"
 )
 
 func TestKeyTable(t *testing.T) {

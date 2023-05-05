@@ -3,7 +3,7 @@ package iavl
 import (
 	"math"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/pkg/errors"
 )
 

@@ -1,7 +1,7 @@
 package keeper_test
 
 import (
-	"github.com/gridironx/gridchain/x/evidence/internal/types"
+	"github.com/gridfx/fxchain/x/evidence/internal/types"
 )
 
 func (suite *KeeperTestSuite) TestParams() {

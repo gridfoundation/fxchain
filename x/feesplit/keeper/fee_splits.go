@@ -4,10 +4,10 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/prefix"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/x/feesplit/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/prefix"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/x/feesplit/types"
 )
 
 // GetFeeSplits returns all registered FeeSplits.

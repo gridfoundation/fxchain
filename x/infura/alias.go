@@ -1,6 +1,6 @@
 package infura
 
-import "github.com/gridironx/gridchain/x/infura/types"
+import "github.com/gridfx/fxchain/x/infura/types"
 
 const (
 	ModuleName   = types.ModuleName

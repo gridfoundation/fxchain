@@ -3,24 +3,24 @@ package cli
 import (
 	"bufio"
 	"fmt"
-	interfacetypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	interfacetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 	"strings"
 
-	client "github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/version"
-	"github.com/gridironx/gridchain/x/gov"
+	client "github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/version"
+	"github.com/gridfx/fxchain/x/gov"
 
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	authTypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/client/utils"
-	"github.com/gridironx/gridchain/x/common"
-	dexUtils "github.com/gridironx/gridchain/x/dex/client/utils"
-	"github.com/gridironx/gridchain/x/dex/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	authTypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/gridfx/fxchain/x/common"
+	dexUtils "github.com/gridfx/fxchain/x/dex/client/utils"
+	"github.com/gridfx/fxchain/x/dex/types"
 	"github.com/spf13/cobra"
 )
 

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 const (

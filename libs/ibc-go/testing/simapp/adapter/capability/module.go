@@ -2,13 +2,13 @@ package capability
 
 import (
 	"encoding/json"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	capabilityModule "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/keeper"
-	types2 "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp/adapter"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	capabilityModule "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/keeper"
+	types2 "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp/adapter"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 type CapabilityModuleAdapter struct {

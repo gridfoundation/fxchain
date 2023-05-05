@@ -4,8 +4,8 @@ import (
 	"math/rand"
 
 	gogotypes "github.com/gogo/protobuf/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
 )
 
 // ParamChanges defines the parameters that can be modified by param change proposals

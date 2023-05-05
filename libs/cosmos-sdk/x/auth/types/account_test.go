@@ -5,14 +5,14 @@ import (
 	"math"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/multisig"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/multisig"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
 )
 
 func TestBaseAddressPubKey(t *testing.T) {

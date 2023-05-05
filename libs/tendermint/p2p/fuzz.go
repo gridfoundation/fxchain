@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/config"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
+	"github.com/gridfx/fxchain/libs/tendermint/config"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
 )
 
 // FuzzedConnection wraps any net.Conn and depending on the mode either delays

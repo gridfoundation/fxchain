@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p/conn"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p/conn"
 )
 
 var defaultNodeName = "host_peer"

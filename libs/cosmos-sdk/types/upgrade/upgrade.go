@@ -2,9 +2,9 @@ package upgrade
 
 import (
 	"errors"
-	store "github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
+	store "github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
 )
 
 type UpgradeModule interface {

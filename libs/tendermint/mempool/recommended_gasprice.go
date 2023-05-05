@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/gridironx/gridchain/libs/system/trace"
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/system/trace"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 type GPOConfig struct {

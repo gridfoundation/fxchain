@@ -10,17 +10,17 @@ package wasm_test
 //
 //	wasmvm "github.com/CosmWasm/wasmvm"
 //	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-//	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/prefix"
-//	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+//	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/prefix"
+//	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 //	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
 //	channeltypes "github.com/cosmos/ibc-go/v3/modules/core/04-channel/types"
 //	"github.com/stretchr/testify/assert"
 //	"github.com/stretchr/testify/require"
 //
-//	wasmibctesting "github.com/gridironx/gridchain/x/wasm/ibctesting"
-//	wasmkeeper "github.com/gridironx/gridchain/x/wasm/keeper"
-//	"github.com/gridironx/gridchain/x/wasm/keeper/wasmtesting"
-//	wasmtypes "github.com/gridironx/gridchain/x/wasm/types"
+//	wasmibctesting "github.com/gridfx/fxchain/x/wasm/ibctesting"
+//	wasmkeeper "github.com/gridfx/fxchain/x/wasm/keeper"
+//	"github.com/gridfx/fxchain/x/wasm/keeper/wasmtesting"
+//	wasmtypes "github.com/gridfx/fxchain/x/wasm/types"
 //)
 //
 //const (

@@ -5,8 +5,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	lerr "github.com/gridironx/gridchain/libs/tendermint/lite/errors"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	lerr "github.com/gridfx/fxchain/libs/tendermint/lite/errors"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 var _ Verifier = (*BaseVerifier)(nil)

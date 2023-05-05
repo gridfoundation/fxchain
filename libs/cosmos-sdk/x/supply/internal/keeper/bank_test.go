@@ -3,13 +3,13 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	keep "github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/internal/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/internal/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	keep "github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/internal/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/internal/types"
 )
 
 const initialPower = int64(100)

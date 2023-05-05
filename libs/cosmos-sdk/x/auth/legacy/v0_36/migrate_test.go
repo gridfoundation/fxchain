@@ -3,8 +3,8 @@ package v0_36
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	v034auth "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/legacy/v0_34"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	v034auth "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/legacy/v0_34"
 
 	"github.com/stretchr/testify/require"
 )

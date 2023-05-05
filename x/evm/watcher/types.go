@@ -17,14 +17,14 @@ import (
 	"github.com/status-im/keycard-go/hexutils"
 	"github.com/tendermint/go-amino"
 
-	app "github.com/gridironx/gridchain/app/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	"github.com/gridironx/gridchain/x/evm/types"
+	app "github.com/gridfx/fxchain/app/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	"github.com/gridfx/fxchain/x/evm/types"
 )
 
 var (

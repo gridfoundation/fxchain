@@ -3,10 +3,10 @@ package types
 import (
 	gobytes "bytes"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
 	"github.com/tendermint/go-amino"
 )
 

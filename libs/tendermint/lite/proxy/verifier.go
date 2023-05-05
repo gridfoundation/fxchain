@@ -3,13 +3,13 @@ package proxy
 import (
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	"github.com/gridironx/gridchain/libs/tendermint/lite"
-	lclient "github.com/gridironx/gridchain/libs/tendermint/lite/client"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	"github.com/gridfx/fxchain/libs/tendermint/lite"
+	lclient "github.com/gridfx/fxchain/libs/tendermint/lite/client"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 func NewVerifier(

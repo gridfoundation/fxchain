@@ -2,9 +2,9 @@ package testdata
 
 import (
 	"encoding/json"
-	ibcmsg "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
+	ibcmsg "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // KeyTestPubAddr generates a new secp256k1 keypair.

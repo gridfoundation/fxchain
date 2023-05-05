@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/libs/tendermint/version"
+	"github.com/gridfx/fxchain/libs/tendermint/version"
 )
 
 // VersionCmd ...

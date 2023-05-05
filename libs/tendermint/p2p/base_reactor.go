@@ -1,8 +1,8 @@
 package p2p
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p/conn"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p/conn"
 )
 
 // Reactor is responsible for handling incoming messages on one or more

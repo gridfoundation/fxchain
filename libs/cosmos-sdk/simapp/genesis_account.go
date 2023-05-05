@@ -3,10 +3,10 @@ package simapp
 import (
 	"errors"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
 )
 
 var _ authexported.GenesisAccount = (*SimGenesisAccount)(nil)

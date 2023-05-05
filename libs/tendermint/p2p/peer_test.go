@@ -14,13 +14,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 
-	"github.com/gridironx/gridchain/libs/tendermint/config"
-	tmconn "github.com/gridironx/gridchain/libs/tendermint/p2p/conn"
+	"github.com/gridfx/fxchain/libs/tendermint/config"
+	tmconn "github.com/gridfx/fxchain/libs/tendermint/p2p/conn"
 )
 
 func TestPeerBasic(t *testing.T) {

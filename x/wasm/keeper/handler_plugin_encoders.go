@@ -3,18 +3,18 @@ package keeper
 import (
 	"encoding/json"
 	"fmt"
-	ibcadapter "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	bank "github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank"
+	ibcadapter "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	bank "github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank"
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	ibctransfertypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	ibcclienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	ibctransfertypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	ibcclienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
 
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 type BankEncoder func(sender sdk.WasmAddress, msg *wasmvmtypes.BankMsg) ([]ibcadapter.Msg, error)

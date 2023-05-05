@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/tendermint/global"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/tendermint/global"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 const (

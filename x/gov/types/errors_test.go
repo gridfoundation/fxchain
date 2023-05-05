@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdkerror "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
+	sdkerror "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
 	"testing"
 
 	"github.com/stretchr/testify/require"

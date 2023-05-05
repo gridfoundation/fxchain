@@ -3,7 +3,7 @@ package log
 import (
 	"bytes"
 	"fmt"
-	"github.com/gridironx/gridchain/libs/system"
+	"github.com/gridfx/fxchain/libs/system"
 	"io"
 	"sync"
 	"time"

@@ -6,8 +6,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/baseapp"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // Operation runs a state machine transition, and ensures the transition

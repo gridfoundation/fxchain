@@ -3,9 +3,9 @@ package staking
 // nolint
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/exported"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 const (

@@ -3,7 +3,7 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 )
 
 // DONTCOVER

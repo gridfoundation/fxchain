@@ -17,14 +17,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bits"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
-	"github.com/gridironx/gridchain/libs/tendermint/version"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bits"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
+	"github.com/gridfx/fxchain/libs/tendermint/version"
 )
 
 func TestMain(m *testing.M) {

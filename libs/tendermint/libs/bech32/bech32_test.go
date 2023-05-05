@@ -5,7 +5,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bech32"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bech32"
 )
 
 func TestEncodeAndDecode(t *testing.T) {

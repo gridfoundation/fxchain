@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	"github.com/gridironx/gridchain/app"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/app"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

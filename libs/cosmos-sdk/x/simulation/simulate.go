@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/baseapp"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // AppStateFn returns the app state json bytes and the genesis accounts

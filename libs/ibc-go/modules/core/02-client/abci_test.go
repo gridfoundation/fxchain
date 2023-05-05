@@ -1,18 +1,18 @@
 package client_test
 
 import (
-	client "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client"
-	types2 "github.com/gridironx/gridchain/libs/tendermint/types"
+	client "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/types"
 	"testing"
 
 	"github.com/stretchr/testify/suite"
 	// abci "github.com/tendermint/tendermint/abci/types"
 	// tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	localhosttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/09-localhost/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	localhosttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/09-localhost/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 type ClientTestSuite struct {

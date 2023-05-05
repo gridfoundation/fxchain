@@ -3,9 +3,9 @@ package types
 import (
 	"strings"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
 )
 
 // NewGenesisState creates a 29-fee GenesisState instance.

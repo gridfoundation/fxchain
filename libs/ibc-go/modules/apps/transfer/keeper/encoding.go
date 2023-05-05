@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
 )
 
 // UnmarshalDenomTrace attempts to decode and return an DenomTrace object from

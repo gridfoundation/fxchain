@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/distribution/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/distribution/types"
 )
 
 // CheckInitExistedValidatorFlag check init existed validator for distribution proposal flag

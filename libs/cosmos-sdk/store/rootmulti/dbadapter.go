@@ -1,9 +1,9 @@
 package rootmulti
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/dbadapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	"github.com/gridironx/gridchain/libs/iavl"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/dbadapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/iavl"
 )
 
 var commithash = []byte("FAKE_HASH")

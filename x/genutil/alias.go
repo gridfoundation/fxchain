@@ -1,10 +1,10 @@
 package genutil
 
 import (
-	"github.com/gridironx/gridchain/x/genutil/types"
+	"github.com/gridfx/fxchain/x/genutil/types"
 
-	sdkgenutil "github.com/gridironx/gridchain/libs/cosmos-sdk/x/genutil"
-	sdkgenutiltypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/genutil/types"
+	sdkgenutil "github.com/gridfx/fxchain/libs/cosmos-sdk/x/genutil"
+	sdkgenutiltypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/genutil/types"
 )
 
 // const

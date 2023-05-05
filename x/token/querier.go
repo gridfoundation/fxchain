@@ -1,12 +1,12 @@
 package token
 
 import (
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/token/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/token/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 	"github.com/spf13/viper"
 )
 

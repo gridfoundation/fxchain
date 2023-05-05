@@ -3,11 +3,11 @@ package types
 import (
 	"time"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/token"
-	tokentypes "github.com/gridironx/gridchain/x/token/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/token"
+	tokentypes "github.com/gridfx/fxchain/x/token/types"
 )
 
 // nolint

@@ -12,11 +12,11 @@ import (
 	"github.com/spf13/viper"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bech32"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bech32"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 func bech32Prefixes(config *sdk.Config) []string {

@@ -3,13 +3,13 @@ package types
 import (
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/common"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/common"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
 )
 
 var (

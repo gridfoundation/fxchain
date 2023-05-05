@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	types2 "github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/x/staking/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/x/staking/types"
 )
 
 const (

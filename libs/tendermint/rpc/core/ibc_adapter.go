@@ -1,9 +1,9 @@
 package core
 
 import (
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 	//coretypes "github.com/tendermint/tendermint/rpc/core/types"
 )
 

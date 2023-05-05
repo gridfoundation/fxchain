@@ -1,10 +1,10 @@
 package vmbridge
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	"github.com/gridironx/gridchain/x/vmbridge/keeper"
-	"github.com/gridironx/gridchain/x/wasm"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	"github.com/gridfx/fxchain/x/vmbridge/keeper"
+	"github.com/gridfx/fxchain/x/wasm"
 )
 
 func RegisterServices(cfg module.Configurator, keeper keeper.Keeper) {

@@ -3,17 +3,17 @@ package wasm
 import (
 	"math"
 
-	ibcexported "github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	ibcexported "github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	capabilitytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	porttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/05-port/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	capabilitytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	porttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/05-port/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
 
-	types "github.com/gridironx/gridchain/x/wasm/types"
+	types "github.com/gridfx/fxchain/x/wasm/types"
 )
 
 var _ porttypes.IBCModule = IBCHandler{}
@@ -340,7 +340,7 @@ func newIBCPacket(packet channeltypes.Packet) wasmvmtypes.IBCPacket {
 
 func ValidateChannelParams(channelID string) error {
 	// NOTE: for escrow address security only 2^32 channels are allowed to be created
-	// Issue: https://github.com/gridironx/gridchain/libs/cosmos-sdk/issues/7737
+	// Issue: https://github.com/gridfx/fxchain/libs/cosmos-sdk/issues/7737
 	channelSequence, err := channeltypes.ParseChannelSequence(channelID)
 	if err != nil {
 		return err

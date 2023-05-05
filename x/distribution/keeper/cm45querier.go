@@ -1,11 +1,11 @@
 package keeper
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	comm "github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/distribution/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	comm "github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/distribution/types"
 )
 
 func cm45QueryValidatorCommission(ctx sdk.Context, _ []string, req abci.RequestQuery, k Keeper) ([]byte, error) {

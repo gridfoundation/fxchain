@@ -1,18 +1,18 @@
 package keeper_test
 
 import (
-	"github.com/gridironx/gridchain/x/wasm"
-	"github.com/gridironx/gridchain/x/wasm/keeper"
+	"github.com/gridfx/fxchain/x/wasm"
+	"github.com/gridfx/fxchain/x/wasm/keeper"
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/app"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/app"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
+	"github.com/gridfx/fxchain/x/wasm/types"
 	"github.com/stretchr/testify/suite"
 )
 
@@ -24,19 +24,19 @@ import (
 //	"io/ioutil"
 //	"testing"
 //
-//	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params/client/utils"
+//	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params/client/utils"
 //
 //	wasmvm "github.com/CosmWasm/wasmvm"
 //
-//	"github.com/gridironx/gridchain/x/wasm/keeper/wasmtesting"
+//	"github.com/gridfx/fxchain/x/wasm/keeper/wasmtesting"
 //
-//	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-//	govtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
-//	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params/types/proposal"
+//	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+//	govtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
+//	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params/types/proposal"
 //	"github.com/stretchr/testify/assert"
 //	"github.com/stretchr/testify/require"
 //
-//	"github.com/gridironx/gridchain/x/wasm/types"
+//	"github.com/gridfx/fxchain/x/wasm/types"
 //)
 //
 //func TestStoreCodeProposal(t *testing.T) {

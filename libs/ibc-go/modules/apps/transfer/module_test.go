@@ -4,11 +4,11 @@ import (
 	"math"
 	"testing"
 
-	capabilitytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	capabilitytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 	"github.com/stretchr/testify/suite"
 )
 

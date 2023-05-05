@@ -3,7 +3,7 @@ package proofs
 import (
 	"errors"
 	"fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/internal/maps"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/internal/maps"
 	"sort"
 
 	ics23 "github.com/confio/ics23/go"

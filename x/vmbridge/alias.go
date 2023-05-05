@@ -1,8 +1,8 @@
 package vmbridge
 
 import (
-	"github.com/gridironx/gridchain/x/vmbridge/keeper"
-	"github.com/gridironx/gridchain/x/vmbridge/types"
+	"github.com/gridfx/fxchain/x/vmbridge/keeper"
+	"github.com/gridfx/fxchain/x/vmbridge/types"
 )
 
 var (

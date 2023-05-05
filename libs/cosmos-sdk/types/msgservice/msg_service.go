@@ -3,8 +3,8 @@ package msgservice
 import (
 	"context"
 	"fmt"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
 	"github.com/gogo/protobuf/proto"
 	"google.golang.org/grpc"

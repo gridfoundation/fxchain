@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"sync"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 	"github.com/spf13/viper"
 )
 

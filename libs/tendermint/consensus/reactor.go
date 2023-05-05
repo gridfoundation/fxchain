@@ -3,8 +3,8 @@ package consensus
 import (
 	"bytes"
 	"fmt"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/automation"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/automation"
 	"reflect"
 	"sync"
 	"time"
@@ -13,14 +13,14 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	cstypes "github.com/gridironx/gridchain/libs/tendermint/consensus/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bits"
-	tmevents "github.com/gridironx/gridchain/libs/tendermint/libs/events"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	sm "github.com/gridironx/gridchain/libs/tendermint/state"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
+	cstypes "github.com/gridfx/fxchain/libs/tendermint/consensus/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bits"
+	tmevents "github.com/gridfx/fxchain/libs/tendermint/libs/events"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	sm "github.com/gridfx/fxchain/libs/tendermint/state"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
 )
 
 type bpType int

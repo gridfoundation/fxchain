@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/json"
 	"errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 	"io/ioutil"
 	"math"
 	"testing"
@@ -14,15 +14,15 @@ import (
 	wasmvm "github.com/CosmWasm/wasmvm"
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
 
-	stypes "github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	stypes "github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/wasm/keeper/wasmtesting"
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/keeper/wasmtesting"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 // When migrated to go 1.16, embed package should be used instead.

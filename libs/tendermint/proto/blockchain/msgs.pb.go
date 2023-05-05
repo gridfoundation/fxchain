@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	types "github.com/gridironx/gridchain/libs/tendermint/proto/types"
+	types "github.com/gridfx/fxchain/libs/tendermint/proto/types"
 	math "math"
 )
 

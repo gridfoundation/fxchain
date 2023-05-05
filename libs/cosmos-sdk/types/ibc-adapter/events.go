@@ -9,10 +9,10 @@ import (
 
 	"github.com/gogo/protobuf/jsonpb"
 	proto "github.com/gogo/protobuf/proto"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	kv "github.com/gridironx/gridchain/libs/tendermint/libs/kv"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	kv "github.com/gridfx/fxchain/libs/tendermint/libs/kv"
 )
 
 // ----------------------------------------------------------------------------

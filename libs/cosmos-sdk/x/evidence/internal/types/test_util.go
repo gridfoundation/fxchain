@@ -11,15 +11,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence/exported"
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
 )
 
 var (

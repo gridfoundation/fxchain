@@ -7,9 +7,9 @@ import (
 	"strings"
 	"sync"
 
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	tmprotobits "github.com/gridironx/gridchain/libs/tendermint/proto/libs/bits"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	tmprotobits "github.com/gridfx/fxchain/libs/tendermint/proto/libs/bits"
 )
 
 // BitArray is a thread-safe implementation of a bit array.

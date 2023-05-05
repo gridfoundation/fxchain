@@ -3,20 +3,20 @@ package cli
 import (
 	"bufio"
 	"fmt"
-	interfacetypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	interfacetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/version"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/version"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/client/utils"
 	"github.com/spf13/cobra"
 
-	govTypes "github.com/gridironx/gridchain/x/gov/types"
-	paramscutils "github.com/gridironx/gridchain/x/params/client/utils"
-	"github.com/gridironx/gridchain/x/params/types"
+	govTypes "github.com/gridfx/fxchain/x/gov/types"
+	paramscutils "github.com/gridfx/fxchain/x/params/client/utils"
+	"github.com/gridfx/fxchain/x/params/types"
 )
 
 // GetCmdSubmitProposal implements a command handler for submitting a parameter change proposal transaction

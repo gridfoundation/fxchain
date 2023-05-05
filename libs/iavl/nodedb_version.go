@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 // IsFastStorageStrategy check the db is FSS

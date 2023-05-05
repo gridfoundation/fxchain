@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
 )
 
 // NewPacketState creates a new PacketState instance.

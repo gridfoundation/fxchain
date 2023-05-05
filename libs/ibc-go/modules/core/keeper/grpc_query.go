@@ -2,13 +2,13 @@ package keeper
 
 import (
 	"context"
-	porttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/05-port/types"
+	porttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/05-port/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/types"
 )
 
 // ClientState implements the IBC QueryServer interface

@@ -3,8 +3,8 @@ package mempool
 import (
 	"sync"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/clist"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/clist"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 type elementManager interface {

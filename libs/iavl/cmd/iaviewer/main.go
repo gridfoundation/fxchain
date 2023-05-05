@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/iavl"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/iavl"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 // TODO: make this configurable?

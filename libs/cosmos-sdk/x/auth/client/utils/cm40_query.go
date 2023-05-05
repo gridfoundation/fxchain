@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	types "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	ibc_tx "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/ibc-tx"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	types "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	ibc_tx "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/ibc-tx"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
 )
 
 func Query40Tx(cliCtx context.CLIContext, hashHexStr string) (*types.TxResponse, error) {

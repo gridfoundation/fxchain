@@ -3,20 +3,20 @@ package params
 import (
 	"encoding/json"
 	"fmt"
-	sim "github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
+	sim "github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
 	"math/rand"
 
-	"github.com/gridironx/gridchain/x/params/client/cli"
-	"github.com/gridironx/gridchain/x/params/types"
+	"github.com/gridfx/fxchain/x/params/client/cli"
+	"github.com/gridfx/fxchain/x/params/types"
 
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 var (

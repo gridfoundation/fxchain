@@ -6,10 +6,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	tmpubsub "github.com/gridironx/gridchain/libs/tendermint/libs/pubsub"
-	tmquery "github.com/gridironx/gridchain/libs/tendermint/libs/pubsub/query"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
+	tmpubsub "github.com/gridfx/fxchain/libs/tendermint/libs/pubsub"
+	tmquery "github.com/gridfx/fxchain/libs/tendermint/libs/pubsub/query"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
 )
 
 const (

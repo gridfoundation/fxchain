@@ -8,8 +8,8 @@ import (
 	ethstate "github.com/ethereum/go-ethereum/core/state"
 	types2 "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/gridironx/gridchain/app/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/app/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 const (

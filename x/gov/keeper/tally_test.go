@@ -4,13 +4,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/x/common"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/gov/types"
-	"github.com/gridironx/gridchain/x/staking"
+	"github.com/gridfx/fxchain/x/gov/types"
+	"github.com/gridfx/fxchain/x/staking"
 )
 
 func newTallyResult(t *testing.T, totalVoted, yes, abstain, no, veto, totalVoting string) types.TallyResult {

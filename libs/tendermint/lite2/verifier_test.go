@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	lite "github.com/gridironx/gridchain/libs/tendermint/lite2"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	lite "github.com/gridfx/fxchain/libs/tendermint/lite2"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 const (

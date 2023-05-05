@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // Export returns the exported format of validator in genesis export

@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
 )
 
 var (

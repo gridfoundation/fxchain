@@ -11,10 +11,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	db "github.com/gridironx/gridchain/libs/tm-db"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	db "github.com/gridfx/fxchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 /*

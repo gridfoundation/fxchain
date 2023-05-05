@@ -11,12 +11,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	cliContext "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	typeadapter "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/query"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx"
+	cliContext "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	typeadapter "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/query"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx"
 )
 
 var _ tx.ServiceServer = txServer{}

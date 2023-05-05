@@ -4,10 +4,10 @@ import (
 	"log"
 	"path/filepath"
 
-	"github.com/gridironx/gridchain/app"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/app"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 	"github.com/spf13/cobra"
 )
 

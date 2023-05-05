@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	paramtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
+	paramtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
 )
 
 const (

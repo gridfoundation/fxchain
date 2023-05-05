@@ -8,8 +8,8 @@ package wasm_test
 //
 //	wasmvm "github.com/CosmWasm/wasmvm"
 //	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-//	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-//	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
+//	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+//	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
 //	ibctransfertypes "github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"
 //	clienttypes "github.com/cosmos/ibc-go/v3/modules/core/02-client/types"
 //	channeltypes "github.com/cosmos/ibc-go/v3/modules/core/04-channel/types"
@@ -17,10 +17,10 @@ package wasm_test
 //	"github.com/stretchr/testify/assert"
 //	"github.com/stretchr/testify/require"
 //
-//	wasmibctesting "github.com/gridironx/gridchain/x/wasm/ibctesting"
-//	wasmkeeper "github.com/gridironx/gridchain/x/wasm/keeper"
-//	wasmtesting "github.com/gridironx/gridchain/x/wasm/keeper/wasmtesting"
-//	"github.com/gridironx/gridchain/x/wasm/types"
+//	wasmibctesting "github.com/gridfx/fxchain/x/wasm/ibctesting"
+//	wasmkeeper "github.com/gridfx/fxchain/x/wasm/keeper"
+//	wasmtesting "github.com/gridfx/fxchain/x/wasm/keeper/wasmtesting"
+//	"github.com/gridfx/fxchain/x/wasm/types"
 //)
 //
 //func TestFromIBCTransferToContract(t *testing.T) {

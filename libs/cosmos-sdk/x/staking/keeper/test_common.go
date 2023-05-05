@@ -7,26 +7,26 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/mpt"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/mpt"
 
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
 )
 
 // dummy addresses used for testing

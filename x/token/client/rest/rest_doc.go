@@ -27,7 +27,7 @@
 package rest
 
 import (
-	"github.com/gridironx/gridchain/x/token/types"
+	"github.com/gridfx/fxchain/x/token/types"
 )
 
 // A Products is the info of the market.

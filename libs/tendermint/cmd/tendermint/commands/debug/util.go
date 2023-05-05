@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	rpchttp "github.com/gridironx/gridchain/libs/tendermint/rpc/client/http"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	rpchttp "github.com/gridfx/fxchain/libs/tendermint/rpc/client/http"
 )
 
 // dumpStatus gets node status state dump from the Tendermint RPC and writes it

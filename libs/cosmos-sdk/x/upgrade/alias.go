@@ -3,8 +3,8 @@ package upgrade
 // nolint
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/upgrade/internal/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/upgrade/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/upgrade/internal/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/upgrade/internal/types"
 )
 
 const (

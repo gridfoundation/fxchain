@@ -1,8 +1,8 @@
 package mock
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/rpc/client"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
+	"github.com/gridfx/fxchain/libs/tendermint/rpc/client"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
 )
 
 // StatusMock returns the result specified by the Call

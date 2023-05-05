@@ -1,10 +1,10 @@
 package ethsecp256k1
 
 import (
-	cryptoamino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
+	cryptoamino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
 )
 
 // CryptoCodec is the default amino codec used by ethermint

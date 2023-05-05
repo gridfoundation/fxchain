@@ -1,22 +1,22 @@
 package types
 
 import (
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 	"strings"
 	"time"
 
 	ics23 "github.com/confio/ics23/go"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	common2 "github.com/gridironx/gridchain/libs/ibc-go/modules/core/common"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	lite "github.com/gridironx/gridchain/libs/tendermint/lite2"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	common2 "github.com/gridfx/fxchain/libs/ibc-go/modules/core/common"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	lite "github.com/gridfx/fxchain/libs/tendermint/lite2"
 )
 
 var _ exported.ClientState = (*ClientState)(nil)

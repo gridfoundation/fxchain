@@ -4,20 +4,20 @@ import (
 	"fmt"
 	"time"
 
-	blockindex "github.com/gridironx/gridchain/libs/tendermint/state/indexer"
+	blockindex "github.com/gridfx/fxchain/libs/tendermint/state/indexer"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/consensus"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	mempl "github.com/gridironx/gridchain/libs/tendermint/mempool"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	"github.com/gridironx/gridchain/libs/tendermint/proxy"
-	sm "github.com/gridironx/gridchain/libs/tendermint/state"
-	"github.com/gridironx/gridchain/libs/tendermint/state/txindex"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/consensus"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	mempl "github.com/gridfx/fxchain/libs/tendermint/mempool"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/proxy"
+	sm "github.com/gridfx/fxchain/libs/tendermint/state"
+	"github.com/gridfx/fxchain/libs/tendermint/state/txindex"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 const (

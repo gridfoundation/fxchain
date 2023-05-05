@@ -5,20 +5,20 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/client/utils"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/x/staking/keeper"
-	"github.com/gridironx/gridchain/x/staking/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/x/staking/keeper"
+	"github.com/gridfx/fxchain/x/staking/types"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 	"github.com/stretchr/testify/require"
 
-	cliLcd "github.com/gridironx/gridchain/libs/cosmos-sdk/client/lcd"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mock"
+	cliLcd "github.com/gridfx/fxchain/libs/cosmos-sdk/client/lcd"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mock"
 )
 
 // getMockApp returns an initialized mock application for this module.

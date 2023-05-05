@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	cmn "github.com/gridironx/gridchain/libs/iavl/common"
+	cmn "github.com/gridfx/fxchain/libs/iavl/common"
 	amino "github.com/tendermint/go-amino"
 )
 

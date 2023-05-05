@@ -6,8 +6,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	"github.com/gridironx/gridchain/libs/tendermint/privval"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	"github.com/gridfx/fxchain/libs/tendermint/privval"
 )
 
 // ShowValidatorCmd adds capabilities for showing the validator info.

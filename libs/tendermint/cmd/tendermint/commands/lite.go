@@ -9,17 +9,17 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/tendermint/go-amino"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	lite "github.com/gridironx/gridchain/libs/tendermint/lite2"
-	lproxy "github.com/gridironx/gridchain/libs/tendermint/lite2/proxy"
-	lrpc "github.com/gridironx/gridchain/libs/tendermint/lite2/rpc"
-	dbs "github.com/gridironx/gridchain/libs/tendermint/lite2/store/db"
-	rpchttp "github.com/gridironx/gridchain/libs/tendermint/rpc/client/http"
-	rpcserver "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/server"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	lite "github.com/gridfx/fxchain/libs/tendermint/lite2"
+	lproxy "github.com/gridfx/fxchain/libs/tendermint/lite2/proxy"
+	lrpc "github.com/gridfx/fxchain/libs/tendermint/lite2/rpc"
+	dbs "github.com/gridfx/fxchain/libs/tendermint/lite2/store/db"
+	rpchttp "github.com/gridfx/fxchain/libs/tendermint/rpc/client/http"
+	rpcserver "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/server"
 )
 
 // LiteCmd represents the base command when called without any subcommands

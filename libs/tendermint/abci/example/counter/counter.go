@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"math/big"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/code"
-	"github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/code"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 type MockExTxInfo struct {

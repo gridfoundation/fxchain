@@ -13,11 +13,11 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/gridironx/gridchain/app/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/mpt"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/app/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/mpt"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 	lru "github.com/hashicorp/golang-lru"
 )
 

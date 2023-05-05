@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mint/internal/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mint/internal/types"
 
-	sdkGov "github.com/gridironx/gridchain/x/gov"
-	govKeeper "github.com/gridironx/gridchain/x/gov/keeper"
-	govTypes "github.com/gridironx/gridchain/x/gov/types"
+	sdkGov "github.com/gridfx/fxchain/x/gov"
+	govKeeper "github.com/gridfx/fxchain/x/gov/keeper"
+	govTypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 var _ govKeeper.ProposalHandler = (*Keeper)(nil)

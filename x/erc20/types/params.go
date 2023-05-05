@@ -5,7 +5,7 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/gridironx/gridchain/x/params"
+	"github.com/gridfx/fxchain/x/params"
 )
 
 const (

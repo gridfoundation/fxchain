@@ -1,9 +1,9 @@
 package utils
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	cm40types "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	cm40types "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 func ConvCM39SimulateResultTCM40(cm39 *types.Result) *cm40types.Result {

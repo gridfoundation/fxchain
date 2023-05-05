@@ -3,22 +3,22 @@ package auth
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/base"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/base"
 	"math/rand"
 
 	"github.com/gorilla/mux"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/client/cli"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/client/rest"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/simulation"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	sim "github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/client/cli"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/client/rest"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/simulation"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	sim "github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
 )
 
 var (

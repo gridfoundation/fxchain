@@ -1,7 +1,7 @@
 package types
 
 import (
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
 )
 
 func (sh SignedHeader) ValidateBasicForIBC(chainID string) error {

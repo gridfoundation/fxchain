@@ -7,7 +7,7 @@ import (
 	"hash"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/iavl"
+	"github.com/gridfx/fxchain/libs/iavl"
 
 	_ "crypto/sha256"
 

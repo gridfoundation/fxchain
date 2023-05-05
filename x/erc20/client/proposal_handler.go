@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/gridironx/gridchain/x/erc20/client/cli"
-	"github.com/gridironx/gridchain/x/erc20/client/rest"
-	govcli "github.com/gridironx/gridchain/x/gov/client"
+	"github.com/gridfx/fxchain/x/erc20/client/cli"
+	"github.com/gridfx/fxchain/x/erc20/client/rest"
+	govcli "github.com/gridfx/fxchain/x/gov/client"
 )
 
 var (

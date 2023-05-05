@@ -3,12 +3,12 @@ package keeper
 import (
 	"context"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/gridironx/gridchain/x/staking/typesadapter"
+	"github.com/gridfx/fxchain/x/staking/typesadapter"
 )
 
 // Querier is used as Keeper will have duplicate methods if used directly, and gRPC names take precedence over keeper

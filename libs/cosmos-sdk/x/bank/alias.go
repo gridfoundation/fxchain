@@ -3,10 +3,10 @@ package bank
 // nolint
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/internal/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/internal/keeperadapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/internal/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/internal/typesadapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/internal/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/internal/keeperadapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/internal/typesadapter"
 )
 
 const (

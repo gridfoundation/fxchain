@@ -4,10 +4,10 @@ import (
 	"runtime"
 	"time"
 
-	appconfig "github.com/gridironx/gridchain/app/config"
-	"github.com/gridironx/gridchain/libs/system/trace"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/wasm/watcher"
+	appconfig "github.com/gridfx/fxchain/app/config"
+	"github.com/gridfx/fxchain/libs/system/trace"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/wasm/watcher"
 )
 
 // BeginBlock implements the Application interface

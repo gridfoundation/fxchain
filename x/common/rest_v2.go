@@ -7,7 +7,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 	jsoniter "github.com/json-iterator/go"
 )
 

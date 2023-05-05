@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/compress"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/compress"
 	"github.com/tendermint/go-amino"
 )
 

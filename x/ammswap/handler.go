@@ -1,12 +1,12 @@
 package ammswap
 
 import (
-	"github.com/gridironx/gridchain/x/ammswap/keeper"
-	"github.com/gridironx/gridchain/x/ammswap/types"
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/common/perf"
+	"github.com/gridfx/fxchain/x/ammswap/keeper"
+	"github.com/gridfx/fxchain/x/ammswap/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/common/perf"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // NewHandler creates an sdk.Handler for all the ammswap type messages

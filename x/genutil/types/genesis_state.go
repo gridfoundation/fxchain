@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	stakingtypes "github.com/gridironx/gridchain/x/staking/types"
+	stakingtypes "github.com/gridfx/fxchain/x/staking/types"
 
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // GenesisState defines the raw genesis transaction in JSON

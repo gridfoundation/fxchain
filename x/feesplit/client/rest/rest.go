@@ -8,13 +8,13 @@ import (
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	"github.com/gorilla/mux"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/query"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	comm "github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/feesplit/types"
-	govRest "github.com/gridironx/gridchain/x/gov/client/rest"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/query"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	comm "github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/feesplit/types"
+	govRest "github.com/gridfx/fxchain/x/gov/client/rest"
 )
 
 func RegisterRoutes(cliCtx context.CLIContext, r *mux.Router) {

@@ -2,10 +2,10 @@ package signing
 
 import (
 	"fmt"
-	cryptotypes "github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types/multisig"
-	ibctx "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx/signing"
+	cryptotypes "github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types/multisig"
+	ibctx "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx/signing"
 )
 
 // VerifySignature verifies a transaction signature contained in SignatureData abstracting over different signing modes

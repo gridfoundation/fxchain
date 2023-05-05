@@ -12,17 +12,17 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	lru "github.com/hashicorp/golang-lru"
 
-	app "github.com/gridironx/gridchain/app/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/mpt"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/x/evm/types"
-	"github.com/gridironx/gridchain/x/evm/watcher"
-	"github.com/gridironx/gridchain/x/params"
+	app "github.com/gridfx/fxchain/app/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/mpt"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/x/evm/types"
+	"github.com/gridfx/fxchain/x/evm/watcher"
+	"github.com/gridfx/fxchain/x/params"
 )
 
 const (

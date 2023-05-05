@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/system/trace"
-	"github.com/gridironx/gridchain/libs/system/trace/persist"
+	"github.com/gridfx/fxchain/libs/system/trace"
+	"github.com/gridfx/fxchain/libs/system/trace/persist"
 	"github.com/tendermint/go-amino"
 )
 

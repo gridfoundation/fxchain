@@ -1,15 +1,15 @@
 package host
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	capabilitytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/keeper"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/types"
-	icatypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	ibcporttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/05-port/types"
-	ibcexported "github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	capabilitytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/keeper"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/types"
+	icatypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	ibcporttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/05-port/types"
+	ibcexported "github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 )
 
 var (

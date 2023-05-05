@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 func TestValidateGenesis(t *testing.T) {

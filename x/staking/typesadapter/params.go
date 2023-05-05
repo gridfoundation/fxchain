@@ -1,7 +1,7 @@
 package typesadapter
 
 import (
-	"github.com/gridironx/gridchain/x/staking/types"
+	"github.com/gridfx/fxchain/x/staking/types"
 )
 
 func (p *Params) From(pp types.Params) {

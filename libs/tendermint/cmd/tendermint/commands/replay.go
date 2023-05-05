@@ -3,7 +3,7 @@ package commands
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/libs/tendermint/consensus"
+	"github.com/gridfx/fxchain/libs/tendermint/consensus"
 )
 
 // ReplayCmd allows replaying of messages from the WAL.

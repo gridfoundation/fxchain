@@ -4,17 +4,17 @@ import (
 	"encoding/json"
 	"log"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/slashing"
-	"github.com/gridironx/gridchain/x/staking"
-	"github.com/gridironx/gridchain/x/staking/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/slashing"
+	"github.com/gridfx/fxchain/x/staking"
+	"github.com/gridfx/fxchain/x/staking/exported"
 
-	ethcdc "github.com/gridironx/gridchain/app/codec"
+	ethcdc "github.com/gridfx/fxchain/app/codec"
 )
 
 // NewDefaultGenesisState generates the default state for the application.

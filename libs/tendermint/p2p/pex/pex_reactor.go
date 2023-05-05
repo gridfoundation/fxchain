@@ -10,13 +10,13 @@ import (
 
 	"github.com/tendermint/go-amino"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cmap"
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p/conn"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cmap"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p/conn"
 )
 
 type Peer = p2p.Peer

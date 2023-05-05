@@ -8,11 +8,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
 
-	ethermint "github.com/gridironx/gridchain/app/types"
+	ethermint "github.com/gridfx/fxchain/app/types"
 )
 
 // InitConfig adds the chain-id, encoding and output flags to the persistent flag set.

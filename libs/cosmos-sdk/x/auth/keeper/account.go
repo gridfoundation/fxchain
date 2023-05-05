@@ -4,11 +4,11 @@ import (
 	"sync"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/mpt"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/mpt"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 	"github.com/tendermint/go-amino"
 )
 

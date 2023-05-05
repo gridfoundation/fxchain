@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/exported"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/exported"
 )
 
 // TODO: Break into several smaller functions for clarity

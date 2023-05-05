@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
 )
 
 func TestValidatorSetBasic(t *testing.T) {

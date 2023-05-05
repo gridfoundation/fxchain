@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gridironx/gridchain/x/evidence/exported"
+	"github.com/gridfx/fxchain/x/evidence/exported"
 )
 
 // DONTCOVER

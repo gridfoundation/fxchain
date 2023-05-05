@@ -3,13 +3,13 @@ package keeper
 import (
 	"context"
 
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/prefix"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/query"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	internaltypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/typesadapter"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/prefix"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/query"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	internaltypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/typesadapter"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

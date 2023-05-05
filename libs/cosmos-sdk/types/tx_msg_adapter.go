@@ -2,7 +2,7 @@ package types
 
 import (
 	"github.com/gogo/protobuf/proto"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 )
 
 const (

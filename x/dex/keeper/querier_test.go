@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/x/common"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/dex/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/dex/types"
 	"github.com/stretchr/testify/require"
 	amino "github.com/tendermint/go-amino"
 )

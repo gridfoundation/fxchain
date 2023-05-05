@@ -6,12 +6,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gridironx/gridchain/x/dex/types"
+	"github.com/gridfx/fxchain/x/dex/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/common"
 )
 
 // NewQuerier is the module level router for state queries

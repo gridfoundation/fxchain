@@ -6,10 +6,10 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/gridironx/gridchain/libs/iavl/config"
+	"github.com/gridfx/fxchain/libs/iavl/config"
 
-	"github.com/gridironx/gridchain/libs/system/trace"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/system/trace"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 const (

@@ -9,13 +9,13 @@ import (
 	"github.com/tendermint/go-amino"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	cryptoamino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/multisig"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	cryptoamino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/multisig"
 )
 
 var (

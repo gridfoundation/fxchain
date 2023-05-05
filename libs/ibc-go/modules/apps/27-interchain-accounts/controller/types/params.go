@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	paramtypes "github.com/gridironx/gridchain/x/params"
+	paramtypes "github.com/gridfx/fxchain/x/params"
 )
 
 const (

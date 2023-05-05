@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	ethermint "github.com/gridironx/gridchain/app/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/evm/types"
+	ethermint "github.com/gridfx/fxchain/app/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/evm/types"
 )
 
 // SetSysContractAddress set system contract address to store

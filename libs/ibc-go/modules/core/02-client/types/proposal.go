@@ -2,12 +2,12 @@ package types
 
 import (
 	"fmt"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	govtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
-	types "github.com/gridironx/gridchain/libs/cosmos-sdk/x/upgrade/typesadapter"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	gridchaingov "github.com/gridironx/gridchain/x/gov/types"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	govtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
+	types "github.com/gridfx/fxchain/libs/cosmos-sdk/x/upgrade/typesadapter"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	gridchaingov "github.com/gridfx/fxchain/x/gov/types"
 )
 
 const (

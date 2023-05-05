@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmpubsub "github.com/gridironx/gridchain/libs/tendermint/libs/pubsub"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmpubsub "github.com/gridfx/fxchain/libs/tendermint/libs/pubsub"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
 )
 
 const defaultCapacity = 0

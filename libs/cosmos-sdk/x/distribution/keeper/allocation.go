@@ -3,11 +3,11 @@ package keeper
 import (
 	"fmt"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/distribution/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/exported"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/distribution/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/exported"
 )
 
 // AllocateTokens handles distribution of the collected fees

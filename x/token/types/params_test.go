@@ -3,9 +3,9 @@ package types
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/x/common"
 
-	"github.com/gridironx/gridchain/x/params"
+	"github.com/gridfx/fxchain/x/params"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,13 +3,13 @@ package types_test
 import (
 	"testing"
 
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence/exported"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence/internal/types"
 )
 
 var _ exported.Evidence = (*testEvidence)(nil)

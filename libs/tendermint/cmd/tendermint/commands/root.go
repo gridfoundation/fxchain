@@ -7,10 +7,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
-	tmflags "github.com/gridironx/gridchain/libs/tendermint/libs/cli/flags"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
+	tmflags "github.com/gridfx/fxchain/libs/tendermint/libs/cli/flags"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 )
 
 var (

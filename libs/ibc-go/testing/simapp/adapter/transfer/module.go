@@ -4,17 +4,17 @@ import (
 	"encoding/json"
 	"fmt"
 
-	capabilitytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	porttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/05-port/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	capabilitytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	porttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/05-port/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/keeper"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp/adapter"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/keeper"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp/adapter"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 var (

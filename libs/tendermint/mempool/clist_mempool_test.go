@@ -12,21 +12,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/clist"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/clist"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/counter"
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/kvstore"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	"github.com/gridironx/gridchain/libs/tendermint/proxy"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/counter"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/kvstore"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	"github.com/gridfx/fxchain/libs/tendermint/proxy"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 const (

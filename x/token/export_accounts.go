@@ -11,10 +11,10 @@ import (
 
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
-	ethermint "github.com/gridironx/gridchain/app/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
+	ethermint "github.com/gridfx/fxchain/app/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
 	"github.com/spf13/viper"
 )
 

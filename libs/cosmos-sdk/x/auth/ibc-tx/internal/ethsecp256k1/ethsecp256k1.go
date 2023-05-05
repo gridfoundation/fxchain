@@ -7,11 +7,11 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	cryptotypes "github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	cryptotypes "github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
 
-	tmcrypto "github.com/gridironx/gridchain/libs/tendermint/crypto"
+	tmcrypto "github.com/gridfx/fxchain/libs/tendermint/crypto"
 )
 
 const (

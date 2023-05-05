@@ -3,14 +3,14 @@ package rest
 import (
 	"net/http"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/client/utils"
-	comm "github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/evm/types"
-	"github.com/gridironx/gridchain/x/gov"
-	govrest "github.com/gridironx/gridchain/x/gov/client/rest"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/client/utils"
+	comm "github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/evm/types"
+	"github.com/gridfx/fxchain/x/gov"
+	govrest "github.com/gridfx/fxchain/x/gov/client/rest"
 )
 
 type ManageSysContractAddressProposalReq struct {

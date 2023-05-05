@@ -2,10 +2,10 @@ package client
 
 import (
 	"github.com/gogo/protobuf/grpc"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	interfacetypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/client/cli"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	interfacetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/client/cli"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
 	"github.com/spf13/cobra"
 )
 

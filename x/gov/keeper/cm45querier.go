@@ -1,13 +1,13 @@
 package keeper
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/common"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
-	"github.com/gridironx/gridchain/x/gov/types"
-	paramstypes "github.com/gridironx/gridchain/x/params/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/common"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
+	"github.com/gridfx/fxchain/x/gov/types"
+	paramstypes "github.com/gridfx/fxchain/x/params/types"
 )
 
 func cm45QueryProposal(ctx sdk.Context, path []string, req abci.RequestQuery, keeper Keeper) ([]byte, sdk.Error) {

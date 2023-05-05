@@ -7,8 +7,8 @@ import (
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/trie"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/mpt"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/mpt"
 	"github.com/spf13/cobra"
 )
 

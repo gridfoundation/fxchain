@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/gov/keeper"
-	"github.com/gridironx/gridchain/x/gov/types"
+	"github.com/gridfx/fxchain/x/gov/keeper"
+	"github.com/gridfx/fxchain/x/gov/types"
 )
 
 func TestInitGenesisState(t *testing.T) {

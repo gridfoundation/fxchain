@@ -3,9 +3,9 @@ package distribution
 import (
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/x/distribution/types"
+	"github.com/gridfx/fxchain/x/distribution/types"
 )
 
 // InitGenesis sets distribution information for genesis

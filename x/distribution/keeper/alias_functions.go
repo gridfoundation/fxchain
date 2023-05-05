@@ -1,10 +1,10 @@
 package keeper
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/exported"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/exported"
 
-	"github.com/gridironx/gridchain/x/distribution/types"
+	"github.com/gridfx/fxchain/x/distribution/types"
 )
 
 // GetDistributionAccount returns the distribution ModuleAccount

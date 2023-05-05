@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/token/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/token/types"
 )
 
 // default owner of fury

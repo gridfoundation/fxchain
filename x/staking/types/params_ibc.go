@@ -1,6 +1,6 @@
 package types
 
-import "github.com/gridironx/gridchain/x/params"
+import "github.com/gridfx/fxchain/x/params"
 
 var (
 	_ params.ParamSet = KeyHistoricalEntriesParamsSet{}

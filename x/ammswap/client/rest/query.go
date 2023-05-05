@@ -7,10 +7,10 @@ import (
 	"strings"
 
 	"github.com/gorilla/mux"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	"github.com/gridironx/gridchain/x/ammswap/types"
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	"github.com/gridfx/fxchain/x/ammswap/types"
+	"github.com/gridfx/fxchain/x/common"
 )
 
 func registerQueryRoutes(cliCtx context.CLIContext, r *mux.Router) {

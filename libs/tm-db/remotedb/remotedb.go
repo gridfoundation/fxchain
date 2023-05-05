@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/tm-db/common"
+	"github.com/gridfx/fxchain/libs/tm-db/common"
 	"github.com/pkg/errors"
 
-	db "github.com/gridironx/gridchain/libs/tm-db"
-	"github.com/gridironx/gridchain/libs/tm-db/remotedb/grpcdb"
-	protodb "github.com/gridironx/gridchain/libs/tm-db/remotedb/proto"
+	db "github.com/gridfx/fxchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/tm-db/remotedb/grpcdb"
+	protodb "github.com/gridfx/fxchain/libs/tm-db/remotedb/proto"
 )
 
 type RemoteDB struct {

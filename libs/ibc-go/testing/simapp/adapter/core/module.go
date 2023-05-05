@@ -4,13 +4,13 @@ import (
 	"encoding/json"
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	ibc "github.com/gridironx/gridchain/libs/ibc-go/modules/core"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/keeper"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp/adapter"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	ibc "github.com/gridfx/fxchain/libs/ibc-go/modules/core"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/keeper"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp/adapter"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 type CoreModule struct {

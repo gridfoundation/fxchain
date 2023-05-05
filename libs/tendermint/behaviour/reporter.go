@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
 )
 
 // Reporter provides an interface for reactors to report the behaviour

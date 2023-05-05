@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/kvstore"
-	nm "github.com/gridironx/gridchain/libs/tendermint/node"
-	rpctest "github.com/gridironx/gridchain/libs/tendermint/rpc/test"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/kvstore"
+	nm "github.com/gridfx/fxchain/libs/tendermint/node"
+	rpctest "github.com/gridfx/fxchain/libs/tendermint/rpc/test"
 )
 
 var node *nm.Node

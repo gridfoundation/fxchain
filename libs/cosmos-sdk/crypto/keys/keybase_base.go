@@ -8,13 +8,13 @@ import (
 	"strings"
 
 	"github.com/cosmos/go-bip39"
-	tmcrypto "github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
+	tmcrypto "github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys/hd"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys/hd"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 type (

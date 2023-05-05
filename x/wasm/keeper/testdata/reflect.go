@@ -4,7 +4,7 @@ import (
 	_ "embed"
 
 	typwasmvmtypes "github.com/CosmWasm/wasmvm/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 //go:embed reflect.wasm

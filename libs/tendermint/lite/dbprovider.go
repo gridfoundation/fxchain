@@ -5,13 +5,13 @@ import (
 	"regexp"
 	"strconv"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	amino "github.com/tendermint/go-amino"
 
-	cryptoamino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
-	log "github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	lerr "github.com/gridironx/gridchain/libs/tendermint/lite/errors"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	cryptoamino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
+	log "github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	lerr "github.com/gridfx/fxchain/libs/tendermint/lite/errors"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 var _ PersistentProvider = (*DBProvider)(nil)

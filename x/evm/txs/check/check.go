@@ -1,7 +1,7 @@
 package check
 
 import (
-	"github.com/gridironx/gridchain/x/evm/txs/base"
+	"github.com/gridfx/fxchain/x/evm/txs/base"
 )
 
 type Tx struct {

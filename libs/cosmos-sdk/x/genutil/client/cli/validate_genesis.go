@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"os"
 
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
 )
 
 // Validate genesis command takes

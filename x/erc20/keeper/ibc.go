@@ -8,13 +8,13 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	ethermint "github.com/gridironx/gridchain/app/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	ibctransfertypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	ibcclienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/x/erc20/types"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
+	ethermint "github.com/gridfx/fxchain/app/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	ibctransfertypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	ibcclienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/x/erc20/types"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 )
 
 // OnMintVouchers after minting vouchers on this chain

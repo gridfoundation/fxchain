@@ -11,10 +11,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	nm "github.com/gridironx/gridchain/libs/tendermint/node"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	nm "github.com/gridfx/fxchain/libs/tendermint/node"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 var (

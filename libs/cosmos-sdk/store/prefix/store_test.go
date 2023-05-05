@@ -4,16 +4,16 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/dbadapter"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/gaskv"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/iavl"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/dbadapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/gaskv"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/iavl"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
 	"github.com/stretchr/testify/require"
 
-	tiavl "github.com/gridironx/gridchain/libs/iavl"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	tiavl "github.com/gridfx/fxchain/libs/iavl"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 // copied from iavl/store_test.go

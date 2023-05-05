@@ -3,7 +3,7 @@ package pex
 import (
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
 )
 
 // knownAddress tracks information about a known network address

@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	rpchttp "github.com/gridironx/gridchain/libs/tendermint/rpc/client/http"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	tmjsonrpc "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/client"
+	rpchttp "github.com/gridfx/fxchain/libs/tendermint/rpc/client/http"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	tmjsonrpc "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/client"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 )
 
 // Wait for the next tendermint block from the Tendermint RPC

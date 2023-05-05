@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 
 	fuzz "github.com/google/gofuzz"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	tmBytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	tmBytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
 
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 var ModelFuzzers = []interface{}{FuzzAddr, FuzzAddrString, FuzzAbsoluteTxPosition, FuzzContractInfo, FuzzStateModel, FuzzAccessType, FuzzAccessConfig, FuzzContractCodeHistory}

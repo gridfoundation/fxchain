@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"testing"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/simapp"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/crisis"
-	distr "github.com/gridironx/gridchain/libs/cosmos-sdk/x/distribution"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/simapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/crisis"
+	distr "github.com/gridfx/fxchain/libs/cosmos-sdk/x/distribution"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
 )
 
 var (

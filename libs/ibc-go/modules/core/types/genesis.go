@@ -1,10 +1,10 @@
 package types
 
 import (
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
 )
 
 var _ codectypes.UnpackInterfacesMessage = GenesisState{}

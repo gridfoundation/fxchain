@@ -4,8 +4,8 @@
 package gov
 
 import (
-	"github.com/gridironx/gridchain/x/gov/keeper"
-	"github.com/gridironx/gridchain/x/gov/types"
+	"github.com/gridfx/fxchain/x/gov/keeper"
+	"github.com/gridfx/fxchain/x/gov/types"
 )
 
 const (

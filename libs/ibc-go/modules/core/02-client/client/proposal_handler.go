@@ -1,11 +1,11 @@
 package client
 
 import (
-	cliContext "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/client/cli"
-	govclient "github.com/gridironx/gridchain/x/gov/client"
-	govrest "github.com/gridironx/gridchain/x/gov/client/rest"
+	cliContext "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/client/cli"
+	govclient "github.com/gridfx/fxchain/x/gov/client"
+	govrest "github.com/gridfx/fxchain/x/gov/client/rest"
 	"net/http"
 )
 

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmstrings "github.com/gridironx/gridchain/libs/tendermint/libs/strings"
-	"github.com/gridironx/gridchain/libs/tendermint/version"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmstrings "github.com/gridfx/fxchain/libs/tendermint/libs/strings"
+	"github.com/gridfx/fxchain/libs/tendermint/version"
 )
 
 const (

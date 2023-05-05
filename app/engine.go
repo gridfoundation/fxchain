@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/gridironx/gridchain/x/common/monitor"
+	"github.com/gridfx/fxchain/x/common/monitor"
 )
 
 var (

@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	interfacetypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	interfacetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 	"gopkg.in/yaml.v2"
 )
 

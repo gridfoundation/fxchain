@@ -1,6 +1,6 @@
 package infura
 
-import evm "github.com/gridironx/gridchain/x/evm/watcher"
+import evm "github.com/gridfx/fxchain/x/evm/watcher"
 
 const defaultCacheCap = 2000
 

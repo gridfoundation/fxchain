@@ -3,10 +3,10 @@ package proxy
 import (
 	"sync"
 
-	abcicli "github.com/gridironx/gridchain/libs/tendermint/abci/client"
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/counter"
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/kvstore"
-	"github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abcicli "github.com/gridfx/fxchain/libs/tendermint/abci/client"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/counter"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/kvstore"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 // NewABCIClient returns newly connected client

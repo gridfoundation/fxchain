@@ -1,9 +1,9 @@
 package lite
 
 import (
-	log "github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	lerr "github.com/gridironx/gridchain/libs/tendermint/lite/errors"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	log "github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	lerr "github.com/gridfx/fxchain/libs/tendermint/lite/errors"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 var _ PersistentProvider = (*multiProvider)(nil)

@@ -13,7 +13,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/gridironx/gridchain-ethereum-compatible/utils"
+	"github.com/gridfx/fxchain-ethereum-compatible/utils"
 
 	"io/ioutil"
 	"log"

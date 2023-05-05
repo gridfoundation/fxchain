@@ -1,15 +1,15 @@
 package token
 
 import (
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/x/common"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 
-	cliLcd "github.com/gridironx/gridchain/libs/cosmos-sdk/client/lcd"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/common/version"
-	"github.com/gridironx/gridchain/x/token/types"
+	cliLcd "github.com/gridfx/fxchain/libs/cosmos-sdk/client/lcd"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/common/version"
+	"github.com/gridfx/fxchain/x/token/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,9 +1,9 @@
 package types
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
-	token "github.com/gridironx/gridchain/x/token/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
+	token "github.com/gridfx/fxchain/x/token/types"
 
 	"fmt"
 	"strings"

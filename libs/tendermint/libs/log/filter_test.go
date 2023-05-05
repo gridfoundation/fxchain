@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 )
 
 func TestVariousLevels(t *testing.T) {

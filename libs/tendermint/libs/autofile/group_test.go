@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
 )
 
 func createTestGroupWithHeadSizeLimit(t *testing.T, headSizeLimit int64) *Group {

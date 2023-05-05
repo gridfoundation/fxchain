@@ -1,14 +1,14 @@
 package types_test
 
 import (
-	govtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
+	govtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
 	// "github.com/cosmos/cosmos-sdk/codec"
 	// codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	// govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	// upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 func (suite *TypesTestSuite) testValidateBasic() {

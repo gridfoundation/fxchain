@@ -1,16 +1,16 @@
 package wasm
 
 import (
-	"github.com/gridironx/gridchain/app/rpc/simulator"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/baseapp"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	types2 "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank"
-	"github.com/gridironx/gridchain/x/wasm/keeper"
-	"github.com/gridironx/gridchain/x/wasm/proxy"
-	"github.com/gridironx/gridchain/x/wasm/types"
-	"github.com/gridironx/gridchain/x/wasm/watcher"
+	"github.com/gridfx/fxchain/app/rpc/simulator"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	types2 "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank"
+	"github.com/gridfx/fxchain/x/wasm/keeper"
+	"github.com/gridfx/fxchain/x/wasm/proxy"
+	"github.com/gridfx/fxchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/watcher"
 	"sync"
 )
 

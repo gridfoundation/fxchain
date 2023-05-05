@@ -1,9 +1,9 @@
 package keeper_test
 
 import (
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 func (suite *KeeperTestSuite) TestInitGenesis() {

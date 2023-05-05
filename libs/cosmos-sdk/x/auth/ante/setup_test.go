@@ -3,13 +3,13 @@ package ante_test
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/ante"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/ante"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 func TestSetup(t *testing.T) {

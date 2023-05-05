@@ -3,10 +3,10 @@ package keeperadapter
 import (
 	"context"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/internal/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank/internal/typesadapter"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank/internal/typesadapter"
 )
 
 type msgServer struct {

@@ -8,8 +8,8 @@
 //
 // Basic usage of MutableTree:
 //
-//	import "github.com/gridironx/gridchain/libs/iavl"
-//	import "github.com/gridironx/gridchain/libs/tm-db"
+//	import "github.com/gridfx/fxchain/libs/iavl"
+//	import "github.com/gridfx/fxchain/libs/tm-db"
 //	...
 //
 //	tree := iavl.NewMutableTree(db.NewMemDB(), 128)

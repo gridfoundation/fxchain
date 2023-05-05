@@ -1,10 +1,10 @@
 package farm
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/farm/types"
-	govTypes "github.com/gridironx/gridchain/x/gov/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/farm/types"
+	govTypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 // NewManageWhiteListProposalHandler handles "gov" type message in "farm"

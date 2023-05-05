@@ -1,9 +1,9 @@
 package ibc
 
 import (
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/common"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/keeper"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/common"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/keeper"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/types"
 )
 
 type (

@@ -2,19 +2,19 @@ package rest
 
 import (
 	"fmt"
-	ttypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	ttypes "github.com/gridfx/fxchain/libs/tendermint/types"
 	"io/ioutil"
 	"net/http"
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/order/keeper"
-	ordertype "github.com/gridironx/gridchain/x/order/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/order/keeper"
+	ordertype "github.com/gridfx/fxchain/x/order/types"
 )
 
 // nolint

@@ -1,9 +1,9 @@
 package cli
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	interfacetypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	interfacetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
 	"github.com/spf13/cobra"
 )
 

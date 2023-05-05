@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gridironx/gridchain/x/params"
+	"github.com/gridfx/fxchain/x/params"
 
 	"gopkg.in/yaml.v2"
 )

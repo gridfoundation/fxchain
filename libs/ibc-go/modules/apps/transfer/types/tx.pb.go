@@ -6,8 +6,8 @@ package types
 import (
 	context "context"
 	fmt "fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	types1 "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	types1 "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
 	//types "github.com/cosmos/cosmos-sdk/types"
 	//types1 "github.com/cosmos/cosmos-sdk/x/ibc/core/02-client/types"
 	_ "github.com/gogo/protobuf/gogoproto"

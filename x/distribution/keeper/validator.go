@@ -1,10 +1,10 @@
 package keeper
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/x/distribution/types"
-	"github.com/gridironx/gridchain/x/staking/exported"
+	"github.com/gridfx/fxchain/x/distribution/types"
+	"github.com/gridfx/fxchain/x/staking/exported"
 )
 
 // initialize rewards for a new validator

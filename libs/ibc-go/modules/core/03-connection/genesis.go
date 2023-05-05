@@ -1,9 +1,9 @@
 package connection
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/keeper"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/keeper"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
 )
 
 // InitGenesis initializes the ibc connection submodule's state from a provided genesis

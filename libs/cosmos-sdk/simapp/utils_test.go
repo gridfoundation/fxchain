@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	tmkv "github.com/gridironx/gridchain/libs/tendermint/libs/kv"
+	tmkv "github.com/gridfx/fxchain/libs/tendermint/libs/kv"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
 )
 
 func TestGetSimulationLog(t *testing.T) {

@@ -2,7 +2,7 @@ package merkle
 
 import (
 	"bytes"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
 	"sync"
 )
 

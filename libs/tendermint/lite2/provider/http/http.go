@@ -6,10 +6,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/tendermint/lite2/provider"
-	rpcclient "github.com/gridironx/gridchain/libs/tendermint/rpc/client"
-	rpchttp "github.com/gridironx/gridchain/libs/tendermint/rpc/client/http"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/lite2/provider"
+	rpcclient "github.com/gridfx/fxchain/libs/tendermint/rpc/client"
+	rpchttp "github.com/gridfx/fxchain/libs/tendermint/rpc/client/http"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // This is very brittle, see: https://github.com/tendermint/tendermint/issues/4740

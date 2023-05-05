@@ -12,12 +12,12 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	auto "github.com/gridironx/gridchain/libs/tendermint/libs/autofile"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
+	auto "github.com/gridfx/fxchain/libs/tendermint/libs/autofile"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
 )
 
 const (

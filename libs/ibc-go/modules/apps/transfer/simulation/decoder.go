@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/kv"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/kv"
 )
 
 // TransferUnmarshaler defines the expected encoding store functions.

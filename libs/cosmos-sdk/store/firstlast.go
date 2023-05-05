@@ -3,9 +3,9 @@ package store
 import (
 	"bytes"
 
-	tmkv "github.com/gridironx/gridchain/libs/tendermint/libs/kv"
+	tmkv "github.com/gridfx/fxchain/libs/tendermint/libs/kv"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
 )
 
 // Gets the first item.

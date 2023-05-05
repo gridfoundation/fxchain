@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
 	"github.com/stretchr/testify/require"
 )
 

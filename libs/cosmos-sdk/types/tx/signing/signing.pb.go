@@ -6,8 +6,8 @@ package signing
 import (
 	fmt "fmt"
 	proto "github.com/gogo/protobuf/proto"
-	types "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	types1 "github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types"
+	types "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	types1 "github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types"
 	io "io"
 	math "math"
 	math_bits "math/bits"

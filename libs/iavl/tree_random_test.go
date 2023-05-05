@@ -13,7 +13,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	db "github.com/gridironx/gridchain/libs/tm-db"
+	db "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 func TestRandomOperations(t *testing.T) {

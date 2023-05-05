@@ -3,12 +3,12 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	"github.com/gridironx/gridchain/x/distribution/types"
-	"github.com/gridironx/gridchain/x/staking/exported"
-	stakingexported "github.com/gridironx/gridchain/x/staking/exported"
+	"github.com/gridfx/fxchain/x/distribution/types"
+	"github.com/gridfx/fxchain/x/staking/exported"
+	stakingexported "github.com/gridfx/fxchain/x/staking/exported"
 )
 
 var (

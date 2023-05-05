@@ -10,12 +10,12 @@ package client
 //	"testing"
 //
 //	"github.com/gorilla/mux"
-//	"github.com/gridironx/gridchain/libs/cosmos-sdk/client"
-//	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-//	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+//	"github.com/gridfx/fxchain/libs/cosmos-sdk/client"
+//	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+//	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 //	"github.com/stretchr/testify/require"
 //
-//	"github.com/gridironx/gridchain/x/wasm/keeper"
+//	"github.com/gridfx/fxchain/x/wasm/keeper"
 //)
 //
 //func TestGovRestHandlers(t *testing.T) {

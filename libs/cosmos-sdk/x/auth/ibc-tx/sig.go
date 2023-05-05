@@ -2,11 +2,11 @@ package ibc_tx
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	cryptotypes "github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx/signing"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	cryptotypes "github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx/signing"
 )
 
 // SignatureDataToModeInfoAndSig converts a SignatureData to a ModeInfo and raw bytes signature

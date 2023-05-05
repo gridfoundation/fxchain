@@ -3,9 +3,9 @@ package types
 import (
 	"github.com/gogo/protobuf/proto"
 
-	cryptotypes "github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types"
-	costypes "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	stdtx "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	cryptotypes "github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types"
+	costypes "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	stdtx "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 type (

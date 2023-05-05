@@ -4,10 +4,10 @@ import (
 	"bufio"
 	"errors"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/input"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/input"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

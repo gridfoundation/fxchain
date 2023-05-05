@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/version"
-	extypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/genutil"
-	v018 "github.com/gridironx/gridchain/x/genutil/client/legacy/v0_18"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/version"
+	extypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/genutil"
+	v018 "github.com/gridfx/fxchain/x/genutil/client/legacy/v0_18"
 )
 
 var migrationMap = extypes.MigrationMap{

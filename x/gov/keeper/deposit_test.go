@@ -3,12 +3,12 @@ package keeper
 import (
 	"testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/gov/types"
-	"github.com/gridironx/gridchain/x/params"
-	paramsTypes "github.com/gridironx/gridchain/x/params/types"
+	"github.com/gridfx/fxchain/x/gov/types"
+	"github.com/gridfx/fxchain/x/params"
+	paramsTypes "github.com/gridfx/fxchain/x/params/types"
 )
 
 func TestKeeper_AddDeposit(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bits"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bits"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 //-----------------------------------------------------------------------------

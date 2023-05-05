@@ -1,6 +1,6 @@
 package context
 
-import "github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+import "github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 
 type TxRequest interface {
 	GetData() []byte

@@ -1,20 +1,20 @@
 package baseapp_test
 
 import (
-	gridchaincodec "github.com/gridironx/gridchain/app/codec"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp"
-	"github.com/gridironx/gridchain/x/evm"
+	gridchaincodec "github.com/gridfx/fxchain/app/codec"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp"
+	"github.com/gridfx/fxchain/x/evm"
 	"os"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/baseapp"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
 
-	"github.com/gridironx/gridchain/x/evm/types/testdata"
+	"github.com/gridfx/fxchain/x/evm/types/testdata"
 )
 
 func TestRegisterMsgService(t *testing.T) {

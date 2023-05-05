@@ -3,10 +3,10 @@ package keeper_test
 import (
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence/exported"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence/internal/types"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 const (

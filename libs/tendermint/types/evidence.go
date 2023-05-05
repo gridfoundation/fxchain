@@ -9,12 +9,12 @@ import (
 	"github.com/pkg/errors"
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	cryptoenc "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding"
-	cryptoamino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/proto/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	cryptoenc "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding"
+	cryptoamino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/proto/types"
 )
 
 const (

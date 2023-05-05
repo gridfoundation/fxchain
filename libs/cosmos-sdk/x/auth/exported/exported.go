@@ -1,7 +1,7 @@
 package exported
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // Account is an interface used to store coins at a given address within state.

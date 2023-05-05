@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/kv"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/kv"
 
 	"github.com/tendermint/go-amino"
 )

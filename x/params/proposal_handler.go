@@ -5,12 +5,12 @@ import (
 	"math"
 	"time"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	sdkparams "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	"github.com/gridironx/gridchain/x/common"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
-	"github.com/gridironx/gridchain/x/params/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	sdkparams "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	"github.com/gridfx/fxchain/x/common"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
+	"github.com/gridfx/fxchain/x/params/types"
 )
 
 // NewParamChangeProposalHandler returns the rollback function of the param proposal handler

@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
-	lerr "github.com/gridironx/gridchain/libs/tendermint/lite/errors"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
+	lerr "github.com/gridfx/fxchain/libs/tendermint/lite/errors"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 func TestBaseCert(t *testing.T) {

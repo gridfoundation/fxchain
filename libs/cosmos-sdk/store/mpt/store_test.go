@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/suite"
 )

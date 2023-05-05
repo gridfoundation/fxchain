@@ -2,9 +2,9 @@ package ante
 
 import (
 	"fmt"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 	"math/big"
 	"sync"
 )

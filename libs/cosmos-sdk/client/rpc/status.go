@@ -7,15 +7,15 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/version"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/version"
 
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
 )
 
 // StatusCommand returns the command to return the status of the network.

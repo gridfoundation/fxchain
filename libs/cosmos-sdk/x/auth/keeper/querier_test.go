@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	keep "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	keep "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 func TestQueryAccount(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 var (

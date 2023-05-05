@@ -4,18 +4,18 @@ import (
 	"bufio"
 	"encoding/hex"
 	"fmt"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
 	"io"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	clientkeys "github.com/gridironx/gridchain/libs/cosmos-sdk/client/keys"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	clientkeys "github.com/gridfx/fxchain/libs/cosmos-sdk/client/keys"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/app/crypto/hd"
+	"github.com/gridfx/fxchain/app/crypto/hd"
 )
 
 const (

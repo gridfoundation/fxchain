@@ -6,7 +6,7 @@ import (
 	"sort"
 
 	"github.com/golang/protobuf/proto"
-	tmstate "github.com/gridironx/gridchain/libs/tendermint/state"
+	tmstate "github.com/gridfx/fxchain/libs/tendermint/state"
 )
 
 func SetWatchDataManager() {

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/kv"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/kv"
 
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/go-amino"

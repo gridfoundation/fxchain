@@ -6,10 +6,10 @@ package keeper
 import (
 	"testing"
 
-	swaptypes "github.com/gridironx/gridchain/x/ammswap/types"
-	"github.com/gridironx/gridchain/x/farm/types"
+	swaptypes "github.com/gridfx/fxchain/x/ammswap/types"
+	"github.com/gridfx/fxchain/x/farm/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )
 

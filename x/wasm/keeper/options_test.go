@@ -4,13 +4,13 @@ import (
 	"os"
 	"testing"
 
-	authkeeper "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
+	authkeeper "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/wasm/keeper/wasmtesting"
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/keeper/wasmtesting"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 func TestConstructorOptions(t *testing.T) {

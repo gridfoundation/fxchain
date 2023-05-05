@@ -3,13 +3,13 @@ package staking
 import (
 	"time"
 
-	tmstrings "github.com/gridironx/gridchain/libs/tendermint/libs/strings"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	tmstrings "github.com/gridfx/fxchain/libs/tendermint/libs/strings"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 func NewHandler(k keeper.Keeper) sdk.Handler {

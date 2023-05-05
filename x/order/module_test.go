@@ -5,12 +5,12 @@ package order
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/x/common/version"
+	"github.com/gridfx/fxchain/x/common/version"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/order/keeper"
-	"github.com/gridironx/gridchain/x/order/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/order/keeper"
+	"github.com/gridfx/fxchain/x/order/types"
 	"github.com/stretchr/testify/require"
 )
 

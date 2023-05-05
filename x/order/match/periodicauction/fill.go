@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	orderkeeper "github.com/gridironx/gridchain/x/order/keeper"
-	"github.com/gridironx/gridchain/x/order/types"
-	token "github.com/gridironx/gridchain/x/token/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	orderkeeper "github.com/gridfx/fxchain/x/order/keeper"
+	"github.com/gridfx/fxchain/x/order/types"
+	token "github.com/gridfx/fxchain/x/token/types"
 )
 
 func fillBuyOrders(ctx sdk.Context, keeper orderkeeper.Keeper, product string,

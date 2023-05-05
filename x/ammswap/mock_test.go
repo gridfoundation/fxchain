@@ -6,20 +6,20 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mock"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/exported"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
-	"github.com/gridironx/gridchain/x/ammswap/types"
-	staking "github.com/gridironx/gridchain/x/staking/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mock"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/exported"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
+	"github.com/gridfx/fxchain/x/ammswap/types"
+	staking "github.com/gridfx/fxchain/x/staking/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/token"
+	"github.com/gridfx/fxchain/x/token"
 )
 
 type MockApp struct {

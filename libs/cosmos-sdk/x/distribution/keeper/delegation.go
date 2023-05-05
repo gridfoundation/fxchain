@@ -3,10 +3,10 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/distribution/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/distribution/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/exported"
 )
 
 // initialize starting info for a new delegation

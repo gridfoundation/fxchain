@@ -4,7 +4,7 @@ import (
 	"container/list"
 	"sync"
 
-	"github.com/gridironx/gridchain/libs/iavl/config"
+	"github.com/gridfx/fxchain/libs/iavl/config"
 	"github.com/tendermint/go-amino"
 )
 

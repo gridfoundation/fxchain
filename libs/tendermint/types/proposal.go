@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/proto/types"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/proto/types"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
 )
 
 var (

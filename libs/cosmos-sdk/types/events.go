@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmkv "github.com/gridironx/gridchain/libs/tendermint/libs/kv"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmkv "github.com/gridfx/fxchain/libs/tendermint/libs/kv"
 )
 
 // ----------------------------------------------------------------------------

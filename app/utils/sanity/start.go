@@ -3,16 +3,16 @@ package sanity
 import (
 	"github.com/spf13/viper"
 
-	"github.com/gridironx/gridchain/app/config"
-	apptype "github.com/gridironx/gridchain/app/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	cosmost "github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/tendermint/consensus"
-	"github.com/gridironx/gridchain/libs/tendermint/state"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/x/evm/watcher"
-	"github.com/gridironx/gridchain/x/infura"
+	"github.com/gridfx/fxchain/app/config"
+	apptype "github.com/gridfx/fxchain/app/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	cosmost "github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/tendermint/consensus"
+	"github.com/gridfx/fxchain/libs/tendermint/state"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/x/evm/watcher"
+	"github.com/gridfx/fxchain/x/infura"
 )
 
 // CheckStart check start command's flags. if user set conflict flags return error.

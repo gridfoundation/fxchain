@@ -3,7 +3,7 @@ package host
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 )
 
 const (

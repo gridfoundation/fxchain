@@ -4,15 +4,15 @@ import (
 	"testing"
 	"time"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/distribution/types"
-	"github.com/gridironx/gridchain/x/staking"
-	stakingexported "github.com/gridironx/gridchain/x/staking/exported"
-	stakingtypes "github.com/gridironx/gridchain/x/staking/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/distribution/types"
+	"github.com/gridfx/fxchain/x/staking"
+	stakingexported "github.com/gridfx/fxchain/x/staking/exported"
+	stakingtypes "github.com/gridfx/fxchain/x/staking/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 	"github.com/stretchr/testify/require"
 )
 

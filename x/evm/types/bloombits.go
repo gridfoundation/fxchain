@@ -17,8 +17,8 @@ package types
 
 import (
 	"encoding/binary"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"

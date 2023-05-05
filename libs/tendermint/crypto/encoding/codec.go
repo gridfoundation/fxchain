@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
-	pc "github.com/gridironx/gridchain/libs/tendermint/proto/crypto/keys"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
+	pc "github.com/gridfx/fxchain/libs/tendermint/proto/crypto/keys"
 )
 
 type PubKeyType uint8

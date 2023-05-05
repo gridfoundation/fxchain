@@ -12,15 +12,15 @@ import (
 
 	wasmvm "github.com/CosmWasm/wasmvm"
 	wasmvmtypes "github.com/CosmWasm/wasmvm/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkErrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/query"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkErrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/query"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/wasm/keeper/wasmtesting"
-	"github.com/gridironx/gridchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/keeper/wasmtesting"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 func TestQueryAllContractState(t *testing.T) {

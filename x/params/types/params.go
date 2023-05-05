@@ -2,13 +2,13 @@ package types
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/x/common"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params/subspace"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params/subspace"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkparams "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkparams "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	govutils "github.com/gridironx/gridchain/x/gov/client/utils"
+	govutils "github.com/gridfx/fxchain/x/gov/client/utils"
 	"github.com/spf13/viper"
 )
 

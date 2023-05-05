@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/kvstore"
-	core_grpc "github.com/gridironx/gridchain/libs/tendermint/rpc/grpc"
-	rpctest "github.com/gridironx/gridchain/libs/tendermint/rpc/test"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/kvstore"
+	core_grpc "github.com/gridfx/fxchain/libs/tendermint/rpc/grpc"
+	rpctest "github.com/gridfx/fxchain/libs/tendermint/rpc/test"
 	"github.com/stretchr/testify/require"
 )
 

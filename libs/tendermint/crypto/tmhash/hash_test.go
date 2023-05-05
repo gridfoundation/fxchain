@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
 )
 
 func TestHash(t *testing.T) {

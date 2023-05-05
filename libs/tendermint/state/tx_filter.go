@@ -1,8 +1,8 @@
 package state
 
 import (
-	mempl "github.com/gridironx/gridchain/libs/tendermint/mempool"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	mempl "github.com/gridfx/fxchain/libs/tendermint/mempool"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // TxPreCheck returns a function to filter transactions before processing.

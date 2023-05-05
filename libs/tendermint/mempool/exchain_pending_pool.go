@@ -3,7 +3,7 @@ package mempool
 import (
 	"sync"
 
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 const (

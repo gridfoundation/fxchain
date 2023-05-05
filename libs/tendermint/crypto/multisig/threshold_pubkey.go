@@ -1,7 +1,7 @@
 package multisig
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 )
 
 // PubKeyMultisigThreshold implements a K of N threshold multisig.

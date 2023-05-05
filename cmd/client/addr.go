@@ -3,10 +3,10 @@ package client
 import (
 	"fmt"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/gridironx/gridchain/libs/system"
+	"github.com/gridfx/fxchain/libs/system"
 	"strings"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/spf13/cobra"
 )
 

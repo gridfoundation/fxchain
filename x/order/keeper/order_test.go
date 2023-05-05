@@ -5,15 +5,15 @@ package keeper
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/x/dex"
+	"github.com/gridfx/fxchain/x/dex"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/order/types"
-	token "github.com/gridironx/gridchain/x/token/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/order/types"
+	token "github.com/gridfx/fxchain/x/token/types"
 )
 
 func TestTryPlaceOrder(t *testing.T) {

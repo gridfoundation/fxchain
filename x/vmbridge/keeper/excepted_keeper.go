@@ -1,10 +1,10 @@
 package keeper
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
-	wasmtypes "github.com/gridironx/gridchain/x/wasm/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
+	wasmtypes "github.com/gridfx/fxchain/x/wasm/types"
 )
 
 type EVMKeeper interface {

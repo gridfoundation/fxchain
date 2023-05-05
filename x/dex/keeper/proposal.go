@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/dex/types"
-	"github.com/gridironx/gridchain/x/gov"
-	govTypes "github.com/gridironx/gridchain/x/gov/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/dex/types"
+	"github.com/gridfx/fxchain/x/gov"
+	govTypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 // GetMinDeposit returns min deposit

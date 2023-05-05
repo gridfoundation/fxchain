@@ -1,8 +1,8 @@
 package ammswap
 
 import (
-	"github.com/gridironx/gridchain/x/ammswap/keeper"
-	"github.com/gridironx/gridchain/x/ammswap/types"
+	"github.com/gridfx/fxchain/x/ammswap/keeper"
+	"github.com/gridfx/fxchain/x/ammswap/types"
 )
 
 const (

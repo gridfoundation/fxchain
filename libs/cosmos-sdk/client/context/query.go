@@ -7,16 +7,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmliteErr "github.com/gridironx/gridchain/libs/tendermint/lite/errors"
-	tmliteProxy "github.com/gridironx/gridchain/libs/tendermint/lite/proxy"
-	rpcclient "github.com/gridironx/gridchain/libs/tendermint/rpc/client"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmliteErr "github.com/gridfx/fxchain/libs/tendermint/lite/errors"
+	tmliteProxy "github.com/gridfx/fxchain/libs/tendermint/lite/proxy"
+	rpcclient "github.com/gridfx/fxchain/libs/tendermint/rpc/client"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/rootmulti"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/rootmulti"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // GetNode returns an RPC client. If the context's client is not defined, an

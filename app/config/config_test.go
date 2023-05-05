@@ -3,14 +3,14 @@ package config
 import (
 	"testing"
 
-	iavlconfig "github.com/gridironx/gridchain/libs/iavl/config"
+	iavlconfig "github.com/gridfx/fxchain/libs/iavl/config"
 
 	"github.com/spf13/viper"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	tm "github.com/gridironx/gridchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	tm "github.com/gridfx/fxchain/libs/tendermint/config"
 )
 
 func TestConfig(t *testing.T) {

@@ -1,11 +1,11 @@
 package types
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/upgrade"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/upgrade"
 	"time"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	stakingtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	stakingtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/types"
 )
 
 // StakingKeeper expected staking keeper

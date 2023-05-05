@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params/types"
 )
 
 type (

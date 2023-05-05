@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	keep "github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/internal/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/internal/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	keep "github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/internal/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/internal/types"
 )
 
 func TestNewQuerier(t *testing.T) {

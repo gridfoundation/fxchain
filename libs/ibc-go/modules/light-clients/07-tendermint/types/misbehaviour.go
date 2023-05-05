@@ -3,12 +3,12 @@ package types
 import (
 	"time"
 
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/proto/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/proto/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 var _ exported.Misbehaviour = &Misbehaviour{}

@@ -5,13 +5,13 @@ package v0_36
 import (
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	v034distr "github.com/gridironx/gridchain/libs/cosmos-sdk/x/distribution/legacy/v0_34"
-	v034accounts "github.com/gridironx/gridchain/libs/cosmos-sdk/x/genaccounts/legacy/v0_34"
-	v034gov "github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/legacy/v0_34"
-	v034staking "github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/legacy/v0_34"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	v034distr "github.com/gridfx/fxchain/libs/cosmos-sdk/x/distribution/legacy/v0_34"
+	v034accounts "github.com/gridfx/fxchain/libs/cosmos-sdk/x/genaccounts/legacy/v0_34"
+	v034gov "github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/legacy/v0_34"
+	v034staking "github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/legacy/v0_34"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 )
 
 const (

@@ -1,11 +1,11 @@
 package keeper_test
 
 import (
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee/types"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
-	ibcmock "github.com/gridironx/gridchain/libs/ibc-go/testing/mock"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
+	ibcmock "github.com/gridfx/fxchain/libs/ibc-go/testing/mock"
 )
 
 func (suite *KeeperTestSuite) TestWriteAcknowledgementAsync() {

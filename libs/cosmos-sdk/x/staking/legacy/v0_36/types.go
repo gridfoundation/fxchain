@@ -5,11 +5,11 @@ package v0_36
 import (
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	v034staking "github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/legacy/v0_34"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	v034staking "github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/legacy/v0_34"
 )
 
 const (

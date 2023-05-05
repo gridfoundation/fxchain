@@ -9,15 +9,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/kvstore"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
-	"github.com/gridironx/gridchain/libs/tendermint/lite"
-	certclient "github.com/gridironx/gridchain/libs/tendermint/lite/client"
-	nm "github.com/gridironx/gridchain/libs/tendermint/node"
-	"github.com/gridironx/gridchain/libs/tendermint/rpc/client"
-	rpclocal "github.com/gridironx/gridchain/libs/tendermint/rpc/client/local"
-	rpctest "github.com/gridironx/gridchain/libs/tendermint/rpc/test"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/kvstore"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
+	"github.com/gridfx/fxchain/libs/tendermint/lite"
+	certclient "github.com/gridfx/fxchain/libs/tendermint/lite/client"
+	nm "github.com/gridfx/fxchain/libs/tendermint/node"
+	"github.com/gridfx/fxchain/libs/tendermint/rpc/client"
+	rpclocal "github.com/gridfx/fxchain/libs/tendermint/rpc/client/local"
+	rpctest "github.com/gridfx/fxchain/libs/tendermint/rpc/test"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 var node *nm.Node

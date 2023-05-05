@@ -5,7 +5,7 @@
 package genutil
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/genutil/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/genutil/types"
 )
 
 const (

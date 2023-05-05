@@ -2,16 +2,16 @@ package cli
 
 import (
 	"fmt"
-	client "github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
+	client "github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/gridironx/gridchain/x/dex/types"
+	"github.com/gridfx/fxchain/x/dex/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

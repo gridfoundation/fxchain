@@ -1,9 +1,9 @@
 // nolint
-// ALIASGEN: github.com/gridironx/gridchain/x/staking/types
+// ALIASGEN: github.com/gridfx/fxchain/x/staking/types
 package staking
 
 import (
-	"github.com/gridironx/gridchain/x/staking/types"
+	"github.com/gridfx/fxchain/x/staking/types"
 )
 
 var (

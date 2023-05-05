@@ -4,14 +4,14 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
 	"github.com/spf13/viper"
 	"io/ioutil"
 	"os"
 	"time"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
 )
 
 func (memR *Reactor) press() {

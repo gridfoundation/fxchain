@@ -3,7 +3,7 @@ package iavl
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/iavl"
+	"github.com/gridfx/fxchain/libs/iavl"
 )
 
 var (

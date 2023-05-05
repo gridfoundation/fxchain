@@ -13,17 +13,17 @@ import (
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/spf13/viper"
 
-	ethermint "github.com/gridironx/gridchain/app/types"
-	clientCtx "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerror "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
-	"github.com/gridironx/gridchain/x/evm/types"
-	"github.com/gridironx/gridchain/x/token"
-	wasmkeeper "github.com/gridironx/gridchain/x/wasm/keeper"
-	wasmtypes "github.com/gridironx/gridchain/x/wasm/types"
+	ethermint "github.com/gridfx/fxchain/app/types"
+	clientCtx "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerror "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
+	"github.com/gridfx/fxchain/x/evm/types"
+	"github.com/gridfx/fxchain/x/token"
+	wasmkeeper "github.com/gridfx/fxchain/x/wasm/keeper"
+	wasmtypes "github.com/gridfx/fxchain/x/wasm/types"
 )
 
 const (

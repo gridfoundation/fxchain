@@ -3,17 +3,17 @@ package staking
 import (
 	"testing"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mock"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
-	supplyexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/exported"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mock"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
+	supplyexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/exported"
 )
 
 // getMockApp returns an initialized mock application for this module.

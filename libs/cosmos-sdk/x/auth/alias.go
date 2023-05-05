@@ -7,9 +7,9 @@
 package auth
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/ante"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/ante"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 const (

@@ -1,8 +1,8 @@
 package evidence
 
 import (
-	"github.com/gridironx/gridchain/x/evidence/internal/keeper"
-	"github.com/gridironx/gridchain/x/evidence/internal/types"
+	"github.com/gridfx/fxchain/x/evidence/internal/keeper"
+	"github.com/gridfx/fxchain/x/evidence/internal/types"
 )
 
 // nolint

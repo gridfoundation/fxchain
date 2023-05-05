@@ -3,7 +3,7 @@ package node
 import (
 	amino "github.com/tendermint/go-amino"
 
-	cryptoamino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
+	cryptoamino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
 )
 
 var cdc = amino.NewCodec()

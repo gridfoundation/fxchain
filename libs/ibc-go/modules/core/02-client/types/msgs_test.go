@@ -1,18 +1,18 @@
 package types_test
 
 import (
-	types2 "github.com/gridironx/gridchain/libs/tendermint/types"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/types"
 	"testing"
 	"time"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	solomachinetypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
-	ibctmtypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	solomachinetypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/06-solomachine/types"
+	ibctmtypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 type TypesTestSuite struct {

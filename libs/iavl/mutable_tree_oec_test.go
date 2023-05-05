@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	db "github.com/gridironx/gridchain/libs/tm-db"
+	db "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 )
 

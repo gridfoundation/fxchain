@@ -11,12 +11,12 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/gridironx/gridchain/app/crypto/ethkeystore"
-	"github.com/gridironx/gridchain/app/crypto/hd"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/input"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/app/crypto/ethkeystore"
+	"github.com/gridfx/fxchain/app/crypto/hd"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/input"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // UnsafeExportEthKeyCommand exports a key with the given name as a private key in hex format.

@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/iavl"
-	db "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/iavl"
+	db "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 const historySize = 20

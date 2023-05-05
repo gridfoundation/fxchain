@@ -1,12 +1,12 @@
 package mock
 
 import (
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	"github.com/gridironx/gridchain/libs/tendermint/proxy"
-	"github.com/gridironx/gridchain/libs/tendermint/rpc/client"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	"github.com/gridfx/fxchain/libs/tendermint/proxy"
+	"github.com/gridfx/fxchain/libs/tendermint/rpc/client"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // ABCIApp will send all abci related request to the named app,

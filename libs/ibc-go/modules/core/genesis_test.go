@@ -3,23 +3,23 @@ package ibc_test
 import (
 	"testing"
 
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	types2 "github.com/gridironx/gridchain/libs/tendermint/types"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	// tmproto "github.com/gridironx/gridchain/libs/tendermint/proto/tendermint/types"
+	// tmproto "github.com/gridfx/fxchain/libs/tendermint/proto/tendermint/types"
 	"github.com/stretchr/testify/suite"
 
-	ibc "github.com/gridironx/gridchain/libs/ibc-go/modules/core"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	connectiontypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/types"
-	ibctmtypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	localhosttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/09-localhost/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp"
+	ibc "github.com/gridfx/fxchain/libs/ibc-go/modules/core"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	connectiontypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/types"
+	ibctmtypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	localhosttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/09-localhost/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp"
 )
 
 const (

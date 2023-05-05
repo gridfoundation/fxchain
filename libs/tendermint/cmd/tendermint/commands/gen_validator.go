@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/libs/tendermint/privval"
+	"github.com/gridfx/fxchain/libs/tendermint/privval"
 )
 
 // GenValidatorCmd allows the generation of a keypair for a

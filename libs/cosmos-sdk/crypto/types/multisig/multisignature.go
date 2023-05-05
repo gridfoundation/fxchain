@@ -2,8 +2,8 @@ package multisig
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx/signing"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx/signing"
 	"strings"
 )
 

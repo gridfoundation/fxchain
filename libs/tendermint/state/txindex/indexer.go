@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/pubsub/query"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/pubsub/query"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // TxIndexer interface defines methods to index and search transactions.

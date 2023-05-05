@@ -4,10 +4,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	clientCtx "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	"github.com/gridironx/gridchain/x/wasm/client/utils"
-	"github.com/gridironx/gridchain/x/wasm/types"
+	clientCtx "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	"github.com/gridfx/fxchain/x/wasm/client/utils"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 func registerNewTxRoutes(cliCtx clientCtx.CLIContext, r *mux.Router) {

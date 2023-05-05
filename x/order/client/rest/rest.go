@@ -7,13 +7,13 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
 
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/order/keeper"
-	"github.com/gridironx/gridchain/x/order/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/order/keeper"
+	"github.com/gridfx/fxchain/x/order/types"
 )
 
 // RegisterRoutes - Central function to define routes that get registered by the main application

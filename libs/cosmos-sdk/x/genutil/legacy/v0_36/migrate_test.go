@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/genutil"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/genutil"
 )
 
 var basic034Gov = []byte(`

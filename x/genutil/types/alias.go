@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdkgenutiltypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/genutil/types"
+	sdkgenutiltypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/genutil/types"
 )
 
 // const

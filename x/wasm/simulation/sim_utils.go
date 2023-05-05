@@ -1,10 +1,10 @@
 package simulation
 
 //import (
-//	"github.com/gridironx/gridchain/libs/cosmos-sdk/simapp/helpers"
-//	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-//	simtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/types/simulation"
-//	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
+//	"github.com/gridfx/fxchain/libs/cosmos-sdk/simapp/helpers"
+//	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+//	simtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/types/simulation"
+//	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
 //)
 //
 //// GenAndDeliverTxWithRandFees generates a transaction with a random fee and delivers it.

@@ -1,12 +1,12 @@
 package core
 
 import (
-	cm "github.com/gridironx/gridchain/libs/tendermint/consensus"
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
-	sm "github.com/gridironx/gridchain/libs/tendermint/state"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	cm "github.com/gridfx/fxchain/libs/tendermint/consensus"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
+	sm "github.com/gridfx/fxchain/libs/tendermint/state"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // Validators gets the validator set at the given block height.

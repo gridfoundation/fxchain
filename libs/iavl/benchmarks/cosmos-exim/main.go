@@ -6,8 +6,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/iavl"
-	tmdb "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/iavl"
+	tmdb "github.com/gridfx/fxchain/libs/tm-db"
 )
 
 // stores is the list of stores in the CosmosHub database

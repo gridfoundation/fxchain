@@ -2,7 +2,7 @@ package types
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
 	"strings"
 )
 

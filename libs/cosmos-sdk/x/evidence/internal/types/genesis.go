@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/evidence/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/evidence/exported"
 )
 
 // DONTCOVER

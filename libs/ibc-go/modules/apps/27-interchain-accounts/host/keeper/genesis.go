@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	icatypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	icatypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
 )
 
 // InitGenesis initializes the interchain accounts host application state from a provided genesis state

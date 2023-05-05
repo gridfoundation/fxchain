@@ -3,9 +3,9 @@ package types
 import (
 	"fmt"
 
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 type CodeType = uint32

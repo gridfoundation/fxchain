@@ -3,13 +3,13 @@ package types
 import (
 	"bytes"
 	"fmt"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/automation"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/automation"
 	"strings"
 	"sync"
 
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bits"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bits"
 )
 
 const (

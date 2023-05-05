@@ -3,8 +3,8 @@ package state
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/iavl"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/iavl"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 func unmarshalTreeDeltaMap(input []byte) (interface{}, error) {

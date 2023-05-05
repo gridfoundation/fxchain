@@ -10,23 +10,23 @@ import (
 	"time"
 
 	gogotypes "github.com/gogo/protobuf/types"
-	"github.com/gridironx/gridchain/libs/system/trace"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/compress"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
+	"github.com/gridfx/fxchain/libs/system/trace"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/compress"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
 
 	"github.com/tendermint/go-amino"
 
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bits"
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/proto/types"
-	tmversion "github.com/gridironx/gridchain/libs/tendermint/proto/version"
-	"github.com/gridironx/gridchain/libs/tendermint/version"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bits"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/proto/types"
+	tmversion "github.com/gridfx/fxchain/libs/tendermint/proto/version"
+	"github.com/gridfx/fxchain/libs/tendermint/version"
 )
 
 const (

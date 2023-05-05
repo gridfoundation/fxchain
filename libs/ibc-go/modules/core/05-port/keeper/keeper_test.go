@@ -3,15 +3,15 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/05-port/keeper"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/05-port/keeper"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp"
 )
 
 var (

@@ -2,8 +2,8 @@ package module
 
 import (
 	"github.com/gorilla/mux"
-	clientCtx "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	clientCtx "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 )
 

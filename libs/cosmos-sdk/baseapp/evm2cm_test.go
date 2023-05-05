@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	db "github.com/gridironx/gridchain/libs/tm-db"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	db "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,9 +5,9 @@ import (
 	"time"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/erc20/types"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/erc20/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
 	"github.com/stretchr/testify/require"
 )
 

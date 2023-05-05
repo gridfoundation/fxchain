@@ -5,10 +5,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/dex/types"
-	"github.com/gridironx/gridchain/x/params"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/dex/types"
+	"github.com/gridfx/fxchain/x/params"
 )
 
 // Keeper maintains the link to data storage and exposes getter/setter methods for the various parts of the state machine

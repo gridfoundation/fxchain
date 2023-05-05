@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/gridironx/gridchain/x/dex"
-	orderkeeper "github.com/gridironx/gridchain/x/order/keeper"
+	"github.com/gridfx/fxchain/x/dex"
+	orderkeeper "github.com/gridfx/fxchain/x/order/keeper"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/order/types"
+	"github.com/gridfx/fxchain/x/order/types"
 )
 
 type BookItemTestData struct {

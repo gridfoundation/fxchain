@@ -3,13 +3,13 @@ package token
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/x/common"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/x/common/perf"
-	"github.com/gridironx/gridchain/x/common/version"
-	"github.com/gridironx/gridchain/x/token/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/x/common/perf"
+	"github.com/gridfx/fxchain/x/common/version"
+	"github.com/gridfx/fxchain/x/token/types"
 )
 
 // NewTokenHandler returns a handler for "token" type messages.

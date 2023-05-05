@@ -1,10 +1,10 @@
 package cli
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	interfacetypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	controllercli "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/client/cli"
-	hostcli "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/client/cli"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	interfacetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	controllercli "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/controller/client/cli"
+	hostcli "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/client/cli"
 	"github.com/spf13/cobra"
 )
 

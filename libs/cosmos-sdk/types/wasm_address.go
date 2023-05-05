@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bech32"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bech32"
 	"gopkg.in/yaml.v2"
 	"strings"
 )

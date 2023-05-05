@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"time"
 
-	supplyexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/exported"
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/gov/types"
-	"github.com/gridironx/gridchain/x/staking/exported"
+	supplyexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/exported"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/gov/types"
+	"github.com/gridfx/fxchain/x/staking/exported"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/x/params"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/x/params"
 )
 
 // Keeper defines governance keeper

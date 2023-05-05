@@ -3,7 +3,7 @@ package keeper
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/x/distribution/types"
+	"github.com/gridfx/fxchain/x/distribution/types"
 	"github.com/stretchr/testify/require"
 )
 

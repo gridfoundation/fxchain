@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	keep "github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/keeper"
+	keep "github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/keeper"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 func TestImportExportQueues(t *testing.T) {

@@ -2,7 +2,7 @@ package backend
 
 import (
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/gridironx/gridchain/x/evm/watcher"
+	"github.com/gridfx/fxchain/x/evm/watcher"
 )
 
 type Cache interface {

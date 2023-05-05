@@ -1,11 +1,11 @@
 package client
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/keeper"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/keeper"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 // NewClientUpdateProposalHandler defines the client update proposal handler

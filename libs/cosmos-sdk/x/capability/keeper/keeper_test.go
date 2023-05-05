@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"testing"
 
-	gridchaincodec "github.com/gridironx/gridchain/app/codec"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	gridchaincodec "github.com/gridfx/fxchain/app/codec"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	stakingtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	stakingtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp"
 	"github.com/stretchr/testify/suite"
 )
 

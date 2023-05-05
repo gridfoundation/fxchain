@@ -3,7 +3,7 @@ package indexer
 import (
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/pubsub/query"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/pubsub/query"
 )
 
 type QueryRanges map[string]QueryRange

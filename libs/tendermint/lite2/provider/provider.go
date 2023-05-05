@@ -1,7 +1,7 @@
 package provider
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // Provider provides information for the lite client to sync (verification

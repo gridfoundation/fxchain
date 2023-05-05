@@ -10,15 +10,15 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/x/common"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	swap "github.com/gridironx/gridchain/x/ammswap"
-	swaptypes "github.com/gridironx/gridchain/x/ammswap/types"
-	"github.com/gridironx/gridchain/x/farm/keeper"
-	"github.com/gridironx/gridchain/x/farm/types"
-	"github.com/gridironx/gridchain/x/token"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	swap "github.com/gridfx/fxchain/x/ammswap"
+	swaptypes "github.com/gridfx/fxchain/x/ammswap/types"
+	"github.com/gridfx/fxchain/x/farm/keeper"
+	"github.com/gridfx/fxchain/x/farm/types"
+	"github.com/gridfx/fxchain/x/token"
 	"github.com/stretchr/testify/require"
 )
 

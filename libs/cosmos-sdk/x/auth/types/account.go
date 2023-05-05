@@ -7,12 +7,12 @@ import (
 
 	"github.com/tendermint/go-amino"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 	"gopkg.in/yaml.v2"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	cryptoamino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	cryptoamino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
 )
 
 //-----------------------------------------------------------------------------

@@ -3,8 +3,8 @@ package mint
 // nolint
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mint/internal/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mint/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mint/internal/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mint/internal/types"
 )
 
 const (

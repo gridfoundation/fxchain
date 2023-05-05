@@ -11,12 +11,12 @@ import (
 
 	hdwallet "github.com/miguelmota/go-ethereum-hdwallet"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys/hd"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/tests"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys/hd"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/tests"
 
-	"github.com/gridironx/gridchain/app/crypto/ethsecp256k1"
-	ethermint "github.com/gridironx/gridchain/app/types"
+	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
+	ethermint "github.com/gridfx/fxchain/app/types"
 )
 
 func TestEthermintKeygenFunc(t *testing.T) {

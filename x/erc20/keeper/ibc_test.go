@@ -6,10 +6,10 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	erc20Keeper "github.com/gridironx/gridchain/x/erc20/keeper"
-	"github.com/gridironx/gridchain/x/erc20/types"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	erc20Keeper "github.com/gridfx/fxchain/x/erc20/keeper"
+	"github.com/gridfx/fxchain/x/erc20/types"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 )
 
 const (

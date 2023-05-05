@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	abcicli "github.com/gridironx/gridchain/libs/tendermint/abci/client"
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/code"
-	"github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	abcicli "github.com/gridfx/fxchain/libs/tendermint/abci/client"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/code"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 const (

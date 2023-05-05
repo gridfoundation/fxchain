@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
 
-	"github.com/gridironx/gridchain/x/evidence/internal/types"
+	"github.com/gridfx/fxchain/x/evidence/internal/types"
 
 	"github.com/gorilla/mux"
 )

@@ -4,13 +4,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/version"
+	"github.com/gridfx/fxchain/libs/tendermint/version"
 
-	ce "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bits"
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/proto/types"
-	tmversion "github.com/gridironx/gridchain/libs/tendermint/proto/version"
+	ce "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bits"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/proto/types"
+	tmversion "github.com/gridfx/fxchain/libs/tendermint/proto/version"
 )
 
 type CM40Block struct {

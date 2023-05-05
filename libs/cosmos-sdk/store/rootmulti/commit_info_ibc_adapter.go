@@ -3,10 +3,10 @@ package rootmulti
 import (
 	"fmt"
 	ics23 "github.com/confio/ics23/go"
-	sdkmaps "github.com/gridironx/gridchain/libs/cosmos-sdk/store/internal/maps"
-	sdkproofs "github.com/gridironx/gridchain/libs/cosmos-sdk/store/internal/proofs"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
+	sdkmaps "github.com/gridfx/fxchain/libs/cosmos-sdk/store/internal/maps"
+	sdkproofs "github.com/gridfx/fxchain/libs/cosmos-sdk/store/internal/proofs"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
 )
 
 func (ci commitInfo) ProofOp(storeName string) merkle.ProofOp {

@@ -9,7 +9,7 @@ import (
 	proto "github.com/gogo/protobuf/proto"
 	_ "github.com/golang/protobuf/ptypes/duration"
 	_ "github.com/golang/protobuf/ptypes/timestamp"
-	types "github.com/gridironx/gridchain/libs/tendermint/proto/types"
+	types "github.com/gridfx/fxchain/libs/tendermint/proto/types"
 	math "math"
 	time "time"
 )

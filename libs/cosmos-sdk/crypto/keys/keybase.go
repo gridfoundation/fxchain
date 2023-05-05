@@ -5,14 +5,14 @@ import (
 	"reflect"
 	"strings"
 
-	tmcrypto "github.com/gridironx/gridchain/libs/tendermint/crypto"
-	cryptoAmino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	tmcrypto "github.com/gridfx/fxchain/libs/tendermint/crypto"
+	cryptoAmino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys/keyerror"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys/mintkey"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys/keyerror"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys/mintkey"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 var _ Keybase = dbKeybase{}

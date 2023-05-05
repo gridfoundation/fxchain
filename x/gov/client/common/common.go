@@ -3,9 +3,9 @@ package common
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/x/gov/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/x/gov/types"
 )
 
 // QueryParams actually queries gov params

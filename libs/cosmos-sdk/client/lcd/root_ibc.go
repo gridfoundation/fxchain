@@ -2,8 +2,8 @@ package lcd
 
 import (
 	"github.com/gogo/gateway"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"io"
 )

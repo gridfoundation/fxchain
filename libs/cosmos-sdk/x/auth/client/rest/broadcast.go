@@ -1,13 +1,13 @@
 package rest
 
 import (
-	ttypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	ttypes "github.com/gridfx/fxchain/libs/tendermint/types"
 	"io/ioutil"
 	"net/http"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // BroadcastReq defines a tx broadcasting request.

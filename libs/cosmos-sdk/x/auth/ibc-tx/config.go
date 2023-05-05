@@ -2,11 +2,11 @@ package ibc_tx
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	ibctx "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
-	signing2 "github.com/gridironx/gridchain/libs/cosmos-sdk/types/tx/signing"
-	signing "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/ibcsigning"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	ibctx "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
+	signing2 "github.com/gridfx/fxchain/libs/cosmos-sdk/types/tx/signing"
+	signing "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/ibcsigning"
 )
 
 type config struct {

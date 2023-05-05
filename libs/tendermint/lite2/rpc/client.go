@@ -9,16 +9,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/mempool"
+	"github.com/gridfx/fxchain/libs/tendermint/mempool"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	service "github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	lite "github.com/gridironx/gridchain/libs/tendermint/lite2"
-	rpcclient "github.com/gridironx/gridchain/libs/tendermint/rpc/client"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	service "github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	lite "github.com/gridfx/fxchain/libs/tendermint/lite2"
+	rpcclient "github.com/gridfx/fxchain/libs/tendermint/rpc/client"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 var errNegOrZeroHeight = errors.New("negative or zero height")

@@ -14,11 +14,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
 	"github.com/minio/highwayhash"
 )
 

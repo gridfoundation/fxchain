@@ -8,12 +8,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	swap "github.com/gridironx/gridchain/x/ammswap/types"
-	"github.com/gridironx/gridchain/x/farm/keeper"
-	"github.com/gridironx/gridchain/x/farm/types"
+	swap "github.com/gridfx/fxchain/x/ammswap/types"
+	"github.com/gridfx/fxchain/x/farm/keeper"
+	"github.com/gridfx/fxchain/x/farm/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 func TestBeginBlocker(t *testing.T) {

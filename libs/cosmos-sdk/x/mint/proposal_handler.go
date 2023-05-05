@@ -1,10 +1,10 @@
 package mint
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mint/internal/types"
-	"github.com/gridironx/gridchain/x/common"
-	govTypes "github.com/gridironx/gridchain/x/gov/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mint/internal/types"
+	"github.com/gridfx/fxchain/x/common"
+	govTypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 // NewManageTreasuresProposalHandler handles "gov" type message in "mint"

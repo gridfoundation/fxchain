@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/tests"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/tests"
 )
 
 func Test_openDB(t *testing.T) {

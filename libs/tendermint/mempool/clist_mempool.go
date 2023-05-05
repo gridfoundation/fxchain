@@ -16,14 +16,14 @@ import (
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/tendermint/go-amino"
 
-	"github.com/gridironx/gridchain/libs/system/trace"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/clist"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	"github.com/gridironx/gridchain/libs/tendermint/proxy"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/system/trace"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/clist"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	"github.com/gridfx/fxchain/libs/tendermint/proxy"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 type TxInfoParser interface {

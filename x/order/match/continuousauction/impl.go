@@ -1,9 +1,9 @@
 package continuousauction
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/x/order/keeper"
+	"github.com/gridfx/fxchain/x/order/keeper"
 )
 
 // nolint

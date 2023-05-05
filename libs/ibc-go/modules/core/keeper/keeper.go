@@ -1,20 +1,20 @@
 package keeper
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	types2 "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	capabilitykeeper "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	paramtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	clientkeeper "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/keeper"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	connectionkeeper "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/keeper"
-	connectiontypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
-	channelkeeper "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/keeper"
-	portkeeper "github.com/gridironx/gridchain/libs/ibc-go/modules/core/05-port/keeper"
-	porttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/05-port/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	types2 "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	capabilitykeeper "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	paramtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	clientkeeper "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/keeper"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	connectionkeeper "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/keeper"
+	connectiontypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
+	channelkeeper "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/keeper"
+	portkeeper "github.com/gridfx/fxchain/libs/ibc-go/modules/core/05-port/keeper"
+	porttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/05-port/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/types"
 )
 
 var _ types.QueryServer = (*Keeper)(nil)

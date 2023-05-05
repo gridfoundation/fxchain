@@ -1,12 +1,12 @@
 package proxy
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	lrpc "github.com/gridironx/gridchain/libs/tendermint/lite2/rpc"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpcserver "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/server"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	lrpc "github.com/gridfx/fxchain/libs/tendermint/lite2/rpc"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpcserver "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/server"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 func RPCRoutes(c *lrpc.Client) map[string]*rpcserver.RPCFunc {

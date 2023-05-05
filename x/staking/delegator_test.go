@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/x/common"
 
-	"github.com/gridironx/gridchain/x/staking/types"
+	"github.com/gridfx/fxchain/x/staking/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 func TestValidatorSMProxyDelegationSmoke(t *testing.T) {

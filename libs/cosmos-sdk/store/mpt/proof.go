@@ -1,7 +1,7 @@
 package mpt
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/merkle"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/merkle"
 )
 
 type ProofList [][]byte

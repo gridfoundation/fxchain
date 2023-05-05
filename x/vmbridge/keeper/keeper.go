@@ -1,10 +1,10 @@
 package keeper
 
 import (
-	"github.com/gridironx/gridchain/x/vmbridge/types"
+	"github.com/gridfx/fxchain/x/vmbridge/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 )
 
 type Keeper struct {

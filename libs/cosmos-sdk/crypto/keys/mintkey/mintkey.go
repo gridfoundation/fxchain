@@ -6,14 +6,14 @@ import (
 
 	"github.com/tendermint/crypto/bcrypt"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/armor"
-	cryptoAmino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/xsalsa20symmetric"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/armor"
+	cryptoAmino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/xsalsa20symmetric"
 
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys/keyerror"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys/keyerror"
 )
 
 const (

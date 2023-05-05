@@ -3,7 +3,7 @@ package automation
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 	"github.com/spf13/viper"
 	"io/ioutil"
 	"sync"

@@ -1,11 +1,11 @@
 package types_test
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/iavl"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/rootmulti"
-	storetypes "github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/iavl"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/rootmulti"
+	storetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"testing"
 
 	"github.com/stretchr/testify/suite"

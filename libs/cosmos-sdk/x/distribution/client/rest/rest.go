@@ -5,13 +5,13 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/rest"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/client/utils"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/distribution/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov"
-	govrest "github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/client/rest"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/rest"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/client/utils"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/distribution/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov"
+	govrest "github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/client/rest"
 )
 
 // RegisterRoutes register distribution REST routes.

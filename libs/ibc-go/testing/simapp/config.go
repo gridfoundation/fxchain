@@ -3,7 +3,7 @@ package simapp
 import (
 	"flag"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
 )
 
 // List of available flags for the simulator

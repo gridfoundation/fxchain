@@ -8,13 +8,13 @@ package client
 import (
 	"fmt"
 
-	log "github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/libs/tendermint/lite"
-	lerr "github.com/gridironx/gridchain/libs/tendermint/lite/errors"
-	rpcclient "github.com/gridironx/gridchain/libs/tendermint/rpc/client"
-	rpchttp "github.com/gridironx/gridchain/libs/tendermint/rpc/client/http"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	log "github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/lite"
+	lerr "github.com/gridfx/fxchain/libs/tendermint/lite/errors"
+	rpcclient "github.com/gridfx/fxchain/libs/tendermint/rpc/client"
+	rpchttp "github.com/gridfx/fxchain/libs/tendermint/rpc/client/http"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // SignStatusClient combines a SignClient and StatusClient.

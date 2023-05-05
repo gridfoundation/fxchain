@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	"github.com/gridironx/gridchain/libs/tendermint/privval"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	"github.com/gridfx/fxchain/libs/tendermint/privval"
 )
 
 // ResetAllCmd removes the database of this Tendermint core

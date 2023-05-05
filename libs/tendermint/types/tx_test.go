@@ -7,14 +7,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/etherhash"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	ctest "github.com/gridironx/gridchain/libs/tendermint/libs/test"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/etherhash"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	ctest "github.com/gridfx/fxchain/libs/tendermint/libs/test"
 )
 
 func makeTxs(cnt, size int) Txs {

@@ -3,12 +3,12 @@ package simulation
 import (
 	"math/rand"
 
-	simappparams "github.com/gridironx/gridchain/libs/cosmos-sdk/simapp/params"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/distribution/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/distribution/types"
-	govtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
+	simappparams "github.com/gridfx/fxchain/libs/cosmos-sdk/simapp/params"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/distribution/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/distribution/types"
+	govtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
 )
 
 // OpWeightSubmitCommunitySpendProposal app params key for community spend proposal

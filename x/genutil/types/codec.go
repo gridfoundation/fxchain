@@ -1,11 +1,11 @@
 package types
 
 import (
-	stakingtypes "github.com/gridironx/gridchain/x/staking/types"
+	stakingtypes "github.com/gridfx/fxchain/x/staking/types"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 )
 
 // ModuleCdc defines a generic sealed codec to be used throughout this module

@@ -11,9 +11,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	cfg "github.com/gridironx/gridchain/libs/tendermint/config"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
-	rpchttp "github.com/gridironx/gridchain/libs/tendermint/rpc/client/http"
+	cfg "github.com/gridfx/fxchain/libs/tendermint/config"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
+	rpchttp "github.com/gridfx/fxchain/libs/tendermint/rpc/client/http"
 )
 
 var dumpCmd = &cobra.Command{

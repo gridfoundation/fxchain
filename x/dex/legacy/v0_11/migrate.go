@@ -1,9 +1,9 @@
 package v0_11
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/dex/legacy/v0_10"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/dex/legacy/v0_10"
 )
 
 func Migrate(oldGenState v0_10.GenesisState) GenesisState {

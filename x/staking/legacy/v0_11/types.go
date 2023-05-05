@@ -3,9 +3,9 @@ package v0_11
 import (
 	"time"
 
-	"github.com/gridironx/gridchain/x/staking/legacy/v0_10"
+	"github.com/gridfx/fxchain/x/staking/legacy/v0_10"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 const ModuleName = "staking"

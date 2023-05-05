@@ -1,16 +1,16 @@
 package types_test
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 	"testing"
 
 	"github.com/stretchr/testify/require"
 
 	// "github.com/cosmos/cosmos-sdk/codec"
 	// codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
 )
 
 func TestCommitPacket(t *testing.T) {

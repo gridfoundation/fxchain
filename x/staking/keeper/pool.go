@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/exported"
-	"github.com/gridironx/gridchain/x/staking/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/exported"
+	"github.com/gridfx/fxchain/x/staking/types"
 )
 
 // GetBondedPool returns the bonded tokens pool's module account

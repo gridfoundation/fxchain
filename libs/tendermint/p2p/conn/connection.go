@@ -19,11 +19,11 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	flow "github.com/gridironx/gridchain/libs/tendermint/libs/flowrate"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/timer"
+	flow "github.com/gridfx/fxchain/libs/tendermint/libs/flowrate"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/timer"
 )
 
 const (

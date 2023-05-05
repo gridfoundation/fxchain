@@ -1,14 +1,14 @@
 package icamauth
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	capabilitytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	porttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/05-port/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	ibcexported "github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	"github.com/gridironx/gridchain/x/icamauth/keeper"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	capabilitytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	porttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/05-port/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	ibcexported "github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	"github.com/gridfx/fxchain/x/icamauth/keeper"
 )
 
 var _ porttypes.IBCModule = IBCModule{}

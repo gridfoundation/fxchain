@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	paramtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
+	paramtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
 )
 
 var (

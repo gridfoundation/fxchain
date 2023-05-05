@@ -3,11 +3,11 @@ package keeper_test
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/app/crypto/ethsecp256k1"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/query"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/feesplit/types"
+	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/query"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/feesplit/types"
 )
 
 func (suite *KeeperTestSuite) TestFeeSplits() {

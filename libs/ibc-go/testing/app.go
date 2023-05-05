@@ -5,34 +5,34 @@ import (
 	"testing"
 	"time"
 
-	ibc "github.com/gridironx/gridchain/libs/ibc-go/modules/core"
+	ibc "github.com/gridfx/fxchain/libs/ibc-go/modules/core"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank"
 
-	//cryptocodec "github.com/gridironx/gridchain/app/crypto/ethsecp256k1"
+	//cryptocodec "github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
 
-	//authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	//authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 
-	capabilitykeeper "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/keeper"
-	stakingtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
-	"github.com/gridironx/gridchain/x/evm"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
-	stakingkeeper "github.com/gridironx/gridchain/x/staking"
+	capabilitykeeper "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/keeper"
+	stakingtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
+	"github.com/gridfx/fxchain/x/evm"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
+	stakingkeeper "github.com/gridfx/fxchain/x/staking"
 	"github.com/stretchr/testify/require"
 
-	bam "github.com/gridironx/gridchain/libs/cosmos-sdk/baseapp"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/keeper"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp"
+	bam "github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/keeper"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp"
 )
 
 var DefaultTestingAppInit func() (TestingApp, map[string]json.RawMessage) = SetupTestingApp

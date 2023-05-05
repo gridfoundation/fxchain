@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	//clientkeeper "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/keeper"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	//clientkeeper "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/keeper"
 )
 
 // Migrator is a struct for handling in-place store migrations.

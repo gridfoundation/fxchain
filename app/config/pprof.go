@@ -1,13 +1,13 @@
 package config
 
 import (
-	"github.com/gridironx/gridchain/libs/system/trace"
+	"github.com/gridfx/fxchain/libs/system/trace"
 	"path"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/server"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/server"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
 	"github.com/mosn/holmes"
 	"github.com/spf13/viper"
 )

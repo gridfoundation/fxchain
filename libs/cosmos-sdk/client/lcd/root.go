@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/gogo/gateway"
 	"github.com/gogo/protobuf/jsonpb"
-	grpctypes "github.com/gridironx/gridchain/libs/cosmos-sdk/types/grpc"
+	grpctypes "github.com/gridfx/fxchain/libs/cosmos-sdk/types/grpc"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"net"
 	"net/http"
@@ -14,21 +14,21 @@ import (
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/libs/tendermint/node"
-	"github.com/gridironx/gridchain/libs/tendermint/rpc/client/local"
-	tmrpcserver "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/server"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/node"
+	"github.com/gridfx/fxchain/libs/tendermint/rpc/client/local"
+	tmrpcserver "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/server"
 	"github.com/rakyll/statik/fs"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/flags"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	keybase "github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	keybase "github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
 
 	// unnamed import of statik for swagger UI support
-	_ "github.com/gridironx/gridchain/libs/cosmos-sdk/client/lcd/statik"
+	_ "github.com/gridfx/fxchain/libs/cosmos-sdk/client/lcd/statik"
 )
 
 // RestServer represents the Light Client Rest server

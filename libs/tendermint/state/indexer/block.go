@@ -3,8 +3,8 @@ package indexer
 import (
 	"context"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/pubsub/query"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/pubsub/query"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // BlockIndexer defines an interface contract for indexing block events.

@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/kv"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/simulation"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp"
-	tmkv "github.com/gridironx/gridchain/libs/tendermint/libs/kv"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/kv"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/simulation"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp"
+	tmkv "github.com/gridfx/fxchain/libs/tendermint/libs/kv"
 )
 
 func TestDecodeStore(t *testing.T) {

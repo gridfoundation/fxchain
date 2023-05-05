@@ -8,7 +8,7 @@ import (
 	bip39 "github.com/bartekn/go-bip39"
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/input"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/input"
 )
 
 const (

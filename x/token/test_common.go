@@ -3,19 +3,19 @@ package token
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/mpt"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/mpt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
-	"github.com/gridironx/gridchain/x/params"
-	"github.com/gridironx/gridchain/x/token/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
+	"github.com/gridfx/fxchain/x/params"
+	"github.com/gridfx/fxchain/x/token/types"
 	"github.com/stretchr/testify/require"
 )
 

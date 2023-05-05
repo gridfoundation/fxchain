@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	cmn "github.com/gridironx/gridchain/libs/iavl/common"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
+	cmn "github.com/gridfx/fxchain/libs/iavl/common"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
 	amino "github.com/tendermint/go-amino"
 )
 

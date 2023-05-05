@@ -2,11 +2,11 @@ package evm
 
 import (
 	"encoding/json"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/simapp/adapter"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/evm"
-	"github.com/gridironx/gridchain/x/evm/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp/adapter"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/evm"
+	"github.com/gridfx/fxchain/x/evm/types"
 )
 
 type EvmModuleAdapter struct {

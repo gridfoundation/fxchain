@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/x/common"
 
 	"github.com/stretchr/testify/require"
 )

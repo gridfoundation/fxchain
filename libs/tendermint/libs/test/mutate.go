@@ -1,7 +1,7 @@
 package test
 
 import (
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
 )
 
 // Contract: !bytes.Equal(input, output) && len(input) >= len(output)

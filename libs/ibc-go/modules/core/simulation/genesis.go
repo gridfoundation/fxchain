@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	clientsims "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/simulation"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	connectionsims "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/simulation"
-	connectiontypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
-	channelsims "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/simulation"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	clientsims "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/simulation"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	connectionsims "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/simulation"
+	connectiontypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
+	channelsims "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/simulation"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/types"
 )
 
 // DONTCOVER

@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/app"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/feesplit"
-	"github.com/gridironx/gridchain/x/feesplit/types"
+	"github.com/gridfx/fxchain/app"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/feesplit"
+	"github.com/gridfx/fxchain/x/feesplit/types"
 	"github.com/stretchr/testify/suite"
 )
 

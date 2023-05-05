@@ -3,27 +3,27 @@ package types
 import (
 	"encoding/json"
 	"fmt"
-	authtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
+	authtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
 	"math/big"
 	"testing"
 
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	tmcrypto "github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	tmcrypto "github.com/gridfx/fxchain/libs/tendermint/crypto"
 	"github.com/stretchr/testify/require"
 
 	"github.com/stretchr/testify/suite"
 
-	tmamino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/secp256k1"
+	tmamino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/secp256k1"
 
-	"github.com/gridironx/gridchain/app/crypto/ethsecp256k1"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth"
+	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/sr25519"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/sr25519"
 )
 
 func init() {

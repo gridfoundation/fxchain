@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/gridironx/gridchain/x/evm/watcher"
+	"github.com/gridfx/fxchain/x/evm/watcher"
 	lru "github.com/hashicorp/golang-lru"
 	"github.com/spf13/viper"
 )

@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
 )
 
 // tests ParseChannelSequence and IsValidChannelID

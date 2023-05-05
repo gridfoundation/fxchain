@@ -1,14 +1,14 @@
 package keeper_test
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	banktypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/bank"
-	capabilitytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
-	icatypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	host "github.com/gridironx/gridchain/libs/ibc-go/modules/core/24-host"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	banktypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/bank"
+	capabilitytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
+	icatypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 // TODO,再加

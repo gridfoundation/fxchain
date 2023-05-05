@@ -1,8 +1,8 @@
 package crypto
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
 )
 
 const (

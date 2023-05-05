@@ -1,8 +1,8 @@
 package feesplit
 
 import (
-	"github.com/gridironx/gridchain/x/feesplit/keeper"
-	"github.com/gridironx/gridchain/x/feesplit/types"
+	"github.com/gridfx/fxchain/x/feesplit/keeper"
+	"github.com/gridfx/fxchain/x/feesplit/types"
 )
 
 const (

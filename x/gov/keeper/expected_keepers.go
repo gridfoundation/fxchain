@@ -1,10 +1,10 @@
 package keeper
 
 import (
-	supplyexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/exported"
-	stakingexported "github.com/gridironx/gridchain/x/staking/exported"
+	supplyexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/exported"
+	stakingexported "github.com/gridfx/fxchain/x/staking/exported"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // BankKeeper defines expected bank keeper

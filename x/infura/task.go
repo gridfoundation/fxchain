@@ -3,7 +3,7 @@ package infura
 import (
 	"encoding/json"
 
-	"github.com/gridironx/gridchain/x/infura/types"
+	"github.com/gridfx/fxchain/x/infura/types"
 )
 
 type TaskConst int

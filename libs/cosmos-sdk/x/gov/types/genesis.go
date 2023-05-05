@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // GenesisState - all staking state that must be provided at genesis

@@ -3,15 +3,15 @@
 package keeper
 
 import (
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/dex"
-	"github.com/gridironx/gridchain/x/order/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/dex"
+	"github.com/gridfx/fxchain/x/order/types"
 	"github.com/stretchr/testify/require"
 
 	"testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 )
 
 func TestDumpStore(t *testing.T) {

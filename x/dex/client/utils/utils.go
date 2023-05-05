@@ -3,8 +3,8 @@ package utils
 import (
 	"io/ioutil"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // DelistProposalJSON defines a DelistProposal with a deposit used

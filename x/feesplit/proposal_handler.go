@@ -2,11 +2,11 @@ package feesplit
 
 import (
 	ethcommon "github.com/ethereum/go-ethereum/common"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/feesplit/types"
-	govTypes "github.com/gridironx/gridchain/x/gov/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/feesplit/types"
+	govTypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 // NewProposalHandler handles "gov" type message in "feesplit"

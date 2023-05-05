@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	abcicli "github.com/gridironx/gridchain/libs/tendermint/abci/client"
-	"github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
+	abcicli "github.com/gridfx/fxchain/libs/tendermint/abci/client"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
 )
 
 func InitChain(client abcicli.Client) error {

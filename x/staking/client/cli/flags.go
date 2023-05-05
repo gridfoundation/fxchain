@@ -3,7 +3,7 @@ package cli
 import (
 	flag "github.com/spf13/pflag"
 
-	"github.com/gridironx/gridchain/x/staking/types"
+	"github.com/gridfx/fxchain/x/staking/types"
 )
 
 // nolint

@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/app/logevents"
-	"github.com/gridironx/gridchain/libs/system"
+	"github.com/gridfx/fxchain/app/logevents"
+	"github.com/gridfx/fxchain/libs/system"
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 )
 
 func subscribeCmd(cdc *codec.Codec) *cobra.Command {

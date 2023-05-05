@@ -3,10 +3,10 @@ package types
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/iavl"
-	iavl2 "github.com/gridironx/gridchain/libs/iavl"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/iavl"
+	iavl2 "github.com/gridfx/fxchain/libs/iavl"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 )
 

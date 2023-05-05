@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
-	"github.com/gridironx/gridchain/libs/tendermint/global"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	exgovtypes "github.com/gridironx/gridchain/x/gov/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/gridfx/fxchain/libs/tendermint/global"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	exgovtypes "github.com/gridfx/fxchain/x/gov/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

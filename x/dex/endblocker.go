@@ -3,10 +3,10 @@ package dex
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/x/common/perf"
-	"github.com/gridironx/gridchain/x/dex/types"
+	"github.com/gridfx/fxchain/x/common/perf"
+	"github.com/gridfx/fxchain/x/dex/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // EndBlocker called every block

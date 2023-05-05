@@ -3,10 +3,10 @@ package server
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
 
-	clkeys "github.com/gridironx/gridchain/libs/cosmos-sdk/client/keys"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	clkeys "github.com/gridfx/fxchain/libs/cosmos-sdk/client/keys"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // GenerateCoinKey returns the address of a public key, along with the secret

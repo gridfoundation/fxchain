@@ -1,4 +1,4 @@
-module github.com/gridironx/gridchain
+module github.com/gridfx/fxchain
 
 go 1.17
 

@@ -3,10 +3,10 @@
 package types
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	"github.com/gridironx/gridchain/x/params"
-	stakingexported "github.com/gridironx/gridchain/x/staking/exported"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	"github.com/gridfx/fxchain/x/params"
+	stakingexported "github.com/gridfx/fxchain/x/staking/exported"
 )
 
 // AccountKeeper expected account keeper

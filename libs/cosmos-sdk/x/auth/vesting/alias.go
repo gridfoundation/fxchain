@@ -5,7 +5,7 @@
 package vesting
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/vesting/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/vesting/types"
 )
 
 var (

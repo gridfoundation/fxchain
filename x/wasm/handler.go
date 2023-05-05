@@ -4,13 +4,13 @@ import (
 	"fmt"
 
 	"github.com/gogo/protobuf/proto"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/kv"
-	types2 "github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/x/wasm/keeper"
-	"github.com/gridironx/gridchain/x/wasm/types"
-	"github.com/gridironx/gridchain/x/wasm/watcher"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/kv"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/x/wasm/keeper"
+	"github.com/gridfx/fxchain/x/wasm/types"
+	"github.com/gridfx/fxchain/x/wasm/watcher"
 )
 
 // NewHandler returns a handler for "wasm" type messages.

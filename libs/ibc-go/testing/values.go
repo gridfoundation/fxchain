@@ -8,16 +8,16 @@ import (
 	"strconv"
 	"time"
 
-	ibcfeetypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/29-fee/types"
+	ibcfeetypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	ibctransfertypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
-	connectiontypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/03-connection/types"
-	channeltypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/04-channel/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	ibctmtypes "github.com/gridironx/gridchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/testing/mock"
+	ibctransfertypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
+	connectiontypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/03-connection/types"
+	channeltypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/04-channel/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	ibctmtypes "github.com/gridfx/fxchain/libs/ibc-go/modules/light-clients/07-tendermint/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/testing/mock"
 )
 
 const (

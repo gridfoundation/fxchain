@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/gogo/protobuf/proto"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/protoio"
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/proto/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/protoio"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/proto/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
 	"time"
 )
 

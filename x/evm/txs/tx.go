@@ -1,11 +1,11 @@
 package txs
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	authexported "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/exported"
-	bam "github.com/gridironx/gridchain/libs/system/trace"
-	"github.com/gridironx/gridchain/x/evm/txs/base"
-	"github.com/gridironx/gridchain/x/evm/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	authexported "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/exported"
+	bam "github.com/gridfx/fxchain/libs/system/trace"
+	"github.com/gridfx/fxchain/x/evm/txs/base"
+	"github.com/gridfx/fxchain/x/evm/types"
 )
 
 type Tx interface {

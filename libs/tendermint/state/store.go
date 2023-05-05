@@ -7,11 +7,11 @@ import (
 
 	"github.com/tendermint/go-amino"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/pkg/errors"
 )
 

@@ -2,10 +2,10 @@ package txs
 
 import (
 	"fmt"
-	"github.com/gridironx/gridchain/x/evm/txs/base"
-	"github.com/gridironx/gridchain/x/evm/txs/check"
-	"github.com/gridironx/gridchain/x/evm/txs/deliver"
-	"github.com/gridironx/gridchain/x/evm/txs/tracetxlog"
+	"github.com/gridfx/fxchain/x/evm/txs/base"
+	"github.com/gridfx/fxchain/x/evm/txs/check"
+	"github.com/gridfx/fxchain/x/evm/txs/deliver"
+	"github.com/gridfx/fxchain/x/evm/txs/tracetxlog"
 )
 
 type factory struct {

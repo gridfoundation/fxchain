@@ -3,9 +3,9 @@ package lite
 import (
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/lite2/provider"
-	"github.com/gridironx/gridchain/libs/tendermint/lite2/provider/http"
-	"github.com/gridironx/gridchain/libs/tendermint/lite2/store"
+	"github.com/gridfx/fxchain/libs/tendermint/lite2/provider"
+	"github.com/gridfx/fxchain/libs/tendermint/lite2/provider/http"
+	"github.com/gridfx/fxchain/libs/tendermint/lite2/store"
 )
 
 // NewHTTPClient initiates an instance of a lite client using HTTP addresses

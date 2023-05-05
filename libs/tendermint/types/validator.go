@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"strings"
 
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/global"
+	"github.com/gridfx/fxchain/libs/tendermint/global"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	ce "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	tmproto "github.com/gridironx/gridchain/libs/tendermint/proto/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	ce "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	tmproto "github.com/gridfx/fxchain/libs/tendermint/proto/types"
 )
 
 // Volatile state for each Validator

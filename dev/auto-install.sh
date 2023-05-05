@@ -123,8 +123,8 @@ GetArchitecture() {
 download() {
   rm -rf "$HOME"/.gridchain/src
   mkdir -p "$HOME"/.gridchain/src
-  tag=`wget -qO- -t1 -T2 --no-check-certificate "https://api.github.com/repos/gridironx/gridchain/releases/latest" | grep "tag_name" | head -n 1 | awk -F ":" '{print $2}' | sed 's/\"//g;s/,//g;s/ //g'`
-  wget --no-check-certificate "https://github.com/gridironx/gridchain/archive/refs/tags/${tag}.tar.gz" -O "$HOME"/.gridchain/src/gridchain.tar.gz
+  tag=`wget -qO- -t1 -T2 --no-check-certificate "https://api.github.com/repos/gridfx/fxchain/releases/latest" | grep "tag_name" | head -n 1 | awk -F ":" '{print $2}' | sed 's/\"//g;s/,//g;s/ //g'`
+  wget --no-check-certificate "https://github.com/gridfx/fxchain/archive/refs/tags/${tag}.tar.gz" -O "$HOME"/.gridchain/src/gridchain.tar.gz
   ver=$(echo $tag| sed 's/v//g')
   cd "$HOME"/.gridchain/src && tar zxvf gridchain.tar.gz &&  cd gridchain-"$ver"
 }

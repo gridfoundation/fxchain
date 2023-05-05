@@ -7,16 +7,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	tmpubsub "github.com/gridironx/gridchain/libs/tendermint/libs/pubsub"
-	tmquery "github.com/gridironx/gridchain/libs/tendermint/libs/pubsub/query"
-	nm "github.com/gridironx/gridchain/libs/tendermint/node"
-	rpcclient "github.com/gridironx/gridchain/libs/tendermint/rpc/client"
-	"github.com/gridironx/gridchain/libs/tendermint/rpc/core"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/jsonrpc/types"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	tmpubsub "github.com/gridfx/fxchain/libs/tendermint/libs/pubsub"
+	tmquery "github.com/gridfx/fxchain/libs/tendermint/libs/pubsub/query"
+	nm "github.com/gridfx/fxchain/libs/tendermint/node"
+	rpcclient "github.com/gridfx/fxchain/libs/tendermint/rpc/client"
+	"github.com/gridfx/fxchain/libs/tendermint/rpc/core"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/jsonrpc/types"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 /*

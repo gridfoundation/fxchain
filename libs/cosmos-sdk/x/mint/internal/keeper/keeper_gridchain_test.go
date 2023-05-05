@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/app"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mint/internal/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	evm_types "github.com/gridironx/gridchain/x/evm/types"
+	"github.com/gridfx/fxchain/app"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mint/internal/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	evm_types "github.com/gridfx/fxchain/x/evm/types"
 	"github.com/stretchr/testify/suite"
 )
 

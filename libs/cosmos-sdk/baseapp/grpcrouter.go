@@ -3,10 +3,10 @@ package baseapp
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/grpc/reflection"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/grpc/reflection"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
 	gogogrpc "github.com/gogo/protobuf/grpc"
 	"google.golang.org/grpc"

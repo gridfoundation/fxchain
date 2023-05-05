@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/tests"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/tests"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

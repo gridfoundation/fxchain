@@ -3,8 +3,8 @@ package slashing
 // nolint
 
 import (
-	"github.com/gridironx/gridchain/x/slashing/internal/keeper"
-	"github.com/gridironx/gridchain/x/slashing/internal/types"
+	"github.com/gridfx/fxchain/x/slashing/internal/keeper"
+	"github.com/gridfx/fxchain/x/slashing/internal/types"
 )
 
 const (

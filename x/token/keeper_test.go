@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mock"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mock"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/token/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/token/types"
 )
 
 func TestKeeper_GetFeeDetailList(t *testing.T) {

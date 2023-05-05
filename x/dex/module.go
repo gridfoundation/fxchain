@@ -3,20 +3,20 @@ package dex
 import (
 	"encoding/json"
 
-	"github.com/gridironx/gridchain/x/dex/keeper"
+	"github.com/gridfx/fxchain/x/dex/keeper"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/dex/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/dex/types"
 
 	"github.com/gorilla/mux"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/x/dex/client/cli"
-	"github.com/gridironx/gridchain/x/dex/client/rest"
+	"github.com/gridfx/fxchain/x/dex/client/cli"
+	"github.com/gridfx/fxchain/x/dex/client/rest"
 )
 
 var (

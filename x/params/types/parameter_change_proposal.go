@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params/types"
 
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkparams "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkparams "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
 )
 
 // Assert ParameterChangeProposal implements govtypes.Content at compile-time

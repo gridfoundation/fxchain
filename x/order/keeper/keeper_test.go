@@ -5,14 +5,14 @@ package keeper
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/x/common"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gridironx/gridchain/x/dex"
-	"github.com/gridironx/gridchain/x/order/types"
-	token "github.com/gridironx/gridchain/x/token/types"
+	"github.com/gridfx/fxchain/x/dex"
+	"github.com/gridfx/fxchain/x/order/types"
+	token "github.com/gridfx/fxchain/x/token/types"
 )
 
 func TestKeeper_Cache2Disk(t *testing.T) {

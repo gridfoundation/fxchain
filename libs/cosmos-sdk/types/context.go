@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/gridironx/gridchain/libs/system/trace"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/system/trace"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/gaskv"
-	stypes "github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/gaskv"
+	stypes "github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
 )
 
 /*

@@ -2,9 +2,9 @@ package tracetxlog
 
 import (
 	"fmt"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/evm/txs/base"
-	"github.com/gridironx/gridchain/x/evm/txs/check"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/evm/txs/base"
+	"github.com/gridfx/fxchain/x/evm/txs/check"
 )
 
 // tx trace tx log depends on check tx

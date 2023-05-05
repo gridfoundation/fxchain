@@ -1,6 +1,6 @@
 package merkle
 
-import cryptomerkel "github.com/gridironx/gridchain/libs/tendermint/proto/crypto/merkle"
+import cryptomerkel "github.com/gridfx/fxchain/libs/tendermint/proto/crypto/merkle"
 
 func (sp *SimpleProof) ToProto() *cryptomerkel.SimpleProof {
 	if sp == nil {

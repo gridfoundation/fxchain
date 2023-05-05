@@ -3,11 +3,11 @@ package gov
 import (
 	"fmt"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	"github.com/gridironx/gridchain/x/common"
-	"github.com/gridironx/gridchain/x/gov/keeper"
-	"github.com/gridironx/gridchain/x/gov/types"
+	"github.com/gridfx/fxchain/x/common"
+	"github.com/gridfx/fxchain/x/gov/keeper"
+	"github.com/gridfx/fxchain/x/gov/types"
 )
 
 // NewHandler handle all "gov" type messages.

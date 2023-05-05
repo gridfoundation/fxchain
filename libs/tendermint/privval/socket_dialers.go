@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	tmnet "github.com/gridironx/gridchain/libs/tendermint/libs/net"
-	p2pconn "github.com/gridironx/gridchain/libs/tendermint/p2p/conn"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	tmnet "github.com/gridfx/fxchain/libs/tendermint/libs/net"
+	p2pconn "github.com/gridfx/fxchain/libs/tendermint/p2p/conn"
 )
 
 // Socket errors.

@@ -5,8 +5,8 @@ package keeper
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/x/dex"
-	"github.com/gridironx/gridchain/x/order/types"
+	"github.com/gridfx/fxchain/x/dex"
+	"github.com/gridfx/fxchain/x/order/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
 )
 
 // SignerListenerEndpointOption sets an optional parameter on the SignerListenerEndpoint.

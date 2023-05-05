@@ -3,8 +3,8 @@ package types_test
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 	"github.com/stretchr/testify/suite"
 )
 

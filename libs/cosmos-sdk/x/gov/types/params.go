@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	params "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params/subspace"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	params "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params/subspace"
 )
 
 // Default period for deposits & voting

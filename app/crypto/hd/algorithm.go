@@ -10,11 +10,11 @@ import (
 	ethaccounts "github.com/ethereum/go-ethereum/accounts"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 
-	tmcrypto "github.com/gridironx/gridchain/libs/tendermint/crypto"
+	tmcrypto "github.com/gridfx/fxchain/libs/tendermint/crypto"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
 
-	"github.com/gridironx/gridchain/app/crypto/ethsecp256k1"
+	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
 )
 
 const (

@@ -1,10 +1,10 @@
 package keeper_test
 
 import (
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/keeper"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/types"
-	icatypes "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/keeper"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/host/types"
+	icatypes "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 func (suite *KeeperTestSuite) TestInitGenesis() {

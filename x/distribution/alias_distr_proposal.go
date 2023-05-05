@@ -1,12 +1,12 @@
 // nolint
 // aliases generated for the following subdirectories:
-// ALIASGEN: github.com/gridironx/gridchain/x/distribution/types
-// ALIASGEN: github.com/gridironx/gridchain/x/distribution/client
+// ALIASGEN: github.com/gridfx/fxchain/x/distribution/types
+// ALIASGEN: github.com/gridfx/fxchain/x/distribution/client
 package distribution
 
 import (
-	"github.com/gridironx/gridchain/x/distribution/client"
-	"github.com/gridironx/gridchain/x/distribution/types"
+	"github.com/gridfx/fxchain/x/distribution/client"
+	"github.com/gridfx/fxchain/x/distribution/types"
 )
 
 var (

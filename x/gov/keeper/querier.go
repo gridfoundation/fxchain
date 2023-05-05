@@ -1,13 +1,13 @@
 package keeper
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/common"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/common"
 
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
-	"github.com/gridironx/gridchain/x/gov/types"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
+	"github.com/gridfx/fxchain/x/gov/types"
 )
 
 // NewQuerier returns all query handlers

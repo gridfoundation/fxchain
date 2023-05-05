@@ -2,10 +2,10 @@ package evm_test
 
 import (
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	ttypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	"github.com/gridironx/gridchain/x/evm"
-	"github.com/gridironx/gridchain/x/evm/types"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
+	ttypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/x/evm"
+	"github.com/gridfx/fxchain/x/evm/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
 )
 
 func (suite *EvmTestSuite) TestProposalHandler_ManageContractDeploymentWhitelistProposal() {

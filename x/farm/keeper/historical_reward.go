@@ -2,8 +2,8 @@ package keeper
 
 import (
 	"encoding/binary"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/x/farm/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/x/farm/types"
 )
 
 func (k Keeper) GetPoolHistoricalRewards(

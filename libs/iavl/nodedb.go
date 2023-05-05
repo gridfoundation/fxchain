@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/tmhash"
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/tmhash"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 	cmap "github.com/orcaman/concurrent-map"
 	"github.com/pkg/errors"
 	"github.com/tendermint/go-amino"

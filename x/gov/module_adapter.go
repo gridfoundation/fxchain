@@ -2,15 +2,15 @@ package gov
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/x/gov/types"
+	"github.com/gridfx/fxchain/x/gov/types"
 
-	anytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	GovCli "github.com/gridironx/gridchain/x/gov/client/cli"
+	anytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	GovCli "github.com/gridfx/fxchain/x/gov/client/cli"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 )
 

@@ -6,8 +6,8 @@
 package supply
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/internal/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/internal/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/internal/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/internal/types"
 )
 
 const (

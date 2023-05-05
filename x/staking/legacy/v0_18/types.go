@@ -1,12 +1,12 @@
 package v0_18
 
 import (
-	"github.com/gridironx/gridchain/x/staking/legacy/v0_11"
+	"github.com/gridfx/fxchain/x/staking/legacy/v0_11"
 	"time"
 
-	"github.com/gridironx/gridchain/x/staking/legacy/v0_10"
+	"github.com/gridfx/fxchain/x/staking/legacy/v0_10"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 var DefaultMinSelfDelegation = sdk.NewDec(10000)

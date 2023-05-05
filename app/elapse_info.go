@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gridironx/gridchain/libs/system/trace"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
+	"github.com/gridfx/fxchain/libs/system/trace"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
 
 	"github.com/spf13/viper"
 )

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
 )
 
 // ErrListenerWasRemoved is returned by AddEvent if the listener was removed.

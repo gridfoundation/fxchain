@@ -7,7 +7,7 @@ import (
 
 	"github.com/tendermint/go-amino"
 
-	"github.com/gridironx/gridchain/app/utils"
+	"github.com/gridfx/fxchain/app/utils"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 )

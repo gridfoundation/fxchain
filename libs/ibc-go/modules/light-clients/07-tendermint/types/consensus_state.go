@@ -1,12 +1,12 @@
 package types
 
 import (
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	clienttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/02-client/types"
-	commitmenttypes "github.com/gridironx/gridchain/libs/ibc-go/modules/core/23-commitment/types"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/exported"
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
+	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/exported"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 	"time"
 )
 

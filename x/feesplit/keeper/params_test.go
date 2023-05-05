@@ -1,6 +1,6 @@
 package keeper_test
 
-import "github.com/gridironx/gridchain/x/feesplit/types"
+import "github.com/gridfx/fxchain/x/feesplit/types"
 
 func (suite *KeeperTestSuite) TestParams() {
 	params := suite.app.FeeSplitKeeper.GetParams(suite.ctx)

@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/baseapp"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/gridironx/gridchain/libs/cosmos-sdk/simapp/params"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/distribution/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/distribution/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
-	stakingkeeper "github.com/gridironx/gridchain/libs/cosmos-sdk/x/staking/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/simapp/helpers"
+	simappparams "github.com/gridfx/fxchain/libs/cosmos-sdk/simapp/params"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/distribution/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/distribution/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
+	stakingkeeper "github.com/gridfx/fxchain/libs/cosmos-sdk/x/staking/keeper"
 )
 
 // Simulation operation weights constants

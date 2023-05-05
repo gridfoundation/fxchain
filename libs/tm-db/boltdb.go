@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gridironx/gridchain/libs/tm-db/common"
+	"github.com/gridfx/fxchain/libs/tm-db/common"
 	"github.com/pkg/errors"
 	"go.etcd.io/bbolt"
 )

@@ -3,10 +3,10 @@ package distribution
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/distribution/keeper"
-	"github.com/gridironx/gridchain/x/distribution/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/distribution/keeper"
+	"github.com/gridfx/fxchain/x/distribution/types"
 	"github.com/stretchr/testify/require"
 )
 

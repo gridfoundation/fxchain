@@ -4,11 +4,11 @@ import (
 	"errors"
 
 	"github.com/golang/protobuf/ptypes/wrappers"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	anytypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	sdktypes "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	types "github.com/gridironx/gridchain/libs/cosmos-sdk/types/ibc-adapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	anytypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	sdktypes "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	types "github.com/gridfx/fxchain/libs/cosmos-sdk/types/ibc-adapter"
 )
 
 var (

@@ -14,8 +14,8 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	cs "github.com/gridironx/gridchain/libs/tendermint/consensus"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	cs "github.com/gridfx/fxchain/libs/tendermint/consensus"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 var cdc = amino.NewCodec()

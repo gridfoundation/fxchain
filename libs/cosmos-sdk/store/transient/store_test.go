@@ -1,7 +1,7 @@
 package transient
 
 import (
-	"github.com/gridironx/gridchain/libs/iavl"
+	"github.com/gridfx/fxchain/libs/iavl"
 	"testing"
 
 	"github.com/stretchr/testify/require"

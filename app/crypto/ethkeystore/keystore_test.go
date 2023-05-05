@@ -3,12 +3,12 @@ package ethkeystore
 import (
 	"testing"
 
-	"github.com/gridironx/gridchain/app/crypto/ethsecp256k1"
-	"github.com/gridironx/gridchain/app/crypto/hd"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/crypto/keys"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/tests"
-	tmamino "github.com/gridironx/gridchain/libs/tendermint/crypto/encoding/amino"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/multisig"
+	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
+	"github.com/gridfx/fxchain/app/crypto/hd"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/keys"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/tests"
+	tmamino "github.com/gridfx/fxchain/libs/tendermint/crypto/encoding/amino"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/multisig"
 	"github.com/stretchr/testify/require"
 )
 

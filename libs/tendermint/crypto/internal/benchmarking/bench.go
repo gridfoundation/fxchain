@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
 )
 
 // The code in this file is adapted from agl/ed25519.

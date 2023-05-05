@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/gridironx/gridchain/libs/iavl/mock"
-	db "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/iavl/mock"
+	db "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,8 +1,8 @@
 package types_test
 
 import (
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
-	ibctesting "github.com/gridironx/gridchain/libs/ibc-go/testing"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/apps/27-interchain-accounts/types"
+	ibctesting "github.com/gridfx/fxchain/libs/ibc-go/testing"
 )
 
 // use TestVersion as metadata being compared against

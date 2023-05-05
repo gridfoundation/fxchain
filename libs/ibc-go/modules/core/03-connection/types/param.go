@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	paramtypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
+	paramtypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
 )
 
 // DefaultTimePerBlock is the default value for maximum expected time per block (in nanoseconds).

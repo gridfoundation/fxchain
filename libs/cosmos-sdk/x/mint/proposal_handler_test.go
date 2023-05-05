@@ -4,14 +4,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gridironx/gridchain/app"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mint"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mint/internal/types"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
+	"github.com/gridfx/fxchain/app"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mint"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mint/internal/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
 	"github.com/stretchr/testify/suite"
 )
 

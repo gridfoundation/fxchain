@@ -1,6 +1,6 @@
 package token
 
-import "github.com/gridironx/gridchain/x/token/types"
+import "github.com/gridfx/fxchain/x/token/types"
 
 const (
 	// ModuleName is the module name constant used in many places

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/gridironx/gridchain/libs/tendermint/abci/example/kvstore"
-	rpchttp "github.com/gridironx/gridchain/libs/tendermint/rpc/client/http"
-	ctypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	rpctest "github.com/gridironx/gridchain/libs/tendermint/rpc/test"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/example/kvstore"
+	rpchttp "github.com/gridfx/fxchain/libs/tendermint/rpc/client/http"
+	ctypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	rpctest "github.com/gridfx/fxchain/libs/tendermint/rpc/test"
 )
 
 func ExampleHTTP_simple() {

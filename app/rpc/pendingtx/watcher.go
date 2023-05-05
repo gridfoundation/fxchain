@@ -7,12 +7,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 
-	rpcfilters "github.com/gridironx/gridchain/app/rpc/namespaces/eth/filters"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	coretypes "github.com/gridironx/gridchain/libs/tendermint/rpc/core/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
-	evmtypes "github.com/gridironx/gridchain/x/evm/types"
+	rpcfilters "github.com/gridfx/fxchain/app/rpc/namespaces/eth/filters"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	coretypes "github.com/gridfx/fxchain/libs/tendermint/rpc/core/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
+	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 )
 
 type Watcher struct {

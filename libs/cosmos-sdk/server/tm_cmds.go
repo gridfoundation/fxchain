@@ -9,14 +9,14 @@ import (
 	"github.com/spf13/viper"
 	yaml "gopkg.in/yaml.v2"
 
-	tcmd "github.com/gridironx/gridchain/libs/tendermint/cmd/tendermint/commands"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/cli"
-	"github.com/gridironx/gridchain/libs/tendermint/p2p"
-	pvm "github.com/gridironx/gridchain/libs/tendermint/privval"
-	tversion "github.com/gridironx/gridchain/libs/tendermint/version"
+	tcmd "github.com/gridfx/fxchain/libs/tendermint/cmd/tendermint/commands"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/cli"
+	"github.com/gridfx/fxchain/libs/tendermint/p2p"
+	pvm "github.com/gridfx/fxchain/libs/tendermint/privval"
+	tversion "github.com/gridfx/fxchain/libs/tendermint/version"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 )
 
 // ShowNodeIDCmd - ported from Tendermint, dump node ID to stdout

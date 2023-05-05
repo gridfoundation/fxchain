@@ -1,9 +1,9 @@
 package simapp
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	ibc_tx "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/ibc-tx"
-	simappparams "github.com/gridironx/gridchain/libs/ibc-go/testing/simapp/params"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	ibc_tx "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/ibc-tx"
+	simappparams "github.com/gridfx/fxchain/libs/ibc-go/testing/simapp/params"
 )
 
 // MakeTestEncodingConfig creates an EncodingConfig for testing. This function

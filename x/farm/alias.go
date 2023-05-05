@@ -1,8 +1,8 @@
 package farm
 
 import (
-	"github.com/gridironx/gridchain/x/farm/keeper"
-	"github.com/gridironx/gridchain/x/farm/types"
+	"github.com/gridfx/fxchain/x/farm/keeper"
+	"github.com/gridfx/fxchain/x/farm/types"
 )
 
 const (

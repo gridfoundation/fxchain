@@ -3,9 +3,9 @@ package keeper
 import (
 	"github.com/pkg/errors"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/mint/internal/types"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/mint/internal/types"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 func (k Keeper) AddYieldFarming(ctx sdk.Context, yieldAmt sdk.Coins) error {

@@ -3,8 +3,8 @@ package cache
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/cachekv"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/cachekv"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
 
 	lru "github.com/hashicorp/golang-lru"
 )

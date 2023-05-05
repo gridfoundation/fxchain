@@ -2,7 +2,7 @@ package watcher
 
 import (
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	"github.com/gridironx/gridchain/x/evm/types"
+	"github.com/gridfx/fxchain/x/evm/types"
 )
 
 type evmTx struct {

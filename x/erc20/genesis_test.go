@@ -1,8 +1,8 @@
 package erc20_test
 
 import (
-	"github.com/gridironx/gridchain/x/erc20"
-	"github.com/gridironx/gridchain/x/erc20/types"
+	"github.com/gridfx/fxchain/x/erc20"
+	"github.com/gridfx/fxchain/x/erc20/types"
 )
 
 func (suite *Erc20TestSuite) TestInitGenesis() {

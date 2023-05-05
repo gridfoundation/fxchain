@@ -3,11 +3,11 @@ package keeper
 import (
 	"time"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/supply/exported"
-	"github.com/gridironx/gridchain/x/dex/types"
-	ordertypes "github.com/gridironx/gridchain/x/order/types"
-	"github.com/gridironx/gridchain/x/params"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/supply/exported"
+	"github.com/gridfx/fxchain/x/dex/types"
+	ordertypes "github.com/gridfx/fxchain/x/order/types"
+	"github.com/gridfx/fxchain/x/params"
 )
 
 // SupplyKeeper defines the expected supply Keeper

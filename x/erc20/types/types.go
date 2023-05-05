@@ -3,7 +3,7 @@ package types
 import (
 	"strings"
 
-	ibctransferType "github.com/gridironx/gridchain/libs/ibc-go/modules/apps/transfer/types"
+	ibctransferType "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer/types"
 )
 
 const (

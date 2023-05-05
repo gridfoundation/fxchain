@@ -3,21 +3,21 @@ package erc20
 import (
 	"encoding/json"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/upgrade"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	"github.com/gridironx/gridchain/libs/ibc-go/modules/core/base"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/upgrade"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	"github.com/gridfx/fxchain/libs/ibc-go/modules/core/base"
 
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/erc20/client/cli"
-	"github.com/gridironx/gridchain/x/erc20/keeper"
-	"github.com/gridironx/gridchain/x/erc20/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/erc20/client/cli"
+	"github.com/gridfx/fxchain/x/erc20/keeper"
+	"github.com/gridfx/fxchain/x/erc20/types"
 )
 
 var _ module.AppModuleBasic = AppModuleBasic{}

@@ -1,10 +1,10 @@
 package v018
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/genutil"
-	v018evm "github.com/gridironx/gridchain/x/evm/legacy/v0_18"
-	v018staking "github.com/gridironx/gridchain/x/staking/legacy/v0_18"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/genutil"
+	v018evm "github.com/gridfx/fxchain/x/evm/legacy/v0_18"
+	v018staking "github.com/gridfx/fxchain/x/staking/legacy/v0_18"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

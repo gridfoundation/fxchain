@@ -4,8 +4,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/service"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/service"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // ValidationRequestHandlerFunc handles different remoteSigner requests

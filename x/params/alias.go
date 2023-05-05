@@ -1,8 +1,8 @@
 package params
 
 import (
-	sdkparams "github.com/gridironx/gridchain/libs/cosmos-sdk/x/params"
-	"github.com/gridironx/gridchain/x/params/types"
+	sdkparams "github.com/gridfx/fxchain/libs/cosmos-sdk/x/params"
+	"github.com/gridfx/fxchain/x/params/types"
 )
 
 // const

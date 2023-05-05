@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
 )
 
 // ID is a hex-encoded crypto.Address

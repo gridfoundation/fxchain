@@ -15,11 +15,11 @@ import (
 	strings "strings"
 	time "time"
 
-	"github.com/gridironx/gridchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/types"
 
-	github_com_cosmos_cosmos_sdk_types "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	github_com_cosmos_cosmos_sdk_types "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	types1 "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
+	types1 "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 
 	_ "github.com/cosmos/cosmos-proto"
 	_ "github.com/gogo/protobuf/gogoproto"

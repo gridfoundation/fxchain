@@ -11,9 +11,9 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/gridironx/gridchain/libs/iavl/mock"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/rand"
-	db "github.com/gridironx/gridchain/libs/tm-db"
+	"github.com/gridfx/fxchain/libs/iavl/mock"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/rand"
+	db "github.com/gridfx/fxchain/libs/tm-db"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/go-amino"

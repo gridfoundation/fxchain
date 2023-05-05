@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmtypes "github.com/gridironx/gridchain/libs/tendermint/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmtypes "github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 type mockValidator struct {

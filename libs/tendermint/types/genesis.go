@@ -9,10 +9,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/gridironx/gridchain/libs/tendermint/crypto"
-	tmbytes "github.com/gridironx/gridchain/libs/tendermint/libs/bytes"
-	tmos "github.com/gridironx/gridchain/libs/tendermint/libs/os"
-	tmtime "github.com/gridironx/gridchain/libs/tendermint/types/time"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto"
+	tmbytes "github.com/gridfx/fxchain/libs/tendermint/libs/bytes"
+	tmos "github.com/gridfx/fxchain/libs/tendermint/libs/os"
+	tmtime "github.com/gridfx/fxchain/libs/tendermint/types/time"
 )
 
 const (

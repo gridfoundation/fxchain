@@ -5,16 +5,16 @@ import (
 	"fmt"
 
 	"github.com/gorilla/mux"
-	cliContext "github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	codectypes "github.com/gridironx/gridchain/libs/cosmos-sdk/codec/types"
-	cosmost "github.com/gridironx/gridchain/libs/cosmos-sdk/store/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/upgrade"
+	cliContext "github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	codectypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
+	cosmost "github.com/gridfx/fxchain/libs/cosmos-sdk/store/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/upgrade"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/types"
-	authinternaltypes "github.com/gridironx/gridchain/libs/cosmos-sdk/x/auth/typesadapter"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/types"
+	authinternaltypes "github.com/gridfx/fxchain/libs/cosmos-sdk/x/auth/typesadapter"
 	"github.com/spf13/cobra"
 )
 

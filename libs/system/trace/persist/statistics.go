@@ -3,7 +3,7 @@ package persist
 import (
 	"fmt"
 
-	"github.com/gridironx/gridchain/libs/system/trace"
+	"github.com/gridfx/fxchain/libs/system/trace"
 )
 
 var stats *statistics

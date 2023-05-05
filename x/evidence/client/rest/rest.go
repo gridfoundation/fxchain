@@ -3,7 +3,7 @@ package rest
 import (
 	"net/http"
 
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
 
 	"github.com/gorilla/mux"
 )

@@ -1,8 +1,8 @@
 package kvstore
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	tmrand "github.com/gridironx/gridchain/libs/tendermint/libs/rand"
+	"github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	tmrand "github.com/gridfx/fxchain/libs/tendermint/libs/rand"
 )
 
 // RandVal creates one random validator, with a key derived

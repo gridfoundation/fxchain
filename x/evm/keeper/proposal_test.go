@@ -4,12 +4,12 @@ import (
 	"time"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	ethermint "github.com/gridironx/gridchain/app/types"
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	"github.com/gridironx/gridchain/x/evm/types"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
-	staking_types "github.com/gridironx/gridchain/x/staking/types"
+	ethermint "github.com/gridfx/fxchain/app/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	"github.com/gridfx/fxchain/x/evm/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
+	staking_types "github.com/gridfx/fxchain/x/staking/types"
 	"github.com/stretchr/testify/require"
 )
 

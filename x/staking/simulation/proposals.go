@@ -1,8 +1,8 @@
 package simulation
 
 import (
-	simappparams "github.com/gridironx/gridchain/libs/cosmos-sdk/simapp/params"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/simulation"
+	simappparams "github.com/gridfx/fxchain/libs/cosmos-sdk/simapp/params"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/simulation"
 )
 
 // OpWeightSubmitParamChangeProposal app params key for param change proposal

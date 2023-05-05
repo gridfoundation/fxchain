@@ -3,8 +3,8 @@ package gov
 // nolint
 
 import (
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/gov/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/gov/types"
 )
 
 const (

@@ -6,11 +6,11 @@ import (
 	"sort"
 	"strings"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	sdkerrors "github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
-	types2 "github.com/gridironx/gridchain/libs/tendermint/types"
-	govtypes "github.com/gridironx/gridchain/x/gov/types"
-	"github.com/gridironx/gridchain/x/wasm/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	sdkerrors "github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
+	types2 "github.com/gridfx/fxchain/libs/tendermint/types"
+	govtypes "github.com/gridfx/fxchain/x/gov/types"
+	"github.com/gridfx/fxchain/x/wasm/types"
 )
 
 // NewWasmProposalHandler creates a new governance Handler for wasm proposals

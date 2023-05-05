@@ -5,13 +5,13 @@ import (
 	"sync"
 	"time"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 
-	"github.com/gridironx/gridchain/libs/tendermint/consensus"
-	clist "github.com/gridironx/gridchain/libs/tendermint/libs/clist"
-	"github.com/gridironx/gridchain/libs/tendermint/libs/log"
-	sm "github.com/gridironx/gridchain/libs/tendermint/state"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/consensus"
+	clist "github.com/gridfx/fxchain/libs/tendermint/libs/clist"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/log"
+	sm "github.com/gridfx/fxchain/libs/tendermint/state"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 // Pool maintains a pool of valid evidence

@@ -6,7 +6,7 @@ package keeper
 import (
 	"testing"
 
-	swaptypes "github.com/gridironx/gridchain/x/ammswap/types"
+	swaptypes "github.com/gridfx/fxchain/x/ammswap/types"
 	"github.com/stretchr/testify/require"
 )
 

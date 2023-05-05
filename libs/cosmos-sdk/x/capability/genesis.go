@@ -1,9 +1,9 @@
 package capability
 
 import (
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/keeper"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/x/capability/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/keeper"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/x/capability/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

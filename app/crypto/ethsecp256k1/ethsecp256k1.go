@@ -8,7 +8,7 @@ import (
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 
-	tmcrypto "github.com/gridironx/gridchain/libs/tendermint/crypto"
+	tmcrypto "github.com/gridfx/fxchain/libs/tendermint/crypto"
 )
 
 const (

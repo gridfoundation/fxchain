@@ -2,7 +2,7 @@ package iavl
 
 import (
 	"bytes"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/errors"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/errors"
 )
 
 type traversal struct {

@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 
 	"github.com/gorilla/mux"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/client/context"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/codec"
-	"github.com/gridironx/gridchain/libs/cosmos-sdk/types/module"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/context"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
+	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
 	"github.com/spf13/cobra"
 
-	"github.com/gridironx/gridchain/x/token/client/cli"
-	"github.com/gridironx/gridchain/x/token/client/rest"
-	tokenTypes "github.com/gridironx/gridchain/x/token/types"
+	"github.com/gridfx/fxchain/x/token/client/cli"
+	"github.com/gridfx/fxchain/x/token/client/rest"
+	tokenTypes "github.com/gridfx/fxchain/x/token/types"
 )
 
 var (

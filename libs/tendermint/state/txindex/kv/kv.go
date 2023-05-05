@@ -11,12 +11,12 @@ import (
 
 	"github.com/pkg/errors"
 
-	dbm "github.com/gridironx/gridchain/libs/tm-db"
+	dbm "github.com/gridfx/fxchain/libs/tm-db"
 
-	"github.com/gridironx/gridchain/libs/tendermint/libs/pubsub/query"
-	tmstring "github.com/gridironx/gridchain/libs/tendermint/libs/strings"
-	"github.com/gridironx/gridchain/libs/tendermint/state/txindex"
-	"github.com/gridironx/gridchain/libs/tendermint/types"
+	"github.com/gridfx/fxchain/libs/tendermint/libs/pubsub/query"
+	tmstring "github.com/gridfx/fxchain/libs/tendermint/libs/strings"
+	"github.com/gridfx/fxchain/libs/tendermint/state/txindex"
+	"github.com/gridfx/fxchain/libs/tendermint/types"
 )
 
 const (

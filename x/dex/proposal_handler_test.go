@@ -5,12 +5,12 @@ package dex
 import (
 	"testing"
 
-	sdk "github.com/gridironx/gridchain/libs/cosmos-sdk/types"
+	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-	abci "github.com/gridironx/gridchain/libs/tendermint/abci/types"
-	"github.com/gridironx/gridchain/x/dex/types"
-	govTypes "github.com/gridironx/gridchain/x/gov/types"
-	ordertypes "github.com/gridironx/gridchain/x/order/types"
+	abci "github.com/gridfx/fxchain/libs/tendermint/abci/types"
+	"github.com/gridfx/fxchain/x/dex/types"
+	govTypes "github.com/gridfx/fxchain/x/gov/types"
+	ordertypes "github.com/gridfx/fxchain/x/order/types"
 	"github.com/stretchr/testify/require"
 )
 

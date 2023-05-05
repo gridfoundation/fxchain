@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/gridironx/gridchain/libs/tendermint/crypto/ed25519"
-	tmmath "github.com/gridironx/gridchain/libs/tendermint/libs/math"
+	"github.com/gridfx/fxchain/libs/tendermint/crypto/ed25519"
+	tmmath "github.com/gridfx/fxchain/libs/tendermint/libs/math"
 )
 
 var (
