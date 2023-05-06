@@ -51,7 +51,7 @@ func GetMintCW20Input(amount, recipient string) ([]byte, error) {
 		Recipient: recipient,
 	}
 	input := struct {
-		Method MintCW20Method `json:"mint_c_w20"`
+		Method MintCW20Method `json:"mint_cw20"`
 	}{
 		Method: method,
 	}
