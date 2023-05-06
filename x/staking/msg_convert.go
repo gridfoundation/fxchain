@@ -21,9 +21,9 @@ func init() {
 
 func RegisterConvert() {
 	enableHeight := tmtypes.GetVenus3Height()
-	baseapp.RegisterCmHandle("okfxchain/staking/MsgDeposit", baseapp.NewCMHandle(ConvertDepositMsg, enableHeight))
-	baseapp.RegisterCmHandle("okfxchain/staking/MsgWithdraw", baseapp.NewCMHandle(ConvertWithdrawMsg, enableHeight))
-	baseapp.RegisterCmHandle("okfxchain/staking/MsgAddShares", baseapp.NewCMHandle(ConvertAddSharesMsg, enableHeight))
+	baseapp.RegisterCmHandle("gridfxchain/staking/MsgDeposit", baseapp.NewCMHandle(ConvertDepositMsg, enableHeight))
+	baseapp.RegisterCmHandle("gridfxchain/staking/MsgWithdraw", baseapp.NewCMHandle(ConvertWithdrawMsg, enableHeight))
+	baseapp.RegisterCmHandle("gridfxchain/staking/MsgAddShares", baseapp.NewCMHandle(ConvertAddSharesMsg, enableHeight))
 }
 
 func ConvertDepositMsg(data []byte, signers []sdk.AccAddress) (sdk.Msg, error) {

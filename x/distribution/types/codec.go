@@ -6,14 +6,14 @@ import (
 
 // RegisterCodec registers concrete types on codec codec
 func RegisterCodec(cdc *codec.Codec) {
-	cdc.RegisterConcrete(MsgWithdrawValidatorCommission{}, "okfxchain/distribution/MsgWithdrawReward", nil)
-	cdc.RegisterConcrete(MsgWithdrawDelegatorReward{}, "okfxchain/distribution/MsgWithdrawDelegatorReward", nil)
-	cdc.RegisterConcrete(MsgSetWithdrawAddress{}, "okfxchain/distribution/MsgModifyWithdrawAddress", nil)
-	cdc.RegisterConcrete(CommunityPoolSpendProposal{}, "okfxchain/distribution/CommunityPoolSpendProposal", nil)
-	cdc.RegisterConcrete(ChangeDistributionTypeProposal{}, "okfxchain/distribution/ChangeDistributionTypeProposal", nil)
-	cdc.RegisterConcrete(WithdrawRewardEnabledProposal{}, "okfxchain/distribution/WithdrawRewardEnabledProposal", nil)
-	cdc.RegisterConcrete(RewardTruncatePrecisionProposal{}, "okfxchain/distribution/RewardTruncatePrecisionProposal", nil)
-	cdc.RegisterConcrete(MsgWithdrawDelegatorAllRewards{}, "okfxchain/distribution/MsgWithdrawDelegatorAllRewards", nil)
+	cdc.RegisterConcrete(MsgWithdrawValidatorCommission{}, "gridfxchain/distribution/MsgWithdrawReward", nil)
+	cdc.RegisterConcrete(MsgWithdrawDelegatorReward{}, "gridfxchain/distribution/MsgWithdrawDelegatorReward", nil)
+	cdc.RegisterConcrete(MsgSetWithdrawAddress{}, "gridfxchain/distribution/MsgModifyWithdrawAddress", nil)
+	cdc.RegisterConcrete(CommunityPoolSpendProposal{}, "gridfxchain/distribution/CommunityPoolSpendProposal", nil)
+	cdc.RegisterConcrete(ChangeDistributionTypeProposal{}, "gridfxchain/distribution/ChangeDistributionTypeProposal", nil)
+	cdc.RegisterConcrete(WithdrawRewardEnabledProposal{}, "gridfxchain/distribution/WithdrawRewardEnabledProposal", nil)
+	cdc.RegisterConcrete(RewardTruncatePrecisionProposal{}, "gridfxchain/distribution/RewardTruncatePrecisionProposal", nil)
+	cdc.RegisterConcrete(MsgWithdrawDelegatorAllRewards{}, "gridfxchain/distribution/MsgWithdrawDelegatorAllRewards", nil)
 }
 
 // ModuleCdc generic sealed codec to be used throughout module

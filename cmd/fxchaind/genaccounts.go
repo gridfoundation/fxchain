@@ -21,7 +21,7 @@ import (
 	"github.com/gridfx/fxchain/x/genutil"
 
 	"github.com/gridfx/fxchain/app/crypto/hd"
-	okfxchain "github.com/gridfx/fxchain/app/types"
+	gridfxchain "github.com/gridfx/fxchain/app/types"
 
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 )
@@ -114,7 +114,7 @@ contain valid denominations. Accounts may optionally be supplied with vesting pa
 					return errors.New("invalid vesting parameters; must supply start and end time or end time")
 				}
 			} else {
-				genAccount = okfxchain.EthAccount{
+				genAccount = gridfxchain.EthAccount{
 					BaseAccount: baseAccount,
 					CodeHash:    ethcrypto.Keccak256(nil),
 				}

@@ -9,7 +9,7 @@ import (
 
 	ibcfee "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/29-fee"
 
-	okfxchaincodec "github.com/gridfx/fxchain/app/codec"
+	gridfxchaincodec "github.com/gridfx/fxchain/app/codec"
 	"github.com/gridfx/fxchain/libs/cosmos-sdk/client"
 	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 	"github.com/gridfx/fxchain/libs/cosmos-sdk/crypto/types"
@@ -133,8 +133,8 @@ func newProxyDecoder() *codec.CodecProxy {
 		ibcfee.AppModuleBasic{},
 		icamauth.AppModuleBasic{},
 	)
-	cdc := okfxchaincodec.MakeCodec(ModuleBasics)
-	interfaceReg := okfxchaincodec.MakeIBC(ModuleBasics)
+	cdc := gridfxchaincodec.MakeCodec(ModuleBasics)
+	interfaceReg := gridfxchaincodec.MakeIBC(ModuleBasics)
 	protoCodec := codec.NewProtoCodec(interfaceReg)
 	codecProxy := codec.NewCodecProxy(protoCodec, cdc)
 	return codecProxy

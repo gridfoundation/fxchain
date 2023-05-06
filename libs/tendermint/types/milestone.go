@@ -70,7 +70,7 @@ const (
 	TestNetGenesisHeight = 1121818
 
 	TestNetChangeChainId = 2270901
-	TestNetChainName1    = "okfxchain-65"
+	TestNetChainName1    = "gridfxchain-65"
 )
 
 func init() {

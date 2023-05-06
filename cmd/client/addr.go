@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	gridfxPrefix = "okfxchain"
+	gridfxPrefix = "gridfxchain"
 	exPrefix   = "ex"
 	rawPrefix  = "0x"
 )
@@ -36,7 +36,7 @@ func convertCommand() *cobra.Command {
 	return &cobra.Command{
 		Use:   "convert [sourceAddr]",
 		Short: "convert source address to all kind of address in the " + system.ChainName + " network",
-		Long: `sourceAddr must be begin with "okfxchain","ex" or "0x".
+		Long: `sourceAddr must be begin with "gridfxchain","ex" or "0x".
 	
 	When input one of these address, we will convert to the other kinds.`,
 		Args: cobra.ExactArgs(1),
@@ -52,7 +52,7 @@ func convertCommand() *cobra.Command {
 				rawPrefix:  hexFromAccAddr,
 			}
 
-			// prefix is "okfxchain","ex" or "0x"
+			// prefix is "gridfxchain","ex" or "0x"
 			// convert srcAddr to accAddr
 			var accAddr sdk.AccAddress
 			var err error

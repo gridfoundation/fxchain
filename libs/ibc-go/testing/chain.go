@@ -195,7 +195,7 @@ func NewTestChain(t *testing.T, coord *Coordinator, chainID string) TestChainI {
 
 	//fromBalance := suite.App().AccountKeeper.GetAccount(suite.ctx, cmFrom).GetCoins()
 	//var account *apptypes.EthAccount
-	//balance = sdk.NewCoins(okfxchaintypes.NewPhotonCoin(amount))
+	//balance = sdk.NewCoins(gridfxchaintypes.NewPhotonCoin(amount))
 	//addr := sdk.AccAddress(pubKey.Address())
 	//baseAcc := auth.NewBaseAccount(addr, balance, pubKey, 10, 50)
 	//account = &apptypes.EthAccount{

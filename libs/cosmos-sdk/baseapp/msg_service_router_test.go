@@ -1,7 +1,7 @@
 package baseapp_test
 
 import (
-	okfxchaincodec "github.com/gridfx/fxchain/app/codec"
+	gridfxchaincodec "github.com/gridfx/fxchain/app/codec"
 	"github.com/gridfx/fxchain/libs/ibc-go/testing/simapp"
 	"github.com/gridfx/fxchain/x/evm"
 	"os"
@@ -21,7 +21,7 @@ func TestRegisterMsgService(t *testing.T) {
 	db := dbm.NewMemDB()
 
 	// Create an encoding config that doesn't register testdata Msg services.
-	codecProxy, interfaceRegistry := okfxchaincodec.MakeCodecSuit(simapp.ModuleBasics)
+	codecProxy, interfaceRegistry := gridfxchaincodec.MakeCodecSuit(simapp.ModuleBasics)
 	app := baseapp.NewBaseApp("test", log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, evm.TxDecoder(codecProxy))
 	app.SetInterfaceRegistry(interfaceRegistry)
 	require.Panics(t, func() {
@@ -44,7 +44,7 @@ func TestRegisterMsgService(t *testing.T) {
 func TestRegisterMsgServiceTwice(t *testing.T) {
 	// Setup baseapp.
 	db := dbm.NewMemDB()
-	codecProxy, interfaceRegistry := okfxchaincodec.MakeCodecSuit(simapp.ModuleBasics)
+	codecProxy, interfaceRegistry := gridfxchaincodec.MakeCodecSuit(simapp.ModuleBasics)
 	app := baseapp.NewBaseApp("test", log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, evm.TxDecoder(codecProxy))
 	app.SetInterfaceRegistry(interfaceRegistry)
 	testdata.RegisterInterfaces(interfaceRegistry)

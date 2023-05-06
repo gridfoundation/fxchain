@@ -444,7 +444,7 @@ func (suite *EvmTestSuite) TestExport1() {
 }
 
 func (suite *EvmTestSuite) TestExport_db() {
-	viper.SetEnvPrefix("OKFXCHAIN")
+	viper.SetEnvPrefix("GRIDFXCHAIN")
 	viper.SetEnvKeyReplacer(strings.NewReplacer(".", "_", "-", "_"))
 	viper.AutomaticEnv()
 	viper.Set(sdk.FlagDBBackend, string(dbm.GoLevelDBBackend))
@@ -482,16 +482,16 @@ func (suite *EvmTestSuite) TestExport_db() {
 		Params:   types.DefaultParams(),
 		Accounts: []types.GenesisAccount{evmAcc},
 	}
-	os.Setenv("OKFXCHAIN_EVM_IMPORT_MODE", "default")
+	os.Setenv("GRIDFXCHAIN_EVM_IMPORT_MODE", "default")
 	evm.InitGenesis(suite.ctx, *suite.app.EvmKeeper, &suite.app.AccountKeeper, initGenesis)
 
 	tmpPath := "./test_tmp_db"
-	os.Setenv("OKFXCHAIN_EVM_EXPORT_MODE", "db")
-	os.Setenv("OKFXCHAIN_EVM_EXPORT_PATH", tmpPath)
+	os.Setenv("GRIDFXCHAIN_EVM_EXPORT_MODE", "db")
+	os.Setenv("GRIDFXCHAIN_EVM_EXPORT_PATH", tmpPath)
 
 	defer func() {
-		os.Setenv("OKFXCHAIN_EVM_IMPORT_MODE", "default")
-		os.Setenv("OKFXCHAIN_EVM_EXPORT_MODE", "default")
+		os.Setenv("GRIDFXCHAIN_EVM_IMPORT_MODE", "default")
+		os.Setenv("GRIDFXCHAIN_EVM_EXPORT_MODE", "default")
 		os.RemoveAll(tmpPath)
 	}()
 
@@ -517,14 +517,14 @@ func testImport_db(suite *EvmTestSuite,
 	ethAccount ethermint.EthAccount,
 	code []byte,
 	storage types.Storage) {
-	os.Setenv("OKFXCHAIN_EVM_IMPORT_MODE", "default")
+	os.Setenv("GRIDFXCHAIN_EVM_IMPORT_MODE", "default")
 	suite.SetupTest() // reset
 
 	suite.app.AccountKeeper.SetAccount(suite.ctx, ethAccount)
 
 	viper.Set(sdk.FlagDBBackend, string(dbm.GoLevelDBBackend))
-	os.Setenv("OKFXCHAIN_EVM_IMPORT_MODE", "db")
-	os.Setenv("OKFXCHAIN_EVM_IMPORT_PATH", dbPath)
+	os.Setenv("GRIDFXCHAIN_EVM_IMPORT_MODE", "db")
+	os.Setenv("GRIDFXCHAIN_EVM_IMPORT_PATH", dbPath)
 
 	suite.Require().DirExists(filepath.Join(dbPath, "evm_bytecode.db"))
 	suite.Require().DirExists(filepath.Join(dbPath, "evm_state.db"))
@@ -539,7 +539,7 @@ func testImport_db(suite *EvmTestSuite,
 }
 
 func (suite *EvmTestSuite) TestExport_files() {
-	viper.SetEnvPrefix("OKFXCHAIN")
+	viper.SetEnvPrefix("GRIDFXCHAIN")
 	viper.SetEnvKeyReplacer(strings.NewReplacer(".", "_", "-", "_"))
 	viper.AutomaticEnv()
 
@@ -580,16 +580,16 @@ func (suite *EvmTestSuite) TestExport_files() {
 		ContractDeploymentWhitelist: expectedAddrList,
 		ContractBlockedList:         expectedAddrList,
 	}
-	os.Setenv("OKFXCHAIN_EVM_IMPORT_MODE", "default")
+	os.Setenv("GRIDFXCHAIN_EVM_IMPORT_MODE", "default")
 	evm.InitGenesis(suite.ctx, *suite.app.EvmKeeper, &suite.app.AccountKeeper, initGenesis)
 
 	tmpPath := "./test_tmp_db"
-	os.Setenv("OKFXCHAIN_EVM_EXPORT_MODE", "files")
-	os.Setenv("OKFXCHAIN_EVM_EXPORT_PATH", tmpPath)
+	os.Setenv("GRIDFXCHAIN_EVM_EXPORT_MODE", "files")
+	os.Setenv("GRIDFXCHAIN_EVM_EXPORT_PATH", tmpPath)
 
 	defer func() {
-		os.Setenv("OKFXCHAIN_EVM_IMPORT_MODE", "default")
-		os.Setenv("OKFXCHAIN_EVM_EXPORT_MODE", "default")
+		os.Setenv("GRIDFXCHAIN_EVM_IMPORT_MODE", "default")
+		os.Setenv("GRIDFXCHAIN_EVM_EXPORT_MODE", "default")
 		os.RemoveAll(tmpPath)
 	}()
 
@@ -611,7 +611,7 @@ func (suite *EvmTestSuite) TestExport_files() {
 }
 
 func (suite *EvmTestSuite) TestExport_files1() {
-	viper.SetEnvPrefix("OKFXCHAIN")
+	viper.SetEnvPrefix("GRIDFXCHAIN")
 	viper.SetEnvKeyReplacer(strings.NewReplacer(".", "_", "-", "_"))
 	viper.AutomaticEnv()
 
@@ -667,16 +667,16 @@ func (suite *EvmTestSuite) TestExport_files1() {
 		ContractBlockedList:         expectedAddrList,
 		ContractMethodBlockedList:   expectedContractMethodBlockedList,
 	}
-	os.Setenv("OKFXCHAIN_EVM_IMPORT_MODE", "default")
+	os.Setenv("GRIDFXCHAIN_EVM_IMPORT_MODE", "default")
 	evm.InitGenesis(suite.ctx, *suite.app.EvmKeeper, &suite.app.AccountKeeper, initGenesis)
 
 	tmpPath := "./test_tmp_db"
-	os.Setenv("OKFXCHAIN_EVM_EXPORT_MODE", "files")
-	os.Setenv("OKFXCHAIN_EVM_EXPORT_PATH", tmpPath)
+	os.Setenv("GRIDFXCHAIN_EVM_EXPORT_MODE", "files")
+	os.Setenv("GRIDFXCHAIN_EVM_EXPORT_PATH", tmpPath)
 
 	defer func() {
-		os.Setenv("OKFXCHAIN_EVM_IMPORT_MODE", "default")
-		os.Setenv("OKFXCHAIN_EVM_EXPORT_MODE", "default")
+		os.Setenv("GRIDFXCHAIN_EVM_IMPORT_MODE", "default")
+		os.Setenv("GRIDFXCHAIN_EVM_EXPORT_MODE", "default")
 		os.RemoveAll(tmpPath)
 	}()
 
@@ -699,7 +699,7 @@ func (suite *EvmTestSuite) TestExport_files1() {
 }
 
 func (suite *EvmTestSuite) TestExport_files2() {
-	viper.SetEnvPrefix("OKFXCHAIN")
+	viper.SetEnvPrefix("GRIDFXCHAIN")
 	viper.SetEnvKeyReplacer(strings.NewReplacer(".", "_", "-", "_"))
 	viper.AutomaticEnv()
 
@@ -751,16 +751,16 @@ func (suite *EvmTestSuite) TestExport_files2() {
 		ContractBlockedList:         expectedAddrList,
 		ContractMethodBlockedList:   expectedContractMethodBlockedList,
 	}
-	os.Setenv("OKFXCHAIN_EVM_IMPORT_MODE", "default")
+	os.Setenv("GRIDFXCHAIN_EVM_IMPORT_MODE", "default")
 	evm.InitGenesis(suite.ctx, *suite.app.EvmKeeper, &suite.app.AccountKeeper, initGenesis)
 
 	tmpPath := "./test_tmp_db"
-	os.Setenv("OKFXCHAIN_EVM_EXPORT_MODE", "files")
-	os.Setenv("OKFXCHAIN_EVM_EXPORT_PATH", tmpPath)
+	os.Setenv("GRIDFXCHAIN_EVM_EXPORT_MODE", "files")
+	os.Setenv("GRIDFXCHAIN_EVM_EXPORT_PATH", tmpPath)
 
 	defer func() {
-		os.Setenv("OKFXCHAIN_EVM_IMPORT_MODE", "default")
-		os.Setenv("OKFXCHAIN_EVM_EXPORT_MODE", "default")
+		os.Setenv("GRIDFXCHAIN_EVM_IMPORT_MODE", "default")
+		os.Setenv("GRIDFXCHAIN_EVM_EXPORT_MODE", "default")
 		os.RemoveAll(tmpPath)
 	}()
 
@@ -789,13 +789,13 @@ func testImport_files(suite *EvmTestSuite,
 	code []byte,
 	storage types.Storage,
 	expectedAddrList types.AddressList) {
-	os.Setenv("OKFXCHAIN_EVM_IMPORT_MODE", "default")
+	os.Setenv("GRIDFXCHAIN_EVM_IMPORT_MODE", "default")
 	suite.SetupTest() // reset
 
 	suite.app.AccountKeeper.SetAccount(suite.ctx, ethAccount)
 
-	os.Setenv("OKFXCHAIN_EVM_IMPORT_MODE", "files")
-	os.Setenv("OKFXCHAIN_EVM_IMPORT_PATH", filePath)
+	os.Setenv("GRIDFXCHAIN_EVM_IMPORT_MODE", "files")
+	os.Setenv("GRIDFXCHAIN_EVM_IMPORT_PATH", filePath)
 
 	suite.Require().DirExists(filepath.Join(filePath, "code"))
 	suite.Require().DirExists(filepath.Join(filePath, "storage"))

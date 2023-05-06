@@ -6,17 +6,17 @@ import (
 
 // RegisterCodec registers concrete types on the Amino codec
 func RegisterCodec(cdc *codec.Codec) {
-	cdc.RegisterConcrete(MsgTokenIssue{}, "okfxchain/token/MsgIssue", nil)
-	cdc.RegisterConcrete(MsgTokenBurn{}, "okfxchain/token/MsgBurn", nil)
-	cdc.RegisterConcrete(MsgTokenMint{}, "okfxchain/token/MsgMint", nil)
-	cdc.RegisterConcrete(MsgMultiSend{}, "okfxchain/token/MsgMultiTransfer", nil)
-	cdc.RegisterConcrete(MsgSend{}, "okfxchain/token/MsgTransfer", nil)
-	cdc.RegisterConcrete(MsgTransferOwnership{}, "okfxchain/token/MsgTransferOwnership", nil)
-	cdc.RegisterConcrete(MsgConfirmOwnership{}, "okfxchain/token/MsgConfirmOwnership", nil)
-	cdc.RegisterConcrete(MsgTokenModify{}, "okfxchain/token/MsgModify", nil)
+	cdc.RegisterConcrete(MsgTokenIssue{}, "gridfxchain/token/MsgIssue", nil)
+	cdc.RegisterConcrete(MsgTokenBurn{}, "gridfxchain/token/MsgBurn", nil)
+	cdc.RegisterConcrete(MsgTokenMint{}, "gridfxchain/token/MsgMint", nil)
+	cdc.RegisterConcrete(MsgMultiSend{}, "gridfxchain/token/MsgMultiTransfer", nil)
+	cdc.RegisterConcrete(MsgSend{}, "gridfxchain/token/MsgTransfer", nil)
+	cdc.RegisterConcrete(MsgTransferOwnership{}, "gridfxchain/token/MsgTransferOwnership", nil)
+	cdc.RegisterConcrete(MsgConfirmOwnership{}, "gridfxchain/token/MsgConfirmOwnership", nil)
+	cdc.RegisterConcrete(MsgTokenModify{}, "gridfxchain/token/MsgModify", nil)
 
 	// for test
-	//cdc.RegisterConcrete(MsgTokenDestroy{}, "okfxchain/token/MsgDestroy", nil)
+	//cdc.RegisterConcrete(MsgTokenDestroy{}, "gridfxchain/token/MsgDestroy", nil)
 }
 
 // generic sealed codec to be used throughout this module

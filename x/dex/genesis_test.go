@@ -27,7 +27,7 @@ func TestInitGenesis(t *testing.T) {
 	operators = append(operators, types.DEXOperator{
 		Address:            tokenPair.Owner,
 		HandlingFeeAddress: tokenPair.Owner,
-		Website:            "http://www.okfxchain.com/operator.json",
+		Website:            "http://www.gridfxchain.com/operator.json",
 		InitHeight:         100,
 	})
 

@@ -13,8 +13,8 @@ const (
 	ChainConfigName   = "ethermint/ChainConfig"
 	TxDataName        = "ethermint/TxData"
 
-	ManageContractDeploymentWhitelistProposalName = "okfxchain/evm/ManageContractDeploymentWhitelistProposal"
-	ManageContractBlockedListProposalName         = "okfxchain/evm/ManageContractBlockedListProposal"
+	ManageContractDeploymentWhitelistProposalName = "gridfxchain/evm/ManageContractDeploymentWhitelistProposal"
+	ManageContractBlockedListProposalName         = "gridfxchain/evm/ManageContractBlockedListProposal"
 )
 
 // RegisterCodec registers all the necessary types and interfaces for the
@@ -25,9 +25,9 @@ func RegisterCodec(cdc *codec.Codec) {
 	cdc.RegisterConcrete(ChainConfig{}, ChainConfigName, nil)
 	cdc.RegisterConcrete(ManageContractDeploymentWhitelistProposal{}, ManageContractDeploymentWhitelistProposalName, nil)
 	cdc.RegisterConcrete(ManageContractBlockedListProposal{}, ManageContractBlockedListProposalName, nil)
-	cdc.RegisterConcrete(ManageContractMethodBlockedListProposal{}, "okfxchain/evm/ManageContractMethodBlockedListProposal", nil)
-	cdc.RegisterConcrete(ManageSysContractAddressProposal{}, "okfxchain/evm/ManageSysContractAddressProposal", nil)
-	cdc.RegisterConcrete(ManageContractByteCodeProposal{}, "okfxchain/evm/ManageContractBytecode", nil)
+	cdc.RegisterConcrete(ManageContractMethodBlockedListProposal{}, "gridfxchain/evm/ManageContractMethodBlockedListProposal", nil)
+	cdc.RegisterConcrete(ManageSysContractAddressProposal{}, "gridfxchain/evm/ManageSysContractAddressProposal", nil)
+	cdc.RegisterConcrete(ManageContractByteCodeProposal{}, "gridfxchain/evm/ManageContractBytecode", nil)
 
 	cdc.RegisterConcreteUnmarshaller(ChainConfigName, func(c *amino.Codec, bytes []byte) (interface{}, int, error) {
 		var cc ChainConfig

@@ -15,7 +15,7 @@ const (
 
 func init() {
 	govtypes.RegisterProposalType(proposalTypeManageWhiteList)
-	govtypes.RegisterProposalTypeCodec(ManageWhiteListProposal{}, "okfxchain/farm/ManageWhiteListProposal")
+	govtypes.RegisterProposalTypeCodec(ManageWhiteListProposal{}, "gridfxchain/farm/ManageWhiteListProposal")
 }
 
 var _ govtypes.Content = (*ManageWhiteListProposal)(nil)

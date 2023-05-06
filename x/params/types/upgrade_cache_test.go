@@ -34,7 +34,7 @@ func (suite *UpgradeKeeperSuite) SetupTest() {
 	suite.NoError(err)
 
 	suite.cdc = codec.New()
-	suite.cdc.RegisterConcrete(UpgradeInfo{}, "okfxchain/params/types/UpgradeInfo", nil)
+	suite.cdc.RegisterConcrete(UpgradeInfo{}, "gridfxchain/params/types/UpgradeInfo", nil)
 	suite.cdc.Seal()
 
 	suite.logger = log.TestingLogger()

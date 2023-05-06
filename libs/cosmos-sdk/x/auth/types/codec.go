@@ -24,7 +24,7 @@ func RegisterCodec(cdc *codec.Codec) {
 		}
 		return &tx, len(bytes), nil
 	})
-	cdc.RegisterConcrete(&ProtobufViewMsg{}, "okfxchain/ProtobufMsgWrapper", nil)
+	cdc.RegisterConcrete(&ProtobufViewMsg{}, "gridfxchain/ProtobufMsgWrapper", nil)
 }
 
 // RegisterAccountTypeCodec registers an external account type defined in

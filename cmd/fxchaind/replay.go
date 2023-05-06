@@ -16,7 +16,7 @@ import (
 
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/gridfx/fxchain/app/config"
-	okfxchain "github.com/gridfx/fxchain/app/types"
+	gridfxchain "github.com/gridfx/fxchain/app/types"
 	"github.com/gridfx/fxchain/app/utils/appstatus"
 	"github.com/gridfx/fxchain/app/utils/sanity"
 	"github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
@@ -165,7 +165,7 @@ func replayBlock(ctx *server.Context, originDataDir string, tmNode *node.Node) {
 		state = sm.LoadState(stateStoreDB)
 	}
 	//cache chain epoch
-	err = okfxchain.SetChainId(genDoc.ChainID)
+	err = gridfxchain.SetChainId(genDoc.ChainID)
 	if err != nil {
 		panicError(err)
 	}

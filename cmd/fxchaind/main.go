@@ -35,7 +35,7 @@ import (
 	"github.com/gridfx/fxchain/app"
 	"github.com/gridfx/fxchain/app/codec"
 	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
-	okfxchain "github.com/gridfx/fxchain/app/types"
+	gridfxchain "github.com/gridfx/fxchain/app/types"
 	"github.com/gridfx/fxchain/cmd/client"
 	"github.com/gridfx/fxchain/x/genutil"
 	genutilcli "github.com/gridfx/fxchain/x/genutil/client/cli"
@@ -44,7 +44,7 @@ import (
 )
 
 const flagInvCheckPeriod = "inv-check-period"
-const GridcEnvPrefix = "OKFXCHAIN"
+const GridcEnvPrefix = "GRIDFXCHAIN"
 
 var invCheckPeriod uint
 
@@ -63,8 +63,8 @@ func main() {
 	clientkeys.KeysCdc = codecProxy.GetCdc()
 
 	config := sdk.GetConfig()
-	okfxchain.SetBech32Prefixes(config)
-	okfxchain.SetBip44CoinType(config)
+	gridfxchain.SetBech32Prefixes(config)
+	gridfxchain.SetBip44CoinType(config)
 	config.Seal()
 
 	ctx := server.NewDefaultContext()

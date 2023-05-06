@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 	ethcommon "github.com/ethereum/go-ethereum/common"
-	okfxchaincodec "github.com/gridfx/fxchain/app/codec"
+	gridfxchaincodec "github.com/gridfx/fxchain/app/codec"
 	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
 	"math/big"
 	"os"
@@ -471,7 +471,7 @@ func TestDeliverRealTx(t *testing.T) {
 	privKey, _ := ethsecp256k1.GenerateKey()
 	err := tx.Sign(big.NewInt(3), privKey.ToECDSA())
 	require.NoError(t, err)
-	codecProxy, _ := okfxchaincodec.MakeCodecSuit(module.NewBasicManager())
+	codecProxy, _ := gridfxchaincodec.MakeCodecSuit(module.NewBasicManager())
 	w.app.EvmKeeper.Watcher.RecordTxAndFailedReceipt(tx, nil, evm.TxDecoder(codecProxy))
 }
 

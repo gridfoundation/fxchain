@@ -26,7 +26,7 @@ import (
 	ante "github.com/gridfx/fxchain/app/ante"
 	appconfig "github.com/gridfx/fxchain/app/config"
 	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
-	okfxchain "github.com/gridfx/fxchain/app/types"
+	gridfxchain "github.com/gridfx/fxchain/app/types"
 	evmtypes "github.com/gridfx/fxchain/x/evm/types"
 
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
@@ -45,7 +45,7 @@ type AnteTestSuite struct {
 
 func (suite *AnteTestSuite) SetupTest() {
 	checkTx := false
-	chainId := "okfxchain-3"
+	chainId := "gridfxchain-3"
 
 	suite.app = app.Setup(checkTx)
 	suite.app.Codec().RegisterConcrete(&sdk.TestMsg{}, "test/TestMsg", nil)
@@ -55,7 +55,7 @@ func (suite *AnteTestSuite) SetupTest() {
 
 	suite.anteHandler = ante.NewAnteHandler(suite.app.AccountKeeper, suite.app.EvmKeeper, suite.app.SupplyKeeper, nil, suite.app.WasmHandler, suite.app.IBCKeeper, suite.app.StakingKeeper, suite.app.ParamsKeeper)
 
-	err := okfxchain.SetChainId(chainId)
+	err := gridfxchain.SetChainId(chainId)
 	suite.Nil(err)
 
 	appconfig.RegisterDynamicConfig(suite.app.Logger())
@@ -70,11 +70,11 @@ func newTestMsg(addrs ...sdk.AccAddress) *sdk.TestMsg {
 }
 
 func newTestCoins() sdk.Coins {
-	return sdk.NewCoins(okfxchain.NewPhotonCoinInt64(500000000))
+	return sdk.NewCoins(gridfxchain.NewPhotonCoinInt64(500000000))
 }
 
 func newTestStdFee() auth.StdFee {
-	return auth.NewStdFee(220000, sdk.NewCoins(okfxchain.NewPhotonCoinInt64(150)))
+	return auth.NewStdFee(220000, sdk.NewCoins(gridfxchain.NewPhotonCoinInt64(150)))
 }
 
 // GenerateAddress generates an Ethereum address.
@@ -109,7 +109,7 @@ func newTestSDKTx(
 }
 
 func newTestEthTx(ctx sdk.Context, msg *evmtypes.MsgEthereumTx, priv tmcrypto.PrivKey) (sdk.Tx, error) {
-	chainIDEpoch, err := okfxchain.ParseChainID(ctx.ChainID())
+	chainIDEpoch, err := gridfxchain.ParseChainID(ctx.ChainID())
 	if err != nil {
 		return nil, err
 	}

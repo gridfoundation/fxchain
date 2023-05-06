@@ -12,12 +12,12 @@ var ModuleCdc = codec.New()
 func RegisterCodec(cdc *codec.Codec) {
 	cdc.RegisterInterface((*Content)(nil), nil)
 
-	cdc.RegisterConcrete(MsgSubmitProposal{}, "okfxchain/gov/MsgSubmitProposal", nil)
-	cdc.RegisterConcrete(MsgDeposit{}, "okfxchain/gov/MsgDeposit", nil)
-	cdc.RegisterConcrete(MsgVote{}, "okfxchain/gov/MsgVote", nil)
+	cdc.RegisterConcrete(MsgSubmitProposal{}, "gridfxchain/gov/MsgSubmitProposal", nil)
+	cdc.RegisterConcrete(MsgDeposit{}, "gridfxchain/gov/MsgDeposit", nil)
+	cdc.RegisterConcrete(MsgVote{}, "gridfxchain/gov/MsgVote", nil)
 
-	cdc.RegisterConcrete(TextProposal{}, "okfxchain/gov/TextProposal", nil)
-	cdc.RegisterConcrete(SoftwareUpgradeProposal{}, "okfxchain/gov/SoftwareUpgradeProposal", nil)
+	cdc.RegisterConcrete(TextProposal{}, "gridfxchain/gov/TextProposal", nil)
+	cdc.RegisterConcrete(SoftwareUpgradeProposal{}, "gridfxchain/gov/SoftwareUpgradeProposal", nil)
 }
 
 // RegisterProposalTypeCodec registers an external proposal content type defined

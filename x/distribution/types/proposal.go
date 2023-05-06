@@ -22,10 +22,10 @@ func init() {
 	govtypes.RegisterProposalType(ProposalTypeChangeDistributionType)
 	govtypes.RegisterProposalType(ProposalTypeWithdrawRewardEnabled)
 	govtypes.RegisterProposalType(ProposalTypeRewardTruncatePrecision)
-	govtypes.RegisterProposalTypeCodec(CommunityPoolSpendProposal{}, "okfxchain/distribution/CommunityPoolSpendProposal")
-	govtypes.RegisterProposalTypeCodec(ChangeDistributionTypeProposal{}, "okfxchain/distribution/ChangeDistributionTypeProposal")
-	govtypes.RegisterProposalTypeCodec(WithdrawRewardEnabledProposal{}, "okfxchain/distribution/WithdrawRewardEnabledProposal")
-	govtypes.RegisterProposalTypeCodec(RewardTruncatePrecisionProposal{}, "okfxchain/distribution/RewardTruncatePrecisionProposal")
+	govtypes.RegisterProposalTypeCodec(CommunityPoolSpendProposal{}, "gridfxchain/distribution/CommunityPoolSpendProposal")
+	govtypes.RegisterProposalTypeCodec(ChangeDistributionTypeProposal{}, "gridfxchain/distribution/ChangeDistributionTypeProposal")
+	govtypes.RegisterProposalTypeCodec(WithdrawRewardEnabledProposal{}, "gridfxchain/distribution/WithdrawRewardEnabledProposal")
+	govtypes.RegisterProposalTypeCodec(RewardTruncatePrecisionProposal{}, "gridfxchain/distribution/RewardTruncatePrecisionProposal")
 }
 
 // CommunityPoolSpendProposal spends from the community pool

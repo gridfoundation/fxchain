@@ -15,7 +15,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/common/math"
-	okfxchaincodec "github.com/gridfx/fxchain/app/codec"
+	gridfxchaincodec "github.com/gridfx/fxchain/app/codec"
 
 	"github.com/stretchr/testify/require"
 
@@ -445,8 +445,8 @@ func newProxyDecoder() *codec.CodecProxy {
 		ibctransfer.AppModuleBasic{},
 		ibcfee.AppModuleBasic{},
 	)
-	cdc := okfxchaincodec.MakeCodec(ModuleBasics)
-	interfaceReg := okfxchaincodec.MakeIBC(ModuleBasics)
+	cdc := gridfxchaincodec.MakeCodec(ModuleBasics)
+	interfaceReg := gridfxchaincodec.MakeIBC(ModuleBasics)
 	protoCodec := codec.NewProtoCodec(interfaceReg)
 	codecProxy := codec.NewCodecProxy(protoCodec, cdc)
 	return codecProxy

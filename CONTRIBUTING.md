@@ -21,8 +21,8 @@ Contributing to this repo can mean many things such as participated in
 discussion or proposing code changes. To ensure a smooth workflow for all
 contributors, the general procedure for contributing has been established:
 
-1. Either [open](https://github.com/gridfx/okfxchain/issues/new/choose) or
-   [find](https://github.com/gridfx/okfxchain/issues) an issue you'd like to help with
+1. Either [open](https://github.com/gridfx/gridfxchain/issues/new/choose) or
+   [find](https://github.com/gridfx/gridfxchain/issues) an issue you'd like to help with
 2. Participate in thoughtful discussion on that issue
 3. If you would like to contribute:
    1. If a the issue is a proposal, ensure that the proposal has been accepted
@@ -54,7 +54,7 @@ tools` for installing the linting tools.
 
 Other notes:
   - Looking for a good place to start contributing? How about checking out some
-    [good first issues](https://github.com/gridfx/okfxchain/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+    [good first issues](https://github.com/gridfx/gridfxchain/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
   - Please make sure to use `gofmt` before every commit - the easiest way to do
     this is have your editor run it for you upon saving a file. Additionally
     please ensure that your code is lint compliant by running `make lint`
@@ -92,17 +92,17 @@ If you open a PR on the Cosmos SDK, it is mandatory to update the relevant docum
 ## Forking
 
 Please note that Go requires code to live under absolute paths, which complicates forking.
-While my fork lives at `https://github.com/rigeyrigerige/okfxchain`,
-the code should never exist at  `$GOPATH/src/github.com/rigeyrigerige/okfxchain`.
+While my fork lives at `https://github.com/rigeyrigerige/gridfxchain`,
+the code should never exist at  `$GOPATH/src/github.com/rigeyrigerige/gridfxchain`.
 Instead, we use `git remote` to add the fork as a new remote for the original repo,
-`$GOPATH/src/github.com/gridfx/okfxchain `, and do all the work there.
+`$GOPATH/src/github.com/gridfx/gridfxchain `, and do all the work there.
 
 For instance, to create a fork and work on a branch of it, I would:
 
   - Create the fork on github, using the fork button.
-  - Go to the original repo checked out locally (i.e. `$GOPATH/src/github.com/gridfx/okfxchain`)
+  - Go to the original repo checked out locally (i.e. `$GOPATH/src/github.com/gridfx/gridfxchain`)
   - `git remote rename origin upstream`
-  - `git remote add origin git@github.com:rigeyrigerige/okfxchain.git`
+  - `git remote add origin git@github.com:rigeyrigerige/gridfxchain.git`
 
 Now `origin` refers to my fork and `upstream` refers to the GRIDFxChain version.
 So I can `git push -u origin master` to update my fork, and make pull requests to GRIDFxChain from there.
@@ -180,7 +180,7 @@ only pull requests targeted directly against master.
   - `master` must never fail `make test` or `make test_cli`
   - `master` should not fail `make lint`
   - no `--force` onto `master` (except when reverting a broken commit, which should seldom happen)
-  - create a development branch either on github.com/gridfx/okfxchain, or your fork (using `git remote add origin`)
+  - create a development branch either on github.com/gridfx/gridfxchain, or your fork (using `git remote add origin`)
   - before submitting a pull request, begin `git rebase` on top of `master`
 
 ### Pull Merge Procedure

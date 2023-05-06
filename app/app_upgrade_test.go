@@ -29,9 +29,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/gridfx/fxchain/app/ante"
-	okfxchaincodec "github.com/gridfx/fxchain/app/codec"
+	gridfxchaincodec "github.com/gridfx/fxchain/app/codec"
 	"github.com/gridfx/fxchain/app/refund"
-	okfxchain "github.com/gridfx/fxchain/app/types"
+	gridfxchain "github.com/gridfx/fxchain/app/types"
 	bam "github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
 	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
@@ -274,7 +274,7 @@ func newTestGridcChainApp(
 		logStartingFlags(logger)
 	})
 
-	codecProxy, interfaceReg := okfxchaincodec.MakeCodecSuit(ModuleBasics)
+	codecProxy, interfaceReg := gridfxchaincodec.MakeCodecSuit(ModuleBasics)
 
 	// NOTE we use custom GRIDFxChain transaction decoder that supports the sdk.Tx interface instead of sdk.StdTx
 	bApp := bam.NewBaseApp(appName, logger, db, evm.TxDecoder(codecProxy))
@@ -327,7 +327,7 @@ func newTestGridcChainApp(
 	app.marshal = codecProxy
 	// use custom GRIDFxChain account for contracts
 	app.AccountKeeper = auth.NewAccountKeeper(
-		codecProxy.GetCdc(), keys[auth.StoreKey], keys[mpt.StoreKey], app.subspaces[auth.ModuleName], okfxchain.ProtoAccount,
+		codecProxy.GetCdc(), keys[auth.StoreKey], keys[mpt.StoreKey], app.subspaces[auth.ModuleName], gridfxchain.ProtoAccount,
 	)
 
 	bankKeeper := bank.NewBaseKeeperWithMarshal(

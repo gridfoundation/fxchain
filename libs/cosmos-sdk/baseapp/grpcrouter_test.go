@@ -2,7 +2,7 @@ package baseapp_test
 
 import (
 	"context"
-	okfxchaincodec "github.com/gridfx/fxchain/app/codec"
+	gridfxchaincodec "github.com/gridfx/fxchain/app/codec"
 	"github.com/gridfx/fxchain/libs/cosmos-sdk/simapp"
 	simapp2 "github.com/gridfx/fxchain/libs/ibc-go/testing/simapp"
 	"github.com/gridfx/fxchain/x/evm"
@@ -58,7 +58,7 @@ func TestRegisterQueryServiceTwice(t *testing.T) {
 	// Setup baseapp.
 	db := dbm.NewMemDB()
 	encCfg := simapp2.MakeTestEncodingConfig()
-	codecProxy, _ := okfxchaincodec.MakeCodecSuit(simapp.ModuleBasics)
+	codecProxy, _ := gridfxchaincodec.MakeCodecSuit(simapp.ModuleBasics)
 	app := baseapp.NewBaseApp("test", log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, evm.TxDecoder(codecProxy))
 	app.SetInterfaceRegistry(encCfg.InterfaceRegistry)
 	testdata.RegisterInterfaces(encCfg.InterfaceRegistry)

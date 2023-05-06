@@ -5,8 +5,8 @@ import (
 )
 
 const (
-	ManageTreasuresProposalName       = "okfxchain/mint/ManageTreasuresProposal"
-	ModifyNextBlockUpdateProposalName = "okfxchain/mint/ModifyNextBlockUpdateProposal"
+	ManageTreasuresProposalName       = "gridfxchain/mint/ManageTreasuresProposal"
+	ModifyNextBlockUpdateProposalName = "gridfxchain/mint/ModifyNextBlockUpdateProposal"
 )
 
 // ModuleCdc is a generic sealed codec to be used throughout this module

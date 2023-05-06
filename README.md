@@ -5,7 +5,7 @@ The Infrastructure of Decentralized Exchange
 
 [![version](https://img.shields.io/github/tag/gridfx/fxchain.svg)](https://github.com/gridx/fxchain/releases/latest)
 [![CircleCI](https://circleci.com/gh/gridfx/fxchain/tree/dev.svg?style=shield)](https://circleci.com/gh/gridfx/fxchain/tree/dev)
-[![codecov](https://codecov.io/gh/gridfx/okfxchain/branch/master/graph/badge.svg)](https://codecov.io/gh/gridfx/okfxchain)
+[![codecov](https://codecov.io/gh/gridfx/gridfxchain/branch/master/graph/badge.svg)](https://codecov.io/gh/gridfx/gridfxchain)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gridx/fxchain)](https://goreportcard.com/report/github.com/gridx/fxchain)
 [![license](https://img.shields.io/badge/license-Apache%202.0-green)](https://github.com/gridx/fxchain/blob/dev/LICENSE)
 [![LoC](https://tokei.rs/b1/github/gridfx/fxchain)](https://github.com/gridx/fxchain)
@@ -16,7 +16,7 @@ This repository hosts `FURYC`, the implementation of the FURYC based on the [Cos
 **Note**: Requires [Go 1.17](https://golang.org/dl/)
 
 ## Getting Started
-Refer to the [documentation](https://okfxchain-docs.readthedocs.io/en/latest/index.html).
+Refer to the [documentation](https://gridfxchain-docs.readthedocs.io/en/latest/index.html).
 
 - [Join the mainnet](https://github.com/gridx/mainnet/blob/main/README.md)
 - [如何启动主网节点](https://forum.fury.club/d/174)

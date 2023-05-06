@@ -9,7 +9,7 @@ import (
 	"github.com/gridfx/fxchain/x/staking/types"
 )
 
-// RegisterInvariantsCustom registers all staking invariants for okfxchain
+// RegisterInvariantsCustom registers all staking invariants for gridfxchain
 func RegisterInvariantsCustom(ir sdk.InvariantRegistry, k Keeper) {
 
 	ir.RegisterRoute(types.ModuleName, "module-accounts",

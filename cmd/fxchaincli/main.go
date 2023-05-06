@@ -10,7 +10,7 @@ import (
 	"github.com/gridfx/fxchain/app"
 	"github.com/gridfx/fxchain/app/codec"
 	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
-	okfxchain "github.com/gridfx/fxchain/app/types"
+	gridfxchain "github.com/gridfx/fxchain/app/types"
 	"github.com/gridfx/fxchain/cmd/client"
 	sdkclient "github.com/gridfx/fxchain/libs/cosmos-sdk/client"
 	"github.com/gridfx/fxchain/libs/cosmos-sdk/client/flags"
@@ -53,8 +53,8 @@ func main() {
 
 	// Read in the configuration file for the sdk
 	config := sdk.GetConfig()
-	okfxchain.SetBech32Prefixes(config)
-	okfxchain.SetBip44CoinType(config)
+	gridfxchain.SetBech32Prefixes(config)
+	gridfxchain.SetBip44CoinType(config)
 	config.Seal()
 
 	rootCmd := &cobra.Command{
@@ -84,8 +84,8 @@ func main() {
 		flags.NewCompletionCmd(rootCmd, true),
 	)
 
-	// Add flags and prefix all env exposed with OKFXCHAIN
-	executor := cli.PrepareMainCmd(rootCmd, "OKFXCHAIN", app.DefaultCLIHome)
+	// Add flags and prefix all env exposed with GRIDFXCHAIN
+	executor := cli.PrepareMainCmd(rootCmd, "GRIDFXCHAIN", app.DefaultCLIHome)
 
 	err := executor.Execute()
 	if err != nil {

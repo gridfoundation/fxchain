@@ -17,8 +17,8 @@ func init() {
 
 // RegisterCodec registers all necessary param module types with a given codec.
 func RegisterCodec(cdc *codec.Codec) {
-	cdc.RegisterConcrete(types.ParameterChangeProposal{}, "okfxchain/params/ParameterChangeProposal", nil)
+	cdc.RegisterConcrete(types.ParameterChangeProposal{}, "gridfxchain/params/ParameterChangeProposal", nil)
 	cdc.RegisterConcrete(sdkparams.ParameterChangeProposal{}, "cosmos-sdk/params/ParameterChangeProposal", nil)
-	cdc.RegisterConcrete(types.UpgradeProposal{}, "okfxchain/params/UpgradeProposal", nil)
-	cdc.RegisterConcrete(types.UpgradeInfo{}, "okfxchain/params/UpgradeInfo", nil)
+	cdc.RegisterConcrete(types.UpgradeProposal{}, "gridfxchain/params/UpgradeProposal", nil)
+	cdc.RegisterConcrete(types.UpgradeInfo{}, "gridfxchain/params/UpgradeInfo", nil)
 }

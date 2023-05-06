@@ -1,7 +1,7 @@
 package gov
 
 import (
-	okfxchaincodec "github.com/gridfx/fxchain/app/codec"
+	gridfxchaincodec "github.com/gridfx/fxchain/app/codec"
 	interfacetypes "github.com/gridfx/fxchain/libs/cosmos-sdk/codec/types"
 	"github.com/gridfx/fxchain/libs/cosmos-sdk/types/module"
 	ibctransfer "github.com/gridfx/fxchain/libs/ibc-go/modules/apps/transfer"
@@ -47,8 +47,8 @@ func TestNewAppModuleBasic(t *testing.T) {
 		ibc.AppModuleBasic{},
 		ibctransfer.AppModuleBasic{},
 	)
-	//cdc := okfxchaincodec.MakeCodec(ModuleBasics)
-	interfaceReg := okfxchaincodec.MakeIBC(ModuleBasics)
+	//cdc := gridfxchaincodec.MakeCodec(ModuleBasics)
+	interfaceReg := gridfxchaincodec.MakeIBC(ModuleBasics)
 	protoCodec := codec.NewProtoCodec(interfaceReg)
 	codecProxy := codec.NewCodecProxy(protoCodec, cdc)
 

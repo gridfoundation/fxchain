@@ -29,11 +29,11 @@ func init() {
 	govtypes.RegisterProposalType(proposalTypeManageContractMethodBlockedList)
 	govtypes.RegisterProposalType(proposalTypeManageSysContractAddress)
 	govtypes.RegisterProposalType(proposalTypeManageContractByteCode)
-	govtypes.RegisterProposalTypeCodec(ManageContractDeploymentWhitelistProposal{}, "okfxchain/evm/ManageContractDeploymentWhitelistProposal")
-	govtypes.RegisterProposalTypeCodec(ManageContractBlockedListProposal{}, "okfxchain/evm/ManageContractBlockedListProposal")
-	govtypes.RegisterProposalTypeCodec(ManageContractMethodBlockedListProposal{}, "okfxchain/evm/ManageContractMethodBlockedListProposal")
-	govtypes.RegisterProposalTypeCodec(ManageSysContractAddressProposal{}, "okfxchain/evm/ManageSysContractAddressProposal")
-	govtypes.RegisterProposalTypeCodec(ManageContractByteCodeProposal{}, "okfxchain/evm/ManageContractBytecode")
+	govtypes.RegisterProposalTypeCodec(ManageContractDeploymentWhitelistProposal{}, "gridfxchain/evm/ManageContractDeploymentWhitelistProposal")
+	govtypes.RegisterProposalTypeCodec(ManageContractBlockedListProposal{}, "gridfxchain/evm/ManageContractBlockedListProposal")
+	govtypes.RegisterProposalTypeCodec(ManageContractMethodBlockedListProposal{}, "gridfxchain/evm/ManageContractMethodBlockedListProposal")
+	govtypes.RegisterProposalTypeCodec(ManageSysContractAddressProposal{}, "gridfxchain/evm/ManageSysContractAddressProposal")
+	govtypes.RegisterProposalTypeCodec(ManageContractByteCodeProposal{}, "gridfxchain/evm/ManageContractBytecode")
 }
 
 var (

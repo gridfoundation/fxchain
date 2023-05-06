@@ -118,7 +118,7 @@ func NewAppModule(keeper Keeper, accKeeper types.AccountKeeper,
 
 // RegisterInvariants registers invariants
 func (am AppModule) RegisterInvariants(ir sdk.InvariantRegistry) {
-	// required by okfxchain
+	// required by gridfxchain
 	keeper.RegisterInvariantsCustom(ir, am.keeper)
 }
 

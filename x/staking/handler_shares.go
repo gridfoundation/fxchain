@@ -30,7 +30,7 @@ func handleMsgBindProxy(ctx sdk.Context, msg types.MsgBindProxy, k keeper.Keeper
 		return types.ErrProxyNotFound(msg.ProxyAddress.String()).Result()
 	}
 
-	// double proxy is denied on okfxchain
+	// double proxy is denied on gridfxchain
 	if delegator.IsProxy {
 		return types.ErrDoubleProxy(delegator.DelegatorAddress.String()).Result()
 	}

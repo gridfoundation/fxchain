@@ -12,7 +12,7 @@ import (
 type UpgradeStatus uint32
 
 const (
-	ProposalTypeUpgrade = "oKCUpgrade"
+	ProposalTypeUpgrade = "griDCUpgrade"
 	UpgradeRouterKey    = "gridcUpgrade"
 
 	QueryUpgrade = "gridcUpgrade"
@@ -29,7 +29,7 @@ var _ govtypes.Content = UpgradeProposal{}
 
 func init() {
 	govtypes.RegisterProposalType(ProposalTypeUpgrade)
-	govtypes.RegisterProposalTypeCodec(UpgradeProposal{}, "okfxchain/params/UpgradeProposal")
+	govtypes.RegisterProposalTypeCodec(UpgradeProposal{}, "gridfxchain/params/UpgradeProposal")
 }
 
 // UpgradeProposal is the struct of param change proposal

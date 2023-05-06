@@ -33,7 +33,7 @@ import (
 )
 
 const (
-	TestChainID = "okfxchain"
+	TestChainID = "gridfxchain"
 )
 
 var (

@@ -59,11 +59,11 @@ import (
 	wasmkeeper "github.com/gridfx/fxchain/x/wasm/keeper"
 
 	"github.com/gridfx/fxchain/app/ante"
-	okfxchaincodec "github.com/gridfx/fxchain/app/codec"
+	gridfxchaincodec "github.com/gridfx/fxchain/app/codec"
 	appconfig "github.com/gridfx/fxchain/app/config"
 	"github.com/gridfx/fxchain/app/refund"
 	ethermint "github.com/gridfx/fxchain/app/types"
-	okfxchain "github.com/gridfx/fxchain/app/types"
+	gridfxchain "github.com/gridfx/fxchain/app/types"
 	"github.com/gridfx/fxchain/app/utils/sanity"
 	bam "github.com/gridfx/fxchain/libs/cosmos-sdk/baseapp"
 	"github.com/gridfx/fxchain/libs/cosmos-sdk/client"
@@ -134,8 +134,8 @@ func init() {
 	// set the address prefixes
 	config := sdk.GetConfig()
 	config.SetCoinType(60)
-	okfxchain.SetBech32Prefixes(config)
-	okfxchain.SetBip44CoinType(config)
+	gridfxchain.SetBech32Prefixes(config)
+	gridfxchain.SetBip44CoinType(config)
 }
 
 const (
@@ -338,7 +338,7 @@ func NewSimApp(
 	//	logStartingFlags(logger)
 	//})
 
-	codecProxy, interfaceReg := okfxchaincodec.MakeCodecSuit(ModuleBasics)
+	codecProxy, interfaceReg := gridfxchaincodec.MakeCodecSuit(ModuleBasics)
 
 	// NOTE we use custom GRIDFxChain transaction decoder that supports the sdk.Tx interface instead of sdk.StdTx
 	bApp := bam.NewBaseApp(appName, logger, db, evm.TxDecoder(codecProxy), baseAppOptions...)
@@ -407,7 +407,7 @@ func NewSimApp(
 	app.marshal = codecProxy
 	// use custom GRIDFxChain account for contracts
 	app.AccountKeeper = auth.NewAccountKeeper(
-		codecProxy.GetCdc(), keys[auth.StoreKey], keys[mpt.StoreKey], app.subspaces[auth.ModuleName], okfxchain.ProtoAccount,
+		codecProxy.GetCdc(), keys[auth.StoreKey], keys[mpt.StoreKey], app.subspaces[auth.ModuleName], gridfxchain.ProtoAccount,
 	)
 
 	bankKeeper := bank.NewBaseKeeperWithMarshal(
@@ -851,11 +851,11 @@ func getTxFeeHandler() sdk.GetTxFeeHandler {
 
 func (app *SimApp) SetOption(req abci.RequestSetOption) (res abci.ResponseSetOption) {
 	if req.Key == "CheckChainID" {
-		if err := okfxchain.IsValidateChainIdWithGenesisHeight(req.Value); err != nil {
+		if err := gridfxchain.IsValidateChainIdWithGenesisHeight(req.Value); err != nil {
 			app.Logger().Error(err.Error())
 			panic(err)
 		}
-		err := okfxchain.SetChainId(req.Value)
+		err := gridfxchain.SetChainId(req.Value)
 		if err != nil {
 			app.Logger().Error(err.Error())
 			panic(err)

@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	okfxchain "github.com/gridfx/fxchain/app/types"
+	gridfxchain "github.com/gridfx/fxchain/app/types"
 	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 	"github.com/gridfx/fxchain/x/evm/types"
 	"github.com/stretchr/testify/require"
@@ -93,7 +93,7 @@ const (
 
 func init() {
 	config := sdk.GetConfig()
-	okfxchain.SetBech32Prefixes(config)
+	gridfxchain.SetBech32Prefixes(config)
 }
 
 func TestParseManageContractDeploymentWhitelistProposalJSON(t *testing.T) {

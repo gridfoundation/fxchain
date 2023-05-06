@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
-	okfxchain "github.com/gridfx/fxchain/app"
+	gridfxchain "github.com/gridfx/fxchain/app"
 	app "github.com/gridfx/fxchain/app/types"
 	"github.com/gridfx/fxchain/libs/cosmos-sdk/codec"
 	sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
@@ -73,13 +73,13 @@ func TestHandlerBlockedContractAddrSend(t *testing.T) {
 }
 
 // Setup initializes a new GRIDFxChainApp. A Nop logger is set in GRIDFxChainApp.
-func initApp(isCheckTx bool) *okfxchain.GRIDFxChainApp {
+func initApp(isCheckTx bool) *gridfxchain.GRIDFxChainApp {
 	db := dbm.NewMemDB()
-	app := okfxchain.NewGRIDFxChainApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, 0)
+	app := gridfxchain.NewGRIDFxChainApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, 0)
 
 	if !isCheckTx {
 		// init chain must be called to stop deliverState from being nil
-		genesisState := okfxchain.NewDefaultGenesisState()
+		genesisState := gridfxchain.NewDefaultGenesisState()
 		stateBytes, err := codec.MarshalJSONIndent(app.Codec(), genesisState)
 		if err != nil {
 			panic(err)

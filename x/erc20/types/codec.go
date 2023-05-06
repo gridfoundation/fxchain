@@ -8,10 +8,10 @@ import (
 var ModuleCdc = codec.New()
 
 const (
-	TokenMappingProposalName          = "okfxchain/erc20/TokenMappingProposal"
-	ProxyContractRedirectProposalName = "okfxchain/erc20/ProxyContractRedirectProposal"
-	ContractTemplateProposalName      = "okfxchain/erc20/ContractTemplateProposal"
-	CompiledContractProposalName      = "okfxchain/erc20/Contract"
+	TokenMappingProposalName          = "gridfxchain/erc20/TokenMappingProposal"
+	ProxyContractRedirectProposalName = "gridfxchain/erc20/ProxyContractRedirectProposal"
+	ContractTemplateProposalName      = "gridfxchain/erc20/ContractTemplateProposal"
+	CompiledContractProposalName      = "gridfxchain/erc20/Contract"
 )
 
 // RegisterCodec registers all the necessary types and interfaces for the
