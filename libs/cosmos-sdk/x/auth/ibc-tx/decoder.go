@@ -213,10 +213,10 @@ func constructMsgs(ibcTx *tx.Tx) ([]sdk.Msg, []sdk.Msg, error) {
 		var newMsg sdk.Msg
 		switch msg := m.(type) {
 		case DenomAdapterMsg:
-			// ibc transfer okt is not allowed,should do filter
+			// ibc transfer fury is not allowed,should do filter
 			newMsg, err = msg.RulesFilter()
 			if err != nil {
-				return nil, nil, sdkerrors.Wrap(sdkerrors.ErrTxDecode, "ibc tx decoder not support okt amount")
+				return nil, nil, sdkerrors.Wrap(sdkerrors.ErrTxDecode, "ibc tx decoder not support fury amount")
 			}
 		default:
 			newMsg = m

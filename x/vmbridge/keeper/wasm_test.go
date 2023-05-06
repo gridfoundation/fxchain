@@ -14,7 +14,7 @@ import (
 )
 
 func (suite *KeeperTestSuite) TestKeeper_SendToWasm() {
-	contractAccAddr, err := sdk.AccAddressFromBech32("ex1fnkz39vpxmukf6mp78essh8g0hrzp3gylyd2u8")
+	contractAccAddr, err := sdk.AccAddressFromBech32("did:fury:ex1fnkz39vpxmukf6mp78essh8g0hrzp3gylyd2u8")
 	suite.Require().NoError(err)
 	contract := common.BytesToAddress(contractAccAddr.Bytes())
 	//addr := sdk.AccAddress{0x1}
@@ -72,7 +72,7 @@ func (suite *KeeperTestSuite) TestKeeper_SendToWasm() {
 				suite.Require().NoError(err)
 				suite.Require().Equal("{\"balance\":\"1\"}", string(result))
 			},
-			types.ErrIsNotOKCAddr,
+			types.ErrIsNotGRIDCAddr,
 		},
 		{
 			"recipient is wasmaddr",
@@ -98,7 +98,7 @@ func (suite *KeeperTestSuite) TestKeeper_SendToWasm() {
 				suite.Require().NoError(err)
 				suite.Require().Equal("{\"balance\":\"1\"}", string(result))
 			},
-			types.ErrIsNotOKCAddr,
+			types.ErrIsNotGRIDCAddr,
 		},
 		{
 			"normal topic,amount is zero",
@@ -125,7 +125,7 @@ func (suite *KeeperTestSuite) TestKeeper_SendToWasm() {
 		{
 			"recipient  is a error addr",
 			func() {
-				recipient = "ex111"
+				recipient = "did:fury:ex111"
 			},
 			func() {
 			},
@@ -351,7 +351,7 @@ func (suite *KeeperTestSuite) TestMsgServer_SendToEvmEvent() {
 
 func (suite *KeeperTestSuite) TestKeeper_CallToWasm() {
 	//addr := sdk.AccAddress{0x1}
-	tempAddr, err := sdk.AccAddressFromBech32("ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq")
+	tempAddr, err := sdk.AccAddressFromBech32("did:fury:ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq")
 	suite.Require().NoError(err)
 
 	caller := sdk.AccAddress(suite.freeCallEvmContract.Bytes())
@@ -448,7 +448,7 @@ func (suite *KeeperTestSuite) TestKeeper_CallToWasm() {
 		{
 			"caller(20),wasmContract(0x 20),value(0),calldata(ex wasm addr)",
 			func() {
-				calldata = "{\"transfer\":{\"amount\":\"100\",\"recipient\":\"ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
+				calldata = "{\"transfer\":{\"amount\":\"100\",\"recipient\":\"did:fury:ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
 			},
 			func() {
 
@@ -468,7 +468,7 @@ func (suite *KeeperTestSuite) TestKeeper_CallToWasm() {
 		{
 			"caller(20),wasmContract(0x 20),value(0),calldata(not standard schema)",
 			func() {
-				calldata = "{\"transfer\":{\"amount\":\"100\",\"recipient\":\"ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"},\"transfer\":{\"amount\":\"100\",\"recipient\":\"ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
+				calldata = "{\"transfer\":{\"amount\":\"100\",\"recipient\":\"did:fury:ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"},\"transfer\":{\"amount\":\"100\",\"recipient\":\"did:fury:ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
 			},
 			func() {
 
@@ -478,7 +478,7 @@ func (suite *KeeperTestSuite) TestKeeper_CallToWasm() {
 		{
 			"caller(20),wasmContract(0x 20),value(0),calldata(not method schema)",
 			func() {
-				calldata = "{\"transfer1\":{\"amount\":\"100\",\"recipient\":\"ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
+				calldata = "{\"transfer1\":{\"amount\":\"100\",\"recipient\":\"did:fury:ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
 			},
 			func() {
 
@@ -488,7 +488,7 @@ func (suite *KeeperTestSuite) TestKeeper_CallToWasm() {
 		{
 			"caller(20),wasmContract(0x 20),value(0),calldata(not method schema)",
 			func() {
-				calldata = "{\"transfer1:{\"amount\":\"100\",\"recipient\":\"ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
+				calldata = "{\"transfer1:{\"amount\":\"100\",\"recipient\":\"did:fury:ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
 			},
 			func() {
 
@@ -543,7 +543,7 @@ func (suite *KeeperTestSuite) TestKeeper_CallToWasm() {
 				balance = suite.queryCoins(sdk.WasmToAccAddress(suite.freeCallWasmContract))
 				suite.Require().Equal(sdk.Coins{sdk.NewInt64Coin(sdk.DefaultBondDenom, 1)}.String(), balance.String())
 			},
-			errors.New("insufficient funds: insufficient account funds; 1.000000000000000000okt < 2.000000000000000000okt"),
+			errors.New("insufficient funds: insufficient account funds; 1.000000000000000000fury < 2.000000000000000000fury"),
 		},
 		{
 			"caller(20),wasmContract(ex 20),value(-1 negative),calldata(normal)",
@@ -639,7 +639,7 @@ func (suite *KeeperTestSuite) TestMsgServer_CallToEvmEvent() {
 			func() {
 			},
 			nil,
-			fmt.Sprintf(evmReturnPrefix, "ex1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqpxuz0nc") + fmt.Sprintf(callDataFormat, contract, "init-to-call-evm"),
+			fmt.Sprintf(evmReturnPrefix, "did:fury:ex1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqpxuz0nc") + fmt.Sprintf(callDataFormat, contract, "init-to-call-evm"),
 		},
 		{
 			"caller(0x 20),contract(ex 20),calldata(normal),amount(0)",
@@ -656,7 +656,7 @@ func (suite *KeeperTestSuite) TestMsgServer_CallToEvmEvent() {
 		{
 			"caller(error),contract(0x),calldata(normal),amount(0)",
 			func() {
-				caller = "ex1231bdjasd1"
+				caller = "did:fury:ex1231bdjasd1"
 				evmInput, err = getCallByWasmInput(suite.evmABI, caller, callData)
 				suite.Require().NoError(err)
 			},

@@ -33,7 +33,7 @@ contributors, the general procedure for contributing has been established:
       to begin work
    4. Follow standard Github best practices: fork the repo, branch from the
       HEAD of `master`, make some commits, and submit a PR to `master`
-      - For core developers working within the OKFxChain repo, to ensure a clear
+      - For core developers working within the GRIDFxChain repo, to ensure a clear
       ownership of branches, branches must be named with the convention
       `{moniker}/{issue#}-branch-name`
    5. Be sure to submit the PR in `Draft` mode submit your PR early, even if
@@ -104,8 +104,8 @@ For instance, to create a fork and work on a branch of it, I would:
   - `git remote rename origin upstream`
   - `git remote add origin git@github.com:rigeyrigerige/okfxchain.git`
 
-Now `origin` refers to my fork and `upstream` refers to the OKFxChain version.
-So I can `git push -u origin master` to update my fork, and make pull requests to OKFxChain from there.
+Now `origin` refers to my fork and `upstream` refers to the GRIDFxChain version.
+So I can `git push -u origin master` to update my fork, and make pull requests to GRIDFxChain from there.
 Of course, replace `rigeyrigerige` with your git handle.
 
 To pull in updates from the origin repo, run

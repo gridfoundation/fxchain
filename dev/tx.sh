@@ -2,6 +2,6 @@
 
     for (( i=0; ; ))
     do
-        fxchaincli tx send captain 0x83D83497431C2D3FEab296a9fba4e5FaDD2f7eD0 1okt --fees 1okt -b block -y
+        fxchaincli tx send captain 0x83D83497431C2D3FEab296a9fba4e5FaDD2f7eD0 1fury --fees 1fury -b block -y
     done
 

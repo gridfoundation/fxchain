@@ -53,10 +53,10 @@ const (
 	addrAStoreKey          = 0
 	defaultProtocolVersion = 65
 	defaultChainID         = 65
-	defaultMinGasPrice     = "0.0000000001okt"
-	safeLowGP              = "0.0000000001okt"
-	avgGP                  = "0.0000000001okt"
-	fastestGP              = "0.00000000015okt"
+	defaultMinGasPrice     = "0.0000000001fury"
+	safeLowGP              = "0.0000000001fury"
+	avgGP                  = "0.0000000001fury"
+	fastestGP              = "0.00000000015fury"
 	latestBlockNumber      = "latest"
 	pendingBlockNumber     = "pending"
 )
@@ -111,7 +111,7 @@ func (suite *RPCTestSuite) SetupTest() {
 	defer os.RemoveAll(serverDir)
 	viper.Set(flags.FlagHome, serverDir)
 
-	chainId := apptesting.GetOKChainID(1)
+	chainId := apptesting.GetGRIDChainID(1)
 	suite.coordinator = apptesting.NewEthCoordinator(suite.T(), 1)
 	suite.chain = suite.coordinator.GetChain(chainId)
 	suite.chain.App().SetOption(abci.RequestSetOption{
@@ -205,7 +205,7 @@ func commitBlock(suite *RPCTestSuite) {
 	mck.CommitBlock()
 }
 func (suite *RPCTestSuite) TestEth_GetBalance() {
-	// initial balance of hexAddr2 is 1000000000okt in test.sh
+	// initial balance of hexAddr2 is 1000000000fury in test.sh
 	initialBalance := suite.chain.SenderAccount().GetCoins()[0]
 	genesisAcc := ethcmn.BytesToAddress(suite.chain.SenderAccount().GetAddress().Bytes()).String()
 
@@ -385,7 +385,7 @@ func (suite *RPCTestSuite) TestEth_GasPrice() {
 	var gasPrice hexutil.Big
 	suite.Require().NoError(json.Unmarshal(rpcRes.Result, &gasPrice))
 
-	// min gas price in test.sh is "0.000000001okt"
+	// min gas price in test.sh is "0.000000001fury"
 	mgp, err := sdk.ParseDecCoin(defaultMinGasPrice)
 	suite.Require().NoError(err)
 
@@ -474,7 +474,7 @@ func (suite *RPCTestSuite) TestEth_SendTransaction_Transfer() {
 	receipt := WaitForReceipt(suite.T(), suite.addr, hash)
 	suite.Require().NotNil(receipt)
 	suite.Require().Equal("0x1", receipt["status"].(string))
-	//suite.T().Logf("%s transfers %sokt to %s successfully\n", hexAddr1.Hex(), value.String(), receiverAddr.Hex())
+	//suite.T().Logf("%s transfers %sfury to %s successfully\n", hexAddr1.Hex(), value.String(), receiverAddr.Hex())
 
 	// TODO: logic bug, fix it later
 	// ignore gas price -> default 'ethermint.DefaultGasPrice' on node -> successfully
@@ -485,7 +485,7 @@ func (suite *RPCTestSuite) TestEth_SendTransaction_Transfer() {
 	//receipt = WaitForReceipt(suite.T(), hash)
 	//suite.Require().NotNil(receipt)
 	//suite.Require().Equal("0x1", receipt["status"].(string))
-	//suite.T().Logf("%s transfers %sokt to %s successfully with nil gas price \n", hexAddr1.Hex(), value.String(), receiverAddr.Hex())
+	//suite.T().Logf("%s transfers %sfury to %s successfully with nil gas price \n", hexAddr1.Hex(), value.String(), receiverAddr.Hex())
 
 	// error check
 	// sender is not unlocked on the node
@@ -951,7 +951,7 @@ func (suite *RPCTestSuite) TestEth_GetBlockByHash() {
 	hash := sendTestTransaction(suite.T(), suite.addr, senderAddr, receiverAddr, 1024)
 	expectedBlockHash := getBlockHashFromTxHash(suite.T(), suite.addr, hash)
 
-	// TODO: OKFxChain only supports the block query with txs' hash inside no matter what the second bool argument is.
+	// TODO: GRIDFxChain only supports the block query with txs' hash inside no matter what the second bool argument is.
 	// 		eth rpc: 	false -> txs' hash inside
 	//				  	true  -> txs full content
 
@@ -987,7 +987,7 @@ func (suite *RPCTestSuite) TestEth_GetBlockByNumber() {
 
 	expectedHeight := getBlockHeightFromTxHash(suite.T(), suite.addr, hash)
 
-	// TODO: OKFxChain only supports the block query with txs' hash inside no matter what the second bool argument is.
+	// TODO: GRIDFxChain only supports the block query with txs' hash inside no matter what the second bool argument is.
 	// 		eth rpc: 	false -> txs' hash inside
 	rpcRes := Call(suite.T(), suite.addr, "eth_getBlockByNumber", []interface{}{expectedHeight, false})
 	var res map[string]interface{}

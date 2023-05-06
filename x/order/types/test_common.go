@@ -2,7 +2,7 @@ package types
 
 import sdk "github.com/gridfx/fxchain/libs/cosmos-sdk/types"
 
-const DefaultTestFeeAmountPerBlock = "0.000001" // okt
+const DefaultTestFeeAmountPerBlock = "0.000001" // fury
 
 var DefaultTestFeePerBlock = sdk.NewDecCoinFromDec(DefaultFeeDenomPerBlock, sdk.MustNewDecFromStr(DefaultTestFeeAmountPerBlock))
 

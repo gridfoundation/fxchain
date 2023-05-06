@@ -247,14 +247,14 @@ func setupModuleBasics(bs ...module.AppModule) *module.Manager {
 }
 
 type testSimApp struct {
-	*OKFxChainApp
+	*GRIDFxChainApp
 	// the module manager
 }
 
 type TestSimAppOption func(a *testSimApp)
 type MangerOption func(m *module.Manager)
 
-func newTestOkcChainApp(
+func newTestGridcChainApp(
 	logger log.Logger,
 	db dbm.DB,
 	traceStore io.Writer,
@@ -276,7 +276,7 @@ func newTestOkcChainApp(
 
 	codecProxy, interfaceReg := okfxchaincodec.MakeCodecSuit(ModuleBasics)
 
-	// NOTE we use custom OKFxChain transaction decoder that supports the sdk.Tx interface instead of sdk.StdTx
+	// NOTE we use custom GRIDFxChain transaction decoder that supports the sdk.Tx interface instead of sdk.StdTx
 	bApp := bam.NewBaseApp(appName, logger, db, evm.TxDecoder(codecProxy))
 
 	bApp.SetCommitMultiStoreTracer(traceStore)
@@ -290,7 +290,7 @@ func newTestOkcChainApp(
 	memKeys := sdk.NewMemoryStoreKeys(capabilitytypes.MemStoreKey)
 
 	ret := &testSimApp{}
-	app := &OKFxChainApp{
+	app := &GRIDFxChainApp{
 		BaseApp:        bApp,
 		invCheckPeriod: invCheckPeriod,
 		keys:           keys,
@@ -298,7 +298,7 @@ func newTestOkcChainApp(
 		subspaces:      make(map[string]params.Subspace),
 		heightTasks:    make(map[int64]*upgradetypes.HeightTasks),
 	}
-	ret.OKFxChainApp = app
+	ret.GRIDFxChainApp = app
 	bApp.SetInterceptors(makeInterceptors())
 
 	// init params keeper and subspaces
@@ -325,7 +325,7 @@ func newTestOkcChainApp(
 
 	//proxy := codec.NewMarshalProxy(cc, cdc)
 	app.marshal = codecProxy
-	// use custom OKFxChain account for contracts
+	// use custom GRIDFxChain account for contracts
 	app.AccountKeeper = auth.NewAccountKeeper(
 		codecProxy.GetCdc(), keys[auth.StoreKey], keys[mpt.StoreKey], app.subspaces[auth.ModuleName], okfxchain.ProtoAccount,
 	)
@@ -579,7 +579,7 @@ func newTestOkcChainApp(
 }
 
 func newTestSimApp(name string, logger log.Logger, db dbm.DB, txDecoder sdk.TxDecoder, keys map[string]*sdk.KVStoreKey, ops ...TestSimAppOption) *testSimApp {
-	return newTestOkcChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0, keys, ops...)
+	return newTestGridcChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0, keys, ops...)
 }
 
 type UpgradeCase struct {

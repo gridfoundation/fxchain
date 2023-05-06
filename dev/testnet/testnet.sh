@@ -15,7 +15,7 @@ set -m
 
 set -x # activate debugging
 
-source okc.profile
+source gridc.profile
 WRAPPEDTX=false
 PRERUN=false
 NUM_RPC=0
@@ -29,8 +29,8 @@ testnet-node-ids
 while getopts "r:isn:b:p:c:Sxwk:" opt; do
   case $opt in
   i)
-    echo "OKCHAIN_INIT"
-    OKCHAIN_INIT=1
+    echo "GRIDCHAIN_INIT"
+    GRIDCHAIN_INIT=1
     ;;
   r)
     echo "NUM_RPC=$OPTARG"
@@ -45,8 +45,8 @@ while getopts "r:isn:b:p:c:Sxwk:" opt; do
     PRERUN=true
     ;;
   s)
-    echo "OKCHAIN_START"
-    OKCHAIN_START=1
+    echo "GRIDCHAIN_START"
+    GRIDCHAIN_START=1
     ;;
   k)
     echo "LOG_SERVER"
@@ -95,7 +95,7 @@ killbyname() {
 init() {
   killbyname ${BIN_NAME}
 
-  (cd ${OKCHAIN_TOP} && make install VenusHeight=1)
+  (cd ${GRIDCHAIN_TOP} && make install VenusHeight=1)
 
   rm -rf cache
 
@@ -109,7 +109,7 @@ init() {
 }
 recover() {
   killbyname ${BIN_NAME}
-  (cd ${OKCHAIN_TOP} && make install VenusHeight=1)
+  (cd ${GRIDCHAIN_TOP} && make install VenusHeight=1)
   rm -rf cache
   cp -rf nodecache cache
 }
@@ -135,10 +135,10 @@ run() {
       sed -i 's/"enable_contract_blocked_list": false/"enable_contract_blocked_list": true/' cache/node${index}/fxchaind/config/genesis.json
   fi
 
-  fxchaind add-genesis-account 0xbbE4733d85bc2b90682147779DA49caB38C0aA1F 900000000okt --home cache/node${index}/fxchaind
-  fxchaind add-genesis-account 0x4C12e733e58819A1d3520f1E7aDCc614Ca20De64 900000000okt --home cache/node${index}/fxchaind
-  fxchaind add-genesis-account 0x83D83497431C2D3FEab296a9fba4e5FaDD2f7eD0 900000000okt --home cache/node${index}/fxchaind
-  fxchaind add-genesis-account 0x2Bd4AF0C1D0c2930fEE852D07bB9dE87D8C07044 900000000okt --home cache/node${index}/fxchaind
+  fxchaind add-genesis-account 0xbbE4733d85bc2b90682147779DA49caB38C0aA1F 900000000fury --home cache/node${index}/fxchaind
+  fxchaind add-genesis-account 0x4C12e733e58819A1d3520f1E7aDCc614Ca20De64 900000000fury --home cache/node${index}/fxchaind
+  fxchaind add-genesis-account 0x83D83497431C2D3FEab296a9fba4e5FaDD2f7eD0 900000000fury --home cache/node${index}/fxchaind
+  fxchaind add-genesis-account 0x2Bd4AF0C1D0c2930fEE852D07bB9dE87D8C07044 900000000fury --home cache/node${index}/fxchaind
 
   LOG_LEVEL=main:info,*:error,consensus:error,state:info
 
@@ -202,15 +202,15 @@ if [ -z ${IP} ]; then
   IP="127.0.0.1"
 fi
 
-if [ ! -z "${OKCHAIN_INIT}" ]; then
+if [ ! -z "${GRIDCHAIN_INIT}" ]; then
 	((NUM_VAL=NUM_NODE-NUM_RPC))
   init ${NUM_VAL} ${NUM_RPC}
 fi
 
-if [ ! -z "${OKCHAIN_RECOVER}" ]; then
+if [ ! -z "${GRIDCHAIN_RECOVER}" ]; then
   recover ${NUM_NODE}
 fi
 
-if [ ! -z "${OKCHAIN_START}" ]; then
+if [ ! -z "${GRIDCHAIN_START}" ]; then
   start ${NUM_NODE}
 fi

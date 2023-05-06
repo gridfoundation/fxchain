@@ -17,7 +17,7 @@ type GenesisTestSuite struct {
 	suite.Suite
 
 	ctx     sdk.Context
-	app     *app.OKFxChainApp
+	app     *app.GRIDFxChainApp
 	genesis types.GenesisState
 }
 

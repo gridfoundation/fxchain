@@ -1,4 +1,4 @@
-# OKTChain
+# FURYChain
 The Infrastructure of Decentralized Exchange
 
 ![banner](docs/images/chain.png)
@@ -11,7 +11,7 @@ The Infrastructure of Decentralized Exchange
 [![LoC](https://tokei.rs/b1/github/gridfx/fxchain)](https://github.com/gridx/fxchain)
 [![GolangCI](https://golangci.com/badges/github.com/gridx/fxchain.svg)](https://golangci.com/r/github.com/gridx/fxchain)
 
-This repository hosts `OKTC`, the implementation of the OKTC based on the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk).
+This repository hosts `FURYC`, the implementation of the FURYC based on the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk).
 
 **Note**: Requires [Go 1.17](https://golang.org/dl/)
 
@@ -19,15 +19,15 @@ This repository hosts `OKTC`, the implementation of the OKTC based on the [Cosmo
 Refer to the [documentation](https://okfxchain-docs.readthedocs.io/en/latest/index.html).
 
 - [Join the mainnet](https://github.com/gridx/mainnet/blob/main/README.md)
-- [如何启动主网节点](https://forum.okt.club/d/174)
+- [如何启动主网节点](https://forum.fury.club/d/174)
   
 ___
 - [Join the testnet](https://github.com/gridx/testnets/blob/master/README.md)
-- [如何启动测试网节点](https://forum.okt.club/d/179)
+- [如何启动测试网节点](https://forum.fury.club/d/179)
 
 ___
-- [How to build a private chain](https://forum.okt.club/d/274-how-to-build-a-private-chain)
-- [如何搭建私有网络](https://forum.okt.club/d/273)
+- [How to build a private chain](https://forum.fury.club/d/274-how-to-build-a-private-chain)
+- [如何搭建私有网络](https://forum.fury.club/d/273)
 
 
 

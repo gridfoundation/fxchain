@@ -37,7 +37,7 @@ import (
 
 	"github.com/gridfx/fxchain/app/crypto/ethsecp256k1"
 	apptypes "github.com/gridfx/fxchain/app/types"
-	okcapptypes "github.com/gridfx/fxchain/app/types"
+	gridcapptypes "github.com/gridfx/fxchain/app/types"
 	clienttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/02-client/types"
 	commitmenttypes "github.com/gridfx/fxchain/libs/ibc-go/modules/core/23-commitment/types"
 	host "github.com/gridfx/fxchain/libs/ibc-go/modules/core/24-host"
@@ -269,7 +269,7 @@ func NewTestEthChain(t *testing.T, coord *Coordinator, chainID string) *TestChai
 	require.True(t, ok)
 	balance := sdk.NewCoins(apptypes.NewPhotonCoin(i))
 
-	genesisAcc := &okcapptypes.EthAccount{
+	genesisAcc := &gridcapptypes.EthAccount{
 		BaseAccount: auth.NewBaseAccount(ethPubkey.Address().Bytes(), balance, ethPubkey, 0, 0),
 		CodeHash:    []byte{},
 	}

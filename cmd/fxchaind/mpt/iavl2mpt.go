@@ -169,7 +169,7 @@ func migrateEvmFromIavlToMpt(ctx *server.Context) {
 }
 
 // 1. migrateContractToMpt Migrates Accounts、Code、Storage
-func migrateContractToMpt(migrationApp *app.OKFxChainApp, cmCtx sdk.Context, evmMptDb ethstate.Database, evmTrie ethstate.Trie) {
+func migrateContractToMpt(migrationApp *app.GRIDFxChainApp, cmCtx sdk.Context, evmMptDb ethstate.Database, evmTrie ethstate.Trie) {
 	committedHeight := cmCtx.BlockHeight() - 1
 	count := 0
 	itr := trie.NewIterator(evmTrie.NodeIterator(nil))
@@ -206,7 +206,7 @@ func migrateContractToMpt(migrationApp *app.OKFxChainApp, cmCtx sdk.Context, evm
 }
 
 // 2. miragteBlockHashesToDb Migrates BlockHash/HeightHash
-func miragteBlockHashesToDb(migrationApp *app.OKFxChainApp, cmCtx sdk.Context, batch ethdb.Batch) {
+func miragteBlockHashesToDb(migrationApp *app.GRIDFxChainApp, cmCtx sdk.Context, batch ethdb.Batch) {
 	count := 0
 	migrationApp.EvmKeeper.IterateBlockHash(cmCtx, func(key []byte, value []byte) bool {
 		count++
@@ -224,7 +224,7 @@ func miragteBlockHashesToDb(migrationApp *app.OKFxChainApp, cmCtx sdk.Context, b
 }
 
 // 3. miragteBloomsToDb Migrates Bloom
-func miragteBloomsToDb(migrationApp *app.OKFxChainApp, cmCtx sdk.Context, batch ethdb.Batch) {
+func miragteBloomsToDb(migrationApp *app.GRIDFxChainApp, cmCtx sdk.Context, batch ethdb.Batch) {
 	count := 0
 	migrationApp.EvmKeeper.IterateBlockBloom(cmCtx, func(key []byte, value []byte) bool {
 		count++
@@ -302,7 +302,7 @@ func migrateEvmLegacyFromIavlToIavl(ctx *server.Context) {
 
 }
 
-func readAllParams(app *app.OKFxChainApp) map[string][]byte{
+func readAllParams(app *app.GRIDFxChainApp) map[string][]byte{
 	tree := getUpgradedTree(app.GetDB(), []byte(KeyParams), false)
 
 	paramsMap := make(map[string][]byte)

@@ -27,10 +27,10 @@ type GenesisTestSuite struct {
 	keeper evidence.Keeper
 }
 
-func MakeGRIDFXApp() *app.OKFxChainApp {
+func MakeGRIDFXApp() *app.GRIDFxChainApp {
 	genesisState := app.NewDefaultGenesisState()
 	db := dbm.NewMemDB()
-	gridfxapp := app.NewOKFxChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
+	gridfxapp := app.NewGRIDFxChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
 
 	stateBytes, err := codec.MarshalJSONIndent(gridfxapp.Codec(), genesisState)
 	if err != nil {

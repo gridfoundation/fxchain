@@ -52,9 +52,9 @@ func checkValidKey(key string) error {
  * Common functions about cosmos-sdk
  */
 // newMigrationApp generates a new app with the given key and application.db
-func newMigrationApp(ctx *server.Context) *app.OKFxChainApp {
+func newMigrationApp(ctx *server.Context) *app.GRIDFxChainApp {
 	appDb := openApplicationDb(ctx.Config.RootDir)
-	return app.NewOKFxChainApp(
+	return app.NewGRIDFxChainApp(
 		ctx.Logger,
 		appDb,
 		nil,

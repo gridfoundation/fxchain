@@ -13,9 +13,9 @@ type UpgradeStatus uint32
 
 const (
 	ProposalTypeUpgrade = "oKCUpgrade"
-	UpgradeRouterKey    = "okcUpgrade"
+	UpgradeRouterKey    = "gridcUpgrade"
 
-	QueryUpgrade = "okcUpgrade"
+	QueryUpgrade = "gridcUpgrade"
 
 	maxNameLength = 140
 

@@ -2,9 +2,9 @@
 set -o errexit -o nounset -o pipefail
 
 # cw20
-# ex1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsfxfyxv
+# did:fury:ex1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsfxfyxv
 # cw4-stake
-# ex1fyr2mptjswz4w6xmgnpgm93x0q4s4wdl6srv3rtz3utc4f6fmxeqn3c0pp
+# did:fury:ex1fyr2mptjswz4w6xmgnpgm93x0q4s4wdl6srv3rtz3utc4f6fmxeqn3c0pp
 
 DEPOSIT1="frozen sign movie blade hundred engage hour remember analyst island churn jealous"
 DEPOSIT2="embrace praise essay heavy rule inner foil mask silk lava mouse still"
@@ -76,8 +76,8 @@ while getopts "c:i:" opt; do
 done
 
 QUERY_EXTRA="--node=$NODE"
-TX_EXTRA_UNBLOCKED="--fees 0.01okt --gas 3000000 --chain-id=$CHAIN_ID --node $NODE -b async -y"
-TX_EXTRA="--fees 0.01okt --gas 3000000 --chain-id=$CHAIN_ID --node $NODE -b block -y"
+TX_EXTRA_UNBLOCKED="--fees 0.01fury --gas 3000000 --chain-id=$CHAIN_ID --node $NODE -b async -y"
+TX_EXTRA="--fees 0.01fury --gas 3000000 --chain-id=$CHAIN_ID --node $NODE -b block -y"
 
 fxchaincli keys add --recover captain -m "puzzle glide follow cruel say burst deliver wild tragic galaxy lumber offer" -y
 fxchaincli keys add --recover admin17 -m "antique onion adult slot sad dizzy sure among cement demise submit scare" -y
@@ -86,7 +86,7 @@ fxchaincli keys add --recover admin18 -m "lazy cause kite fence gravity regret v
 captain=$(fxchaincli keys show captain | jq -r '.eth_address')
 admin18=$(fxchaincli keys show admin18 | jq -r '.eth_address')
 admin17=$(fxchaincli keys show admin17 | jq -r '.eth_address')
-proposal_deposit="100okt"
+proposal_deposit="100fury"
 
 if [[ $CHAIN_ID == "fxchain-64" ]];
 then
@@ -96,9 +96,9 @@ then
     res=$(fxchaincli keys add --recover val"${i}" -m "$mnemonic" -y)
   done
   val0=$(fxchaincli keys show val0 -a)
-  res=$(fxchaincli tx send $val0 $admin17 100okt --from val0 $TX_EXTRA)
-  res=$(fxchaincli tx send $val0 $admin18 100okt --from val0 $TX_EXTRA)
-  res=$(fxchaincli tx send $val0 $captain 100okt --from val0 $TX_EXTRA)
+  res=$(fxchaincli tx send $val0 $admin17 100fury --from val0 $TX_EXTRA)
+  res=$(fxchaincli tx send $val0 $admin18 100fury --from val0 $TX_EXTRA)
+  res=$(fxchaincli tx send $val0 $captain 100fury --from val0 $TX_EXTRA)
 fi;
 
 # usage:
@@ -264,7 +264,7 @@ then
 fi;
 
 echo "## instantiate cw20 contract with invalid amount..."
-res=$(fxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --amount=1000000000000okt --from captain $TX_EXTRA)
+res=$(fxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"100000000"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --amount=1000000000000fury --from captain $TX_EXTRA)
 raw_log=$(echo "$res" | jq '.raw_log' | sed 's/\"//g')
 failed_log_prefix="insufficient funds"
 if [[ "${raw_log:0:18}" != "${failed_log_prefix}" ]];
@@ -285,7 +285,7 @@ fi;
 echo "## instantiate cw20 contract with deposit..."
 totalAmount="100000000"
 depositAmount="20"
-depositDenom="okt"
+depositDenom="fury"
 res=$(fxchaincli tx wasm instantiate "$cw20_code_id5" '{"decimals":10,"initial_balances":[{"address":"'$captain'","amount":"'${totalAmount}'"}],"name":"my test token", "symbol":"mtt"}' --label test1 --admin "$captain" --amount=${depositAmount}${depositDenom} --from captain $TX_EXTRA)
 echo "instantiate cw20 succeed"
 if [[ $(echo "$res" | jq '.logs[0].events[0].attributes[0].key' | sed 's/\"//g') != "_contract_address" ]];
@@ -336,7 +336,7 @@ res=$(fxchaincli tx wasm execute "$cw20contractAddr" '{"transfer":{"amount":"100
 standard_gas_used=$(echo "$res" | jq '.gas_used' | sed 's/\"//g')
 echo "standard_gas_used:$standard_gas_used"
 
-echo "## cw20 transfer with okt transfer..."
+echo "## cw20 transfer with fury transfer..."
 res=$(fxchaincli tx wasm execute "$cw20contractAddr" '{"transfer":{"amount":"100","recipient":"'$admin18'"}}' --amount=${depositAmount}${depositDenom} --from captain $TX_EXTRA)
 gas_used2=$(echo "$res" | jq '.gas_used' | sed 's/\"//g')
 echo "gas_used2:$gas_used2"
@@ -775,7 +775,7 @@ fi
 
 # update whitelist
 echo "## update deployment whitelist and store wasm code"
-res=$(fxchaincli tx gov submit-proposal update-wasm-deployment-whitelist "ex1h0j8x0v9hs4eq6ppgamemfyu4vuvp2sl0q9p3v,ex15nnhqdf9sds0s063kaaretxj3ftlnzrguhfdeq" --deposit ${proposal_deposit} --title "test title" --description "test description" --from captain $TX_EXTRA)
+res=$(fxchaincli tx gov submit-proposal update-wasm-deployment-whitelist "did:fury:ex1h0j8x0v9hs4eq6ppgamemfyu4vuvp2sl0q9p3v,did:fury:ex15nnhqdf9sds0s063kaaretxj3ftlnzrguhfdeq" --deposit ${proposal_deposit} --title "test title" --description "test description" --from captain $TX_EXTRA)
 proposal_id=$(echo "$res" | jq '.logs[0].events[1].attributes[1].value' | sed 's/\"//g')
 echo "proposal_id: $proposal_id"
 proposal_vote "$proposal_id"
@@ -806,23 +806,23 @@ echo "txhash: $tx_hash"
 burner_code_id=$(echo "$res" | jq '.logs[0].events[1].attributes[0].value' | sed 's/\"//g')
 echo "burner_code_id: $burner_code_id"
 
-# claim okt from contract
+# claim fury from contract
 res=$(fxchaincli tx wasm store ./wasm/cw4-stake/artifacts/cw4_stake.wasm --from captain $TX_EXTRA)
 echo "store cw4-stake succeed"
 cw4_code_id=$(echo "$res" | jq '.logs[0].events[1].attributes[0].value' | sed 's/\"//g')
 
-res=$(fxchaincli tx wasm instantiate "$cw4_code_id" '{"denom":{"native":"okt"},"min_bond":"10","tokens_per_weight":"10","unbonding_period":{"height":1}}' --label cw4-stake --admin $captain --from captain $TX_EXTRA)
+res=$(fxchaincli tx wasm instantiate "$cw4_code_id" '{"denom":{"native":"fury"},"min_bond":"10","tokens_per_weight":"10","unbonding_period":{"height":1}}' --label cw4-stake --admin $captain --from captain $TX_EXTRA)
 echo "instantiate cw4-stake succeed"
 cw4contractAddr=$(echo "$res" | jq '.logs[0].events[0].attributes[0].value' | sed 's/\"//g')
 echo "cw4-stake contractAddr: $cw4contractAddr"
 denom=$(fxchaincli query wasm contract-state smart "$cw4contractAddr" '{"staked":{"address":"'$captain'"}}' $QUERY_EXTRA | jq '.data.denom.native' | sed 's/\"//g')
-if [[ $denom != "okt" ]];
+if [[ $denom != "fury" ]];
 then
   echo "unexpected native denom: $denom"
   exit 1
 fi;
 
-res=$(fxchaincli tx wasm execute "$cw4contractAddr" '{"bond":{}}' --amount=10okt --from captain $TX_EXTRA)
+res=$(fxchaincli tx wasm execute "$cw4contractAddr" '{"bond":{}}' --amount=10fury --from captain $TX_EXTRA)
 amount=$(echo $res | jq '.logs[0].events[2].attributes[2].value' | sed 's/\"//g')
 if [[ $amount != "10000000000000000000" ]];
 then
@@ -848,13 +848,13 @@ fi
 
 res=$(fxchaincli tx wasm execute "$cw4contractAddr" '{"claim":{}}' --from captain $TX_EXTRA)
 transferAmount=$(echo $res | jq '.logs[0].events[2].attributes[2].value' | sed 's/\"//g')
-if [[ $transferAmount != "10.000000000000000000okt" ]];
+if [[ $transferAmount != "10.000000000000000000fury" ]];
 then
   echo "unexpected transferAmount: $transferAmount"
   exit 1
 fi
 
-echo "claim okt from caontract succeed"
+echo "claim fury from caontract succeed"
 
 
 # update nobody whitelist

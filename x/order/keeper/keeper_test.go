@@ -282,7 +282,7 @@ func TestKeeper_UpdateOrder(t *testing.T) {
 	err = keeper.PlaceOrder(ctx, order)
 	require.Nil(t, err)
 
-	//xxb_okt:10.00000000:BUY
+	//xxb_fury:10.00000000:BUY
 	require.EqualValues(t, "ID0000000010-1", keeper.diskCache.orderIDsMap.Data["xxb_"+common.NativeToken+":10.000000000000000000:BUY"][0])
 
 	order.Price = sdk.MustNewDecFromStr("11.0")

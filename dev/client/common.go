@@ -24,9 +24,9 @@ import (
 const (
 	//RpcUrl          = "https://fxchaintestrpc.gridfx.org"
 	RpcUrl        = "http://127.0.0.1:8545"
-	ChainId int64 = 67 //  okc
+	ChainId int64 = 67 //  gridc
 	//RpcUrl          = "https://fxchainrpc.gridfx.org"
-	//ChainId int64   = 66 //  okc
+	//ChainId int64   = 66 //  gridc
 	GasPrice int64  = 100000000 // 0.1 gwei
 	GasLimit uint64 = 3000000
 )
@@ -152,7 +152,7 @@ func writeContract(client *ethclient.Client,
 	return nil
 }
 
-func transferOKT(client *ethclient.Client,
+func transferFURY(client *ethclient.Client,
 	fromAddress common.Address,
 	toAddress common.Address,
 	amount *big.Int,
@@ -169,7 +169,7 @@ func transferOKT(client *ethclient.Client,
 
 	fmt.Printf(
 		"==================================================\n"+
-			"Transfer OKT: \n"+
+			"Transfer FURY: \n"+
 			"	from  : <%s>\n"+
 			"	to    : <%s>\n"+
 			"	amount: <%s>\n"+
@@ -330,8 +330,8 @@ func send(client *ethclient.Client, to, privKey string) {
 	privateKey, senderAddress := initKey(privKey)
 	toAddress := common.HexToAddress(to)
 
-	// send 0.001okt
-	transferOKT(client, senderAddress, toAddress, str2bigInt("0.001"), privateKey, 0)
+	// send 0.001fury
+	transferFURY(client, senderAddress, toAddress, str2bigInt("0.001"), privateKey, 0)
 }
 
 func transferOip(client *ethclient.Client, oip20 *Oip20,

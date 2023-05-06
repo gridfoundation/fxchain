@@ -28,7 +28,7 @@ type CM45DelegationResp struct {
 func NewCM45DelegationResp(cm45delegation CM45Delegation, tokens sdk.Dec) CM45DelegationResp {
 	return CM45DelegationResp{
 		Delegation: cm45delegation,
-		Balance:    sdk.NewDecCoinFromDec("okt", tokens),
+		Balance:    sdk.NewDecCoinFromDec("fury", tokens),
 	}
 }
 

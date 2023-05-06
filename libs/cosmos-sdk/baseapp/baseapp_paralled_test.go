@@ -52,7 +52,7 @@ func NewChain(env *Env) *Chain {
 		chain.acc[i] = &types3.EthAccount{
 			BaseAccount: &auth.BaseAccount{
 				Address: env.addr[i],
-				Coins:   sdk.Coins{sdk.NewInt64Coin("okt", 1000000)},
+				Coins:   sdk.Coins{sdk.NewInt64Coin("fury", 1000000)},
 			},
 			//CodeHash: []byte{1, 2},
 		}
@@ -156,7 +156,7 @@ func callContract(t *testing.T, chain *Chain, i int) []byte {
 }
 
 func createCosmosTx(t *testing.T, chain *Chain, i int) []byte {
-	msg := types4.NewMsgTokenSend(chain.addr[i], chain.addr[i+1], sdk.Coins{sdk.NewInt64Coin("okt", 10)})
+	msg := types4.NewMsgTokenSend(chain.addr[i], chain.addr[i+1], sdk.Coins{sdk.NewInt64Coin("fury", 10)})
 
 	tx := helpers.GenTx(
 		[]sdk.Msg{msg},

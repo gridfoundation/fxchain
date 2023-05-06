@@ -28,7 +28,7 @@ func init() {
 }
 
 // ----------------------------------------------------------------------------
-// Main OKFxChain account
+// Main GRIDFxChain account
 // ----------------------------------------------------------------------------
 
 // EthAccount implements the auth.Account interface and embeds an

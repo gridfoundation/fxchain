@@ -14,7 +14,7 @@ import (
 
 var (
 	syscoinsTestDenom1 = "eos"
-	syscoinsTestDenom2 = "okt"
+	syscoinsTestDenom2 = "fury"
 )
 
 func TestIsZeroCoins(t *testing.T) {

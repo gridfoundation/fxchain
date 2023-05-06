@@ -113,7 +113,7 @@ func displayContractState(ctx *server.Context) {
 	})
 }
 
-func newDisplayApp(ctx *server.Context) *app.OKFxChainApp {
+func newDisplayApp(ctx *server.Context) *app.GRIDFxChainApp {
 	rootDir := ctx.Config.RootDir
 	dataDir := filepath.Join(rootDir, "data")
 	db, err := sdk.NewDB(applicationDB, dataDir)
@@ -121,7 +121,7 @@ func newDisplayApp(ctx *server.Context) *app.OKFxChainApp {
 		panic("fail to open application db: " + err.Error())
 	}
 
-	return app.NewOKFxChainApp(
+	return app.NewGRIDFxChainApp(
 		ctx.Logger,
 		db,
 		nil,

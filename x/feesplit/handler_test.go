@@ -25,7 +25,7 @@ type FeeSplitTestSuite struct {
 
 	ctx     sdk.Context
 	handler sdk.Handler
-	app     *app.OKFxChainApp
+	app     *app.GRIDFxChainApp
 }
 
 func TestFeeSplitTestSuite(t *testing.T) {

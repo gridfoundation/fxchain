@@ -41,7 +41,7 @@ cmd/fxchaincli/fxchaincli
 cmd/fxchaind/fxchaind
 cmd/fxchaintool/fxchaintool
 cmd/tiger/tiger
-cmd/fxchaind/testnet_okchain.go
+cmd/fxchaind/testnet_gridchain.go
 dev/testnet/cache
 testnet_fxchain.go
 tools

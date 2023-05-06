@@ -30,7 +30,7 @@ type testContext struct {
 	tokenOwner        sdk.AccAddress
 	nonPairTokenName  []string
 	nonExistTokenName []string
-	addrList          []sdk.AccAddress // 1000 okt per address
+	addrList          []sdk.AccAddress // 1000 fury per address
 	handler           sdk.Handler
 }
 
@@ -308,7 +308,7 @@ func TestHandlerMsgCreatePool(t *testing.T) {
 			getMsg:       normalGetCreatePoolMsg,
 			verification: verification,
 			expectedErr: errors.New(
-				"insufficient coins: insufficient funds: insufficient account funds; 89900.000000000000000000aab,101.000000000000000000ammswap_aab_ccb,89900.000000000000000000ccb,100000.000000000000000000ddb,1000.000000000000000000okt < 1.000000000000000000fff",
+				"insufficient coins: insufficient funds: insufficient account funds; 89900.000000000000000000aab,101.000000000000000000ammswap_aab_ccb,89900.000000000000000000ccb,100000.000000000000000000ddb,1000.000000000000000000fury < 1.000000000000000000fff",
 			),
 		},
 		{
@@ -322,7 +322,7 @@ func TestHandlerMsgCreatePool(t *testing.T) {
 			getMsg:       normalGetCreatePoolMsg,
 			verification: verification,
 			expectedErr: errors.New(
-				"insufficient coins: insufficient funds: insufficient account funds; 89900.000000000000000000aab,101.000000000000000000ammswap_aab_ccb,89900.000000000000000000ccb,100000.000000000000000000ddb,1000.000000000000000000okt < 1.000000000000000000fff",
+				"insufficient coins: insufficient funds: insufficient account funds; 89900.000000000000000000aab,101.000000000000000000ammswap_aab_ccb,89900.000000000000000000ccb,100000.000000000000000000ddb,1000.000000000000000000fury < 1.000000000000000000fff",
 			),
 		},
 	}
@@ -363,7 +363,7 @@ func TestHandlerMsgDestroyPool(t *testing.T) {
 				return destroyPoolMsg
 			},
 			verification: verification,
-			expectedErr:  types.ErrInvalidPoolOwner("ex15ky9du8a2wlstz6fpx3p4mqpjyrm5cgp83ahy9", "abc"),
+			expectedErr:  types.ErrInvalidPoolOwner("did:fury:ex15ky9du8a2wlstz6fpx3p4mqpjyrm5cgp83ahy9", "abc"),
 		},
 		{
 			caseName: "failed. insufficient fee coins",
@@ -380,7 +380,7 @@ func TestHandlerMsgDestroyPool(t *testing.T) {
 			},
 			getMsg:       normalGetDestroyPoolMsg,
 			verification: verification,
-			expectedErr:  errors.New("insufficient coins: insufficient funds: insufficient account funds; 10.000000000000000000okt < 1.000000000000000000fff"),
+			expectedErr:  errors.New("insufficient coins: insufficient funds: insufficient account funds; 10.000000000000000000fury < 1.000000000000000000fff"),
 		},
 		{
 			caseName: "failed. the pool is not finished and can not be destroyed",
@@ -721,7 +721,7 @@ func TestHandlerMsgUnlock(t *testing.T) {
 			},
 			getMsg:       normalGetUnlockMsg,
 			verification: verification,
-			expectedErr:  types.ErrNoLockInfoFound("ex15ky9du8a2wlstz6fpx3p4mqpjyrm5cgq68fzeh", "abc"),
+			expectedErr:  types.ErrNoLockInfoFound("did:fury:ex15ky9du8a2wlstz6fpx3p4mqpjyrm5cgq68fzeh", "abc"),
 		},
 		{
 			caseName: "failed. The coin name should be %s, not %s",

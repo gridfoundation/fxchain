@@ -64,7 +64,7 @@ func getCmdList(cdc *codec.Codec) *cobra.Command {
 		Args:  cobra.ExactArgs(0),
 		Long: strings.TrimSpace(`List a trading pair:
 
-$ fxchaincli tx dex list --base-asset mytoken --quote-asset okt --from mykey
+$ fxchaincli tx dex list --base-asset mytoken --quote-asset fury --from mykey
 `),
 		RunE: func(cmd *cobra.Command, _ []string) error {
 			cliCtx := context.NewCLIContext().WithCodec(cdc)
@@ -113,9 +113,9 @@ func getCmdDeposit(cdc *codec.Codec) *cobra.Command {
 		Short: "deposit an amount of token on a product",
 		Long: strings.TrimSpace(`Deposit an amount of token on a product:
 
-$ fxchaincli tx dex deposit mytoken_okt 1000okt --from mykey
+$ fxchaincli tx dex deposit mytoken_fury 1000fury --from mykey
 
-The 'product' is a trading pair in full name of the tokens: ${base-asset-symbol}_${quote-asset-symbol}, for example 'mytoken_okt'.
+The 'product' is a trading pair in full name of the tokens: ${base-asset-symbol}_${quote-asset-symbol}, for example 'mytoken_fury'.
 `),
 		RunE: func(cmd *cobra.Command, args []string) error {
 			inBuf := bufio.NewReader(cmd.InOrStdin())
@@ -147,9 +147,9 @@ func getCmdWithdraw(cdc *codec.Codec) *cobra.Command {
 		Short: "withdraw an amount of token from a product",
 		Long: strings.TrimSpace(`Withdraw an amount of token from a product:
 
-$ fxchaincli tx dex withdraw mytoken_okt 1000okt --from mykey
+$ fxchaincli tx dex withdraw mytoken_fury 1000fury --from mykey
 
-The 'product' is a trading pair in full name of the tokens: ${base-asset-symbol}_${quote-asset-symbol}, for example 'mytoken_okt'.
+The 'product' is a trading pair in full name of the tokens: ${base-asset-symbol}_${quote-asset-symbol}, for example 'mytoken_fury'.
 `),
 		RunE: func(cmd *cobra.Command, args []string) error {
 			inBuf := bufio.NewReader(cmd.InOrStdin())

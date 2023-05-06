@@ -23,12 +23,12 @@ func WithChainId(chainId string) Option {
 	}
 }
 
-// Setup initializes a new OKFxChainApp. A Nop logger is set in OKFxChainApp.
-func Setup(isCheckTx bool, options ...Option) *OKFxChainApp {
+// Setup initializes a new GRIDFxChainApp. A Nop logger is set in GRIDFxChainApp.
+func Setup(isCheckTx bool, options ...Option) *GRIDFxChainApp {
 	viper.Set(sdk.FlagDBBackend, string(dbm.MemDBBackend))
 	types.DBBackend = string(dbm.MemDBBackend)
 	db := dbm.NewMemDB()
-	app := NewOKFxChainApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, 0)
+	app := NewGRIDFxChainApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, 0)
 
 	if !isCheckTx {
 		setupOption := &SetupOption{chainId: ""}

@@ -837,7 +837,7 @@ package order
 //}
 //
 //func TestFeesTable(t *testing.T) {
-//	//test xxb_okt
+//	//test xxb_fury
 //	orders0 := []*types.Order{
 //		types.MockOrder(types.FormatOrderID(10, 1), types.TestTokenPair, types.BuyOrder, "10", "1.0"),
 //		types.MockOrder(types.FormatOrderID(10, 2), types.TestTokenPair, types.BuyOrder, "10", "2.0"),
@@ -849,7 +849,7 @@ package order
 //		sdk.NewDecCoinFromDec(common.TestToken, sdk.MustNewDecFromStr("202.997")),  // 200 + (3 - 3*0.001)
 //	}
 //
-//	//test btc-b19_okt
+//	//test btc-b19_fury
 //	orders1 := []*types.Order{
 //		types.MockOrder(types.FormatOrderID(10, 1), "btc-b19_"+common.NativeToken, types.BuyOrder, "10", "1"),
 //		types.MockOrder(types.FormatOrderID(10, 2), "btc-b19_"+common.NativeToken, types.SellOrder, "10", "1"),
@@ -912,7 +912,7 @@ package order
 //}
 //
 //func handleOrders(t *testing.T, baseasset string, quoteasset string, orders []*types.Order, blockheight int64) sdk.SysCoins {
-//	TestTokenPairOwner := "ex1rf9wr069pt64e58f2w3mjs9w72g8vemzw26658"
+//	TestTokenPairOwner := "did:fury:ex1rf9wr069pt64e58f2w3mjs9w72g8vemzw26658"
 //	addr, err := sdk.AccAddressFromBech32(TestTokenPairOwner)
 //	require.Nil(t, err)
 //	mapp, addrKeysSlice := getMockApp(t, len(orders))

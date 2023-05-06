@@ -50,7 +50,7 @@ func TestProposal_NewProposalHandler(t *testing.T) {
 	saveErr := mApp.dexKeeper.SaveTokenPair(ctx, tokenPair)
 	require.Nil(t, saveErr)
 
-	// error case : fail to withdraw deposits because deposits is not okt
+	// error case : fail to withdraw deposits because deposits is not fury
 	err = proposalHandler(ctx, &proposal)
 	require.Error(t, err)
 

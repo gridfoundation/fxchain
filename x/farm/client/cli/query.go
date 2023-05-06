@@ -123,7 +123,7 @@ func GetCmdQueryEarnings(storeName string, cdc *codec.Codec) *cobra.Command {
 			fmt.Sprintf(`Query available rewards for an address.
 
 Example:
-$ %s query farm rewards pool-eth-xxb ex1cftp8q8g4aa65nw9s5trwexe77d9t6cr8ndu02
+$ %s query farm rewards pool-eth-xxb did:fury:ex1cftp8q8g4aa65nw9s5trwexe77d9t6cr8ndu02
 `,
 				version.ClientName,
 			),
@@ -188,9 +188,9 @@ $ %s query farm params
 func GetCmdQueryWhitelist(storeName string, cdc *codec.Codec) *cobra.Command {
 	return &cobra.Command{
 		Use:   "whitelist",
-		Short: "query the whitelist of pools to farm okt",
+		Short: "query the whitelist of pools to farm fury",
 		Long: strings.TrimSpace(
-			fmt.Sprintf(`Query the current whitelist of pools which are approved to farm okt.
+			fmt.Sprintf(`Query the current whitelist of pools which are approved to farm fury.
 
 Example:
 $ %s query farm whitelist
@@ -223,7 +223,7 @@ func GetCmdQueryAccount(storeName string, cdc *codec.Codec) *cobra.Command {
 			fmt.Sprintf(`Query the names of all pools that an account has locked coins in.
 
 Example:
-$ %s query farm account ex1cftp8q8g4aa65nw9s5trwexe77d9t6cr8ndu02
+$ %s query farm account did:fury:ex1cftp8q8g4aa65nw9s5trwexe77d9t6cr8ndu02
 `,
 				version.ClientName,
 			),
@@ -330,7 +330,7 @@ func GetCmdQueryLockInfo(storeName string, cdc *codec.Codec) *cobra.Command {
 			fmt.Sprintf(`Query the lock info of an account's token locking on a specific pool.
 
 Example:
-$ %s query farm lock-info pool-eth-xxb ex1cftp8q8g4aa65nw9s5trwexe77d9t6cr8ndu02 
+$ %s query farm lock-info pool-eth-xxb did:fury:ex1cftp8q8g4aa65nw9s5trwexe77d9t6cr8ndu02 
 `,
 				version.ClientName,
 			),

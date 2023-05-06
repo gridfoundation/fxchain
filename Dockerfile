@@ -15,7 +15,7 @@ COPY . .
 
 ENV GO111MODULE=on \
     GOPROXY=http://goproxy.cn
-# Build OKFxChain
+# Build GRIDFxChain
 RUN make install
 
 # Final image

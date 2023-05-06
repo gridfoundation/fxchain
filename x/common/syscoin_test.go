@@ -13,7 +13,7 @@ import (
 
 var (
 	syscoinTestDenom1 = "eos"
-	syscoinTestDenom2 = "okt"
+	syscoinTestDenom2 = "fury"
 )
 
 func TestCoin(t *testing.T) {

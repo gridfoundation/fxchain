@@ -76,7 +76,7 @@ func (msg MsgAddLiquidity) GetSwapTokenPairName() string {
 	return GetSwapTokenPairName(msg.MaxBaseAmount.Denom, msg.QuoteAmount.Denom)
 }
 
-// MsgRemoveLiquidity burns pool tokens to withdraw okt and Tokens at current ratio.
+// MsgRemoveLiquidity burns pool tokens to withdraw fury and Tokens at current ratio.
 type MsgRemoveLiquidity struct {
 	Liquidity      sdk.Dec        `json:"liquidity"`        // Amount of pool token burned.
 	MinBaseAmount  sdk.SysCoin    `json:"min_base_amount"`  // Minimum base amount.
@@ -203,7 +203,7 @@ type MsgTokenToToken struct {
 	Sender               sdk.AccAddress `json:"sender"`                  // Sender
 }
 
-// NewMsgTokenToToken is a constructor function for MsgTokenOKTSwap
+// NewMsgTokenToToken is a constructor function for MsgTokenFURYSwap
 func NewMsgTokenToToken(
 	soldTokenAmount, minBoughtTokenAmount sdk.SysCoin, deadline int64, recipient, sender sdk.AccAddress,
 ) MsgTokenToToken {

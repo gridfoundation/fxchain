@@ -84,8 +84,8 @@ func exportAccounts(ctx sdk.Context, keeper Keeper) (filePath string) {
 		}
 
 		//account.SpendableCoins()
-		oktBalance := account.GetCoins().AmountOf(sdk.DefaultBondDenom)
-		if !oktBalance.GT(sdk.ZeroDec()) {
+		furyBalance := account.GetCoins().AmountOf(sdk.DefaultBondDenom)
+		if !furyBalance.GT(sdk.ZeroDec()) {
 			return false
 		}
 
@@ -97,7 +97,7 @@ func exportAccounts(ctx sdk.Context, keeper Keeper) (filePath string) {
 		csvStr := fmt.Sprintf("%s,%d,%s,%d,%s",
 			ethAcc.EthAddress().String(),
 			accType,
-			oktBalance.String(),
+			furyBalance.String(),
 			ctx.BlockHeight(),
 			pt,
 		)

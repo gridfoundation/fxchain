@@ -19,8 +19,8 @@ import (
 //
 // Examples:
 //
-// 	- "portidone/channelidone/okt" => DenomTrace{Path: "portidone/channelidone", BaseDenom: "okt"}
-// 	- "okt" => DenomTrace{Path: "", BaseDenom: "okt"}
+// 	- "portidone/channelidone/fury" => DenomTrace{Path: "portidone/channelidone", BaseDenom: "fury"}
+// 	- "fury" => DenomTrace{Path: "", BaseDenom: "fury"}
 func ParseDenomTrace(rawDenom string) DenomTrace {
 	denomSplit := strings.Split(rawDenom, "/")
 
@@ -161,7 +161,7 @@ func ValidatePrefixedDenom(denom string) error {
 
 // ValidateIBCDenom validates that the given denomination is either:
 //
-//  - A valid base denomination (eg: 'okt')
+//  - A valid base denomination (eg: 'fury')
 //  - A valid fungible token representation (i.e 'ibc/{hash}') per ADR 001 https://github.com/cosmos/cosmos-sdk/blob/master/docs/architecture/adr-001-coin-source-tracing.md
 func ValidateIBCDenom(denom string) error {
 	if err := sdk.ValidateDenom(denom); err != nil {

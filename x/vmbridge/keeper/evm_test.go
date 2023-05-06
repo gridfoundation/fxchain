@@ -194,7 +194,7 @@ func (suite *KeeperTestSuite) TestKeeper_SendToEvm() {
 }
 
 func (suite *KeeperTestSuite) TestSendToWasmEventHandler_Handle() {
-	contractAccAddr, err := sdk.AccAddressFromBech32("ex1fnkz39vpxmukf6mp78essh8g0hrzp3gylyd2u8")
+	contractAccAddr, err := sdk.AccAddressFromBech32("did:fury:ex1fnkz39vpxmukf6mp78essh8g0hrzp3gylyd2u8")
 	suite.Require().NoError(err)
 	contract := common.BytesToAddress(contractAccAddr.Bytes())
 	//addr := sdk.AccAddress{0x1}
@@ -221,7 +221,7 @@ func (suite *KeeperTestSuite) TestSendToWasmEventHandler_Handle() {
 				suite.Require().NoError(err)
 				suite.Require().Equal("{\"balance\":\"1\"}", string(result))
 			},
-			types.ErrIsNotOKCAddr,
+			types.ErrIsNotGRIDCAddr,
 		},
 		{
 			"normal topic,recipient is ex",
@@ -282,7 +282,7 @@ func (suite *KeeperTestSuite) TestSendToWasmEventHandler_Handle() {
 			"recipient  is a error addr",
 			func() {
 				wasmAddrStr := suite.wasmContract.String()
-				input, err := getSendToWasmEventData(wasmAddrStr, "ex111", big.NewInt(1))
+				input, err := getSendToWasmEventData(wasmAddrStr, "did:fury:ex111", big.NewInt(1))
 				suite.Require().NoError(err)
 				data = input
 			},
@@ -350,7 +350,7 @@ func (suite *KeeperTestSuite) TestSendToWasmEvent_Unpack() {
 		{
 			"recipient is bytes",
 			func() {
-				testABIJson := "[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"wasmAddr\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"recipient\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"__OKCSendToWasm\",\"type\":\"event\"}]"
+				testABIJson := "[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"wasmAddr\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"recipient\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"__GRIDCSendToWasm\",\"type\":\"event\"}]"
 
 				testABIEvent, err := abi.JSON(bytes.NewReader([]byte(testABIJson)))
 				suite.Require().NoError(err)
@@ -371,7 +371,7 @@ func (suite *KeeperTestSuite) TestSendToWasmEvent_Unpack() {
 		{
 			"wasmAddr is bytes",
 			func() {
-				testABIJson := "[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"wasmAddr\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"recipient\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"__OKCSendToWasm\",\"type\":\"event\"}]"
+				testABIJson := "[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bytes\",\"name\":\"wasmAddr\",\"type\":\"bytes\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"recipient\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"__GRIDCSendToWasm\",\"type\":\"event\"}]"
 
 				testABIEvent, err := abi.JSON(bytes.NewReader([]byte(testABIJson)))
 				suite.Require().NoError(err)
@@ -388,9 +388,9 @@ func (suite *KeeperTestSuite) TestSendToWasmEvent_Unpack() {
 			nil,
 		},
 		{
-			"event __OKCSendToWasm(string,uint256) ",
+			"event __GRIDCSendToWasm(string,uint256) ",
 			func() {
-				testABIJson := "[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"recipient\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"__OKCSendToWasm\",\"type\":\"event\"}]"
+				testABIJson := "[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"recipient\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"__GRIDCSendToWasm\",\"type\":\"event\"}]"
 
 				testABIEvent, err := abi.JSON(bytes.NewReader([]byte(testABIJson)))
 				suite.Require().NoError(err)
@@ -403,9 +403,9 @@ func (suite *KeeperTestSuite) TestSendToWasmEvent_Unpack() {
 			errors.New("abi: cannot marshal in to go type: length insufficient 160 require 16417"),
 		},
 		{
-			"event __OKCSendToWasm(string,string,string,uint256) ",
+			"event __GRIDCSendToWasm(string,string,string,uint256) ",
 			func() {
-				testABIJson := "[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"recipient2\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"recipient1\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"recipient\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"__OKCSendToWasm\",\"type\":\"event\"}]"
+				testABIJson := "[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"recipient2\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"recipient1\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"recipient\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"__GRIDCSendToWasm\",\"type\":\"event\"}]"
 
 				testABIEvent, err := abi.JSON(bytes.NewReader([]byte(testABIJson)))
 				suite.Require().NoError(err)
@@ -424,7 +424,7 @@ func (suite *KeeperTestSuite) TestSendToWasmEvent_Unpack() {
 		{
 			"amount is negative",
 			func() {
-				testABIJson := "[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"wasmAddr\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"recipient\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"int8\",\"name\":\"amount\",\"type\":\"int8\"}],\"name\":\"__OKCSendToWasm\",\"type\":\"event\"}]\n"
+				testABIJson := "[{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"string\",\"name\":\"wasmAddr\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"string\",\"name\":\"recipient\",\"type\":\"string\"},{\"indexed\":false,\"internalType\":\"int8\",\"name\":\"amount\",\"type\":\"int8\"}],\"name\":\"__GRIDCSendToWasm\",\"type\":\"event\"}]\n"
 
 				testABIEvent, err := abi.JSON(bytes.NewReader([]byte(testABIJson)))
 				suite.Require().NoError(err)
@@ -543,7 +543,7 @@ func (suite *KeeperTestSuite) TestKeeper_CallToEvm() {
 				suite.Require().Equal(sdk.Coins{}.String(), balance.String())
 			},
 			nil,
-			fmt.Sprintf(evmReturnPrefix, "ex1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqpxuz0nc") + fmt.Sprintf(callDataFormat, contract, "init-to-call-evm"),
+			fmt.Sprintf(evmReturnPrefix, "did:fury:ex1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqpxuz0nc") + fmt.Sprintf(callDataFormat, contract, "init-to-call-evm"),
 		},
 		{
 			"caller(0x),contract(ex),calldata(normal),amount(0)",
@@ -649,7 +649,7 @@ func (suite *KeeperTestSuite) TestKeeper_CallToEvm() {
 }
 
 func (suite *KeeperTestSuite) TestCallToWasmEventHandler_Handle() {
-	tempAddr, err := sdk.AccAddressFromBech32("ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq")
+	tempAddr, err := sdk.AccAddressFromBech32("did:fury:ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq")
 	suite.Require().NoError(err)
 
 	caller := suite.freeCallEvmContract
@@ -779,7 +779,7 @@ func (suite *KeeperTestSuite) TestCallToWasmEventHandler_Handle() {
 			},
 			func() {
 			},
-			errors.New("insufficient funds: insufficient account funds; 1.000000000000000000okt < 2.000000000000000000okt"),
+			errors.New("insufficient funds: insufficient account funds; 1.000000000000000000fury < 2.000000000000000000fury"),
 		},
 		{
 			"caller(exist),wasmContract(0x 20),value(-1),data(normal)",
@@ -820,7 +820,7 @@ func (suite *KeeperTestSuite) TestCallToWasmEventHandler_Handle() {
 		{
 			"caller(exist),wasmContract(0x 20),value(-1),data(nofound method msg)",
 			func() {
-				calldata := "{\"transfer1\":{\"amount\":\"100\",\"recipient\":\"ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
+				calldata := "{\"transfer1\":{\"amount\":\"100\",\"recipient\":\"did:fury:ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
 				value := sdk.NewInt(0)
 				data, err = getCallToWasmEventData(wasmContractAddr, value.BigInt(), hex.EncodeToString([]byte(calldata)))
 				require.NoError(suite.T(), err)
@@ -832,7 +832,7 @@ func (suite *KeeperTestSuite) TestCallToWasmEventHandler_Handle() {
 		{
 			"caller(exist),wasmContract(0x 20),value(-1),data(multi method msg)",
 			func() {
-				calldata := "{\"transfer\":{\"amount\":\"100\",\"recipient\":\"ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"},\"transfer\":{\"amount\":\"100\",\"recipient\":\"ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
+				calldata := "{\"transfer\":{\"amount\":\"100\",\"recipient\":\"did:fury:ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"},\"transfer\":{\"amount\":\"100\",\"recipient\":\"did:fury:ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
 				value := sdk.NewInt(0)
 				data, err = getCallToWasmEventData(wasmContractAddr, value.BigInt(), hex.EncodeToString([]byte(calldata)))
 				require.NoError(suite.T(), err)
@@ -844,7 +844,7 @@ func (suite *KeeperTestSuite) TestCallToWasmEventHandler_Handle() {
 		{
 			"caller(exist),wasmContract(0x 20),value(-1),data(other method msg)",
 			func() {
-				calldata := "{\"transfer_from\":{\"amount\":\"100\",\"recipient\":\"ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
+				calldata := "{\"transfer_from\":{\"amount\":\"100\",\"recipient\":\"did:fury:ex1eutyuqqase3eyvwe92caw8dcx5ly8s544q3hmq\"}}"
 				value := sdk.NewInt(0)
 				data, err = getCallToWasmEventData(wasmContractAddr, value.BigInt(), hex.EncodeToString([]byte(calldata)))
 				require.NoError(suite.T(), err)
@@ -909,7 +909,7 @@ func (suite *KeeperTestSuite) TestCallToWasmEvent_Unpack() {
 		{
 			"calldata is bytes",
 			func() {
-				testABIJson := "[{\n    \"anonymous\": false,\n    \"inputs\": [\n      {\n        \"indexed\": false,\n        \"internalType\": \"string\",\n        \"name\": \"wasmAddr\",\n        \"type\": \"string\"\n      },\n      {\n        \"indexed\": false,\n        \"internalType\": \"uint256\",\n        \"name\": \"value\",\n        \"type\": \"uint256\"\n      },\n      {\n        \"indexed\": false,\n        \"internalType\": \"bytes\",\n        \"name\": \"calldata\",\n        \"type\": \"bytes\"\n      }\n    ],\n    \"name\": \"__OKCCallToWasm\",\n    \"type\": \"event\"\n  }]"
+				testABIJson := "[{\n    \"anonymous\": false,\n    \"inputs\": [\n      {\n        \"indexed\": false,\n        \"internalType\": \"string\",\n        \"name\": \"wasmAddr\",\n        \"type\": \"string\"\n      },\n      {\n        \"indexed\": false,\n        \"internalType\": \"uint256\",\n        \"name\": \"value\",\n        \"type\": \"uint256\"\n      },\n      {\n        \"indexed\": false,\n        \"internalType\": \"bytes\",\n        \"name\": \"calldata\",\n        \"type\": \"bytes\"\n      }\n    ],\n    \"name\": \"__GRIDCCallToWasm\",\n    \"type\": \"event\"\n  }]"
 
 				testABIEvent, err := abi.JSON(bytes.NewReader([]byte(testABIJson)))
 				suite.Require().NoError(err)
@@ -928,7 +928,7 @@ func (suite *KeeperTestSuite) TestCallToWasmEvent_Unpack() {
 		{
 			"wasmAddr is bytes",
 			func() {
-				testABIJson := "[{\n    \"anonymous\": false,\n    \"inputs\": [\n      {\n        \"indexed\": false,\n        \"internalType\": \"bytes\",\n        \"name\": \"wasmAddr\",\n        \"type\": \"bytes\"\n      },\n      {\n        \"indexed\": false,\n        \"internalType\": \"uint256\",\n        \"name\": \"value\",\n        \"type\": \"uint256\"\n      },\n      {\n        \"indexed\": false,\n        \"internalType\": \"string\",\n        \"name\": \"calldata\",\n        \"type\": \"string\"\n      }\n    ],\n    \"name\": \"__OKCCallToWasm\",\n    \"type\": \"event\"\n  }]"
+				testABIJson := "[{\n    \"anonymous\": false,\n    \"inputs\": [\n      {\n        \"indexed\": false,\n        \"internalType\": \"bytes\",\n        \"name\": \"wasmAddr\",\n        \"type\": \"bytes\"\n      },\n      {\n        \"indexed\": false,\n        \"internalType\": \"uint256\",\n        \"name\": \"value\",\n        \"type\": \"uint256\"\n      },\n      {\n        \"indexed\": false,\n        \"internalType\": \"string\",\n        \"name\": \"calldata\",\n        \"type\": \"string\"\n      }\n    ],\n    \"name\": \"__GRIDCCallToWasm\",\n    \"type\": \"event\"\n  }]"
 
 				testABIEvent, err := abi.JSON(bytes.NewReader([]byte(testABIJson)))
 				suite.Require().NoError(err)
@@ -945,9 +945,9 @@ func (suite *KeeperTestSuite) TestCallToWasmEvent_Unpack() {
 			nil,
 		},
 		{
-			"event __OKCCallToWasm(string,uint256) ",
+			"event __GRIDCCallToWasm(string,uint256) ",
 			func() {
-				testABIJson := "[{\n    \"anonymous\":false,\n    \"inputs\":[\n        {\n            \"indexed\":false,\n            \"internalType\":\"string\",\n            \"name\":\"wasmAddr\",\n            \"type\":\"string\"\n        },\n        {\n            \"indexed\":false,\n            \"internalType\":\"uint256\",\n            \"name\":\"value\",\n            \"type\":\"uint256\"\n        }\n    ],\n    \"name\":\"__OKCCallToWasm\",\n    \"type\":\"event\"\n}]"
+				testABIJson := "[{\n    \"anonymous\":false,\n    \"inputs\":[\n        {\n            \"indexed\":false,\n            \"internalType\":\"string\",\n            \"name\":\"wasmAddr\",\n            \"type\":\"string\"\n        },\n        {\n            \"indexed\":false,\n            \"internalType\":\"uint256\",\n            \"name\":\"value\",\n            \"type\":\"uint256\"\n        }\n    ],\n    \"name\":\"__GRIDCCallToWasm\",\n    \"type\":\"event\"\n}]"
 
 				testABIEvent, err := abi.JSON(bytes.NewReader([]byte(testABIJson)))
 				suite.Require().NoError(err)
@@ -960,9 +960,9 @@ func (suite *KeeperTestSuite) TestCallToWasmEvent_Unpack() {
 			errors.New("abi: length larger than int64: 1208925819614629174706250"),
 		},
 		{
-			"event __OKCCallToWasm(string,uint256,string,string) ",
+			"event __GRIDCCallToWasm(string,uint256,string,string) ",
 			func() {
-				testABIJson := "[{\n    \"anonymous\":false,\n    \"inputs\":[\n        {\n            \"indexed\":false,\n            \"internalType\":\"string\",\n            \"name\":\"wasmAddr\",\n            \"type\":\"string\"\n        },\n        {\n            \"indexed\":false,\n            \"internalType\":\"uint256\",\n            \"name\":\"value\",\n            \"type\":\"uint256\"\n        },\n        {\n            \"indexed\":false,\n            \"internalType\":\"string\",\n            \"name\":\"calldata\",\n            \"type\":\"string\"\n        },\n        {\n            \"indexed\":false,\n            \"internalType\":\"string\",\n            \"name\":\"calldata1\",\n            \"type\":\"string\"\n        }\n    ],\n    \"name\":\"__OKCCallToWasm\",\n    \"type\":\"event\"\n}]"
+				testABIJson := "[{\n    \"anonymous\":false,\n    \"inputs\":[\n        {\n            \"indexed\":false,\n            \"internalType\":\"string\",\n            \"name\":\"wasmAddr\",\n            \"type\":\"string\"\n        },\n        {\n            \"indexed\":false,\n            \"internalType\":\"uint256\",\n            \"name\":\"value\",\n            \"type\":\"uint256\"\n        },\n        {\n            \"indexed\":false,\n            \"internalType\":\"string\",\n            \"name\":\"calldata\",\n            \"type\":\"string\"\n        },\n        {\n            \"indexed\":false,\n            \"internalType\":\"string\",\n            \"name\":\"calldata1\",\n            \"type\":\"string\"\n        }\n    ],\n    \"name\":\"__GRIDCCallToWasm\",\n    \"type\":\"event\"\n}]"
 
 				testABIEvent, err := abi.JSON(bytes.NewReader([]byte(testABIJson)))
 				suite.Require().NoError(err)
@@ -981,7 +981,7 @@ func (suite *KeeperTestSuite) TestCallToWasmEvent_Unpack() {
 		{
 			"value is negative",
 			func() {
-				testABIJson := "[{\n    \"anonymous\":false,\n    \"inputs\":[\n        {\n            \"indexed\":false,\n            \"internalType\":\"string\",\n            \"name\":\"wasmAddr\",\n            \"type\":\"string\"\n        },\n        {\n            \"indexed\":false,\n            \"internalType\":\"int8\",\n            \"name\":\"value\",\n            \"type\":\"int8\"\n        },\n        {\n            \"indexed\":false,\n            \"internalType\":\"string\",\n            \"name\":\"calldata\",\n            \"type\":\"string\"\n        }\n    ],\n    \"name\":\"__OKCCallToWasm\",\n    \"type\":\"event\"\n}]\n"
+				testABIJson := "[{\n    \"anonymous\":false,\n    \"inputs\":[\n        {\n            \"indexed\":false,\n            \"internalType\":\"string\",\n            \"name\":\"wasmAddr\",\n            \"type\":\"string\"\n        },\n        {\n            \"indexed\":false,\n            \"internalType\":\"int8\",\n            \"name\":\"value\",\n            \"type\":\"int8\"\n        },\n        {\n            \"indexed\":false,\n            \"internalType\":\"string\",\n            \"name\":\"calldata\",\n            \"type\":\"string\"\n        }\n    ],\n    \"name\":\"__GRIDCCallToWasm\",\n    \"type\":\"event\"\n}]\n"
 
 				testABIEvent, err := abi.JSON(bytes.NewReader([]byte(testABIJson)))
 				suite.Require().NoError(err)

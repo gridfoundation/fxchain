@@ -121,7 +121,7 @@ func init() {
 }
 
 const (
-	appName = "OKFxChain"
+	appName = "GRIDFxChain"
 )
 
 var (
@@ -220,12 +220,12 @@ var (
 	onceLog sync.Once
 )
 
-var _ simapp.App = (*OKFxChainApp)(nil)
+var _ simapp.App = (*GRIDFxChainApp)(nil)
 
-// OKFxChainApp implements an extended ABCI application. It is an application
+// GRIDFxChainApp implements an extended ABCI application. It is an application
 // that may process transactions through Ethereum's EVM running atop of
 // Tendermint consensus.
-type OKFxChainApp struct {
+type GRIDFxChainApp struct {
 	*bam.BaseApp
 
 	invCheckPeriod uint
@@ -287,8 +287,8 @@ type OKFxChainApp struct {
 	WasmHandler wasmkeeper.HandlerOption
 }
 
-// NewOKFxChainApp returns a reference to a new initialized OKFxChain application.
-func NewOKFxChainApp(
+// NewGRIDFxChainApp returns a reference to a new initialized GRIDFxChain application.
+func NewGRIDFxChainApp(
 	logger log.Logger,
 	db dbm.DB,
 	traceStore io.Writer,
@@ -296,7 +296,7 @@ func NewOKFxChainApp(
 	skipUpgradeHeights map[int64]bool,
 	invCheckPeriod uint,
 	baseAppOptions ...func(*bam.BaseApp),
-) *OKFxChainApp {
+) *GRIDFxChainApp {
 	logger.Info("Starting "+system.ChainName,
 		"GenesisHeight", tmtypes.GetStartBlockHeight(),
 		"MercuryHeight", tmtypes.GetMercuryHeight(),
@@ -315,7 +315,7 @@ func NewOKFxChainApp(
 
 	codecProxy, interfaceReg := okfxchaincodec.MakeCodecSuit(ModuleBasics)
 	vmbridge.RegisterInterface(interfaceReg)
-	// NOTE we use custom OKFxChain transaction decoder that supports the sdk.Tx interface instead of sdk.StdTx
+	// NOTE we use custom GRIDFxChain transaction decoder that supports the sdk.Tx interface instead of sdk.StdTx
 	bApp := bam.NewBaseApp(appName, logger, db, evm.TxDecoder(codecProxy), baseAppOptions...)
 
 	bApp.SetCommitMultiStoreTracer(traceStore)
@@ -343,7 +343,7 @@ func NewOKFxChainApp(
 	tkeys := sdk.NewTransientStoreKeys(params.TStoreKey)
 	memKeys := sdk.NewMemoryStoreKeys(capabilitytypes.MemStoreKey)
 
-	app := &OKFxChainApp{
+	app := &GRIDFxChainApp{
 		BaseApp:        bApp,
 		invCheckPeriod: invCheckPeriod,
 		keys:           keys,
@@ -380,7 +380,7 @@ func NewOKFxChainApp(
 
 	//proxy := codec.NewMarshalProxy(cc, cdc)
 	app.marshal = codecProxy
-	// use custom OKFxChain account for contracts
+	// use custom GRIDFxChain account for contracts
 	app.AccountKeeper = auth.NewAccountKeeper(
 		codecProxy.GetCdc(), keys[auth.StoreKey], keys[mpt.StoreKey], app.subspaces[auth.ModuleName], okfxchain.ProtoAccount,
 	)
@@ -799,7 +799,7 @@ func NewOKFxChainApp(
 	return app
 }
 
-func (app *OKFxChainApp) SetOption(req abci.RequestSetOption) (res abci.ResponseSetOption) {
+func (app *GRIDFxChainApp) SetOption(req abci.RequestSetOption) (res abci.ResponseSetOption) {
 	if req.Key == "CheckChainID" {
 		if err := okfxchain.IsValidateChainIdWithGenesisHeight(req.Value); err != nil {
 			app.Logger().Error(err.Error())
@@ -814,25 +814,25 @@ func (app *OKFxChainApp) SetOption(req abci.RequestSetOption) (res abci.Response
 	return app.BaseApp.SetOption(req)
 }
 
-func (app *OKFxChainApp) LoadStartVersion(height int64) error {
+func (app *GRIDFxChainApp) LoadStartVersion(height int64) error {
 	return app.LoadVersion(height, app.keys[bam.MainStoreKey])
 }
 
 // Name returns the name of the App
-func (app *OKFxChainApp) Name() string { return app.BaseApp.Name() }
+func (app *GRIDFxChainApp) Name() string { return app.BaseApp.Name() }
 
 // BeginBlocker updates every begin block
-func (app *OKFxChainApp) BeginBlocker(ctx sdk.Context, req abci.RequestBeginBlock) abci.ResponseBeginBlock {
+func (app *GRIDFxChainApp) BeginBlocker(ctx sdk.Context, req abci.RequestBeginBlock) abci.ResponseBeginBlock {
 	return app.mm.BeginBlock(ctx, req)
 }
 
 // EndBlocker updates every end block
-func (app *OKFxChainApp) EndBlocker(ctx sdk.Context, req abci.RequestEndBlock) abci.ResponseEndBlock {
+func (app *GRIDFxChainApp) EndBlocker(ctx sdk.Context, req abci.RequestEndBlock) abci.ResponseEndBlock {
 	return app.mm.EndBlock(ctx, req)
 }
 
 // InitChainer updates at chain initialization
-func (app *OKFxChainApp) InitChainer(ctx sdk.Context, req abci.RequestInitChain) abci.ResponseInitChain {
+func (app *GRIDFxChainApp) InitChainer(ctx sdk.Context, req abci.RequestInitChain) abci.ResponseInitChain {
 
 	var genesisState simapp.GenesisState
 	app.marshal.GetCdc().MustUnmarshalJSON(req.AppStateBytes, &genesisState)
@@ -840,12 +840,12 @@ func (app *OKFxChainApp) InitChainer(ctx sdk.Context, req abci.RequestInitChain)
 }
 
 // LoadHeight loads state at a particular height
-func (app *OKFxChainApp) LoadHeight(height int64) error {
+func (app *GRIDFxChainApp) LoadHeight(height int64) error {
 	return app.LoadVersion(height, app.keys[bam.MainStoreKey])
 }
 
 // ModuleAccountAddrs returns all the app's module account addresses.
-func (app *OKFxChainApp) ModuleAccountAddrs() map[string]bool {
+func (app *GRIDFxChainApp) ModuleAccountAddrs() map[string]bool {
 	modAccAddrs := make(map[string]bool)
 	for acc := range maccPerms {
 		modAccAddrs[supply.NewModuleAddress(acc).String()] = true
@@ -855,33 +855,33 @@ func (app *OKFxChainApp) ModuleAccountAddrs() map[string]bool {
 }
 
 // SimulationManager implements the SimulationApp interface
-func (app *OKFxChainApp) SimulationManager() *module.SimulationManager {
+func (app *GRIDFxChainApp) SimulationManager() *module.SimulationManager {
 	return app.sm
 }
 
 // GetKey returns the KVStoreKey for the provided store key.
 //
 // NOTE: This is solely to be used for testing purposes.
-func (app *OKFxChainApp) GetKey(storeKey string) *sdk.KVStoreKey {
+func (app *GRIDFxChainApp) GetKey(storeKey string) *sdk.KVStoreKey {
 	return app.keys[storeKey]
 }
 
-// Codec returns OKFxChain's codec.
+// Codec returns GRIDFxChain's codec.
 //
 // NOTE: This is solely to be used for testing purposes as it may be desirable
 // for modules to register their own custom testing types.
-func (app *OKFxChainApp) Codec() *codec.Codec {
+func (app *GRIDFxChainApp) Codec() *codec.Codec {
 	return app.marshal.GetCdc()
 }
 
-func (app *OKFxChainApp) Marshal() *codec.CodecProxy {
+func (app *GRIDFxChainApp) Marshal() *codec.CodecProxy {
 	return app.marshal
 }
 
 // GetSubspace returns a param subspace for a given module name.
 //
 // NOTE: This is solely to be used for testing purposes.
-func (app *OKFxChainApp) GetSubspace(moduleName string) params.Subspace {
+func (app *GRIDFxChainApp) GetSubspace(moduleName string) params.Subspace {
 	return app.subspaces[moduleName]
 }
 

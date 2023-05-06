@@ -26,7 +26,7 @@ type Params struct {
 	TransferOwnershipFee sdk.SysCoin `json:"transfer_ownership_fee"`
 	RegisterOperatorFee  sdk.SysCoin `json:"register_operator_fee"`
 
-	//  maximum period for okt holders to deposit on a dex delist proposal
+	//  maximum period for fury holders to deposit on a dex delist proposal
 	DelistMaxDepositPeriod time.Duration `json:"delist_max_deposit_period"`
 	//  minimum deposit for a critical dex delist proposal to enter voting period
 	DelistMinDeposit sdk.SysCoins `json:"delist_min_deposit"`

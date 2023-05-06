@@ -23,7 +23,7 @@ func cm45QueryProposal(ctx sdk.Context, path []string, req abci.RequestQuery, ke
 	}
 
 	// Here is for compatibility with the standard cosmos REST API.
-	// Note: The Height field in OKC's ParameterChangeProposal will be discarded.
+	// Note: The Height field in GRIDC's ParameterChangeProposal will be discarded.
 	if pcp, ok := proposal.Content.(paramstypes.ParameterChangeProposal); ok {
 		innerContent := pcp.GetParameterChangeProposal()
 		newProposal := types.WrapProposalForCosmosAPI(proposal, innerContent)
@@ -55,7 +55,7 @@ func cm45QueryProposals(ctx sdk.Context, path []string, req abci.RequestQuery, k
 	for _, proposal := range proposals {
 		if pcp, ok := proposal.Content.(paramstypes.ParameterChangeProposal); ok {
 			// Here is for compatibility with the standard cosmos REST API.
-			// Note: The Height field in OKC's ParameterChangeProposal will be discarded.
+			// Note: The Height field in GRIDC's ParameterChangeProposal will be discarded.
 			innerContent := pcp.GetParameterChangeProposal()
 			newProposal := types.WrapProposalForCosmosAPI(proposal, innerContent)
 			cosmosProposals = append(cosmosProposals, newProposal)
