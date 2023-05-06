@@ -12,7 +12,7 @@ import (
 
 const (
 	gridfxPrefix = "gridfxchain"
-	exPrefix   = "ex"
+	exPrefix   = "did:fury:ex"
 	rawPrefix  = "0x"
 )
 
