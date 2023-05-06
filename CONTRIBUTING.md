@@ -14,7 +14,7 @@
     - [Release Procedure](#release-procedure)
     - [Point Release Procedure](#point-release-procedure)
 
-Thank you for considering making contributions to ExChain and related
+Thank you for considering making contributions to FxChain and related
 repositories!
 
 Contributing to this repo can mean many things such as participated in

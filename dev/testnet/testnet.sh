@@ -95,7 +95,7 @@ killbyname() {
 init() {
   killbyname ${BIN_NAME}
 
-  (cd ${FXCHAIN_TOP} && make install VenusHeight=1)
+  (cd ${FXCHAIN_TOP} && make testnet VenusHeight=1)
 
   rm -rf cache
 
